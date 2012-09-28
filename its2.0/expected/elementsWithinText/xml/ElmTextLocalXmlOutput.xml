@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="elementswithintext">
+      <node path="/text" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/text/@its:version" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/text/body[1]/par[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/text/body[1]/par[1]/bold[1]" outputType="new-value-local">
+         <output its:withinText="yes"/>
+      </node>
+      <node path="/text/body[1]/par[1]/bold[1]/@its:withinText"
+            outputType="default-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="terminology">
+      <node path="/doc" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/@its:version" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/@xml:id" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/par[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[1]" outputType="new-value-local">
+         <output its:term="yes"
+                 its:termInfoRef="http://en.wikipedia.org/wiki/Motherboard"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[1]/@its:term"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[1]/@its:termInfoRef"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[2]" outputType="new-value-local">
+         <output its:term="yes"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[2]/@its:term"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[2]/span[1]"
+            outputType="new-value-local">
+         <output its:term="yes"/>
+      </node>
+      <node path="/doc/section[1]/par[1]/kw[2]/span[1]/@its:term"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+   </nodeList>
+</nodeList>

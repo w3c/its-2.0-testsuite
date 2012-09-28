@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="domain">
+      <node path="/doc" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]/its:domainRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]/its:domainRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]/its:domainRule[1]/@domainPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/its:rules[1]/its:domainRule[1]/@domainMapping"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/meta[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/meta[1]/@name" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/head[1]/meta[1]/@content" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/body[1]" outputType="new-value-global">
+         <output domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law">
+            <domainPointer content="automotive"/>
+         </output>
+      </node>
+      <node path="/doc/body[1]/p[1]" outputType="inherited">
+         <output domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law">
+            <domainPointer content="automotive"/>
+         </output>
+      </node>
+   </nodeList>
+</nodeList>

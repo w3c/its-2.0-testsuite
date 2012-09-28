@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="elementswithintext">
+      <node path="/myDocument" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/@xml:lang" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/@version"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/@xlink:type"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/@xlink:href"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]"
+            outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]/@selector"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]/@withinText"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/prolog[1]/author[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/version[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/keywords[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/keywords[1]/kw[1]"
+            outputType="new-value-global">
+         <output xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:d="http://my.DocumentURI/"
+                 withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/keywords[1]/kw[2]"
+            outputType="new-value-global">
+         <output xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:d="http://my.DocumentURI/"
+                 withinText="no"/>
+      </node>
+      <node path="/myDocument/prolog[1]/storageKey[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/title[1]"
+            outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[1]"
+            outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[1]/fnote[1]"
+            outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="nested"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[1]/kw[1]"
+            outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[2]"
+            outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[2]/img[1]"
+            outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[2]/img[1]/@src"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/content[1]/section[1]/p[2]/img[1]/@alt"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/myDocument/content[1]/footer[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/footer[1]/p[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/myDocument/content[1]/footer[1]/p[1]/em[1]"
+            outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+   </nodeList>
+</nodeList>

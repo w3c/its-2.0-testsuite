@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="directionality">
+      <node path="/text" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+      <node path="/text/@xml:lang" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+      <node path="/text/@its:version" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+      <node path="/text/body[1]" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+      <node path="/text/body[1]/par[1]" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+      <node path="/text/body[1]/par[1]/quote[1]" outputType="new-value-local">
+         <output its:dir="rtl"/>
+      </node>
+      <node path="/text/body[1]/par[1]/quote[1]/@xml:lang"
+            outputType="new-value-local">
+         <output its:dir="rtl"/>
+      </node>
+      <node path="/text/body[1]/par[1]/quote[1]/@its:dir"
+            outputType="new-value-local">
+         <output its:dir="rtl"/>
+      </node>
+      <node path="/text/body[1]/par[1]/quote[2]" outputType="default-value">
+         <output its:dir="ltr"/>
+      </node>
+   </nodeList>
+</nodeList>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="domain">
+      <node path="/text" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/its:rules[1]/@xlink:type" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/its:rules[1]/@xlink:href" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/meta[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/meta[1]/@name" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/head[1]/meta[1]/@content" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]" outputType="new-value-global">
+         <output domainMapping="'sports law' 'labor law' 'contract law' 'competition law' 'tort law'">
+            <domainPointer content="sports"/>
+         </output>
+      </node>
+      <node path="/text/body[1]/p[1]" outputType="inherited">
+         <output domainMapping="'sports law' 'labor law' 'contract law' 'competition law' 'tort law'">
+            <domainPointer content="sports"/>
+         </output>
+      </node>
+      <node path="/text/body[1]/p[2]" outputType="inherited">
+         <output domainMapping="'sports law' 'labor law' 'contract law' 'competition law' 'tort law'">
+            <domainPointer content="sports"/>
+         </output>
+      </node>
+   </nodeList>
+</nodeList>

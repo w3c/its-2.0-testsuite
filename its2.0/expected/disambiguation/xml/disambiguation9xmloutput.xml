@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="disambiguation">
+      <node path="/text" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@disambigSourcePointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@disambigSourcePointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]" outputType="new-value-global">
+         <output>
+            <disambigSourcePointer>
+               <span id="http://dbpedia.org/">Dublin</span>
+            </disambigSourcePointer>
+         </output>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]/@id" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]" outputType="new-value-global">
+         <output>
+            <disambigSourcePointer>
+               <span id="http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-synset.rdf">capital of Ireland</span>
+            </disambigSourcePointer>
+         </output>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]/@id" outputType="no-value">
+        <output/>
+      </node>
+   </nodeList>
+</nodeList>

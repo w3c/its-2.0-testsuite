@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="terminology">
+      <node path="/text" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]/@version" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]/its:termRule[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]/its:termRule[1]/@selector"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]/its:termRule[1]/@term"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/its:rules[1]/its:termRule[1]/@termInfoRefPointer"
+            outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/p[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/p[1]/term[1]" outputType="new-value-global">
+         <output term="yes">
+            <termInfoRefPointer target="#TDPV"/>
+         </output>
+      </node>
+      <node path="/text/p[1]/term[1]/@target" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/p[1]/gloss[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/text/p[1]/gloss[1]/@xml:id" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+   </nodeList>
+</nodeList>

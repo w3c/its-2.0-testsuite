@@ -1,0 +1,16 @@
+path=/html	langPointer=""	lang="en"	
+path=/html/@lang	langPointer=""	lang="en"	
+path=/html/head[1]	langPointer=""
+path=/html/head[1]/meta[1]
+path=/html/head[1]/meta[1]/@charset		
+path=/html/head[1]/link[1]	langPointer=""	
+path=/html/head[1]/link[1]/@href	langPointer=""	
+path=/html/head[1]/link[1]/@rel	langPointer=""	
+path=/html/head[1]/title[1]	langPointer=""	
+path=/html/body[1]	langPointer=""	
+path=/html/body[1]/p[1]	langPointer=""	
+path=/html/body[1]/p[1]/q[1]	langPointer=""	
+path=/html/body[1]/p[2]	langPointer=""	
+path=/html/body[1]/p[2]/q[1]	langPointer=""	lang="fr-CA"	
+path=/html/body[1]/p[2]/q[1]/@lang	langPointer=""	lang="fr-CA"	
+

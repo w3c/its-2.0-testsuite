@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="disambiguation">
+      <node path="/html" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/@lang" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/head[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/head[1]/meta[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/head[1]/meta[1]/@charset" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/head[1]/title[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]" outputType="new-value-local">
+         <output its-entity-type-source-ref="http://nerd.eurecom.fr/ontology"
+                 its-entity-type-ident-ref="http:/nerd.eurecom.fr/ontology#Place"
+                 its-disambig-source-ref="http://dbpedia.org/"
+                 its-disambig-ident-ref="http://dbpedia.org/resource/Dublin"
+                 its-disambig-type="entity"/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@its-entity-type-source-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@its-entity-type-ident-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@its-disambig-source-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@its-disambig-ident-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@its-disambig-type"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[2]" outputType="new-value-local">
+         <output its-disambig-source-ref="http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-synset.rdf"
+                 its-disambig-ident-ref="http://www.w3.org/2006/03/wn/wn20/instances/worsense-capital-noun-3"
+                 its-disambig-type="lexicalConcept"/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[2]/@its-disambig-source-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[2]/@its-disambig-ident-ref"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[2]/@its-disambig-type"
+            outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

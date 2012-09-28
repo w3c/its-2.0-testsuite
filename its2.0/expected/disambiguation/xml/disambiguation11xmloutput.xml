@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="disambiguation">
+      <node path="/text" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@disambigIdentRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@disambigIdentRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]" outputType="new-value-global">
+         <output disambigIdentRef="http://dbpedia.org/resource/Dublin"/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]/@id" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]" outputType="new-value-global">
+         <output disambigIdentRef="http://www.w3.org/2006/03/wn/wn20/instances/worsense-capital-noun-3"/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]/@id" outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

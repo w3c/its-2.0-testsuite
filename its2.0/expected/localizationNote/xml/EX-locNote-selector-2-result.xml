@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localizationnote">
+      <node path="/msgList" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/@xml:space" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/@its:version" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/data[1]" outputType="new-value-local">
+         <output its:locNote="Keep the leading space!" its:locNoteType="alert"/>
+      </node>
+      <node path="/msgList/data[1]/@name" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/data[1]/@its:locNote" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/data[1]/@its:locNoteType" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/data[1]/value[1]" outputType="inherited">
+         <output its:locNote="Keep the leading space!" its:locNoteType="alert"/>
+      </node>
+      <node path="/msgList/data[2]" outputType="new-value-local">
+         <output its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"/>
+      </node>
+      <node path="/msgList/data[2]/@its:locNote" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/data[2]/value[1]" outputType="inherited">
+         <output its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"/>
+      </node>
+      <node path="/msgList/data[2]/value[1]/span[1]" outputType="inherited">
+         <output its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"/>
+      </node>
+      <node path="/msgList/data[2]/value[1]/span[1]/@id" outputType="default-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

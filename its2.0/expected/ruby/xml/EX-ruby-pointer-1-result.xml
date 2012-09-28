@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="ruby">
+      <node path="/ex:text" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rubyPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rbcPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rtcPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rbspanPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rtPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rubyPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rpPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rtPointer"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[1]"
+            outputType="new-value-global">
+         <output xmlns:ex="http://example.com">
+            <rubyPointer>
+               <ex:ruby>
+                  <ex:rbc>
+                     <ex:rb>10</ex:rb>
+                     <ex:rb>31</ex:rb>
+                     <ex:rb>2002</ex:rb>
+                  </ex:rbc>
+                  <ex:rtc>
+                     <ex:rt>Month</ex:rt>
+                     <ex:rt>Day</ex:rt>
+                     <ex:rt>Year</ex:rt>
+                  </ex:rtc>
+                  <ex:rtc>
+                     <ex:rt rbspan="3">Expiration Date</ex:rt>
+                  </ex:rtc>
+               </ex:ruby>
+            </rubyPointer>
+            <rbcPointer>
+               <ex:rbc>
+                  <ex:rb>10</ex:rb>
+                  <ex:rb>31</ex:rb>
+                  <ex:rb>2002</ex:rb>
+               </ex:rbc>
+            </rbcPointer>
+            <rtcPointer>
+               <ex:rtc>
+                  <ex:rt>Month</ex:rt>
+                  <ex:rt>Day</ex:rt>
+                  <ex:rt>Year</ex:rt>
+               </ex:rtc>
+               <ex:rtc>
+                  <ex:rt rbspan="3">Expiration Date</ex:rt>
+               </ex:rtc>
+            </rtcPointer>
+            <rbspanPointer rbspan="3"/>
+            <rtPointer>
+               <ex:rt>Month</ex:rt>
+               <ex:rt>Day</ex:rt>
+               <ex:rt>Year</ex:rt>
+               <ex:rt rbspan="3">Expiration Date</ex:rt>
+            </rtPointer>
+         </output>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[2]"
+            outputType="new-value-global">
+         <output xmlns:ex="http://example.com">
+            <rubyPointer>
+               <ex:ruby>
+                  <ex:rbc>
+                     <ex:rb>10</ex:rb>
+                     <ex:rb>31</ex:rb>
+                     <ex:rb>2002</ex:rb>
+                  </ex:rbc>
+                  <ex:rtc>
+                     <ex:rt>Month</ex:rt>
+                     <ex:rt>Day</ex:rt>
+                     <ex:rt>Year</ex:rt>
+                  </ex:rtc>
+                  <ex:rtc>
+                     <ex:rt rbspan="3">Expiration Date</ex:rt>
+                  </ex:rtc>
+               </ex:ruby>
+            </rubyPointer>
+            <rbcPointer>
+               <ex:rbc>
+                  <ex:rb>10</ex:rb>
+                  <ex:rb>31</ex:rb>
+                  <ex:rb>2002</ex:rb>
+               </ex:rbc>
+            </rbcPointer>
+            <rtcPointer>
+               <ex:rtc>
+                  <ex:rt>Month</ex:rt>
+                  <ex:rt>Day</ex:rt>
+                  <ex:rt>Year</ex:rt>
+               </ex:rtc>
+               <ex:rtc>
+                  <ex:rt rbspan="3">Expiration Date</ex:rt>
+               </ex:rtc>
+            </rtcPointer>
+            <rbspanPointer rbspan="3"/>
+            <rtPointer>
+               <ex:rt>Month</ex:rt>
+               <ex:rt>Day</ex:rt>
+               <ex:rt>Year</ex:rt>
+               <ex:rt rbspan="3">Expiration Date</ex:rt>
+            </rtPointer>
+         </output>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[3]"
+            outputType="new-value-global">
+         <output xmlns:ex="http://example.com">
+            <rubyPointer>
+               <ex:ruby>
+                  <ex:rbc>
+                     <ex:rb>10</ex:rb>
+                     <ex:rb>31</ex:rb>
+                     <ex:rb>2002</ex:rb>
+                  </ex:rbc>
+                  <ex:rtc>
+                     <ex:rt>Month</ex:rt>
+                     <ex:rt>Day</ex:rt>
+                     <ex:rt>Year</ex:rt>
+                  </ex:rtc>
+                  <ex:rtc>
+                     <ex:rt rbspan="3">Expiration Date</ex:rt>
+                  </ex:rtc>
+               </ex:ruby>
+            </rubyPointer>
+            <rbcPointer>
+               <ex:rbc>
+                  <ex:rb>10</ex:rb>
+                  <ex:rb>31</ex:rb>
+                  <ex:rb>2002</ex:rb>
+               </ex:rbc>
+            </rbcPointer>
+            <rtcPointer>
+               <ex:rtc>
+                  <ex:rt>Month</ex:rt>
+                  <ex:rt>Day</ex:rt>
+                  <ex:rt>Year</ex:rt>
+               </ex:rtc>
+               <ex:rtc>
+                  <ex:rt rbspan="3">Expiration Date</ex:rt>
+               </ex:rtc>
+            </rtcPointer>
+            <rbspanPointer rbspan="3"/>
+            <rtPointer>
+               <ex:rt>Month</ex:rt>
+               <ex:rt>Day</ex:rt>
+               <ex:rt>Year</ex:rt>
+               <ex:rt rbspan="3">Expiration Date</ex:rt>
+            </rtPointer>
+         </output>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[3]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]/ex:rt[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]/ex:rt[1]/@rbspan"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rb[1]"
+            outputType="new-value-global">
+         <output xmlns:ex="http://example.com">
+            <rubyPointer>
+               <ex:ruby>
+                  <ex:rb>WWW</ex:rb>
+                  <ex:rp>(</ex:rp>
+                  <ex:rt>World Wide Web</ex:rt>
+                  <ex:rp>)</ex:rp>
+               </ex:ruby>
+            </rubyPointer>
+            <rpPointer>
+               <ex:rp>(</ex:rp>
+               <ex:rp>)</ex:rp>
+            </rpPointer>
+            <rtPointer>
+               <ex:rt>World Wide Web</ex:rt>
+            </rtPointer>
+         </output>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rp[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rt[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rp[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

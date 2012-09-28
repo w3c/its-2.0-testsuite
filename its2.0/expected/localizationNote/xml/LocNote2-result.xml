@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localizationnote">
+      <node path="/msgList" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/@version"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/@xlink:type"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/@xlink:href"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/its:locNoteRule[1]"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@selector"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[1]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[1]/img[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[1]/img[1]/@src" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[1]/img[1]/@alt"
+            outputType="new-value-global">
+         <output xmlns:xlink="http://www.w3.org/1999/xlink" locNoteType="alert">
+            <its:locNote>Do not translate the word "Chobe"</its:locNote>
+         </output>
+      </node>
+      <node path="/msgList/body[1]/msg[2]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[2]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[2]/img[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[2]/img[1]/@src" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/msgList/body[1]/msg[2]/img[1]/@alt"
+            outputType="new-value-global">
+         <output locNoteType="description">
+            <its:locNote>This text will be displayed over the image.</its:locNote>
+         </output>
+      </node>
+      <node path="/msgList/body[1]/msg[3]" outputType="new-value-global">
+         <output locNoteType="alert">
+            <its:locNote>
+The variable
+<code>{0}</code>
+has three possible values: 'printer', 'stacker' and 'stapler options'.
+</its:locNote>
+         </output>
+      </node>
+      <node path="/msgList/body[1]/msg[3]/@id" outputType="default-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

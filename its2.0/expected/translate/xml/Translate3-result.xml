@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="translate">
+      <node path="/book" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/book/@xsi:noNamespaceSchemaLocation" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/book/@its:version" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/book/head[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/book/head[1]/title[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/book/body[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/book/body[1]/p[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/book/body[1]/p[1]/its:span[1]" outputType="new-value-local">
+         <output translate="no"/>
+      </node>
+      <node path="/book/body[1]/p[1]/its:span[1]/@translate"
+            outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/book/body[1]/p[1]/its:span[2]" outputType="new-value-local">
+         <output translate="no"/>
+      </node>
+      <node path="/book/body[1]/p[1]/its:span[2]/@translate"
+            outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+   </nodeList>
+</nodeList>

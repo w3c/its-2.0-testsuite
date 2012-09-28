@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="translate">
+      <node path="/html" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]/title[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]/@href" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]/@rel" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/html/body[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]/@id" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]/b[1]"
+            outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]/cite[1]"
+            outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]/cite[1]/i[1]"
+            outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/p[1]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/html/body[1]/ul[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/ul[1]/li[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/ul[1]/li[2]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/ul[1]/li[3]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/ul[1]/li[4]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/p[2]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/html/body[1]/p[2]/span[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/p[2]/span[1]/@lang" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+   </nodeList>
+</nodeList>

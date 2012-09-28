@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localefilter">
+      <node path="/book" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/@its:version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/its:rules[1]/its:localeFilterRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]" outputType="new-value-global">
+         <output localeFilterList="en-CA, fr-CA"/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]/@role" outputType="inherited">
+         <output localeFilterList="en-CA, fr-CA"/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]/para[1]" outputType="inherited">
+         <output localeFilterList="en-CA, fr-CA"/>
+      </node>
+   </nodeList>
+</nodeList>

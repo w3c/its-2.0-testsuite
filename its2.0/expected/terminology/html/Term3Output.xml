@@ -1,0 +1,3 @@
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+<its:termRule selector="//a" term="yes" termInfoRefPointer="@target"/>
+</its:rules>

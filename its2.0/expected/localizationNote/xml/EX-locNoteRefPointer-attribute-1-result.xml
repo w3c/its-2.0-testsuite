@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localizationnote">
+      <node path="/dataFile" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]/@version"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@selector"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRefPointer"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[1]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[1]/@noteFile" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[1]/data[1]"
+            outputType="new-value-global">
+         <output locNoteType="description">
+            <locNoteRefPointer noteFile="Comments.html#FileNotFound"/>
+         </output>
+      </node>
+      <node path="/dataFile/body[1]/string[2]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[2]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[2]/@noteFile" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/dataFile/body[1]/string[2]/data[1]"
+            outputType="new-value-global">
+         <output locNoteType="description">
+            <locNoteRefPointer noteFile="Comments.html#DivByZero"/>
+         </output>
+      </node>
+   </nodeList>
+</nodeList>

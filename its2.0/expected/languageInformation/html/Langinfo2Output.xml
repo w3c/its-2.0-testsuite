@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="languageinformation">
+      <node path="/html" outputType="new-value-global">
+         <output>
+            <langPointer lang="en"/>
+         </output>
+      </node>
+      <node path="/html/@lang" outputType="inherited">
+         <output>
+            <langPointer lang="en"/>
+         </output>
+      </node>
+      <node path="/html/head[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/head[1]/link[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/head[1]/link[1]/@href" outputType="inherited">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/head[1]/link[1]/@rel" outputType="inherited">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/head[1]/title[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/body[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/body[1]/p[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/body[1]/p[1]/q[1]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/body[1]/p[2]" outputType="new-value-global">
+         <output>
+            <langPointer/>
+         </output>
+      </node>
+      <node path="/html/body[1]/p[2]/q[1]" outputType="new-value-global">
+         <output>
+            <langPointer lang="fr-CA"/>
+         </output>
+      </node>
+      <node path="/html/body[1]/p[2]/q[1]/@lang" outputType="inherited">
+         <output>
+            <langPointer lang="fr-CA"/>
+         </output>
+      </node>
+   </nodeList>
+</nodeList>

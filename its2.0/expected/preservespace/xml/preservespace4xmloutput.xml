@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="preservespace">
+      <node path="/book" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/@its:version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/its:span[1]" outputType="new-value-local">
+         <output xml:space="preserve"/>
+      </node>
+      <node path="/book/its:span[1]/@xml:space" outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

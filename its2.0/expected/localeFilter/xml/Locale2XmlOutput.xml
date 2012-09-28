@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localefilter">
+      <node path="/book" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]" outputType="new-value-local">
+         <output its:localeFilterList="en-CA, fr-CA"/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]/@its:localeFilterList"
+            outputType="new-value-local">
+         <output its:localeFilterList="en-CA, fr-CA"/>
+      </node>
+      <node path="/book/info[1]/legalnotice[1]/para[1]" outputType="inherited">
+         <output its:localeFilterList="en-CA, fr-CA"/>
+      </node>
+   </nodeList>
+</nodeList>

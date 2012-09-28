@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localizationnote">
+      <node path="/Res" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/@version" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:translateRule[1]"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:translateRule[1]/@selector"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:translateRule[1]/@translate"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]/@selector"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNotePointer"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[1]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[1]/notes[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[1]/data[1]" outputType="new-value-global">
+         <output locNoteType="description">
+            <locNotePointer>
+               <notes>
+Indicates that the resource file {0} could not be loaded.
+</notes>
+            </locNotePointer>
+         </output>
+      </node>
+      <node path="/Res/body[1]/msg[2]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[2]/@id" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[2]/notes[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Res/body[1]/msg[2]/data[1]" outputType="new-value-global">
+         <output locNoteType="description">
+            <locNotePointer>
+               <notes>A division by 0 was going to be computed.</notes>
+            </locNotePointer>
+         </output>
+      </node>
+   </nodeList>
+</nodeList>

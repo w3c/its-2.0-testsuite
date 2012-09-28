@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="elementswithintext">
+      <node path="/html" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/head[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]/@href" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/head[1]/link[1]/@rel" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/title[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[1]/@itemref"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[2]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/span[2]/@itemref"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[1]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/p[1]/cite[1]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="nested"/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+      <node path="/html/body[1]/p[1]/span[1]/@itemref" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[2]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/p[2]/img[1]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+      <node path="/html/body[1]/p[2]/img[1]/@src" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[2]/img[1]/@alt" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/html/body[1]/p[3]" outputType="default-value">
+         <output its:withinText="no"/>
+      </node>
+      <node path="/html/body[1]/p[3]/em[1]" outputType="new-value-global">
+         <output xmlns:d="http://my.DocumentURI/" withinText="yes"/>
+      </node>
+   </nodeList>
+</nodeList>

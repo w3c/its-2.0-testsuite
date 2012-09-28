@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="translate">
+      <node path="/html" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/html/head[1]/title[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/span[1]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/html/body[1]/span[1]/@translate" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/html/body[1]/section[1]/p[1]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/html/body[1]/section[1]/p[1]/span[1]" outputType="inherited">
+         <output translate="yes"/>
+      </node>
+      <node path="/html/body[1]/section[1]/p[1]/span[2]" outputType="inherited">
+         <output translate="yes"/>
+      </node>
+   </nodeList>
+</nodeList>

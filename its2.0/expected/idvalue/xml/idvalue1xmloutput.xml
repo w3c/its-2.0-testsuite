@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="idvalue">
+      <node path="/doc" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[1]/@idValue"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[2]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[2]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/its:rules[1]/its:idValueRule[2]/@idValue"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/msg[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/msg[1]/@name" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/doc/msg[1]/text[1]" outputType="new-value-global">
+         <output idValue="concat(../@name, '_t')"/>
+      </node>
+      <node path="/doc/msg[1]/desc[1]" outputType="new-value-global">
+         <output idValue="concat(../@name, '_d')"/>
+      </node>
+   </nodeList>
+</nodeList>

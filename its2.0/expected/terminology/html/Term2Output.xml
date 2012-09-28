@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="terminology">
+      <node path="/html" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/head[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]/@href" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/head[1]/link[1]/@rel" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/head[1]/title[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/body[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/body[1]/p[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/body[1]/p[1]/a[1]" outputType="new-value-global">
+         <output term="yes" termInfoRef="#TDPV"/>
+      </node>
+      <node path="/html/body[1]/p[1]/cite[1]" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+      <node path="/html/body[1]/p[1]/cite[1]/@id" outputType="default-value">
+         <output its:term="no"/>
+      </node>
+   </nodeList>
+</nodeList>

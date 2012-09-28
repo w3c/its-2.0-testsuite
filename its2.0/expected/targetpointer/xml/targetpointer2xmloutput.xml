@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="translate">
+      <node path="/file" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+      <node path="/file/its:rules[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/file/its:rules[1]/@version" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/file/its:rules[1]/@xlink:type" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/file/its:rules[1]/@xlink:href" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/file/entry[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/file/entry[1]/@id" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/file/entry[1]/source[1]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/file/entry[1]/target[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/file/entry[2]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+      <node path="/file/entry[2]/@id" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/file/entry[2]/source[1]" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/file/entry[2]/target[1]" outputType="inherited">
+         <output translate="no"/>
+      </node>
+   </nodeList>
+   <nodeList datacat="targetpointer">
+      <node path="/file" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/its:rules[1]/@xlink:type" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/its:rules[1]/@xlink:href" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[1]/@id" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[1]/source[1]" outputType="new-value-global">
+         <output>
+            <targetPointer>
+               <target>lastFolder</target>
+            </targetPointer>
+         </output>
+      </node>
+      <node path="/file/entry[1]/target[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[2]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[2]/@id" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/file/entry[2]/source[1]" outputType="new-value-global">
+         <output>
+            <targetPointer>
+               <target>testFile.txt</target>
+            </targetPointer>
+         </output>
+      </node>
+      <node path="/file/entry[2]/target[1]" outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

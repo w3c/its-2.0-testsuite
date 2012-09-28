@@ -1,0 +1,20 @@
+path=/Res		
+path=/Res/@its:version		
+path=/Res/body[1]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/@its:locNote		
+path=/Res/body[1]/msg[1]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[1]/@id		
+path=/Res/body[1]/msg[1]/data[1]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[2]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[2]/@id		
+path=/Res/body[1]/msg[2]/data[1]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[3]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[3]/@id		
+path=/Res/body[1]/msg[3]/data[1]	its:locNote="{0} is a filename"	its:locNoteType="alert"	
+path=/Res/body[1]/msg[3]/data[1]/@its:locNote		
+path=/Res/body[1]/msg[3]/data[1]/@its:locNoteType		
+path=/Res/body[1]/msg[4]	its:locNote="The variable {0} is the name of the host."	
+path=/Res/body[1]/msg[4]/@id
+path=/Res/body[1]/msg[4]/data[1]	its:locNoteRef="myLocNotes.htm#CannotLog"	its:locNoteType="alert"	
+path=/Res/body[1]/msg[4]/data[1]/@its:locNoteRef		
+path=/Res/body[1]/msg[4]/data[1]/@its:locNoteType		

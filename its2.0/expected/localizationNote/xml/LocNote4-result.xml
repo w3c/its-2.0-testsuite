@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="localizationnote">
+      <node path="/Doc" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/@its:version" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/body[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/body[1]/p[1]" outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]" outputType="new-value-local">
+         <output locNote="If possible keep the non-English terms in the translated version too"/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/@locNote"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/its:span[1]"
+            outputType="new-value-local">
+         <output locNoteRef="http://en.wikipedia.org/wiki/Doppelganger"/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/its:span[1]/@locNoteRef"
+            outputType="default-value">
+         <output/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/b[1]" outputType="inherited">
+         <output locNote="If possible keep the non-English terms in the translated version too"/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/its:span[2]"
+            outputType="new-value-local">
+         <output locNoteRef="http://en.wikipedia.org/wiki/Aficionado"/>
+      </node>
+      <node path="/Doc/body[1]/p[1]/its:span[1]/its:span[2]/@locNoteRef"
+            outputType="default-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

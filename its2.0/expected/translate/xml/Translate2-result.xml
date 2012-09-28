@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="translate">
+      <node path="/myDoc" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/myDoc/head[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/myDoc/head[1]/its:rules[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/myDoc/head[1]/its:rules[1]/@version" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/myDoc/head[1]/its:rules[1]/@xlink:type"
+            outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/myDoc/head[1]/its:rules[1]/@xlink:href"
+            outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/myDoc/body[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/myDoc/body[1]/par[1]" outputType="default-value">
+         <output its:translate="yes"/>
+      </node>
+      <node path="/myDoc/body[1]/par[1]/@id" outputType="default-value">
+         <output its:translate="no"/>
+      </node>
+      <node path="/myDoc/body[1]/par[1]/@title" outputType="new-value-global">
+         <output translate="yes"/>
+      </node>
+      <node path="/myDoc/body[1]/par[1]/code[1]" outputType="new-value-global">
+         <output translate="no"/>
+      </node>
+   </nodeList>
+</nodeList>

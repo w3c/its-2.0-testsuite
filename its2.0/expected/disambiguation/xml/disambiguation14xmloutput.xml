@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeList xmlns:its="http://www.w3.org/2005/11/its"
+          xmlns:datc="http://example.com/datacats">
+   <nodeList datacat="disambiguation">
+      <node path="/text" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/@version" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@entityTypeSourceRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@entityTypeRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@disambigType"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@disambigSourceRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[1]/@disambigIdentRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@selector"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@disambigType"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@disambigSourceRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/its:rules[1]/its:disambiguationRule[2]/@disambigIdentRef"
+            outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]" outputType="no-value">
+         <output/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]" outputType="new-value-global">
+         <output entityTypeSourceRef="http:/nerd.eurecom.fr/ontology"
+                 entityTypeRef="http:/nerd.eurecom.fr/ontology#Place"
+                 disambigType="entity"
+                 disambigSourceRef="http://dbpedia.org/"
+                 disambigIdentRef="http://dbpedia.org/resource/Dublin"/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[1]/@id" outputType="inherited">
+         <output entityTypeSourceRef="http:/nerd.eurecom.fr/ontology"
+                 entityTypeRef="http:/nerd.eurecom.fr/ontology#Place"/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]" outputType="new-value-global">
+         <output disambigType="lexicalConcept"
+                 disambigSourceRef="http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-synset.rdf"
+                 disambigIdentRef="http://www.w3.org/2006/03/wn/wn20/instances/worsense-capital-noun-3"/>
+      </node>
+      <node path="/text/body[1]/p[1]/span[2]/@id" outputType="no-value">
+         <output/>
+      </node>
+   </nodeList>
+</nodeList>

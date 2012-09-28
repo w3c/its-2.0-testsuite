@@ -1,0 +1,14 @@
+path=/msgList		
+path=/msgList/@xml:space		
+path=/msgList/@its:version		
+path=/msgList/data[1]	its:locNote="Keep the leading space!"	its:locNoteType="alert"	
+path=/msgList/data[1]/@name		
+path=/msgList/data[1]/@its:locNote		
+path=/msgList/data[1]/@its:locNoteType		
+path=/msgList/data[1]/value[1]	its:locNote="Keep the leading space!"	its:locNoteType="alert"	
+path=/msgList/data[2]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
+path=/msgList/data[2]/@its:locNote	
+path=/msgList/data[2]/value[1]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
+path=/msgList/data[2]/value[1]/span[1]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
+path=/msgList/data[2]/value[1]/span[1]/@id
+
