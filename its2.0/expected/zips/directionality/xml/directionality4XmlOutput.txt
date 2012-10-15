@@ -1,9 +1,0 @@
-path=/text	its:dir="ltr"	
-path=/text/@xml:lang	its:dir="ltr"	
-path=/text/@its:version	its:dir="ltr"	
-path=/text/body[1]	its:dir="ltr"	
-path=/text/body[1]/par[1]	its:dir="ltr"	
-path=/text/body[1]/par[1]/its:span[1]	dir="rtl"	
-path=/text/body[1]/par[1]/its:span[1]/@xml:lang	dir="rtl"	
-path=/text/body[1]/par[1]/its:span[1]/@dir	dir="rtl"	
-
