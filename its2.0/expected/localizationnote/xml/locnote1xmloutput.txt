@@ -1,14 +1,12 @@
-path=/myRes		
-path=/myRes/head[1]		
-path=/myRes/head[1]/its:rules[1]		
-path=/myRes/head[1]/its:rules[1]/@version		
-path=/myRes/head[1]/its:rules[1]/@its:translate		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]		
-path=/myRes/body[1]		
-path=/myRes/body[1]path=/msg[1]	locNoteType="alert"	its:locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	
-path=/myRes/body[1]path=/msg[1]/@id		
-
-
+/myRes		
+/myRes/head[1]		
+/myRes/head[1]/its:rules[1]		
+/myRes/head[1]/its:rules[1]/@version		
+/myRes/head[1]/its:rules[1]/@its:translate		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]		
+/myRes/body[1]		
+/myRes/body[1]path=/msg[1]	locNoteType="alert"	its:locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	
+/myRes/body[1]path=/msg[1]/@id		

@@ -1,0 +1,6 @@
+/text	its:withinText="no"	
+/text/@its:version	
+/text/body[1]	its:withinText="no"	
+/text/body[1]/par[1]	its:withinText="no"	
+/text/body[1]/par[1]/its:span[1]	withinText="yes"	
+/text/body[1]/par[1]/its:span[1]/@withinText	

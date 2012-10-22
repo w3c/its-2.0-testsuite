@@ -1,11 +1,11 @@
-path=/myRes		
-path=/myRes/head[1]		
-path=/myRes/head[1]/its:rules[1]		
-path=/myRes/head[1]/its:rules[1]/@version		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector		
-path=/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRef		
-path=/myRes/body[1]		
-path=/myRes/body[1]path=/msg[1]	locNoteRef="ErrorsInfo.html/#NotFound"	locNoteType="description"	
-path=/myRes/body[1]path=/msg[1]/@id		
+/myRes		
+/myRes/head[1]		
+/myRes/head[1]/its:rules[1]		
+/myRes/head[1]/its:rules[1]/@version		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector		
+/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRef		
+/myRes/body[1]		
+/myRes/body[1]path=/msg[1]	locNoteRef="ErrorsInfo.html/#NotFound"	locNoteType="description"	
+/myRes/body[1]path=/msg[1]/@id		

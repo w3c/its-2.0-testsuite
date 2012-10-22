@@ -1,12 +1,11 @@
-path=/text	
-path=/text/head[1]	
-path=/text/head[1]/its:rules[1]	
-path=/text/head[1]/its:rules[1]/@version	
-path=/text/head[1]/its:rules[1]/its:rubyRule[1]	
-path=/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector	
-path=/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]	
-path=/text/body[1]	
-path=/text/body[1]/img[1]	
-path=/text/body[1]/img[1]/@src	
-path=/text/body[1]/img[1]/@alt	its:rubyText="World Wide Web Consortium"	
-
+/text	
+/text/head[1]	
+/text/head[1]/its:rules[1]	
+/text/head[1]/its:rules[1]/@version	
+/text/head[1]/its:rules[1]/its:rubyRule[1]	
+/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector	
+/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]	
+/text/body[1]	
+/text/body[1]/img[1]	
+/text/body[1]/img[1]/@src	
+/text/body[1]/img[1]/@alt	its:rubyText="World Wide Web Consortium"	

@@ -1,0 +1,7 @@
+/book	
+/book/info[1]	
+/book/info[1]/its:rules[1]	
+/book/info[1]/its:rules[1]/@version	
+/book/info[1]/its:rules[1]/@xlink:type	
+/book/info[1]/its:rules[1]/@xlink:href	
+/book/verse[1]	space="preserve"	

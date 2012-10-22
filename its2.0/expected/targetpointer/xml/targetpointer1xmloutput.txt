@@ -1,0 +1,20 @@
+/file	
+/file/its:rules[1]	
+/file/its:rules[1]/@version	
+/file/its:rules[1]/its:translateRule[1]	
+/file/its:rules[1]/its:translateRule[1]/@selector	
+/file/its:rules[1]/its:translateRule[1]/@translate	
+/file/its:rules[1]/its:translateRule[2]	
+/file/its:rules[1]/its:translateRule[2]/@selector	
+/file/its:rules[1]/its:translateRule[2]/@translate	
+/file/its:rules[1]/its:targetPointerRule[1]	
+/file/its:rules[1]/its:targetPointerRule[1]/@selector	
+/file/its:rules[1]/its:targetPointerRule[1]/@targetPointer	
+/file/entry[1]	
+/file/entry[1]/@id	
+/file/entry[1]/source[1]	targetPointer=""	target="lastFolder"	
+/file/entry[1]/target[1]	
+/file/entry[2]	
+/file/entry[2]/@id	
+/file/entry[2]/source[1]	targetPointer=""	target="testFile.txt"	
+/file/entry[2]/target[1]		

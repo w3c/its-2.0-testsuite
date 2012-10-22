@@ -1,0 +1,8 @@
+/book	
+/book/info[1]	
+/book/info[1]/its:rules[1]	
+/book/info[1]/its:rules[1]/@its:version	
+/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]	
+/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@selector	
+/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@space	
+/book/verse[1]	space="preserve"	

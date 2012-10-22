@@ -1,0 +1,13 @@
+/doc	
+/doc/its:rules[1]	
+/doc/its:rules[1]/@version	
+/doc/its:rules[1]/its:idValueRule[1]	
+/doc/its:rules[1]/its:idValueRule[1]/@selector	
+/doc/its:rules[1]/its:idValueRule[1]/@idValue	
+/doc/its:rules[1]/its:idValueRule[2]	
+/doc/its:rules[1]/its:idValueRule[2]/@selector	
+/doc/its:rules[1]/its:idValueRule[2]/@idValue	
+/doc/msg[1]	
+/doc/msg[1]/@name	
+/doc/msg[1]/text[1]	idValue="concat(../@name, '_t')"	
+/doc/msg[1]/desc[1]	idValue="concat(../@name, '_d')"	
