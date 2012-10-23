@@ -1,0 +1,10 @@
+/text	
+/text/@its:version	
+/text/body[1]	
+/text/body[1]/p[1]	
+/text/body[1]/p[1]/its:ruby[1]	its:ruby=""	its:rb="慶応義塾大学"	its:rp="("	its:rt="けいおうぎじゅくだいがく"	its:rp=")"	
+/text/body[1]/p[1]/its:ruby[1]/its:rb[1]	
+/text/body[1]/p[1]/its:ruby[1]/its:rp[1]	
+/text/body[1]/p[1]/its:ruby[1]/its:rt[1]	
+/text/body[1]/p[1]/its:ruby[1]/its:rp[2]	
+
