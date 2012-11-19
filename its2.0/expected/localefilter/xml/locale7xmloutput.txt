@@ -1,0 +1,12 @@
+/book
+/book/@version
+/book/info[1]
+/book/info[1]/rules[1]
+/book/info[1]/rules[1]/@version
+/book/info[1]/rules[1]/@xlink:href
+/book/info[1]/legalnotice[1]
+/book/info[1]/legalnotice[1]/@role
+/book/info[1]/legalnotice[1]/para[1]
+/book/info[1]/legalnotice[2]	localeFilterList="de-DE"
+/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"
+/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"

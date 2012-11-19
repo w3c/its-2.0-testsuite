@@ -1,0 +1,32 @@
+/msgList	locNoteType="description"
+/msgList/head[1]	locNoteType="description"
+/msgList/head[1]/rules[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/@version
+/msgList/head[1]/rules[1]/param[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/param[1]/@name
+/msgList/head[1]/rules[1]/locNoteRule[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[1]/@locNoteType
+/msgList/head[1]/rules[1]/locNoteRule[1]/@selector
+/msgList/head[1]/rules[1]/locNoteRule[1]/locNote[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[2]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[2]/@locNoteType
+/msgList/head[1]/rules[1]/locNoteRule[2]/@selector
+/msgList/head[1]/rules[1]/locNoteRule[2]/locNote[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[3]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[3]/@locNoteType
+/msgList/head[1]/rules[1]/locNoteRule[3]/@selector
+/msgList/head[1]/rules[1]/locNoteRule[3]/locNote[1]	locNoteType="description"
+/msgList/head[1]/rules[1]/locNoteRule[3]/locNote[1]/code[1]	locNoteType="description"
+/msgList/body[1]	locNoteType="description"
+/msgList/body[1]/msg[1]	locNoteType="description"
+/msgList/body[1]/msg[1]/@id
+/msgList/body[1]/msg[1]/img[1]	locNoteType="description"
+/msgList/body[1]/msg[1]/img[1]/@alt	locNote="Do not translate the word "Chobe"	locNoteType="alert"
+/msgList/body[1]/msg[1]/img[1]/@src
+/msgList/body[1]/msg[2]	locNoteType="description"
+/msgList/body[1]/msg[2]/@id
+/msgList/body[1]/msg[2]/img[1]	locNoteType="description"
+/msgList/body[1]/msg[2]/img[1]/@alt	locNote="This text will be displayed over the image.	locNoteType="description"
+/msgList/body[1]/msg[2]/img[1]/@src
+/msgList/body[1]/msg[3]	locNoteType="description"
+/msgList/body[1]/msg[3]/@id

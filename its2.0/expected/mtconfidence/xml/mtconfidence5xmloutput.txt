@@ -1,0 +1,16 @@
+/text
+/text/head[1]
+/text/head[1]/rules[1]
+/text/head[1]/rules[1]/@version
+/text/head[1]/rules[1]/@xlink:href
+/text/head[1]/rules[1]/@xlink:type
+/text/body[1]
+/text/body[1]/p[1]
+/text/body[1]/p[1]/span[1]	mtConfidenceScore="0.6982"	mtEngine="en-t-cs"	mtProducer="Bing Translator"
+/text/body[1]/p[1]/span[1]/@id
+/text/body[1]/p[1]/span[2]
+/text/body[1]/p[1]/span[2]/@id
+/text/body[1]/p[1]/span[3]
+/text/body[1]/p[1]/span[3]/@id
+/text/body[1]/p[1]/span[4]
+/text/body[1]/p[1]/span[4]/@id

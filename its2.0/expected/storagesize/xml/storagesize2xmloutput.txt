@@ -1,0 +1,14 @@
+/fields
+/fields/rules[1]
+/fields/rules[1]/@version
+/fields/rules[1]/storageSizeRule[1]
+/fields/rules[1]/storageSizeRule[1]/@selector
+/fields/rules[1]/storageSizeRule[1]/@storageEncoding
+/fields/rules[1]/storageSizeRule[1]/@storageSize
+/fields/field[1]	storageEncoding="ISO-8859-1"	storageSize="25"
+/fields/field[1]/@encoding
+/fields/field[1]/@id
+/fields/field[1]/@max
+/fields/field[1]/@type
+/fields/field[2]	storageEncoding="ISO-8859-1"	storageSize="25"
+/fields/field[2]/@encoding

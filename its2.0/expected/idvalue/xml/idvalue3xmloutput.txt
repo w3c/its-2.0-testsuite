@@ -1,6 +1,8 @@
-/file	
-/file/res[1]	xml:id="btnAgain"	
-/file/res[1]/@name	
-/file/res[1]/@xml:id	
-/file/res[2]	
-/file/res[2]/@name	
+/resource
+/resource/rules[1]
+/resource/rules[1]/@version
+/resource/rules[1]/@xlink:href
+/resource/entry[1]	idValue="btn.CANCEL"
+/resource/entry[1]/@name
+/resource/entry[2]	idValue="btn.CANCEL"
+/resource/entry[2]/@name

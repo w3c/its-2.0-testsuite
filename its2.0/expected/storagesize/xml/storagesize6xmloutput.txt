@@ -1,0 +1,14 @@
+/messages
+/messages/@version
+/messages/var[1]	storageEncoding="UTF-16"	storageSize="8"
+/messages/var[1]/@lineBreakType
+/messages/var[1]/@num
+/messages/var[1]/@storageEncoding
+/messages/var[1]/@storageSize
+/messages/var[2]	storageEncoding="UTF-16"	storageSize="8"
+/messages/var[2]/@lineBreakType
+/messages/var[2]/@num
+/messages/var[2]/@storageEncoding
+/messages/var[2]/@storageSize
+/messages/var[3]	storageEncoding="UTF-16"	storageSize="12"
+/messages/var[3]/@lineBreakType

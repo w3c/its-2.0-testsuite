@@ -1,14 +1,20 @@
-/msgList		
-/msgList/@xml:space		
-/msgList/@its:version		
-/msgList/data[1]	its:locNote="Keep the leading space!"	its:locNoteType="alert"	
-/msgList/data[1]/@name		
-/msgList/data[1]/@its:locNote		
-/msgList/data[1]/@its:locNoteType		
-/msgList/data[1]/value[1]	its:locNote="Keep the leading space!"	its:locNoteType="alert"	
-/msgList/data[2]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
-/msgList/data[2]/@its:locNote	
-/msgList/data[2]/value[1]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
-/msgList/data[2]/value[1]/span[1]	its:locNote="%1\$s is the original text's date in the format YYYY-MM-DD HH:MM always in GMT"	
-/msgList/data[2]/value[1]/span[1]/@id
-
+/Res	locNoteType="description"
+/Res/prolog[1]	locNoteType="description"
+/Res/prolog[1]/rules[1]	locNoteType="description"
+/Res/prolog[1]/rules[1]/@version
+/Res/prolog[1]/rules[1]/translateRule[1]	locNoteType="description"
+/Res/prolog[1]/rules[1]/translateRule[1]/@selector
+/Res/prolog[1]/rules[1]/translateRule[1]/@translate
+/Res/prolog[1]/rules[1]/locNoteRule[1]	locNoteType="description"
+/Res/prolog[1]/rules[1]/locNoteRule[1]/@locNoteType
+/Res/prolog[1]/rules[1]/locNoteRule[1]/@locNote
+/Res/prolog[1]/rules[1]/locNoteRule[1]/@selector
+/Res/body[1]	locNoteType="description"
+/Res/body[1]/msg[1]	locNoteType="description"
+/Res/body[1]/msg[1]/@id
+/Res/body[1]/msg[1]/notes[1]	locNoteType="description"
+/Res/body[1]/msg[1]/data[1]	locNote="Indicates that the resource file {0} could not be loaded."	locNoteType="description"
+/Res/body[1]/msg[2]	locNoteType="description"
+/Res/body[1]/msg[2]/@id
+/Res/body[1]/msg[2]/notes[1]	locNoteType="description"
+/Res/body[1]/msg[2]/data[1]	locNote="A division by 0 was going to be computed."	locNoteType="description"

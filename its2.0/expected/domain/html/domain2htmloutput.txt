@@ -1,11 +1,13 @@
-/html	
-/html/head[1]	
-/html/head[1]/link[1]	
-/html/head[1]/link[1]/@href	
-/html/head[1]/link[1]/@rel	
-/html/head[1]/meta[1]	
-/html/head[1]/meta[1]/@name	
-/html/head[1]/meta[1]/@content	
-/html/head[1]/title[1]	
-/html/body[1]	domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law"	domainPointer=""	content="automotive"	
-/html/body[1]/p[1]	domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law"	domainPointer=""	content="automotive"	
+/html
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/link[1]
+/html/head[1]/link[1]/@href
+/html/head[1]/link[1]/@rel
+/html/head[1]/meta[2]
+/html/head[1]/meta[2]/@content
+/html/head[1]/meta[2]/@name
+/html/head[1]/title[1]
+/html/body[1]	domain="automotive"	domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law"
+/html/body[1]/p[1]	domain="automotive"	domainMapping="automotive auto, medical medicine, 'criminal law' law, 'property law' law"

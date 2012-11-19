@@ -1,5 +1,6 @@
-/book	
-/book/info[1]	
-/book/info[1]/legalnotice[1]	its:localeFilterList="en-CA, fr-CA"	
-/book/info[1]/legalnotice[1]/@its:localeFilterList	its:localeFilterList="en-CA, fr-CA"	
-/book/info[1]/legalnotice[1]/para[1]	its:localeFilterList="en-CA, fr-CA"	
+/book
+/book/@version
+/book/info[1]
+/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"
+/book/info[1]/legalnotice[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"
+/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"

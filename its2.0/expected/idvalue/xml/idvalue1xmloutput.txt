@@ -1,13 +1,18 @@
-/doc	
-/doc/its:rules[1]	
-/doc/its:rules[1]/@version	
-/doc/its:rules[1]/its:idValueRule[1]	
-/doc/its:rules[1]/its:idValueRule[1]/@selector	
-/doc/its:rules[1]/its:idValueRule[1]/@idValue	
-/doc/its:rules[1]/its:idValueRule[2]	
-/doc/its:rules[1]/its:idValueRule[2]/@selector	
-/doc/its:rules[1]/its:idValueRule[2]/@idValue	
-/doc/msg[1]	
-/doc/msg[1]/@name	
-/doc/msg[1]/text[1]	idValue="concat(../@name, '_t')"	
-/doc/msg[1]/desc[1]	idValue="concat(../@name, '_d')"	
+/resource
+/resource/rules[1]
+/resource/rules[1]/@version
+/resource/rules[1]/idValueRule[1]
+/resource/rules[1]/idValueRule[1]/@idValue
+/resource/rules[1]/idValueRule[1]/@selector
+/resource/webform[1]
+/resource/webform[1]/entry[1]
+/resource/webform[1]/entry[1]/@name
+/resource/webform[1]/entry[1]/text[1]	idValue="btn.OK"
+/resource/webform[1]/entry[1]/pos[1]
+/resource/webform[1]/entry[1]/trig[1]
+/resource/webform[2]
+/resource/webform[2]/entry[1]
+/resource/webform[2]/entry[1]/@name
+/resource/webform[2]/entry[1]/text[1]	idValue="btn.CANCEL"
+/resource/webform[2]/entry[1]/pos[1]
+/resource/webform[2]/entry[1]/trig[1]

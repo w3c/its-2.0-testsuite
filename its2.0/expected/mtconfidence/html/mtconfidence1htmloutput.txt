@@ -1,0 +1,26 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/p[1]
+/html/body[1]/p[1]/span[1]	mtEngine="enTCs"	mtProducer="bing translator"
+/html/body[1]/p[1]/span[1]/@its-mt-confidence-score
+/html/body[1]/p[1]/span[1]/@its-mt-engine
+/html/body[1]/p[1]/span[1]/@its-mt-producer
+/html/body[1]/p[1]/span[2]	mtEngine="enTCs"	mtProducer="google translator"
+/html/body[1]/p[1]/span[2]/@its-mt-confidence-score
+/html/body[1]/p[1]/span[2]/@its-mt-engine
+/html/body[1]/p[1]/span[2]/@its-mt-producer
+/html/body[1]/p[1]/span[3]	mtEngine="enTCs"	mtProducer="moses translator"
+/html/body[1]/p[1]/span[3]/@its-mt-confidence-score
+/html/body[1]/p[1]/span[3]/@its-mt-engine
+/html/body[1]/p[1]/span[3]/@its-mt-producer
+/html/body[1]/p[1]/span[4]	mtEngine="enTCs"	mtProducer="bing translator"
+/html/body[1]/p[1]/span[4]/@its-mt-confidence-score
+/html/body[1]/p[1]/span[4]/@its-mt-engine
+/html/body[1]/p[1]/span[4]/@its-mt-producer
+/html/body[1]/p[1]/span[5]	mtEngine="enTCs"	mtProducer="bing translator"
+/html/body[1]/p[1]/span[5]/@its-mt-producer

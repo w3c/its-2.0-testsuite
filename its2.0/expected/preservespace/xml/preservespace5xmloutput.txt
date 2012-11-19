@@ -1,0 +1,12 @@
+/book
+/book/@version
+/book/info[1]
+/book/info[1]/rules[1]
+/book/info[1]/rules[1]/@version
+/book/info[1]/rules[1]/param[1]
+/book/info[1]/rules[1]/param[1]/@name
+/book/info[1]/rules[1]/preserveSpaceRule[1]
+/book/info[1]/rules[1]/preserveSpaceRule[1]/@selector
+/book/info[1]/rules[1]/preserveSpaceRule[1]/@space
+/book/verse[1]	space="preserve"
+/book/verse[1]/@id

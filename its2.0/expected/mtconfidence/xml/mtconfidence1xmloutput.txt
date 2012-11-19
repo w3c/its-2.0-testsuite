@@ -1,0 +1,17 @@
+/text
+/text/rules[1]
+/text/rules[1]/@version
+/text/rules[1]/mtConfidenceRule[1]
+/text/rules[1]/mtConfidenceRule[1]/@mtEngine
+/text/rules[1]/mtConfidenceRule[1]/@mtProducer
+/text/rules[1]/mtConfidenceRule[1]/@selector
+/text/body[1]
+/text/body[1]/p[1]	mtEngine="en-t-cs"	mtProducer="Bing Translator"
+/text/body[1]/p[1]/span[1]	mtConfidenceScore="0.6982"
+/text/body[1]/p[1]/span[1]/@mtConfidenceScore
+/text/body[1]/p[1]/span[2]	mtConfidenceScore="0.7982"
+/text/body[1]/p[1]/span[2]/@mtConfidenceScore
+/text/body[1]/p[1]/span[3]	mtConfidenceScore="0.9982"
+/text/body[1]/p[1]/span[3]/@mtConfidenceScore
+/text/body[1]/p[1]/span[4]	mtConfidenceScore="0.6982"
+/text/body[1]/p[1]/span[4]/@mtConfidenceScore
