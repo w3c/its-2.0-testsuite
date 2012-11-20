@@ -1,5 +1,5 @@
 /book	translate="yes"
-/book/@version	translate="no"
+/book/@its:version	translate="no"
 /book/head[1]	translate="yes"
 /book/head[1]/title[1]	translate="yes"
 /book/body[1]	translate="yes"

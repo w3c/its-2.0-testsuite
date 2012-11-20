@@ -1,8 +1,8 @@
 /doc	withinText="no"
 /doc/head[1]	withinText="no"
-/doc/head[1]/rules[1]	withinText="no"
-/doc/head[1]/rules[1]/@version
-/doc/head[1]/rules[1]/@xlink:href
+/doc/head[1]/its:rules[1]	withinText="no"
+/doc/head[1]/its:rules[1]/@version
+/doc/head[1]/its:rules[1]/@xlink:href
 /doc/body[1]	withinText="no"
 /doc/body[1]/p[1]	withinText="no"
 /doc/body[1]/p[1]/b[1]	withinText="yes"

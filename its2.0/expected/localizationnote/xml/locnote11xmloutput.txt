@@ -1,9 +1,9 @@
 /msgList	locNoteType="description"
 /msgList/head[1]	locNoteType="description"
-/msgList/head[1]/rules[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/@version
-/msgList/head[1]/rules[1]/@xlink:href
-/msgList/head[1]/rules[1]/@xlink:type
+/msgList/head[1]/its:rules[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/@version
+/msgList/head[1]/its:rules[1]/@xlink:href
+/msgList/head[1]/its:rules[1]/@xlink:type
 /msgList/body[1]	locNoteType="description"
 /msgList/body[1]/msg[1]	locNoteType="description"
 /msgList/body[1]/msg[1]/@id

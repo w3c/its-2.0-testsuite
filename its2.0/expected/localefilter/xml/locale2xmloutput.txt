@@ -1,5 +1,5 @@
 /book
-/book/@version
+/book/@its:version
 /book/info[1]
 /book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"
 /book/info[1]/legalnotice[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"

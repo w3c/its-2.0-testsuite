@@ -1,5 +1,5 @@
 /Res	locNoteType="description"
-/Res/@version
+/Res/@its:version
 /Res/body[1]	locNote="The variable {0} is the name of the host."
 /Res/body[1]/@locNote
 /Res/body[1]/msg[1]	locNote="The variable {0} is the name of the host."

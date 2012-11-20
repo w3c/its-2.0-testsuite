@@ -1,14 +1,14 @@
 /text
 /text/head[1]
-/text/head[1]/rules[1]
-/text/head[1]/rules[1]/@version
-/text/head[1]/rules[1]/param[1]
-/text/head[1]/rules[1]/param[1]/@name
-/text/head[1]/rules[1]/mtConfidenceRule[1]
-/text/head[1]/rules[1]/mtConfidenceRule[1]/@mtConfidenceScore
-/text/head[1]/rules[1]/mtConfidenceRule[1]/@mtEngine
-/text/head[1]/rules[1]/mtConfidenceRule[1]/@mtProducer
-/text/head[1]/rules[1]/mtConfidenceRule[1]/@selector
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/its:param[1]
+/text/head[1]/its:rules[1]/its:param[1]/@name
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@mtConfidenceScore
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@mtEngine
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@mtProducer
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@selector
 /text/body[1]
 /text/body[1]/p[1]
 /text/body[1]/p[1]/span[1]	mtConfidenceScore="0.6982"	mtEngine="en-t-cs"	mtProducer="Bing Translator"

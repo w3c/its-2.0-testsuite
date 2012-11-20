@@ -1,20 +1,20 @@
 /msgList	locNoteType="description"
 /msgList/head[1]	locNoteType="description"
-/msgList/head[1]/rules[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/@version
-/msgList/head[1]/rules[1]/locNoteRule[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[1]/@locNoteType
-/msgList/head[1]/rules[1]/locNoteRule[1]/@selector
-/msgList/head[1]/rules[1]/locNoteRule[1]/locNote[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[2]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[2]/@locNoteType
-/msgList/head[1]/rules[1]/locNoteRule[2]/@selector
-/msgList/head[1]/rules[1]/locNoteRule[2]/locNote[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[3]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[3]/@locNoteType
-/msgList/head[1]/rules[1]/locNoteRule[3]/@selector
-/msgList/head[1]/rules[1]/locNoteRule[3]/locNote[1]	locNoteType="description"
-/msgList/head[1]/rules[1]/locNoteRule[3]/locNote[1]/code[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/@version
+/msgList/head[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType
+/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@selector
+/msgList/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[2]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[2]/@locNoteType
+/msgList/head[1]/its:rules[1]/its:locNoteRule[2]/@selector
+/msgList/head[1]/its:rules[1]/its:locNoteRule[2]/its:locNote[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[3]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[3]/@locNoteType
+/msgList/head[1]/its:rules[1]/its:locNoteRule[3]/@selector
+/msgList/head[1]/its:rules[1]/its:locNoteRule[3]/its:locNote[1]	locNoteType="description"
+/msgList/head[1]/its:rules[1]/its:locNoteRule[3]/its:locNote[1]/code[1]	locNoteType="description"
 /msgList/body[1]	locNoteType="description"
 /msgList/body[1]/msg[1]	locNoteType="description"
 /msgList/body[1]/msg[1]/@id

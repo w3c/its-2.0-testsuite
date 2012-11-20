@@ -1,5 +1,5 @@
 /doc	term="no"
-/doc/@version	term="no"
+/doc/@its:version	term="no"
 /doc/section[1]	term="no"
 /doc/section[1]/@xml:id	term="no"
 /doc/section[1]/par[1]	term="no"

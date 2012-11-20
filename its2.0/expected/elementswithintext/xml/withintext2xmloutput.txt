@@ -1,12 +1,12 @@
 /myDocument	withinText="no"
 /myDocument/@xml:lang
 /myDocument/prolog[1]	withinText="no"
-/myDocument/prolog[1]/rules[1]	withinText="no"
-/myDocument/prolog[1]/rules[1]/@version
-/myDocument/prolog[1]/rules[1]/@xlink:href
-/myDocument/prolog[1]/rules[1]/withinTextRule[1]	withinText="no"
-/myDocument/prolog[1]/rules[1]/withinTextRule[1]/@selector
-/myDocument/prolog[1]/rules[1]/withinTextRule[1]/@withinText
+/myDocument/prolog[1]/its:rules[1]	withinText="no"
+/myDocument/prolog[1]/its:rules[1]/@version
+/myDocument/prolog[1]/its:rules[1]/@xlink:href
+/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]	withinText="no"
+/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]/@selector
+/myDocument/prolog[1]/its:rules[1]/its:withinTextRule[1]/@withinText
 /myDocument/prolog[1]/author[1]	withinText="no"
 /myDocument/prolog[1]/version[1]	withinText="no"
 /myDocument/prolog[1]/keywords[1]	withinText="no"

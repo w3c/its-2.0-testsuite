@@ -1,7 +1,7 @@
 /resource
-/resource/rules[1]
-/resource/rules[1]/@version
-/resource/rules[1]/@xlink:href
+/resource/its:rules[1]
+/resource/its:rules[1]/@its:version
+/resource/its:rules[1]/@xlink:href
 /resource/entry[1]	idValue="btn.CANCEL"
 /resource/entry[1]/@name
 /resource/entry[2]	idValue="btn.CANCEL"

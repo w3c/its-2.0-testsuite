@@ -1,10 +1,10 @@
 /fields
-/fields/rules[1]
-/fields/rules[1]/@version
-/fields/rules[1]/storageSizeRule[1]
-/fields/rules[1]/storageSizeRule[1]/@selector
-/fields/rules[1]/storageSizeRule[1]/@storageEncoding
-/fields/rules[1]/storageSizeRule[1]/@storageSize
+/fields/its:rules[1]
+/fields/its:rules[1]/@version
+/fields/its:rules[1]/its:storageSizeRule[1]
+/fields/its:rules[1]/its:storageSizeRule[1]/@selector
+/fields/its:rules[1]/its:storageSizeRule[1]/@storageEncoding
+/fields/its:rules[1]/its:storageSizeRule[1]/@storageSize
 /fields/field[1]	storageEncoding="ISO-8859-1"	storageSize="25"
 /fields/field[1]/@encoding
 /fields/field[1]/@id

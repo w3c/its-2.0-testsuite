@@ -1,8 +1,8 @@
 /book
-/book/@version
-/book/rules[1]
-/book/rules[1]/@version
-/book/rules[1]/@xlink:href
-/book/rules[1]/@xlink:type
+/book/@its:version
+/book/its:rules[1]
+/book/its:rules[1]/@version
+/book/its:rules[1]/@xlink:href
+/book/its:rules[1]/@xlink:type
 /book/verse[1]	space="preserve"
 /book/verse[1]/@id

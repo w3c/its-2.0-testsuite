@@ -1,7 +1,7 @@
 /file
-/file/rules[1]
-/file/rules[1]/@version
-/file/rules[1]/@xlink:href
+/file/its:rules[1]
+/file/its:rules[1]/@its:version
+/file/its:rules[1]/@xlink:href
 /file/entry[1]
 /file/entry[1]/@id
 /file/entry[1]/source[1]	target="lastFolder"

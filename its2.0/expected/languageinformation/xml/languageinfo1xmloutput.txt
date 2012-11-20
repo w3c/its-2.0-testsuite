@@ -1,11 +1,11 @@
 /text	lang="en"
 /text/@language	lang="en"
 /text/head[1]
-/text/head[1]/rules[1]
-/text/head[1]/rules[1]/@version
-/text/head[1]/rules[1]/langRule[1]
-/text/head[1]/rules[1]/langRule[1]/@lang
-/text/head[1]/rules[1]/langRule[1]/@selector
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/its:langRule[1]
+/text/head[1]/its:rules[1]/its:langRule[1]/@lang
+/text/head[1]/its:rules[1]/its:langRule[1]/@selector
 /text/content[1]
 /text/content[1]/par[1]
 /text/content[1]/par[1]/q[1]	lang="fr-CA"

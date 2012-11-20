@@ -1,10 +1,10 @@
 /doc
 /doc/head[1]
-/doc/head[1]/rules[1]
-/doc/head[1]/rules[1]/@version
-/doc/head[1]/rules[1]/domainRule[1]
-/doc/head[1]/rules[1]/domainRule[1]/@domain
-/doc/head[1]/rules[1]/domainRule[1]/@selector
+/doc/head[1]/its:rules[1]
+/doc/head[1]/its:rules[1]/@version
+/doc/head[1]/its:rules[1]/its:domainRule[1]
+/doc/head[1]/its:rules[1]/its:domainRule[1]/@domain
+/doc/head[1]/its:rules[1]/its:domainRule[1]/@selector
 /doc/head[1]/meta[1]
 /doc/head[1]/meta[1]/@content
 /doc/head[1]/meta[1]/@name

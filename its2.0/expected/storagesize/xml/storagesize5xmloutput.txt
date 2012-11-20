@@ -1,5 +1,5 @@
 /messages
-/messages/@version
+/messages/@its:version
 /messages/var[1]	storageEncoding="UTF-16"	storageSize="8"
 /messages/var[1]/@num
 /messages/var[1]/@storageEncoding

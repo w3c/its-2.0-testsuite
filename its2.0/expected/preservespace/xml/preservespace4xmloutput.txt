@@ -1,4 +1,4 @@
 /book
-/book/@version
-/book/span[1]	xml:space="preserve"
-/book/span[1]/@xml:space
+/book/@its:version
+/book/its:span[1]	space="preserve"
+/book/its:span[1]/@xml:space

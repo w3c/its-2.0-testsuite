@@ -1,11 +1,11 @@
 /resource
-/resource/rules[1]
-/resource/rules[1]/@version
-/resource/rules[1]/param[1]
-/resource/rules[1]/param[1]/@name
-/resource/rules[1]/idValueRule[1]
-/resource/rules[1]/idValueRule[1]/@idValue
-/resource/rules[1]/idValueRule[1]/@selector
+/resource/its:rules[1]
+/resource/its:rules[1]/@version
+/resource/its:rules[1]/its:param[1]
+/resource/its:rules[1]/its:param[1]/@name
+/resource/its:rules[1]/its:idValueRule[1]
+/resource/its:rules[1]/its:idValueRule[1]/@idValue
+/resource/its:rules[1]/its:idValueRule[1]/@selector
 /resource/webform[1]
 /resource/webform[1]/@id
 /resource/webform[1]/entry[1]	idValue="btn.CANCEL"

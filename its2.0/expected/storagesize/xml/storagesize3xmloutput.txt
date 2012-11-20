@@ -1,8 +1,8 @@
 /db
-/db/rules[1]
-/db/rules[1]/@version
-/db/rules[1]/@xlink:href
-/db/rules[1]/@xlink:type
+/db/its:rules[1]
+/db/its:rules[1]/@version
+/db/its:rules[1]/@xlink:href
+/db/its:rules[1]/@xlink:type
 /db/data[1]
 /db/data[1]/country[1]	storageEncoding="ISO-8859-1"	storageSize="25"
 /db/data[1]/country[1]/@id
