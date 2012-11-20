@@ -1,0 +1,10 @@
+/doc
+/doc/@its:version
+/doc/para[1]
+/doc/para[1]/its:span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"
+/doc/para[1]/its:span[1]/@locQualityIssueComment
+/doc/para[1]/its:span[1]/@locQualityIssueProfileRef
+/doc/para[1]/its:span[1]/@locQualityIssueSeverity
+/doc/para[1]/its:span[1]/@locQualityIssueType
+/doc/para[1]/its:span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"
+/doc/para[1]/its:span[2]/@locQualityIssueProfileRef
