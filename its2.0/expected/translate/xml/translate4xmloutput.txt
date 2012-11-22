@@ -5,6 +5,6 @@
 /book/body[1]	translate="yes"
 /book/body[1]/p[1]	translate="yes"
 /book/body[1]/p[1]/fexp[1]	translate="no"
-/book/body[1]/p[1]/fexp[1]/@translate	translate="no"
+/book/body[1]/p[1]/fexp[1]/@its:translate	translate="no"
 /book/body[1]/p[1]/fexp[2]	translate="no"
-/book/body[1]/p[1]/fexp[2]/@translate	translate="no"
+/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"

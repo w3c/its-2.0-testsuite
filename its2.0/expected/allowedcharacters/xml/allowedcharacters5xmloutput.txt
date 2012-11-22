@@ -3,4 +3,4 @@
 /messages/msg[1]
 /messages/msg[1]/@num
 /messages/msg[1]/panelmsg[1]	allowedCharacters="[ -þ]"
-/messages/msg[1]/panelmsg[1]/@allowedCharacters
+/messages/msg[1]/panelmsg[1]/@its:allowedCharacters

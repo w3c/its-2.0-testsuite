@@ -2,8 +2,10 @@
 /doc/@its:version
 /doc/para[1]
 /doc/para[1]/span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"
-/doc/para[1]/span[1]/@locQualityIssueComment
-/doc/para[1]/span[1]/@locQualityIssueSeverity
-/doc/para[1]/span[1]/@locQualityIssueType
+/doc/para[1]/span[1]/@its:locQualityIssueComment
+/doc/para[1]/span[1]/@its:locQualityIssueSeverity
+/doc/para[1]/span[1]/@its:locQualityIssueType
 /doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"
-/doc/para[1]/span[2]/@locQualityIssueSeverity
+/doc/para[1]/span[2]/@its:locQualityIssueComment
+/doc/para[1]/span[2]/@its:locQualityIssueSeverity
+/doc/para[1]/span[2]/@its:locQualityIssueType

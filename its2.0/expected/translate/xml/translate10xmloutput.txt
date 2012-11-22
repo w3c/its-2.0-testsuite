@@ -1,6 +1,6 @@
 /doc	translate="no"
 /doc/its:rules[1]	translate="no"
-/doc/its:rules[1]/@its:version	translate="no"
+/doc/its:rules[1]/@version	translate="no"
 /doc/its:rules[1]/@xlink:href	translate="no"
 /doc/its:rules[1]/@xlink:type	translate="no"
 /doc/msg[1]	translate="yes"
@@ -13,4 +13,5 @@
 /doc/msg[3]/@lcid	translate="no"
 /doc/msg[3]/@num	translate="no"
 /doc/msg[4]	translate="no"
+/doc/msg[4]/@lcid	translate="no"
 /doc/msg[4]/@num	translate="no"

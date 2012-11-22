@@ -1,17 +1,17 @@
-/dataFile	locNoteType="description"
-/dataFile/prolog[1]	locNoteType="description"
-/dataFile/prolog[1]/its:rules[1]	locNoteType="description"
+/dataFile
+/dataFile/prolog[1]
+/dataFile/prolog[1]/its:rules[1]
 /dataFile/prolog[1]/its:rules[1]/@version
-/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="description"
+/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRef
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@selector
-/dataFile/body[1]	locNoteType="description"
-/dataFile/body[1]/string[1]	locNoteType="description"
+/dataFile/body[1]
+/dataFile/body[1]/string[1]
 /dataFile/body[1]/string[1]/@id
 /dataFile/body[1]/string[1]/@noteFile
 /dataFile/body[1]/string[1]/data[1]	locNoteRef="Comments.html#FileNotFound"	locNoteType="description"
-/dataFile/body[1]/string[2]	locNoteType="description"
+/dataFile/body[1]/string[2]
 /dataFile/body[1]/string[2]/@id
 /dataFile/body[1]/string[2]/@noteFile
 /dataFile/body[1]/string[2]/data[1]	locNoteRef="Comments.html#DivByZero"	locNoteType="description"

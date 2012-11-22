@@ -1,6 +1,6 @@
 /doc
 /doc/its:rules[1]
-/doc/its:rules[1]/@its:version
+/doc/its:rules[1]/@version
 /doc/its:rules[1]/@xlink:href
 /doc/its:rules[1]/@xlink:type
 /doc/section[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisScore="80"	locQualityPrecisThreshold="95"

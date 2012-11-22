@@ -1,16 +1,16 @@
 /text
 /text/head[1]
 /text/head[1]/its:rules[1]
-/text/head[1]/its:rules[1]/@its:version
+/text/head[1]/its:rules[1]/@version
 /text/head[1]/its:rules[1]/@xlink:href
 /text/head[1]/its:rules[1]/@xlink:type
 /text/body[1]
 /text/body[1]/p[1]	mtEngine="en-t-cs"	mtProducer="Bing Translator"
 /text/body[1]/p[1]/span[1]	mtConfidenceScore="0.6982"
-/text/body[1]/p[1]/span[1]/@mtConfidenceScore
+/text/body[1]/p[1]/span[1]/@its:mtConfidenceScore
 /text/body[1]/p[1]/span[2]	mtConfidenceScore="0.7982"
-/text/body[1]/p[1]/span[2]/@mtConfidenceScore
+/text/body[1]/p[1]/span[2]/@its:mtConfidenceScore
 /text/body[1]/p[1]/span[3]	mtConfidenceScore="0.9982"
-/text/body[1]/p[1]/span[3]/@mtConfidenceScore
+/text/body[1]/p[1]/span[3]/@its:mtConfidenceScore
 /text/body[1]/p[1]/span[4]	mtConfidenceScore="0.6982"
-/text/body[1]/p[1]/span[4]/@mtConfidenceScore
+/text/body[1]/p[1]/span[4]/@its:mtConfidenceScore

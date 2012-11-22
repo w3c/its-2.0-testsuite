@@ -2,6 +2,6 @@
 /doc/@its:version
 /doc/para[1]
 /doc/para[1]/span[1]	locQualityIssueType="typographical"
-/doc/para[1]/span[1]/@locQualityIssueType
+/doc/para[1]/span[1]/@its:locQualityIssueType
 /doc/para[1]/span[2]	locQualityIssueType="spelling"
-/doc/para[1]/span[2]/@locQualityIssueType
+/doc/para[1]/span[2]/@its:locQualityIssueType

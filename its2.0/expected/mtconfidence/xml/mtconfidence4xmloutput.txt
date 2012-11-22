@@ -15,3 +15,5 @@
 /text/body[1]/p[1]/its:span[3]/@mtProducer
 /text/body[1]/p[1]/its:span[4]	mtConfidenceScore="0.6982"	mtEngine="en-t-cs"	mtProducer="Bing Translator"
 /text/body[1]/p[1]/its:span[4]/@mtConfidenceScore
+/text/body[1]/p[1]/its:span[4]/@mtEngine
+/text/body[1]/p[1]/its:span[4]/@mtProducer

@@ -1,7 +1,7 @@
 /doc
 /doc/header[1]
 /doc/header[1]/its:rules[1]
-/doc/header[1]/its:rules[1]/@its:version
+/doc/header[1]/its:rules[1]/@version
 /doc/header[1]/its:rules[1]/@xlink:href
 /doc/header[1]/its:rules[1]/@xlink:type
 /doc/para[1]

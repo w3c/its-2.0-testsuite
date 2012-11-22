@@ -17,4 +17,8 @@
 /doc/para[1]/issue[1]/@type
 /doc/para[1]/issue[1]/@value
 /doc/para[1]/issue[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueProfileRef="http://example.org/qaModel/v13"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"	locQualityIssuesRef="#l1235"
+/doc/para[1]/issue[2]/@issueref
+/doc/para[1]/issue[2]/@note
 /doc/para[1]/issue[2]/@profile
+/doc/para[1]/issue[2]/@type
+/doc/para[1]/issue[2]/@value

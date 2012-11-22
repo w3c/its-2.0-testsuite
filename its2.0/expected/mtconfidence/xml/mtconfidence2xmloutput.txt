@@ -2,16 +2,18 @@
 /text/body[1]
 /text/body[1]/p[1]
 /text/body[1]/p[1]/span[1]	mtConfidenceScore="0.9982"	mtEngine="en-t-cs"	mtProducer="Bing Translator"
-/text/body[1]/p[1]/span[1]/@mtConfidenceScore
-/text/body[1]/p[1]/span[1]/@mtEngine
-/text/body[1]/p[1]/span[1]/@mtProducer
+/text/body[1]/p[1]/span[1]/@its:mtConfidenceScore
+/text/body[1]/p[1]/span[1]/@its:mtEngine
+/text/body[1]/p[1]/span[1]/@its:mtProducer
 /text/body[1]/p[1]/span[2]	mtConfidenceScore="0.8982"	mtEngine="en-t-cs"	mtProducer="Google Translator"
-/text/body[1]/p[1]/span[2]/@mtConfidenceScore
-/text/body[1]/p[1]/span[2]/@mtEngine
-/text/body[1]/p[1]/span[2]/@mtProducer
+/text/body[1]/p[1]/span[2]/@its:mtConfidenceScore
+/text/body[1]/p[1]/span[2]/@its:mtEngine
+/text/body[1]/p[1]/span[2]/@its:mtProducer
 /text/body[1]/p[1]/span[3]	mtConfidenceScore="0.7982"	mtEngine="en-t-cs"	mtProducer="vanilla Moses"
-/text/body[1]/p[1]/span[3]/@mtConfidenceScore
-/text/body[1]/p[1]/span[3]/@mtEngine
-/text/body[1]/p[1]/span[3]/@mtProducer
+/text/body[1]/p[1]/span[3]/@its:mtConfidenceScore
+/text/body[1]/p[1]/span[3]/@its:mtEngine
+/text/body[1]/p[1]/span[3]/@its:mtProducer
 /text/body[1]/p[1]/span[4]	mtConfidenceScore="0.6982"	mtEngine="en-t-cs"	mtProducer="Bing Translator"
-/text/body[1]/p[1]/span[4]/@mtConfidenceScore
+/text/body[1]/p[1]/span[4]/@its:mtConfidenceScore
+/text/body[1]/p[1]/span[4]/@its:mtEngine
+/text/body[1]/p[1]/span[4]/@its:mtProducer

@@ -13,4 +13,6 @@
 /doc/para[1]/issue[1]/@note
 /doc/para[1]/issue[1]/@type
 /doc/para[1]/issue[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueType="spelling"	locQualityIssuesRef="#l1235"
+/doc/para[1]/issue[2]/@issueref
 /doc/para[1]/issue[2]/@note
+/doc/para[1]/issue[2]/@type

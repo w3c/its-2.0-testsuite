@@ -10,3 +10,6 @@
 /fields/field[1]/@type
 /fields/field[2]	storageEncoding="ISO-8859-1"	storageSize="25"
 /fields/field[2]/@encoding
+/fields/field[2]/@id
+/fields/field[2]/@max
+/fields/field[2]/@type

@@ -55,4 +55,5 @@
 /myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[2]/@selector	translate="no"
 /myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[2]/@translate	translate="no"
 /myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:withinTextRule[1]	translate="yes"
+/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:withinTextRule[1]/@selector	translate="no"
 /myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:withinTextRule[1]/@withinText	translate="no"

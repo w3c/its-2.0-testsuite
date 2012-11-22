@@ -19,4 +19,5 @@
 /doc/msg[3]/@lcid	translate="no"
 /doc/msg[3]/@num	translate="no"
 /doc/msg[4]	translate="no"
+/doc/msg[4]/@lcid	translate="no"
 /doc/msg[4]/@num	translate="no"

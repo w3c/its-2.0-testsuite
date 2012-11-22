@@ -1,7 +1,7 @@
 /text
 /text/head[1]
 /text/head[1]/its:rules[1]
-/text/head[1]/its:rules[1]/@its:version
+/text/head[1]/its:rules[1]/@version
 /text/head[1]/its:rules[1]/@xlink:href
 /text/head[1]/its:rules[1]/@xlink:type
 /text/body[1]
