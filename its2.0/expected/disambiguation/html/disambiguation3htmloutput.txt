@@ -1,0 +1,16 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/p[1]
+/html/body[1]/p[1]/span[1]	disambigClassRef="http://nerd.eurecom.fr/ontology#place"	disambigGranularity="entity"	disambigIdentRef="http://dbpedia.org/resource/dublin"
+/html/body[1]/p[1]/span[1]/@its-disambig-class-ref
+/html/body[1]/p[1]/span[1]/@its-disambig-granularity
+/html/body[1]/p[1]/span[1]/@its-disambig-ident-ref
+/html/body[1]/p[1]/span[2]	disambigGranularity="lexicalconcept"	disambigIdent="301467919"	disambigSource="wordnet3.0"
+/html/body[1]/p[1]/span[2]/@its-disambig-granularity
+/html/body[1]/p[1]/span[2]/@its-disambig-ident
+/html/body[1]/p[1]/span[2]/@its-disambig-source
