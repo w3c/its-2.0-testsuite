@@ -15,10 +15,6 @@
 /html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment
 /html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueSeverity
 /html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueType
-/html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[2]
-/html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[2]/@locQualityIssueComment
-/html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[2]/@locQualityIssueSeverity
-/html/head[1]/script[2]/its:locQualityIssues[1]/its:locQualityIssue[2]/@locQualityIssueType
 /html/head[1]/style[1]
 /html/head[1]/style[1]/@type
 /html/body[1]
