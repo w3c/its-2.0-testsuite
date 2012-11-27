@@ -1,0 +1,15 @@
+/text
+/text/its:rules[1]
+/text/its:rules[1]/@version
+/text/its:rules[1]/@xlink:href
+/text/title[1]
+/text/body[1]
+/text/body[1]/par[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transRevOrg="acme-CAT-v2.3"	transRevPerson="James Joyce"	transRevTool="http://www.provdata.com/RevTool/#mycat-v1"	transTool="http://www.provdata.com/tool/#onlinemtex"
+/text/body[1]/par[1]/@revtool
+/text/body[1]/par[1]/@tool
+/text/body[1]/par[1]/@xml:id
+/text/body[1]/legalnotice[1]	provRef=" http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrg="http://www.provdata.com/org/#legaltrans-ex"	transPerson="http://www.provdata.com/person/#John_Doe"	transRevOrg="http://www.vistatec.com/"	transRevPerson="http://www.provdata.com/RevPerson/#Tommy_Atkins"
+/text/body[1]/legalnotice[1]/@organisation
+/text/body[1]/legalnotice[1]/@person
+/text/body[1]/legalnotice[1]/@postediting-by
+/text/body[1]/legalnotice[1]/@revperson

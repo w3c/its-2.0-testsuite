@@ -1,0 +1,23 @@
+/text
+/text/its:rules[1]
+/text/its:rules[1]/@version
+/text/its:rules[1]/its:transProvRule[1]
+/text/its:rules[1]/its:transProvRule[1]/@provRef
+/text/its:rules[1]/its:transProvRule[1]/@selector
+/text/its:rules[1]/its:transProvRule[1]/@transOrgRef
+/text/its:rules[1]/its:transProvRule[1]/@transPersonRef
+/text/its:rules[1]/its:transProvRule[1]/@transRevOrgRef
+/text/its:rules[1]/its:transProvRule[1]/@transRevPersonRef
+/text/its:rules[1]/its:transProvRule[2]
+/text/its:rules[1]/its:transProvRule[2]/@provRef
+/text/its:rules[1]/its:transProvRule[2]/@selector
+/text/its:rules[1]/its:transProvRule[2]/@transRevOrg
+/text/its:rules[1]/its:transProvRule[2]/@transRevPerson
+/text/its:rules[1]/its:transProvRule[2]/@transRevToolRef
+/text/its:rules[1]/its:transProvRule[2]/@transToolRef
+/text/title[1]
+/text/body[1]
+/text/body[1]/par[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transRevOrg="acme-CAT-v2.3"	transRevPerson="James Joyce"	transRevToolRef="http://www.provdata.com/RevTool/#mycat-v1"	transToolRef="http://www.provdata.com/tool/#onlinemtex"
+/text/body[1]/par[1]/@xml:id
+/text/body[1]/legalnotice[1]	provRef=" http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrgRef="http://www.provdata.com/org/#legaltrans-ex"	transPersonRef="http://www.provdata.com/person/#John_Doe"	transRevOrgRef="http://www.provdata.com/RevOrg/#vistatec"	transRevPersonRef="http://www.provdata.com/RevPerson/#Tommy_Atkins"
+/text/body[1]/legalnotice[1]/@postediting-by

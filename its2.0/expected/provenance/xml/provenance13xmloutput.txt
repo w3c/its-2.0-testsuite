@@ -1,0 +1,18 @@
+/text
+/text/@its:version
+/text/title[1]
+/text/body[1]
+/text/body[1]/par[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transOrg="acme-CAT-v2.3"	transPersonRef="http://www.provdata.com/person/#John_Doe"	transRevOrg="acme-CAT-v2.3"	transRevToolRef="http://www.mycat.com/v1.0/download"	transToolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/text/body[1]/par[1]/@provRef
+/text/body[1]/par[1]/@transOrg
+/text/body[1]/par[1]/@transPersonRef
+/text/body[1]/par[1]/@transRevOrg
+/text/body[1]/par[1]/@transRevToolRef
+/text/body[1]/par[1]/@transToolRef
+/text/body[1]/legalnotice[1]	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrgRef="http://www.legaltrans-ex.com/"	transPerson="John Doe"	transRevOrgRef="http://www.vistatec.com/"	transRevPerson="Tommy Atkins"	transTool="onlinemtex"
+/text/body[1]/legalnotice[1]/@provRef
+/text/body[1]/legalnotice[1]/@transOrgRef
+/text/body[1]/legalnotice[1]/@transPerson
+/text/body[1]/legalnotice[1]/@transRevOrgRef
+/text/body[1]/legalnotice[1]/@transRevPerson
+/text/body[1]/legalnotice[1]/@transTool

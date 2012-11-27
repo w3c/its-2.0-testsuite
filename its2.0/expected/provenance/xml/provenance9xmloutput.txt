@@ -1,0 +1,35 @@
+/text
+/text/@its:version
+/text/dc:creator[1]
+/text/its:translationProvenanceRecords[1]
+/text/its:translationProvenanceRecords[1]/@xml:id
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transOrg="acme-CAT-v2.3"	transRevOrg="acme-CAT-v2.3"	transRevToolRef="http://www.mycat.com/v1.0/download"	transToolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@provRef
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transOrg
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transRevOrg
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transRevToolRef
+/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transToolRef
+/text/its:translationProvenanceRecords[2]
+/text/its:translationProvenanceRecords[2]/@xml:id
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]	provRef=" http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrgRef="http://www.legaltrans-ex.com/"	transPerson="John Doe"	transRevOrgRef="http://www.vistatec.com/"	transRevPerson="Tommy Atkins"
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@provRef
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transOrgRef
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transPerson
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transRevOrgRef
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transRevPerson
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]	transRevOrgRef="http://john-smith.qa.example.com"	transRevPerson="John Smith"
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@transRevOrgRef
+/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@transRevPerson
+/text/its:rules[1]
+/text/its:rules[1]/its:transProvRule[1]
+/text/its:rules[1]/its:transProvRule[1]/@selector
+/text/its:rules[1]/its:transProvRule[1]/@translationProvenanceRecordsRef
+/text/its:rules[1]/its:transProvRule[2]
+/text/its:rules[1]/its:transProvRule[2]/@selector
+/text/its:rules[1]/its:transProvRule[2]/@translationProvenanceRecordsRef
+/text/title[1]
+/text/body[1]
+/text/body[1]/par[1]	translationProvenanceRecordsRef="#pr1"
+/text/body[1]/par[1]/@xml:id
+/text/body[1]/legalnotice[1]	translationProvenanceRecordsRef="#pr2"
+/text/body[1]/legalnotice[1]/@postediting-by
