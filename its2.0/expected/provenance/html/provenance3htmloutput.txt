@@ -7,28 +7,31 @@
 /html/head[1]/script[1]/@id
 /html/head[1]/script[1]/@type
 /html/head[1]/script[1]/its:translationProvenanceRecords[1]
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/@id
 /html/head[1]/script[1]/its:translationProvenanceRecords[1]/@its:version
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transOrg="acme-CAT-v2.3"	transRevOrg="acme-CAT-v2.3"	transRevToolRef="http://www.mycat.com/v1.0/download"	transToolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/@xml:id
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]	org="acme-CAT-v2.3"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@org
 /html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@provRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transOrg
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transRevOrg
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transRevToolRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@transToolRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revOrg
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revToolRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@toolRef
 /html/head[1]/script[1]/its:translationProvenanceRecords[2]
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/@id
 /html/head[1]/script[1]/its:translationProvenanceRecords[2]/@its:version
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrgRef="http://www.legaltrans-ex.com/"	transPerson="John Doe"	transRevOrgRef="http://www.vistatec.com/"	transRevPerson="Tommy Atkins"
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/@xml:id
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@orgRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@person
 /html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@provRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transOrgRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transPerson
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transRevOrgRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@transRevPerson
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]	transRevOrgRef="http://john-smith.qa.example.com"	transRevPerson="John Smith"
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@transRevOrgRef
-/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@transRevPerson
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revOrgRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revPerson
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]	revOrgRef="http://john-smith.qa.example.com"	revPerson="John Smith"
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@revOrgRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[2]/@revPerson
+/html/head[1]/link[1]
+/html/head[1]/link[1]/@href
+/html/head[1]/link[1]/@rel
 /html/body[1]
-/html/body[1]/p[1]	translationProvenanceRecordsRef="#pr1"
-/html/body[1]/p[1]/@its-translation-provenance-records-ref
+/html/body[1]/p[1]
+/html/body[1]/p[1]/@id
 /html/body[1]/p[2]	translationProvenanceRecordsRef="#pr2"
-/html/body[1]/p[2]/@its-translation-provenance-records-ref
+/html/body[1]/p[2]/@id

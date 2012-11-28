@@ -1,14 +1,34 @@
 /html
-/html/@lang
 /html/head[1]
 /html/head[1]/meta[1]
 /html/head[1]/meta[1]/@charset
 /html/head[1]/title[1]
+/html/head[1]/script[1]
+/html/head[1]/script[1]/@id
+/html/head[1]/script[1]/@type
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/@its:version
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/@xml:id
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revPerson="James Joyce"	revTool="mycat-v1.0"	tool="onlinemtex"
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@provRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revOrg
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revPerson
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revTool
+/html/head[1]/script[1]/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@tool
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/@its:version
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/@xml:id
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]	org="legaltrans-ex"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg="vistatec"	revPerson="Tommy Atkins"
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@org
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@person
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@provRef
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revOrg
+/html/head[1]/script[1]/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revPerson
 /html/head[1]/link[1]
 /html/head[1]/link[1]/@href
 /html/head[1]/link[1]/@rel
 /html/body[1]
-/html/body[1]/p[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	transRevOrg="acme-CAT-v2.3"	transRevPerson="James Joyce"	transRevTool="mycat-v1.0"	transTool="onlinemtex"
-/html/body[1]/p[1]/@id
-/html/body[1]/p[2]	provRef=" http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	transOrg="legaltrans-ex"	transPerson="John Doe"	transRevOrg="vistatec"	transRevPerson="Tommy Atkins"
-/html/body[1]/p[2]/@class
+/html/body[1]/p[1]	translationProvenanceRecordsRef="#pr1"
+/html/body[1]/p[1]/@its-translation-provenance-records-ref
+/html/body[1]/p[2]	translationProvenanceRecordsRef="#pr2"
+/html/body[1]/p[2]/@its-translation-provenance-records-ref
