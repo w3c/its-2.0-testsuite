@@ -5,7 +5,7 @@
 /text/head[1]/its:rules[1]/@version	lang="en"
 /text/head[1]/its:rules[1]/@xlink:href	lang="en"
 /text/head[1]/its:rules[1]/its:langRule[1]	lang="en"
-/text/head[1]/its:rules[1]/its:langRule[1]/@lang	lang="en"
+/text/head[1]/its:rules[1]/its:langRule[1]/@langPointer	lang="en"
 /text/head[1]/its:rules[1]/its:langRule[1]/@selector	lang="en"
 /text/content[1]	lang="en"
 /text/content[1]/item[1]	lang="en"
