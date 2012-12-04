@@ -2,17 +2,17 @@
 /text/@its:version
 /text/title[1]
 /text/body[1]
-/text/body[1]/its:span[1]	org="acme-CAT-v2.3"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/text/body[1]/its:span[1]	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
 /text/body[1]/its:span[1]/@org
+/text/body[1]/its:span[1]/@personRef
 /text/body[1]/its:span[1]/@provRef
 /text/body[1]/its:span[1]/@revOrg
 /text/body[1]/its:span[1]/@revToolRef
 /text/body[1]/its:span[1]/@toolRef
-/text/body[1]/its:span[1]/@transPersonRef
-/text/body[1]/its:span[2]	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"
+/text/body[1]/its:span[2]	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"
 /text/body[1]/its:span[2]/@orgRef
 /text/body[1]/its:span[2]/@person
 /text/body[1]/its:span[2]/@provRef
 /text/body[1]/its:span[2]/@revOrgRef
 /text/body[1]/its:span[2]/@revPerson
-/text/body[1]/its:span[2]/@transTool
+/text/body[1]/its:span[2]/@tool

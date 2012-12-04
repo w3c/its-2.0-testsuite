@@ -1,33 +1,33 @@
 /text
 /text/@its:version
 /text/dc:creator[1]
-/text/its:translationProvenanceRecords[1]
-/text/its:translationProvenanceRecords[1]/@xml:id
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revPerson="James Joyce"	revTool="mycat-v1.0"	tool="onlinemtex"
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@provRef
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revOrg
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revPerson
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@revTool
-/text/its:translationProvenanceRecords[1]/its:translationProvenanceRecord[1]/@tool
-/text/its:translationProvenanceRecords[2]
-/text/its:translationProvenanceRecords[2]/@xml:id
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]	org="legaltrans-ex"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg="vistatec"	revPerson="Tommy Atkins"
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@org
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@person
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@provRef
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revOrg
-/text/its:translationProvenanceRecords[2]/its:translationProvenanceRecord[1]/@revPerson
+/text/its:provenanceRecords[1]
+/text/its:provenanceRecords[1]/@xml:id
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revPerson="James Joyce"	revTool="mycat-v1.0"	tool="onlinemtex"
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@provRef
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrg
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPerson
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revTool
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@tool
+/text/its:provenanceRecords[2]
+/text/its:provenanceRecords[2]/@xml:id
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]	org="legaltrans-ex"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg="vistatec"	revPerson="Tommy Atkins"
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@org
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@person
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@provRef
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revOrg
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revPerson
 /text/its:rules[1]
 /text/its:rules[1]/its:param[1]
 /text/its:rules[1]/its:param[1]/@name
 /text/its:rules[1]/its:provRule[1]
+/text/its:rules[1]/its:provRule[1]/@provenanceRecordsRef
 /text/its:rules[1]/its:provRule[1]/@selector
-/text/its:rules[1]/its:provRule[1]/@translationProvenanceRecordsRef
 /text/its:rules[1]/its:provRule[2]
+/text/its:rules[1]/its:provRule[2]/@provenanceRecordsRef
 /text/its:rules[1]/its:provRule[2]/@selector
-/text/its:rules[1]/its:provRule[2]/@translationProvenanceRecordsRef
 /text/title[1]
 /text/body[1]
-/text/body[1]/par[1]	translationProvenanceRecordsRef="#pr1"
+/text/body[1]/par[1]	provenanceRecordsRef="#pr1"
 /text/body[1]/par[1]/@xml:id
-/text/body[1]/legalnotice[1]	translationProvenanceRecordsRef="#pr2"
+/text/body[1]/legalnotice[1]	provenanceRecordsRef="#pr2"
