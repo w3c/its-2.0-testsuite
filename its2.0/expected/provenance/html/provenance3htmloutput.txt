@@ -7,7 +7,7 @@
 /html/head[1]/script[1]/@id
 /html/head[1]/script[1]/@type
 /html/head[1]/script[1]/its:provenanceRecords[1]
-/html/head[1]/script[1]/its:provenanceRecords[1]/@its:version
+/html/head[1]/script[1]/its:provenanceRecords[1]/@version
 /html/head[1]/script[1]/its:provenanceRecords[1]/@xml:id
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]	org="acme-CAT-v2.3"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@org
