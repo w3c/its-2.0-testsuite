@@ -5,7 +5,7 @@
 /doc/its:rules[2]
 /doc/its:rules[2]/@version
 /doc/its:rules[2]/its:externalResourceRefRule[1]
-/doc/its:rules[2]/its:externalResourceRefRule[1]/@externalResourceRef
+/doc/its:rules[2]/its:externalResourceRefRule[1]/@externalResourceRefPointer
 /doc/its:rules[2]/its:externalResourceRefRule[1]/@selector
 /doc/dbk:mediaobject[1]
 /doc/dbk:mediaobject[1]/dbk:videoobject[1]
