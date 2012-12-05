@@ -6,6 +6,6 @@
 /text/head[1]/meta[1]
 /text/head[1]/meta[1]/@content
 /text/head[1]/meta[1]/@name
-/text/body[1]	domain="sports"	domainMapping="'sports law' law, 'labor law' law, 'contract law' law, 'competition law' law,'tort law' law"
-/text/body[1]/p[1]	domain="sports"	domainMapping="'sports law' law, 'labor law' law, 'contract law' law, 'competition law' law,'tort law' law"
-/text/body[1]/p[2]	domain="sports"	domainMapping="'sports law' law, 'labor law' law, 'contract law' law, 'competition law' law,'tort law' law"
+/text/body[1]	domains="sports"
+/text/body[1]/p[1]	domains="sports"
+/text/body[1]/p[2]	domains="sports"

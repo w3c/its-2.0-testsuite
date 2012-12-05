@@ -7,8 +7,8 @@
 /text/head[1]/its:rules[2]
 /text/head[1]/its:rules[2]/@version
 /text/head[1]/its:rules[2]/its:domainRule[1]
-/text/head[1]/its:rules[2]/its:domainRule[1]/@domain
 /text/head[1]/its:rules[2]/its:domainRule[1]/@domainMapping
+/text/head[1]/its:rules[2]/its:domainRule[1]/@domainPointer
 /text/head[1]/its:rules[2]/its:domainRule[1]/@selector
 /text/head[1]/meta[1]
 /text/head[1]/meta[1]/@content
@@ -16,7 +16,7 @@
 /text/head[1]/meta[2]
 /text/head[1]/meta[2]/@content
 /text/head[1]/meta[2]/@name
-/text/body[1]	domain="sports"	domainMapping="'sports law' law,'labor law' law,'contract law' law,'competition law' law,'tort law' law"
-/text/body[1]/p[1]	domain="sports"	domainMapping="'sports law' law,'labor law' law,'contract law' law,'competition law' law,'tort law' law"
-/text/body[1]/p[2]	domain="sports"	domainMapping="'sports law' law,'labor law' law,'contract law' law,'competition law' law,'tort law' law"
-/text/body[1]/span[1]	domain="law"	domainMapping="'Amateur Sports Law' 'sports law'"
+/text/body[1]	domains="sports"
+/text/body[1]/p[1]	domains="sports"
+/text/body[1]/p[2]	domains="sports"
+/text/body[1]/span[1]	domains="law"
