@@ -3,7 +3,7 @@
 /res/head[1]/its:rules[1]
 /res/head[1]/its:rules[1]/@version
 /res/head[1]/its:rules[1]/its:allowedCharactersRule[1]
-/res/head[1]/its:rules[1]/its:allowedCharactersRule[1]/@allowedCharacters
+/res/head[1]/its:rules[1]/its:allowedCharactersRule[1]/@allowedCharactersPointer
 /res/head[1]/its:rules[1]/its:allowedCharactersRule[1]/@selector
 /res/record[1]	allowedCharacters="[ ！–～]"
 /res/record[1]/@id
