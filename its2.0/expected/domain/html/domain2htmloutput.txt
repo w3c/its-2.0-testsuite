@@ -9,5 +9,5 @@
 /html/head[1]/meta[2]/@content
 /html/head[1]/meta[2]/@name
 /html/head[1]/title[1]
-/html/body[1]	domains="automotive"
-/html/body[1]/p[1]	domains="automotive"
+/html/body[1]	domains="auto"
+/html/body[1]/p[1]	domains="auto"
