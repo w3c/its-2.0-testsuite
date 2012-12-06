@@ -1,5 +1,5 @@
 /file
-/file/res[1]	xml:id="btnAgain"
+/file/res[1]	idValue="btnAgain"
 /file/res[1]/@name
 /file/res[1]/@xml:id
 /file/res[2]
