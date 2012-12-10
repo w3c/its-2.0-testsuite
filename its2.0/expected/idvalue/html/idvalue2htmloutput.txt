@@ -13,5 +13,5 @@
 /html/body[1]/p[1]/b[1]/@id
 /html/body[1]/p[1]/var[1]	idValue="desc"
 /html/body[1]/p[1]/var[1]/@id
-/html/body[1]/p[1]/b[2]
+/html/body[1]/p[1]/b[2]	idValue="crashtext"
 /html/body[1]/p[1]/b[2]/@id
