@@ -6,5 +6,5 @@
 /html/head[1]/title[1]	withinText="no"
 /html/body[1]	withinText="no"
 /html/body[1]/p[1]	withinText="no"
-/html/body[1]/p[1]/span[1]	withinText="no"
+/html/body[1]/p[1]/span[1]	withinText="yes"
 /html/body[1]/p[1]/span[1]/@its-within-text

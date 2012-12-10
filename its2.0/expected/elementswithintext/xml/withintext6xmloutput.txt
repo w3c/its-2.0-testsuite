@@ -9,5 +9,5 @@
 /doc/body[1]/p[1]/i[1]	withinText="yes"
 /doc/body[1]/p[1]/u[1]	withinText="yes"
 /doc/body[1]/p[2]	withinText="no"
-/doc/body[1]/p[2]/fn[1]	withinText="no"
+/doc/body[1]/p[2]/fn[1]	withinText="nested"
 /doc/body[1]/p[2]/fn[1]/@id
