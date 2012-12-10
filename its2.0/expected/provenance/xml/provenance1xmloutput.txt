@@ -3,7 +3,7 @@
 /text/dc:creator[1]
 /text/its:provenanceRecords[1]
 /text/its:provenanceRecords[1]/@xml:id
-/text/its:provenanceRecords[1]/its:provenanceRecord[1]	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revPerson="James Joyce"	revTool="mycat-v1.0"	tool="onlinemtex"
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]
 /text/its:provenanceRecords[1]/its:provenanceRecord[1]/@provRef
 /text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrg
 /text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPerson
@@ -11,7 +11,7 @@
 /text/its:provenanceRecords[1]/its:provenanceRecord[1]/@tool
 /text/its:provenanceRecords[2]
 /text/its:provenanceRecords[2]/@xml:id
-/text/its:provenanceRecords[2]/its:provenanceRecord[1]	org="legaltrans-ex"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg="vistatec"	revPerson="Tommy Atkins"
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]
 /text/its:provenanceRecords[2]/its:provenanceRecord[1]/@org
 /text/its:provenanceRecords[2]/its:provenanceRecord[1]/@person
 /text/its:provenanceRecords[2]/its:provenanceRecord[1]/@provRef
@@ -26,6 +26,6 @@
 /text/its:rules[1]/its:provRule[2]/@selector
 /text/title[1]
 /text/body[1]
-/text/body[1]/par[1]	provenanceRecordsRef="#pr1"
+/text/body[1]/par[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"
 /text/body[1]/par[1]/@xml:id
-/text/body[1]/legalnotice[1]	provenanceRecordsRef="#pr2"
+/text/body[1]/legalnotice[1]	provenanceRecordsRef="#pr2"	org[2]="legaltrans-ex"	person[2]="John Doe"	provRef[2]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[2]="vistatec"	revPerson[2]="Tommy Atkins"
