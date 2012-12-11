@@ -11,10 +11,5 @@
 /html/body[1]/p[1]  locQualityIssueComment="Sentence without capitalization"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"
 /html/body[1]/p[1]/span[1]
 /html/body[1]/p[1]/span[1]/@id
-<<<<<<< HEAD
-/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'Music can'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="mispelling"
-/html/body[1]/p[1]/span[2]/@id
-=======
 /html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'Music can'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="misspelling"
 /html/body[1]/p[1]/span[2]/@id
->>>>>>> c8699d26c28cd1c63bcef7b8922b7c119684d810
