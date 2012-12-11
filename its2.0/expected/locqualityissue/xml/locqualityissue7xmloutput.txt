@@ -1,11 +1,7 @@
 /doc
-/doc/header[1]
-/doc/header[1]/its:rules[1]
-/doc/header[1]/its:rules[1]/@version
-/doc/header[1]/its:rules[1]/@xlink:href
-/doc/header[1]/its:rules[1]/@xlink:type
+/doc/@its:version
 /doc/para[1]
-/doc/para[1]/span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"	locQualityIssuesRef="#l1234"
-/doc/para[1]/span[1]/@id
-/doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"	locQualityIssuesRef="#l1235"
-/doc/para[1]/span[2]/@id
+/doc/para[1]/span[1]	locQualityIssueComment="Sentence without capitalization"
+/doc/para[1]/span[1]/@its:locQualityIssueComment
+/doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"
+/doc/para[1]/span[2]/@its:locQualityIssueComment

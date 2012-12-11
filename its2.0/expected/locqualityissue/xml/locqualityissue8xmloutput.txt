@@ -1,19 +1,9 @@
 /doc
-/doc/header[1]
-/doc/header[1]/its:rules[1]
-/doc/header[1]/its:rules[1]/@version
-/doc/header[1]/its:rules[1]/@xlink:href
-/doc/header[1]/its:rules[1]/@xlink:type
+/doc/@its:version
 /doc/para[1]
-/doc/para[1]/issue[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueProfileRef="http://example.org/qaModel/v13"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"	locQualityIssuesRef="#l1234"
-/doc/para[1]/issue[1]/@issueref
-/doc/para[1]/issue[1]/@note
-/doc/para[1]/issue[1]/@profile
-/doc/para[1]/issue[1]/@type
-/doc/para[1]/issue[1]/@value
-/doc/para[1]/issue[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueProfileRef="http://example.org/qaModel/v13"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"	locQualityIssuesRef="#l1235"
-/doc/para[1]/issue[2]/@issueref
-/doc/para[1]/issue[2]/@note
-/doc/para[1]/issue[2]/@profile
-/doc/para[1]/issue[2]/@type
-/doc/para[1]/issue[2]/@value
+/doc/para[1]/span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueSeverity="50"
+/doc/para[1]/span[1]/@its:locQualityIssueComment
+/doc/para[1]/span[1]/@its:locQualityIssueSeverity
+/doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueSeverity="75"
+/doc/para[1]/span[2]/@its:locQualityIssueComment
+/doc/para[1]/span[2]/@its:locQualityIssueSeverity
