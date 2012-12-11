@@ -11,5 +11,5 @@
 /html/body[1]/p[1]
 /html/body[1]/p[1]/span[1]
 /html/body[1]/p[1]/span[1]/@id
-/html/body[1]/p[1]/span[2]	locQualityIssueComent="should be 'Music can'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"
+/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'Music can'"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="mispelling"
 /html/body[1]/p[1]/span[2]/@id
