@@ -11,5 +11,5 @@
 /html/body[1]/p[1]
 /html/body[1]/p[1]/span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"
 /html/body[1]/p[1]/span[1]/@id
-/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'Music can'"	locQualityIssueSeverity="75"	locQualityIssueType="spelling"
+/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'Music can'"	locQualityIssueSeverity="75"	locQualityIssueType="misspelling"
 /html/body[1]/p[1]/span[2]/@id
