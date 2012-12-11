@@ -15,7 +15,7 @@
 /html/body[1]/p[1]/span[1]/@its-loc-quality-issue-profile-ref
 /html/body[1]/p[1]/span[1]/@its-loc-quality-issue-severity
 /html/body[1]/p[1]/span[1]/@its-loc-quality-issue-type
-/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'quality'"	locQualityIssueProfileRef="grammar"	locQualityIssueSeverity="50"	locQualityIssueType="spelling"
+/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'quality'"	locQualityIssueProfileRef="grammar"	locQualityIssueSeverity="50"	locQualityIssueType="misspelling"
 /html/body[1]/p[1]/span[2]/@its-loc-quality-issue-comment
 /html/body[1]/p[1]/span[2]/@its-loc-quality-issue-profile-ref
 /html/body[1]/p[1]/span[2]/@its-loc-quality-issue-severity
