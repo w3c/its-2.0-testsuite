@@ -11,7 +11,7 @@
 /text/p[1]/@id	term="no"
 /text/p[2]	term="no"
 /text/p[2]/@id	term="no"
-/text/p[2]/term[1]	term="no"
+/text/p[2]/term[1]	term="yes"	termInfoRef="#TDPV"
 /text/p[2]/term[1]/@target	term="no"
 /text/p[2]/gloss[1]	term="no"
 /text/p[2]/gloss[1]/@xml:id	term="no"
