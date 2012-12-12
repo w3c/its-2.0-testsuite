@@ -8,12 +8,12 @@
 /msgList/body[1]/msg[1]
 /msgList/body[1]/msg[1]/@id
 /msgList/body[1]/msg[1]/img[1]
-/msgList/body[1]/msg[1]/img[1]/@alt	locNote="Do not translate the word "Chobe"	locNoteType="alert"
+/msgList/body[1]/msg[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"
 /msgList/body[1]/msg[1]/img[1]/@src
 /msgList/body[1]/msg[2]
 /msgList/body[1]/msg[2]/@id
 /msgList/body[1]/msg[2]/img[1]
-/msgList/body[1]/msg[2]/img[1]/@alt	locNote="This text will be displayed over the image.	locNoteType="description"
+/msgList/body[1]/msg[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"
 /msgList/body[1]/msg[2]/img[1]/@src
-/msgList/body[1]/msg[3]	locNote="The variable"{0}"has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"
+/msgList/body[1]/msg[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"
 /msgList/body[1]/msg[3]/@id

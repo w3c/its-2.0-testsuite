@@ -3,7 +3,7 @@
 /dataFile/prolog[1]/its:rules[1]
 /dataFile/prolog[1]/its:rules[1]/@version
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]
-/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRef
+/dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteRefPointer
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType
 /dataFile/prolog[1]/its:rules[1]/its:locNoteRule[1]/@selector
 /dataFile/body[1]
