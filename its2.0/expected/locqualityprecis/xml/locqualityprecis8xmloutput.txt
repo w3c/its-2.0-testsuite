@@ -1,7 +1,0 @@
-/doc	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
-/doc/@its:locQualityPrecisProfileRef
-/doc/@its:locQualityPrecisThreshold
-/doc/@its:locQualityPrecisVote
-/doc/@its:version
-/doc/title[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
-/doc/para[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
