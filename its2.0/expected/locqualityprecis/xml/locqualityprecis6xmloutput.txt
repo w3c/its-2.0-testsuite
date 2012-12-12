@@ -1,7 +1,0 @@
-/doc	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
-/doc/header[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
-/doc/header[1]/its:rules[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
-/doc/header[1]/its:rules[1]/@version
-/doc/header[1]/its:rules[1]/@xlink:href
-/doc/header[1]/its:rules[1]/@xlink:type
-/doc/para[1]	locQualityPrecisProfileRef="http://example.org/qaModel/v13"	locQualityPrecisThreshold="10"	locQualityPrecisVote="-1"
