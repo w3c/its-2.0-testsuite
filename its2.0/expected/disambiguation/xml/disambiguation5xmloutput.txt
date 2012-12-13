@@ -1,5 +1,5 @@
 /text	annotatorsRef="disambiguation|http://enrycher.ijs.si"
-/text/@annotatorsRef	annotatorsRef="disambiguation|http://enrycher.ijs.si"
+/text/@its:annotatorsRef	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /text/@its:version	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /text/body[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /text/body[1]/p[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"
