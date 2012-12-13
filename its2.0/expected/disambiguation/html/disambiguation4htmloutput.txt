@@ -7,7 +7,7 @@
 /html/head[1]/title[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /html/body[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /html/body[1]/p[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"
-/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"	disambigClassRef="http://nerd.eurecom.fr/ontology#place"	disambigConfidence="0.7"	disambigGranularity="entity"	disambigIdentRef="http://dbpedia.org/resource/Dublin"
+/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|http://enrycher.ijs.si"	disambigClassRef="http://nerd.eurecom.fr/ontology#Place"	disambigConfidence="0.7"	disambigGranularity="entity"	disambigIdentRef="http://dbpedia.org/resource/Dublin"
 /html/body[1]/p[1]/span[1]/@its-disambig-class-ref	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /html/body[1]/p[1]/span[1]/@its-disambig-confidence	annotatorsRef="disambiguation|http://enrycher.ijs.si"
 /html/body[1]/p[1]/span[1]/@its-disambig-granularity	annotatorsRef="disambiguation|http://enrycher.ijs.si"
