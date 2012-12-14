@@ -12,7 +12,7 @@
 /doc/file[1]/unit[1]/segment[1]
 /doc/file[1]/unit[1]/segment[1]/source[1]
 /doc/file[1]/unit[1]/segment[1]/target[1]
-/doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="75"
+/doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="75"
 /doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]/@ref
 /doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]/@type
 /doc/file[1]/unit[1]/its:locQualityIssues[1]
