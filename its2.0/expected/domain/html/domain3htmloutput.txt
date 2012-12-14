@@ -8,6 +8,6 @@
 /html/head[1]/meta[2]
 /html/head[1]/meta[2]/@content
 /html/head[1]/meta[2]/@name
-/html/body[1]	domains="sports"
-/html/body[1]/p[1]	domains="sports"
-/html/body[1]/p[2]	domains="sports"
+/html/body[1]	domains="law"
+/html/body[1]/p[1]	domains="law"
+/html/body[1]/p[2]	domains="law"
