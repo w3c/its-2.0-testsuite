@@ -6,6 +6,6 @@
 /text/head[1]/meta[1]
 /text/head[1]/meta[1]/@content
 /text/head[1]/meta[1]/@name
-/text/body[1]	domains="sports"
-/text/body[1]/p[1]	domains="sports"
-/text/body[1]/p[2]	domains="sports"
+/text/body[1]	domains="law"
+/text/body[1]/p[1]	domains="law"
+/text/body[1]/p[2]	domains="law"
