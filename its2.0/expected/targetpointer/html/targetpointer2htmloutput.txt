@@ -9,15 +9,13 @@
 /html/body[1]
 /html/body[1]/div[1]
 /html/body[1]/div[1]/@id
-/html/body[1]/div[1]/h4[1]	target="secondFolder"
-/html/body[1]/div[1]/span[1]
-/html/body[1]/div[1]/span[1]/@id
-/html/body[1]/div[1]/span[2]
-/html/body[1]/div[1]/span[2]/@id
+/html/body[1]/div[1]/p[1]	targetPointer="../p[@class=$targetFolder]"
+/html/body[1]/div[1]/p[1]/@class
+/html/body[1]/div[1]/p[2]
+/html/body[1]/div[1]/p[2]/@class
 /html/body[1]/div[2]
 /html/body[1]/div[2]/@id
-/html/body[1]/div[2]/h4[1]	target="secondFile.txt"
-/html/body[1]/div[2]/span[1]
-/html/body[1]/div[2]/span[1]/@id
-/html/body[1]/div[2]/span[2]
-/html/body[1]/div[2]/span[2]/@id
+/html/body[1]/div[2]/p[1]	targetPointer="../p[@class=$targetFile]"
+/html/body[1]/div[2]/p[1]/@class
+/html/body[1]/div[2]/p[2]
+/html/body[1]/div[2]/p[2]/@class
