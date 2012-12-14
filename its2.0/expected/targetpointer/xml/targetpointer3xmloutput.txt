@@ -5,19 +5,19 @@
 /file/its:rules[1]/its:param[1]/@name
 /file/its:rules[1]/its:param[2]
 /file/its:rules[1]/its:param[2]/@name
-/file/its:rules[1]/its:targetPointerrRule[1]
-/file/its:rules[1]/its:targetPointerrRule[1]/@selector
-/file/its:rules[1]/its:targetPointerrRule[1]/@targetPointer
-/file/its:rules[1]/its:targetPointerrRule[2]
-/file/its:rules[1]/its:targetPointerrRule[2]/@selector
-/file/its:rules[1]/its:targetPointerrRule[2]/@targetPointer
+/file/its:rules[1]/its:targetPointerRule[1]
+/file/its:rules[1]/its:targetPointerRule[1]/@selector
+/file/its:rules[1]/its:targetPointerRule[1]/@targetPointer
+/file/its:rules[1]/its:targetPointerRule[2]
+/file/its:rules[1]/its:targetPointerRule[2]/@selector
+/file/its:rules[1]/its:targetPointerRule[2]/@targetPointer
 /file/entry[1]
 /file/entry[1]/@id
-/file/entry[1]/source[1]	targetPointer="../target[@idValue=$targetOneParam]"
+/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"
 /file/entry[1]/target[1]
 /file/entry[1]/target[1]/@id
 /file/entry[2]
 /file/entry[2]/@id
-/file/entry[2]/source[1]	targetPointer="../target[@idValue=$targetTwoParam]"
+/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"
 /file/entry[2]/target[1]
 /file/entry[2]/target[1]/@id
