@@ -4,6 +4,6 @@
 /text/body[1]	dir="ltr"
 /text/body[1]/par[1]	dir="ltr"
 /text/body[1]/par[1]/quote[1]	dir="rtl"
-/text/body[1]/par[1]/quote[1]/@dir	dir="rtl"
+/text/body[1]/par[1]/quote[1]/@its:dir	dir="rtl"
 /text/body[1]/par[1]/quote[1]/@xml:lang	dir="rtl"
 /text/body[1]/par[1]/quote[2]	dir="ltr"
