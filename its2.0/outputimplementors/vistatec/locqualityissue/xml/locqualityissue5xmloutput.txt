@@ -1,0 +1,12 @@
+/doc
+/doc/header[1]
+/doc/header[1]/its:rules[1]
+/doc/header[1]/its:rules[1]/@version
+/doc/header[1]/its:rules[1]/@xlink:href
+/doc/header[1]/its:rules[1]/@xlink:type
+/doc/para[1]
+/doc/para[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="50"	locQualityIssueType="typographical"
+/doc/para[1]/span[1]/@id
+/doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"
+/doc/para[1]/span[2]/@id
+

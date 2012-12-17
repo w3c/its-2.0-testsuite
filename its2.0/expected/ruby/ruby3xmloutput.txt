@@ -1,0 +1,33 @@
+/ex:text
+/ex:text/ex:head[1]
+/ex:text/ex:head[1]/its:rules[1]
+/ex:text/ex:head[1]/its:rules[1]/@version
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rtPointer
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@rubyPointer
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[1]/@selector
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rpPointer
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rtPointer
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@rubyPointer
+/ex:text/ex:head[1]/its:rules[1]/its:rubyRule[2]/@selector
+/ex:text/ex:body[1]
+/ex:text/ex:body[1]/ex:p[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[1]	ruby="10 31 2002 Month Day Year Expiration Date"	rt="Month Day Year Expiration Date"
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[2]	ruby="10 31 2002 Month Day Year Expiration Date"	rt="Month Day Year Expiration Date"
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rbc[1]/ex:rb[3]	ruby="10 31 2002 Month Day Year Expiration Date"	rt="Month Day Year Expiration Date"
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[2]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[1]/ex:rt[3]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]/ex:rt[1]
+/ex:text/ex:body[1]/ex:p[1]/ex:ruby[1]/ex:rtc[2]/ex:rt[1]/@rbspan
+/ex:text/ex:body[1]/ex:p[2]
+/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]
+/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rb[1]	ruby="WWW"("World Wide Web")"rp="( )"rt="World Wide Web"
+/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rp[1]
+/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rt[1]
+/ex:text/ex:body[1]/ex:p[2]/ex:ruby[1]/ex:rp[2]

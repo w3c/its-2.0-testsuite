@@ -1,0 +1,8 @@
+/doc
+/doc/@its:version
+/doc/para[1]
+/doc/para[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssueType="typographical"
+/doc/para[1]/span[1]/@its:locQualityIssueType
+/doc/para[1]/span[2]	locQualityIssueEnabled="yes"	locQualityIssueType="misspelling"
+/doc/para[1]/span[2]/@its:locQualityIssueType
+
