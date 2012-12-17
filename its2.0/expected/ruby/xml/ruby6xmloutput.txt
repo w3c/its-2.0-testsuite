@@ -8,5 +8,5 @@
 /text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]
 /text/body[1]
 /text/body[1]/img[1]
-/text/body[1]/img[1]/@alt	rubyText="TBD
+/text/body[1]/img[1]/@alt	rubyText="TBD"
 /text/body[1]/img[1]/@src
