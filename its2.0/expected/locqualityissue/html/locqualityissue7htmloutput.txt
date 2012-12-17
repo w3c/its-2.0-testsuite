@@ -14,5 +14,5 @@
 /html/body[1]
 /html/body[1]/@onload
 /html/body[1]/p[1]
-/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"
+/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"
 /html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref
