@@ -15,20 +15,23 @@
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPerson
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revToolRef
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@toolRef
-/html/head[1]/script[1]/its:provenanceRecords[2]
-/html/head[1]/script[1]/its:provenanceRecords[2]/@its:version
-/html/head[1]/script[1]/its:provenanceRecords[2]/@xml:id
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@orgRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@personRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@provRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@revOrgRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@revPersonRef
+/html/head[1]/script[2]
+/html/head[1]/script[2]/@id
+/html/head[1]/script[2]/@type
+/html/head[1]/script[2]/its:provenanceRecords[1]
+/html/head[1]/script[2]/its:provenanceRecords[1]/@its:version
+/html/head[1]/script[2]/its:provenanceRecords[1]/@xml:id
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@orgRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@personRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@provRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrgRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPersonRef
 /html/head[1]/link[1]
 /html/head[1]/link[1]/@href
 /html/head[1]/link[1]/@rel
 /html/body[1]
 /html/body[1]/p[1]	provenanceRecordsRef[1]="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"
 /html/body[1]/p[1]/@id
-/html/body[1]/p[2]	provenanceRecordsRef[2]="#pr2"		orgRef[2]="http://www.provdata.com/org/#legaltrans-ex"	personRef[2]="http://www.provdata.com/person/#John_Doe"	provRef[2]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[2]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[2]="http://www.provdata.com/RevPerson/#Tommy_Atkins"
+/html/body[1]/p[2]	provenanceRecordsRef[1]="#pr2"		orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"
 /html/body[1]/p[2]/@id
