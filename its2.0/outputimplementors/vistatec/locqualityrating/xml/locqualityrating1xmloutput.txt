@@ -1,0 +1,8 @@
+/doc	its="http://www.w3.org/2005/11/its"	locQualityIssueEnabled="yes"	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingScore="100"	locQualityRatingScoreThreshold="95"	version="2.0"
+/doc/@its:locQualityRatingProfileRef
+/doc/@its:locQualityRatingScore
+/doc/@its:locQualityRatingScoreThreshold
+/doc/@its:version
+/doc/title[1]
+/doc/para[1]
+

@@ -1,0 +1,25 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/head[1]/style[1]
+/html/head[1]/style[1]/@type
+/html/body[1]
+/html/body[1]/h1[1]
+/html/body[1]/p[1]
+/html/body[1]/p[1]/span[1]	locQualityIssueComment="should be Thomas Cahill."	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="100"	locQualityIssueType="inconsistent-entities"
+/html/body[1]/p[1]/span[1]/@data-mytool-qacode
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issue-comment
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issue-enabled
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issue-profile-ref
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issue-severity
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issue-type
+/html/body[1]/p[1]/span[2]	locQualityIssueComment="should be 'quality'"	locQualityIssueEnabled="no"	locQualityIssueProfileRef="grammar"	locQualityIssueSeverity="50"	locQualityIssueType="misspelling"
+/html/body[1]/p[1]/span[2]/@its-loc-quality-issue-comment
+/html/body[1]/p[1]/span[2]/@its-loc-quality-issue-enabled
+/html/body[1]/p[1]/span[2]/@its-loc-quality-issue-profile-ref
+/html/body[1]/p[1]/span[2]/@its-loc-quality-issue-severity
+/html/body[1]/p[1]/span[2]/@its-loc-quality-issue-type
+

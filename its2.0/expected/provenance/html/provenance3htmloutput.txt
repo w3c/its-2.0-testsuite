@@ -15,17 +15,20 @@
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrg
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revToolRef
 /html/head[1]/script[1]/its:provenanceRecords[1]/its:provenanceRecord[1]/@toolRef
-/html/head[1]/script[1]/its:provenanceRecords[2]
-/html/head[1]/script[1]/its:provenanceRecords[2]/@its:version
-/html/head[1]/script[1]/its:provenanceRecords[2]/@xml:id
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@orgRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@person
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@provRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@revOrgRef
-/html/head[1]/script[1]/its:provenanceRecords[2]/its:provenanceRecord[1]/@revPerson
+/html/head[1]/script[2]
+/html/head[1]/script[2]/@id
+/html/head[1]/script[2]/@type
+/html/head[1]/script[2]/its:provenanceRecords[1]
+/html/head[1]/script[2]/its:provenanceRecords[1]/@its:version
+/html/head[1]/script[2]/its:provenanceRecords[1]/@xml:id
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@orgRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@person
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@provRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrgRef
+/html/head[1]/script[2]/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPerson
 /html/body[1]
-/html/body[1]/p[1]	provenanceRecordsRef="#pr1"	org="acme-CAT-v2.3"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"
+/html/body[1]/p[1]	provenanceRecordsRef[1]="#pr1"	org[1]="acme-CAT-v2.3"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revToolRef[1]="http://www.mycat.com/v1.0/download"	toolRef[1]="http://www.onlinemtex.com/2012/7/25/wsdl/"
 /html/body[1]/p[1]/@its-provenance-records-ref
-/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"
+/html/body[1]/p[2]	provenanceRecordsRef[1]="#pr2"	orgRef[1]="http://www.legaltrans-ex.com/"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.vistatec.com/"	revPerson[1]="Tommy Atkins"
 /html/body[1]/p[2]/@its-provenance-records-ref

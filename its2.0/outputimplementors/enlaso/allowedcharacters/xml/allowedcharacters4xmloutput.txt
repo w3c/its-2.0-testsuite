@@ -1,0 +1,9 @@
+/res
+/res/head[1]
+/res/head[1]/its:rules[1]
+/res/head[1]/its:rules[1]/@version
+/res/head[1]/its:rules[1]/@xlink:href
+/res/head[1]/its:rules[1]/@xlink:type
+/res/record[1]	allowedCharacters="[ ！–～]"
+/res/record[1]/@id
+/res/record[1]/@set
