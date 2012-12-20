@@ -1,0 +1,15 @@
+/html	lang="en"
+/html/@lang	lang="en"
+/html/head
+/html/head/meta
+/html/head/meta/@charset
+/html/head/link
+/html/head/link/@href
+/html/head/link/@rel
+/html/head/title
+/html/body
+/html/body/p[1]
+/html/body/p[1]/q
+/html/body/p[2]
+/html/body/p[2]/q	lang="fr-CA"
+/html/body/p[2]/q/@lang	lang="fr-CA"

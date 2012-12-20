@@ -1,0 +1,13 @@
+/html
+/html/head
+/html/head/meta[1]
+/html/head/meta[1]/@charset
+/html/head/link
+/html/head/link/@href
+/html/head/link/@rel
+/html/head/meta[2]
+/html/head/meta[2]/@content
+/html/head/meta[2]/@name
+/html/head/title
+/html/body	domains="auto"
+/html/body/p	domains="auto"
