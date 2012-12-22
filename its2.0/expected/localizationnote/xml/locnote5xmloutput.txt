@@ -12,7 +12,7 @@
 /msgList/body[1]/msg[1]
 /msgList/body[1]/msg[1]/@id
 /msgList/body[1]/msg[1]/img[1]
-/msgList/body[1]/msg[1]/img[1]/@alt  locNote="Do not translate the word "Chobe""	locNoteType="alert"
+/msgList/body[1]/msg[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"
 /msgList/body[1]/msg[1]/img[1]/@src
 /msgList/body[1]/msg[2]
 /msgList/body[1]/msg[2]/@id
