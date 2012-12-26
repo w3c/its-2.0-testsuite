@@ -1,4 +1,4 @@
-/messages	lineBreakType="lf"	storageEncoding="utf-8"
+/messages
 /messages/@its:version
 /messages/var[1]	lineBreakType="lf"	storageEncoding="UTF-16"	storageSize="8"
 /messages/var[1]/@its:storageEncoding
