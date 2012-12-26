@@ -1,5 +1,5 @@
-/fields	lineBreakType="lf"	storageEncoding="utf-8"
-/fields/its:rules[1]	lineBreakType="lf"	storageEncoding="utf-8"
+/fields
+/fields/its:rules[1]
 /fields/its:rules[1]/@version
 /fields/its:rules[1]/@xlink:href
 /fields/its:rules[1]/@xlink:type
