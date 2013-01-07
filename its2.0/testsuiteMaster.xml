@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testSuite xmlns="http://example.com/myns" change-date="2013-01-07T19:30:38Z">
+<!DOCTYPE testSuite [
+<!ELEMENT testSuite (dataCategory)+>
+<!ATTLIST testSuite xmlns CDATA #FIXED "http://example.com/myns">
+<!ELEMENT dataCategory (inputfile+)>
+<!ATTLIST dataCategory name CDATA #REQUIRED>
+<!ELEMENT inputfile (description, expectedOutput, outputImplementors*)>
+<!ATTLIST inputfile location CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT expectedOutput EMPTY>
+<!ATTLIST expectedOutput location CDATA #REQUIRED>
+<!ELEMENT outputImplementors EMPTY>
+<!ATTLIST outputImplementors implementer (adobe|cocomore|dcu|enlaso|jsi|linguaserve|logrus|lucysoftware|moravia|shaun|tcd|tilde|ul|vistatec) #REQUIRED
+location CDATA #REQUIRED>
+]>
+<testSuite xmlns="http://example.com/myns">
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
          <description>Global - Embedded rules</description>
