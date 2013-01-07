@@ -22,10 +22,10 @@
 /text/its:rules[1]/its:param[1]
 /text/its:rules[1]/its:param[1]/@name
 /text/its:rules[1]/its:provRule[1]
-/text/its:rules[1]/its:provRule[1]/@provenanceRecordsRef
+/text/its:rules[1]/its:provRule[1]/@provenanceRecordsRefPointer
 /text/its:rules[1]/its:provRule[1]/@selector
 /text/its:rules[1]/its:provRule[2]
-/text/its:rules[1]/its:provRule[2]/@provenanceRecordsRef
+/text/its:rules[1]/its:provRule[2]/@provenanceRecordsRefPointer
 /text/its:rules[1]/its:provRule[2]/@selector
 /text/title[1]
 /text/body[1]
