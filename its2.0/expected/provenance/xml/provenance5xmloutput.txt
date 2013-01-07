@@ -18,6 +18,7 @@
 /text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revOrg
 /text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revPerson
 /text/its:rules[1]
+/text/its:rules[1]/@version
 /text/its:rules[1]/its:param[1]
 /text/its:rules[1]/its:param[1]/@name
 /text/its:rules[1]/its:provRule[1]
