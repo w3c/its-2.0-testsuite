@@ -1,5 +1,5 @@
 /text	withinText="no"
-/text/its:version  withinText="no"
+/text/@its:version  withinText="no"
 /text/prolog[1]	withinText="no"
 /text/prolog[1]/title[1]	withinText="no"
 /text/prolog[1]/title[1]/@its:withinText
