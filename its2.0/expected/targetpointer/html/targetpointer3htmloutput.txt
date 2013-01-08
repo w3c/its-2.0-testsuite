@@ -8,13 +8,13 @@
 /html/body[1]
 /html/body[1]/div[1]
 /html/body[1]/div[1]/@id
-/html/body[1]/div[1]/p[1]	targetPointer="lastFolder"
+/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"
 /html/body[1]/div[1]/p[1]/@class
 /html/body[1]/div[1]/p[2]
 /html/body[1]/div[1]/p[2]/@class
 /html/body[1]/div[2]
 /html/body[1]/div[2]/@id
-/html/body[1]/div[2]/p[1]	targetPointer="testFile.txt"
+/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class='targetfile']"
 /html/body[1]/div[2]/p[1]/@class
 /html/body[1]/div[2]/p[2]
 /html/body[1]/div[2]/p[2]/@class
