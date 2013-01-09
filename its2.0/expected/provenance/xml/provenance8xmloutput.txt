@@ -9,7 +9,7 @@
 /text/body[1]/its:span[1]/@revOrg
 /text/body[1]/its:span[1]/@revToolRef
 /text/body[1]/its:span[1]/@toolRef
-/text/body[1]/its:span[2]	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"
+/text/body[1]/its:span[2]	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"
 /text/body[1]/its:span[2]/@orgRef
 /text/body[1]/its:span[2]/@person
 /text/body[1]/its:span[2]/@provRef
