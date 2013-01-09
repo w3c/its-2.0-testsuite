@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testSuite xmlns="http://example.com/myns" change-date="2013-01-07T19:30:38Z">
+<testSuite xmlns="http://example.com/myns">
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
          <description>Global - Embedded rules</description>
@@ -2183,15 +2183,15 @@ Line 10: Comparison failed.
             <error>
 Line 11: Comparison failed.
 * Reference line: [/text/body[1]/p[2]	domains="law"]
-* Implementers file line:[/text/body[1]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]  domains="law"]</error>
             <error>
 Line 12: Comparison failed.
 * Reference line: []
-* Implementers file line:[/text/body[1]/p[1]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]/p[1]	domains="law"]</error>
             <error>
 Line 13: Comparison failed.
 * Reference line: []
-* Implementers file line:[/text/body[1]/p[2]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]/p[2]	domains="law"]</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/xml/domain4xmloutput.txt">
@@ -2264,19 +2264,19 @@ Line 21: Comparison failed.
             <error>
 Line 22: Comparison failed.
 * Reference line: [/text/body[1]/span[1]/@id	domains="amateur"]
-* Implementers file line:[/text/body[1]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]  domains="law"]</error>
             <error>
 Line 23: Comparison failed.
 * Reference line: []
-* Implementers file line:[/text/body[1]/p[1]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]/p[1]	domains="law"]</error>
             <error>
 Line 24: Comparison failed.
 * Reference line: []
-* Implementers file line:[/text/body[1]/p[2]	domains="sports"]</error>
+* Implementers file line:[/text/body[1]/span[1]	domains="amateur"]</error>
             <error>
 Line 25: Comparison failed.
 * Reference line: []
-* Implementers file line:[/text/body[1]/span[1]	domains="law"]</error>
+* Implementers file line:[/text/body[1]/span[1]/@id	domains="amateur"]</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/xml/domain5xmloutput.txt">
