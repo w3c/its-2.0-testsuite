@@ -342,6 +342,15 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
+      <inputfile location="inputdata/localizationnote/html/locnote9html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
+      </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
@@ -440,6 +449,13 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/terminology/xml/terminology7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/terminology/xml/terminology7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/terminology/xml/terminology7xmloutput.txt"/>
+      </inputfile>
+      <inputfile location="inputdata/terminology/html/terminology6html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/terminology/html/terminology6htmloutput.txt"/>
+         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/terminology/html/terminology6htmloutput.txt"/>
+         <outputImplementors implementer="ul" location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt"/>
+         <outputImplementors implementer="tilde" location="outputimplementors/tilde/terminology/html/terminology6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology8xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
@@ -549,6 +565,14 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/xml/languageinfo3xmloutput.txt"/>
       </inputfile>
+      <inputfile location="inputdata/languageinformation/html/languageinfo3html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="ul" location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="dcu" location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo3htmloutput.txt"/>
+      </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo4xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo4xmloutput.txt"/>
@@ -631,6 +655,13 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>
+      </inputfile>
+     <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    
