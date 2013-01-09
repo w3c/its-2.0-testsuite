@@ -27,30 +27,6 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/translate/html/translate7html.html">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="lucysoftware"
-                             location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt"/>
-      </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/xml/translate9xmloutput.txt"/>

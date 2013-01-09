@@ -17,7 +17,7 @@ location CDATA #REQUIRED>
    <!--Translate-->   
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
-         <description>Global - Embeddedz rules</description>
+         <description>Global - Embedded rulez</description>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
@@ -25,17 +25,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>
-      </inputfile>
-      <inputfile location="inputdata/translate/html/translate7html.html">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
