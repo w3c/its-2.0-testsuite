@@ -17,7 +17,7 @@ location CDATA #REQUIRED>
    <!--Translate-->   
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
-         <description>Global - Embedded ruledsadass</description>
+         <description>Global - Embeddedz rules</description>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
