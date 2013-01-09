@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <testSuite xmlns="http://example.com/myns">
+
+   <!--Translate-->   
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
-         <description>Global - Embedded rules</description>
+         <description>Global - Embedded rule</description>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
@@ -28,7 +30,7 @@
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate7html.html">
-         <description>Global - Linked rules</description>
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
@@ -45,11 +47,15 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
+                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
-                             location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt"/>
+                             location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
@@ -421,6 +427,8 @@ Line 11: Comparison failed.
                              location="outputimplementors/lucysoftware/translate/html/translate5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
+
+   <!--Localization Note-->
    <dataCategory name="Localization Note">
       <inputfile location="inputdata/localizationnote/xml/locnote1xml.xml">
          <description>Global - Embedded rules with locNote</description>
@@ -1430,6 +1438,28 @@ Line 32: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+      <inputfile location="inputdata/localizationnote/html/locnote9html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="shaun"
+                             location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
@@ -1534,6 +1564,8 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--Terminology-->
    <dataCategory name="Terminology">
       <inputfile location="inputdata/terminology/xml/terminology1xml.xml">
          <description>Global - Embedded rules with termInfoPointer</description>
@@ -1675,6 +1707,20 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+      <inputfile location="inputdata/terminology/html/terminology6html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/terminology/html/terminology6htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/terminology/html/terminology6htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="tilde"
+                             location="outputimplementors/tilde/terminology/html/terminology6htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology8xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/terminology/xml/terminology8xmloutput.txt"/>
@@ -1696,6 +1742,8 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--Directionality-->
    <dataCategory name="Directionality, non-normative">
       <inputfile location="inputdata/directionality/xml/dir1xml.xml">
          <description>Global - Embedded rules</description>
@@ -1758,6 +1806,8 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--Ruby-->
    <dataCategory name="Ruby, non-normative">
       <inputfile location="inputdata/ruby/xml/ruby1xml.xml">
          <description>Global - Embedded rules</description>
@@ -1776,6 +1826,8 @@ Line 21: Comparison failed.
          <expectedOutput location="expected/ruby/xml/ruby4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
+
+   <!--Language Information-->
    <dataCategory name="Language Information">
       <inputfile location="inputdata/languageinformation/xml/languageinfo1xml.xml">
          <description>Global - Embedded rules</description>
@@ -1847,6 +1899,22 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+      <inputfile location="inputdata/languageinformation/html/languageinfo3html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="dcu"
+                             location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/languageinformation/html/languageinfo3htmloutput.txt"/>
+      </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo4xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo4xmloutput.txt"/>
@@ -1882,6 +1950,8 @@ Line 21: Comparison failed.
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo2htmloutput.txt"/>
       </inputfile>
    </dataCategory>
+  
+   <!--Elements Within Text-->
    <dataCategory name="Elements Within Text">
       <inputfile location="inputdata/elementswithintext/xml/withintext1xml.xml">
          <description>Global - Embedded rules</description>
@@ -2009,7 +2079,23 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+     <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="shaun"
+                             location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
    </dataCategory>
+   
+   <!--Domain-->
    <dataCategory name="Domain">
       <inputfile location="inputdata/domain/xml/domain1xml.xml">
          <description>Global - Embedded rules with domainPointer</description>
@@ -2494,6 +2580,8 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--Disambiguation-->
    <dataCategory name="Disambiguation">
       <inputfile location="inputdata/disambiguation/xml/disambiguation1xml.xml">
          <description>Global - Embedded rules</description>
@@ -2711,7 +2799,27 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/disambiguation/html/disambiguation2htmloutput.txt"/>
       </inputfile>
+      <inputfile location="inputdata/disambiguation/html/disambiguation5html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/disambiguation/html/disambiguation5htmloutput.txt"/>
+         <outputImplementors implementer="jsi"
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/disambiguation/html/disambiguation5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="moravia"
+                             location="outputimplementors/moravia/disambiguation/html/disambiguation5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/disambiguation/html/disambiguation5htmloutput.txt"/>
+      </inputfile>
    </dataCategory>
+
+   <!--Locale Filter-->
    <dataCategory name="Locale Filter">
       <inputfile location="inputdata/localefilter/xml/locale1xml.xml">
          <description>Global - Embedded rules</description>
@@ -2869,112 +2977,264 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-   </dataCategory>
-   <dataCategory name="Provenance">
-      <inputfile location="inputdata/provenance/xml/tbc.">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/provenance/xml/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/html/tbc.">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/provenance/html/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/xml/tbc.">
-         <description>Global - Linked rules</description>
-         <expectedOutput location="expected/provenance/xml/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/html/tbc.">
-         <description>Global - Linked rules</description>
-         <expectedOutput location="expected/provenance/html/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/xml/tbc.">
-         <description>Local - In host element</description>
-         <expectedOutput location="expected/provenance/xml/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/xml/tbc.">
+      <inputfile location="inputdata/localefilter/html/locale4html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/provenance/xml/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/xml/tbc.">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/provenance/xml/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/xml/tbc.</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/html/tbc.">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/provenance/html/tbc.output.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
-         </outputImplementors>
+         <expectedOutput location="expected/localefilter/html/locale4htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
+                             location="outputimplementors/ul/localefilter/html/locale4htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/provenance/html/tbc.</error>
+         <outputImplementors implementer="shaun"
+                             location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+  <!--Provenance-->
+   <dataCategory name="Provenance">
+      <inputfile location="inputdata/provenance/xml/provenance1xml.xml">
+         <description>Global - Embedded rules</description>
+         <expectedOutput location="expected/provenance/xml/provenance1xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance1xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance1xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+       <inputfile location="inputdata/provenance/xml/provenance2xml.xml">
+         <description>Global - Embedded rules with ref</description>
+         <expectedOutput location="expected/provenance/xml/provenance2xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance2xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance2xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance3xml.xml">
+         <description>Global - Linked rules</description>
+         <expectedOutput location="expected/provenance/xml/provenance3xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance3xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance3xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance4xml.xml">
+         <description>Global - Linked rules with ref</description>
+         <expectedOutput location="expected/provenance/xml/provenance4xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance4xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance4xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance5xml.xml">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/provenance/xml/provenance5xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance5xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance5xml.xml">
+         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/provenance/xml/provenance5xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance5xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance6xml.xml">
+         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/provenance/xml/provenance6xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance6xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance6xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance7xml.xml">
+         <description>Local - In host element</description>
+         <expectedOutput location="expected/provenance/xml/provenance7xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance7xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance7xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/xml/provenance8xml.xml">
+         <description>Local - In host element &lt;its:span&gt;</description>
+         <expectedOutput location="expected/provenance/xml/provenance8xmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/xml/provenance8xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/xml/provenance8xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+    
+      <inputfile location="inputdata/provenance/html/provenance1html.html">
+         <description>Global - Linked rules</description>
+         <expectedOutput location="expected/provenance/html/provenance1htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance1htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance1htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/html/provenance2html.html">
+         <description>Global - Embedded rules</description>
+         <expectedOutput location="expected/provenance/html/provenance2htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance2htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance2htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/html/provenance3html.html">
+         <description>Global - ?????????</description>
+         <expectedOutput location="expected/provenance/html/provenance3htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance3htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance3htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+       <inputfile location="inputdata/provenance/html/provenance4html.html">
+         <description>Local - In host element</description>
+         <expectedOutput location="expected/provenance/html/provenance4htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance4htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance4htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance4htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+       <inputfile location="inputdata/provenance/html/provenance5html.html">
+         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/provenance/html/provenance5htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/html/provenance6html.html">
+         <description>Local - HTML standoff with XML </description>
+         <expectedOutput location="expected/provenance/html/provenance6htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance6htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance6htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance6htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/html/provenance7html.html">
+         <description>Local - HTML standoff with HTML </description>
+         <expectedOutput location="expected/provenance/html/provenance7htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance7htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance7htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance7htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/provenance/html/provenance8html.html">
+         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/provenance/html/provenance8htmloutput.txt"/>
+         <outputImplementors implementer="tcd"
+                             location="outputimplementors/tcd/provenance/html/provenance8htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/provenance/html/provenance8htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
+   </dataCategory>
+   
+   <!--External Resource--> 
    <dataCategory name="External Resource">
       <inputfile location="inputdata/externalresource/xml/externalresource1xml.xml">
          <description>Global - Embedded rules</description>
@@ -3075,6 +3335,8 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+   
+   <!--Target Pointer-->
    <dataCategory name="Target Pointer">
       <inputfile location="inputdata/targetpointer/xml/targetpointer1xml.xml">
          <description>Global - Embedded rules</description>
@@ -3145,6 +3407,8 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+   
+   <!--ID Value -->
    <dataCategory name="Id Value">
       <inputfile location="inputdata/idvalue/xml/idvalue1xml.xml">
          <description>Global - Embedded rules</description>
@@ -3253,6 +3517,8 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+   
+   <!--Preserve Space-->
    <dataCategory name="Preserve Space">
       <inputfile location="inputdata/preservespace/xml/preservespace1xml.xml">
          <description>Global - Embedded rules</description>
@@ -3339,6 +3605,8 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--LQI-->
    <dataCategory name="Localization Quality Issue">
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue1xml.xml">
          <description>Global - Embedded rules with locQualityType only</description>
@@ -3722,6 +3990,8 @@ Line 17: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--LQR-->
    <dataCategory name="Localization Quality Rating">
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating1xml.xml">
          <description>Local - In host element with score</description>
@@ -3792,6 +4062,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
+
+   <!--MT Confidence-->
    <dataCategory name="MT Confidence">
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence1xml.xml">
          <description>Global - Embedded rules</description>
@@ -3948,6 +4220,8 @@ Line 17: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+   
+   <!--Allowed Characters-->
    <dataCategory name="Allowed Characters">
       <inputfile location="inputdata/allowedcharacters/dunno/">
          <description>Milestones:</description>
@@ -4086,6 +4360,8 @@ Line 17: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
+
+   <!--Storage Size-->
    <dataCategory name="Storage Size">
       <inputfile location="inputdata/storagesize/xml/storagesize1xml.xml">
          <description>Global - Embedded rules</description>
