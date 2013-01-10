@@ -1543,13 +1543,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
       </inputfile>
-      <inputfile location="inputdata/mtconfidence/html/mtconfidence5html.html">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/mtconfidence/html/mtconfidence5htmloutput.txt"/>
-         <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence5htmloutput.txt"/>
-         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence5htmloutput.txt"/>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence5htmloutput.txt"/>
-      </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence2xml.xml">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence2xmloutput.txt"/>

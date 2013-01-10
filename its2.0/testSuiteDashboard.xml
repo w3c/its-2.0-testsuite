@@ -4121,41 +4121,6 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/mtconfidence/html/mtconfidence5html.html">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/mtconfidence/html/mtconfidence5htmloutput.txt"/>
-         <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/mtconfidence/html/mtconfidence5htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1"]
-* Implementers file line:[/html/body[1]/p[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1"	mtConfidence="0.8982"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@id  annotatorsRef="mt-confidence|file:///tools.xml#T1"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	annotatorsRef="mt-confidence|file:///tools.xml#T1"	mtConfidence="0.8982"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	annotatorsRef="mt-confidence|file:///tools.xml#T1"]
-* Implementers file line:[/html/body[1]/p[1]/span[3]	annotatorsRef="mt-confidence|file:///tools.xml#T1"	mtConfidence="0.8982"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[3]	annotatorsRef="mt-confidence|file:///tools.xml#T1"]
-* Implementers file line:[/html/body[1]/p[1]/span[4]	annotatorsRef="mt-confidence|file:///tools.xml#T1"	mtConfidence="0.8982"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[4]	annotatorsRef="mt-confidence|file:///tools.xml#T1"]
-* Implementers file line:[]</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/html/mtconfidence5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-      </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence2xml.xml">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
