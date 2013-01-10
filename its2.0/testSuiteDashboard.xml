@@ -2975,6 +2975,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/provenance/xml/provenance1xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2987,6 +2989,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance2xml.xml">
          <description>Global - Embedded rules with ref</description>
          <expectedOutput location="expected/provenance/xml/provenance2xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2999,6 +3003,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance3xml.xml">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/provenance/xml/provenance3xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3011,6 +3017,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance4xml.xml">
          <description>Global - Linked rules with ref</description>
          <expectedOutput location="expected/provenance/xml/provenance4xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3023,18 +3031,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance5xml.xml">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance5xmloutput.txt"/>
-         <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-      </inputfile>
-      <inputfile location="inputdata/provenance/xml/provenance5xml.xml">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/provenance/xml/provenance5xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3047,6 +3045,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance6xml.xml">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance6xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3059,6 +3059,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance7xml.xml">
          <description>Local - In host element</description>
          <expectedOutput location="expected/provenance/xml/provenance7xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance7xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3071,6 +3073,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/xml/provenance8xml.xml">
          <description>Local - In host element &lt;its:span&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance8xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/xml/provenance8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance8xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3083,6 +3087,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance1html.html">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/provenance/html/provenance1htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3099,6 +3105,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance2html.html">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/provenance/html/provenance2htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3115,6 +3123,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance3html.html">
          <description>Global - ?????????</description>
          <expectedOutput location="expected/provenance/html/provenance3htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3131,6 +3141,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance4html.html">
          <description>Local - In host element</description>
          <expectedOutput location="expected/provenance/html/provenance4htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3147,6 +3159,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance5html.html">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance5htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3163,6 +3177,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance6html.html">
          <description>Local - HTML standoff with XML </description>
          <expectedOutput location="expected/provenance/html/provenance6htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance6htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3179,6 +3195,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance7html.html">
          <description>Local - HTML standoff with HTML </description>
          <expectedOutput location="expected/provenance/html/provenance7htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance7htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3195,6 +3213,8 @@ Line 14: Comparison failed.
       <inputfile location="inputdata/provenance/html/provenance8html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance8htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance8htmloutput.txt">
             <error>outputFileNotFound</error>
