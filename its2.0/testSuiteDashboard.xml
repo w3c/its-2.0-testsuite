@@ -4442,22 +4442,6 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/storagesize/html/tbc.">
-         <description>Global - Embedded rules</description>
-         <expectedOutput location="expected/storagesize/html/tbc.output.txt"/>
-         <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/storagesize/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/html/tbc.</error>
-         </outputImplementors>
-         <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/storagesize/html/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/html/tbc.</error>
-         </outputImplementors>
-      </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize3xml.xml">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/storagesize/xml/storagesize3xmloutput.txt"/>
