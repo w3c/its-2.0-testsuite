@@ -1664,13 +1664,13 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters6xml.xml">
          <description>Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
-         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters4xml.xml">
          <description>Global - Linked rules with pointer</description>
@@ -1695,6 +1695,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1742,6 +1743,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/html/storagesize1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/tbc.">
          <description>Local - In &lt;its:span&gt;</description>
@@ -1773,12 +1775,14 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/storagesize/html/storagesize3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/html/storagesize3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/html/storagesize3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/html/storagesize3htmloutput.txt"/>
       </inputfile>
        <inputfile location="inputdata/storagesize/html/storagesize4html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/html/storagesize4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 </testSuite>
