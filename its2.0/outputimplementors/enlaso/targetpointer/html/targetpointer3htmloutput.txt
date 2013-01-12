@@ -8,7 +8,7 @@
 /html/body[1]
 /html/body[1]/div[1]
 /html/body[1]/div[1]/@id
-/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"
+/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"
 /html/body[1]/div[1]/p[1]/@class
 /html/body[1]/div[1]/p[2]
 /html/body[1]/div[1]/p[2]/@class
