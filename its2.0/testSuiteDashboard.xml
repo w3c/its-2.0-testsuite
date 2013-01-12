@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testSuite xmlns="http://example.com/myns"><!--Translate--><dataCategory name="Translate">
+<testSuite xmlns="http://example.com/myns">
+
+   <!--Translate-->   
+   <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
          <description>Global - Embedded rule</description>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
@@ -45,7 +48,10 @@
          </outputImplementors>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
+* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="yes"	]</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
@@ -178,7 +184,7 @@
             <error>
 Line 11: Comparison failed.
 * Reference line: [/html/body[1]/section[1]/span[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	translate="no"]</error>
+* Implementers file line:[/html/body[1]/section[1]/span[1]	translate="no"	]</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
@@ -367,7 +373,32 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt"/>
+                             location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt">
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	translate="no"]
+* Implementers file line:[/html/head[1]	translate="yes"	]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	translate="no"]
+* Implementers file line:[/html/head[1]/meta[1]	translate="yes"	]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	translate="no"]
+* Implementers file line:[/html/head[1]/title[1]	translate="yes"	]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	translate="no"]
+* Implementers file line:[/html/head[1]/link[1]	translate="yes"	]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	translate="no"]
+* Implementers file line:[/html/body[1]	translate="yes"	]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	translate="no"]
+* Implementers file line:[/html/body[1]/section[1]	translate="yes"	]</error>
+         </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
@@ -424,7 +455,9 @@ Line 11: Comparison failed.
                              location="outputimplementors/lucysoftware/translate/html/translate5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Localization Note--><dataCategory name="Localization Note">
+
+   <!--Localization Note-->
+   <dataCategory name="Localization Note">
       <inputfile location="inputdata/localizationnote/xml/locnote1xml.xml">
          <description>Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
@@ -493,7 +526,22 @@ Line 13: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote1htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/span[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[1]	locNoteType="alert"	locNote="]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/span[1]/@id]
+* Implementers file line:[The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'.]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: []
+* Implementers file line:["	]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: []
+* Implementers file line:[/html/body[1]/span[1]/@id	]</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt">
@@ -603,9 +651,7 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -678,9 +724,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -777,9 +821,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -896,9 +938,7 @@ Line 25: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1039,9 +1079,7 @@ Line 30: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1146,9 +1184,7 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1448,7 +1484,10 @@ Line 32: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/p[1]	]</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt">
@@ -1559,7 +1598,9 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Terminology--><dataCategory name="Terminology">
+
+   <!--Terminology-->
+   <dataCategory name="Terminology">
       <inputfile location="inputdata/terminology/xml/terminology1xml.xml">
          <description>Global - Embedded rules with termInfoPointer</description>
          <expectedOutput location="expected/terminology/xml/terminology1xmloutput.txt"/>
@@ -1735,7 +1776,9 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Directionality--><dataCategory name="Directionality, non-normative">
+
+   <!--Directionality-->
+   <dataCategory name="Directionality, non-normative">
       <inputfile location="inputdata/directionality/xml/dir1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/directionality/xml/dir1xmloutput.txt"/>
@@ -1797,7 +1840,9 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Ruby--><dataCategory name="Ruby, non-normative">
+
+   <!--Ruby-->
+   <dataCategory name="Ruby, non-normative">
       <inputfile location="inputdata/ruby/xml/ruby1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/ruby/xml/ruby1xmloutput.txt"/>
@@ -1815,7 +1860,9 @@ Line 21: Comparison failed.
          <expectedOutput location="expected/ruby/xml/ruby4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Language Information--><dataCategory name="Language Information">
+
+   <!--Language Information-->
+   <dataCategory name="Language Information">
       <inputfile location="inputdata/languageinformation/xml/languageinfo1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo1xmloutput.txt"/>
@@ -1937,7 +1984,9 @@ Line 21: Comparison failed.
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo2htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Elements Within Text--><dataCategory name="Elements Within Text">
+  
+   <!--Elements Within Text-->
+   <dataCategory name="Elements Within Text">
       <inputfile location="inputdata/elementswithintext/xml/withintext1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/elementswithintext/xml/withintext1xmloutput.txt"/>
@@ -2064,7 +2113,7 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
+     <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2079,7 +2128,9 @@ Line 21: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Domain--><dataCategory name="Domain">
+   
+   <!--Domain-->
+   <dataCategory name="Domain">
       <inputfile location="inputdata/domain/xml/domain1xml.xml">
          <description>Global - Embedded rules with domainPointer</description>
          <expectedOutput location="expected/domain/xml/domain1xmloutput.txt"/>
@@ -2563,7 +2614,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Disambiguation--><dataCategory name="Disambiguation">
+
+   <!--Disambiguation-->
+   <dataCategory name="Disambiguation">
       <inputfile location="inputdata/disambiguation/xml/disambiguation1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation1xmloutput.txt"/>
@@ -2599,6 +2652,7 @@ Line 14: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/disambiguation/xml/disambiguation7xmloutput.txt"/>
+
       </inputfile>
       <inputfile location="inputdata/disambiguation/xml/disambiguation5xml.xml">
          <description>Local - In host element</description>
@@ -2799,7 +2853,9 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/disambiguation/html/disambiguation5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Locale Filter--><dataCategory name="Locale Filter">
+
+   <!--Locale Filter-->
+   <dataCategory name="Locale Filter">
       <inputfile location="inputdata/localefilter/xml/locale1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/localefilter/xml/locale1xmloutput.txt"/>
@@ -2971,7 +3027,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Provenance--><dataCategory name="Provenance">
+
+  <!--Provenance-->
+   <dataCategory name="Provenance">
       <inputfile location="inputdata/provenance/xml/provenance1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/provenance/xml/provenance1xmloutput.txt"/>
@@ -2986,7 +3044,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/provenance/xml/provenance2xml.xml">
+       <inputfile location="inputdata/provenance/xml/provenance2xml.xml">
          <description>Global - Embedded rules with ref</description>
          <expectedOutput location="expected/provenance/xml/provenance2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3084,6 +3142,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+    
       <inputfile location="inputdata/provenance/html/provenance1html.html">
          <description>Global - Linked rules</description>
          <expectedOutput location="expected/provenance/html/provenance1htmloutput.txt"/>
@@ -3138,7 +3197,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/provenance/html/provenance4html.html">
+       <inputfile location="inputdata/provenance/html/provenance4html.html">
          <description>Local - In host element</description>
          <expectedOutput location="expected/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3156,7 +3215,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/provenance/html/provenance5html.html">
+       <inputfile location="inputdata/provenance/html/provenance5html.html">
          <description>Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3229,7 +3288,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--External Resource--><dataCategory name="External Resource">
+   
+   <!--External Resource--> 
+   <dataCategory name="External Resource">
       <inputfile location="inputdata/externalresource/xml/externalresource1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/externalresource/xml/externalresource1xmloutput.txt"/>
@@ -3343,7 +3404,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Target Pointer--><dataCategory name="Target Pointer">
+   
+   <!--Target Pointer-->
+   <dataCategory name="Target Pointer">
       <inputfile location="inputdata/targetpointer/xml/targetpointer1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/targetpointer/xml/targetpointer1xmloutput.txt"/>
@@ -3412,7 +3475,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/targetpointer/html/targetpointer3html.html">
+     <inputfile location="inputdata/targetpointer/html/targetpointer3html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/targetpointer/html/targetpointer3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3423,7 +3486,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--ID Value --><dataCategory name="Id Value">
+   
+   <!--ID Value -->
+   <dataCategory name="Id Value">
       <inputfile location="inputdata/idvalue/xml/idvalue1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/idvalue/xml/idvalue1xmloutput.txt"/>
@@ -3545,7 +3610,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Preserve Space--><dataCategory name="Preserve Space">
+   
+   <!--Preserve Space-->
+   <dataCategory name="Preserve Space">
       <inputfile location="inputdata/preservespace/xml/preservespace1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/preservespace/xml/preservespace1xmloutput.txt"/>
@@ -3631,7 +3698,9 @@ Line 14: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--LQI--><dataCategory name="Localization Quality Issue">
+
+   <!--LQI-->
+   <dataCategory name="Localization Quality Issue">
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue1xml.xml">
          <description>Global - Embedded rules with locQualityType only</description>
          <expectedOutput location="expected/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
@@ -4013,7 +4082,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/locqualityissue/html/locqualityissue10html.html">
+       <inputfile location="inputdata/locqualityissue/html/locqualityissue10html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="vistatec"
@@ -4036,7 +4105,9 @@ Line 17: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--LQR--><dataCategory name="Localization Quality Rating">
+
+   <!--LQR-->
+   <dataCategory name="Localization Quality Rating">
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating1xml.xml">
          <description>Local - In host element with score</description>
          <expectedOutput location="expected/locqualityrating/xml/locqualityrating1xmloutput.txt"/>
@@ -4106,7 +4177,9 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--MT Confidence--><dataCategory name="MT Confidence">
+
+   <!--MT Confidence-->
+   <dataCategory name="MT Confidence">
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
@@ -4283,7 +4356,9 @@ Line 16: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--Allowed Characters--><dataCategory name="Allowed Characters">
+   
+   <!--Allowed Characters-->
+   <dataCategory name="Allowed Characters">
       <inputfile location="inputdata/allowedcharacters/dunno/">
          <description>Milestones:</description>
          <expectedOutput location="expected/allowedcharacters/dunno/output.txt"/>
@@ -4319,7 +4394,10 @@ Line 16: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters4htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/code[1]	allowedCharacters="[a-zA-Z_\-]"]
+* Implementers file line:[/html/body[1]/p[1]/code[1]	]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters3xml.xml">
@@ -4342,9 +4420,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters5xml.xml">
          <description>Local - In host element</description>
@@ -4365,6 +4441,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/allowedcharacters/html/allowedcharacters1htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters6xml.xml">
          <description>Local - In &lt;its:span&gt;</description>
@@ -4373,10 +4451,6 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/allowedcharacters/xml/allowedcharacters6xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -4419,9 +4493,13 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/allowedcharacters/html/allowedcharacters3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Storage Size--><dataCategory name="Storage Size">
+
+   <!--Storage Size-->
+   <dataCategory name="Storage Size">
       <inputfile location="inputdata/storagesize/xml/storagesize1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/storagesize/xml/storagesize1xmloutput.txt"/>
@@ -4472,9 +4550,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/storagesize/html/storagesize2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/storagesize/html/storagesize2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize5xml.xml">
          <description>Local - In host element</description>
@@ -4494,6 +4570,25 @@ Line 16: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/html/storagesize1htmloutput.txt">
             <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt">
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[2]/@its-line-break-type]
+* Implementers file line:[/html/body[1]/p[2]/@its-storage-size	]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]/@its-storage-size]
+* Implementers file line:[/html/body[1]/p[2]/@its-line-break-type	]</error>
+            <error>
+Line 18: Comparison failed.
+* Reference line: [/html/body[1]/p[3]/@its-line-break-type]
+* Implementers file line:[/html/body[1]/p[3]/@its-storage-size	]</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/html/body[1]/p[3]/@its-storage-size]
+* Implementers file line:[/html/body[1]/p[3]/@its-line-break-type]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/tbc.">
@@ -4551,8 +4646,15 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/storagesize/html/storagesize3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/storagesize/html/storagesize3htmloutput.txt">
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"]
+* Implementers file line:[/html/body[1]/p[1]	]</error>
+         </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/storagesize/html/storagesize4html.html">
+       <inputfile location="inputdata/storagesize/html/storagesize4html.html">
          <description>Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -4560,6 +4662,17 @@ Line 16: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt">
             <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/storagesize/html/storagesize4htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"]
+* Implementers file line:[/html/body[1]/p[1]]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"]
+* Implementers file line:[/html/body[1]/p[2]]</error>
          </outputImplementors>
       </inputfile>
    </dataCategory>
