@@ -4531,9 +4531,7 @@ Line 20: Comparison failed.
          <description>Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt">
             <error>outputFileNotFound</error>
