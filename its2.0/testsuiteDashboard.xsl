@@ -144,7 +144,12 @@
                 />%).</li>
         </ul>
         <p>The following table compares actual tests run, versus number of tests to be run per
-            implementer</p>
+            implementer. Explanation:</p>
+        <ul>
+            <li><q class="na">N/A</q> = the implementer did not commit to run the tests for a given data category.</li>
+            <li><q class="ok">OK</q> = for a given data category, all output files are identical to the reference output files.</li>
+            <li><q class="error">error</q> = for a given data category an error occurred in one or several output files, or one or more output files are missing.</li>
+        </ul>
         <table border="1" width="100%">
             <tr>
                 <td>-</td>
@@ -169,8 +174,13 @@
                         <xsl:variable name="numberOfFilesSuccessfullyRun"
                             select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile/my:outputImplementors[@implementer=$currentImplementer][not(my:error)])"/>
                         <td>
-                            <xsl:value-of
-                                select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/>
+                            <xsl:choose>
+                                <xsl:when test="$numberOfFiles = 0"><span class="na">n/a</span></xsl:when>
+                                <xsl:when test="$numberOfFilesSuccessfullyRun &lt; $numberOfFiles"><span class="error"><xsl:value-of
+                                    select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/></span></xsl:when>
+                                <xsl:when test="$numberOfFilesSuccessfullyRun = $numberOfFiles"><span class="ok"><xsl:value-of
+                                    select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/></span></xsl:when>
+                            </xsl:choose>
                         </td>
                     </xsl:for-each>
                 </tr>
