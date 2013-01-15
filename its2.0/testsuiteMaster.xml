@@ -1618,10 +1618,6 @@ location CDATA #REQUIRED>
    
    <!--Allowed Characters-->
    <dataCategory name="Allowed Characters">
-      <inputfile location="inputdata/allowedcharacters/dunno/">
-         <description>Milestones:</description>
-         <expectedOutput location="expected/allowedcharacters/dunno/output.txt"/>
-      </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters1xml.xml">
          <description>Global - Embedded rules</description>
          <expectedOutput location="expected/allowedcharacters/xml/allowedcharacters1xmloutput.txt"/>
