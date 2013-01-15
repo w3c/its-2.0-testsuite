@@ -88,7 +88,11 @@
                         }
                         td.firstcolumn{
                             text-align:right;
-                        }</style>
+                        }
+                    *.fnf { color: blue;}
+                    *.na { color: grey; }
+                    *.ok { color: green;}
+                    *.error { color: red; }</style>
                 </head>
                 <body>
                     <h1>ITS 2.0 Test Suite Dashboard</h1>
@@ -191,11 +195,12 @@
         <h2 id="tests-current-state-details">Details of current state</h2>
         <p>Explanation:</p>
         <ul>
-            <li><q>N/A</q> = the implementer did not commit to run the test.</li>
-            <li><q>OK</q> = the output file is identical to the reference output file.</li>
-            <li><q>error</q> = an error occurred, e.g. the output file is not available or it is not
+            <li><q class="na">N/A</q> = the implementer did not commit to run the test.</li>
+            <li><q class="ok">OK</q> = the output file is identical to the reference output file.</li>
+            <li><q class="error">error</q> = an error occurred, e.g. the output file is not available or it is not
                 identical to the reference output file. Move the mouse over <q>error</q> to see
                 details.</li>
+            <li><q class="fnf">fileNotFound</q>: the output file from the implementer has not been found.</li>
         </ul>
         <xsl:for-each select="$datacategories">
             <xsl:variable name="currentDatacat" select="."/>
@@ -218,9 +223,11 @@
                         select="tokenize($currentInputFile/@location,'/')[last()]"/>
                     <tr>
                         <td>
-                            <xsl:value-of select="$currentInputFileName"/>
+                            <a href="{$currentInputFile/@location}"><xsl:value-of select="$currentInputFileName"/></a>
                             <br/>
                             <xsl:value-of select="$currentInputFile/my:description"/>
+                            <br/>
+                            <a href="{$currentInputFile/my:expectedOutput/@location}">(expected)</a>
                         </td>
                         <xsl:for-each select="$implemeters">
                             <xsl:variable name="currentImplementer" select="."/>
@@ -228,7 +235,7 @@
                                 <xsl:choose>
                                     <xsl:when
                                         test="not($currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)"
-                                        >N/A</xsl:when>
+                                        ><span class="na">N/A</span></xsl:when>
                                     <xsl:otherwise>
                                         <xsl:choose>
                                             <xsl:when
@@ -241,13 +248,13 @@
                                                   </xsl:for-each>
                                                 </xsl:variable>
                                                 <xsl:choose>
-                                                    <xsl:when test="contains($errorList,'outputFileNotFound')">fileNotFound</xsl:when>
+                                                    <xsl:when test="contains($errorList,'outputFileNotFound')"><span class="fnf">fileNotFound</span></xsl:when>
                                                   <xsl:otherwise>
-                                                  <span title="{$errorList}">error</span>
+                                                  <span title="{$errorList}" class="error">error</span>
                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:when>
-                                            <xsl:otherwise>OK</xsl:otherwise>
+                                            <xsl:otherwise><span class="ok">OK</span></xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:otherwise>
                                 </xsl:choose>
