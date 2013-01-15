@@ -1038,7 +1038,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance3html.html">
-         <description>Global - ?????????</description>
+         <description>Local - In host element</description>
          <expectedOutput location="expected/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt"/>
@@ -1515,7 +1515,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityrating/html/locqualityrating1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/html/locqualityrating2html.html">
-         <description>Local - in host elemnt with vote</description>
+         <description>Local - in host element with vote</description>
          <expectedOutput location="expected/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="vistatec" location="outputimplementors/vistatec/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityrating/html/locqualityrating2htmloutput.txt"/>
