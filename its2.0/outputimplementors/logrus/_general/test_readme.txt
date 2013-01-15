@@ -5,7 +5,6 @@ terminology\xml\terminology1xmloutput.txt is incorrect due to known defect of XP
 Some differences found in the following if compared to other implementors results:
 
 elementswithintext\xml\withintext2xmloutput.txt
-provenance\xml\*.xml
 ruby\xml\ruby3xmloutput.txt
 ruby\xml\ruby4xmloutput.txt. 
 
