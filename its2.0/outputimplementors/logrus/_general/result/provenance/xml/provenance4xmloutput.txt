@@ -1,0 +1,28 @@
+/text
+/text/@its:version
+/text/dc:creator[1]
+/text/its:provenanceRecords[1]
+/text/its:provenanceRecords[1]/@xml:id
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@provRef
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revOrg
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revPerson
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@revToolRef
+/text/its:provenanceRecords[1]/its:provenanceRecord[1]/@toolRef
+/text/its:provenanceRecords[2]
+/text/its:provenanceRecords[2]/@xml:id
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@orgRef
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@personRef
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@provRef
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revOrgRef
+/text/its:provenanceRecords[2]/its:provenanceRecord[1]/@revPersonRef
+/text/its:rules[1]
+/text/its:rules[1]/@version
+/text/its:rules[1]/@xlink:href
+/text/title[1]
+/text/body[1]
+/text/body[1]/par[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"
+/text/body[1]/par[1]/@xml:id
+/text/body[1]/legalnotice[1]	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"
+/text/body[1]/legalnotice[1]/@xml:id
