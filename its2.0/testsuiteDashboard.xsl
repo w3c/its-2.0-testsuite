@@ -6,6 +6,7 @@
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
     <xsl:param name="output">html</xsl:param>
     <xsl:variable name="testsuiteLocation"></xsl:variable>
+    <xsl:variable name="its2spec">http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html</xsl:variable>
     <xsl:variable name="annotatedTestSuiteMaster">
         <xsl:apply-templates select="/" mode="annotateTestSuiteMaster"/>
     </xsl:variable>
@@ -237,6 +238,13 @@
                             <br/>
                             <xsl:value-of select="$currentInputFile/my:description"/>
                             <br/>
+                            <xsl:if test="$currentInputFile/my:description/@assertions">
+                                (assertions:
+                                <xsl:for-each select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
+                                    <xsl:variable name="no" select="position()"/>
+                                    <a href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"/>]</a>
+                                </xsl:for-each>)
+                            </xsl:if>
                             <a href="{$currentInputFile/my:expectedOutput/@location}">(expected)</a>
                         </td>
                         <xsl:for-each select="$implemeters">

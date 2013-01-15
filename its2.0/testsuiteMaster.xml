@@ -6,6 +6,7 @@
 <!ELEMENT inputfile (description, expectedOutput, outputImplementors*)>
 <!ATTLIST inputfile location CDATA #REQUIRED>
 <!ELEMENT description (#PCDATA)>
+<!ATTLIST description assertions NMTOKENS #IMPLIED>
 <!ELEMENT expectedOutput EMPTY>
 <!ATTLIST expectedOutput location CDATA #REQUIRED>
 <!ELEMENT outputImplementors EMPTY>
@@ -17,7 +18,7 @@ location CDATA #REQUIRED>
    <!--Translate-->   
    <dataCategory name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml">
-         <description>Global - Embedded rule</description>
+         <description assertions="translate-global">Global - Embedded rule</description>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
@@ -27,7 +28,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate7html.html">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="translate-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate7htmloutput.txt"/>
@@ -38,7 +39,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="translate-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate9xmloutput.txt"/>
@@ -48,7 +49,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate2xml.xml">
-         <description>Global - Linked rules</description>
+         <description assertions="translate-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate2xmloutput.txt"/>
@@ -58,7 +59,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate10xml.xml">
-         <description>Global - Linked rules&lt;its:param&gt;</description>
+         <description assertions="translate-global link-external-rules its-param">Global - Linked rules&lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate10xmloutput.txt"/>
@@ -68,7 +69,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate1html.html">
-         <description>Global - Linked rules</description>
+         <description assertions="translate-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate1htmloutput.txt"/>
@@ -79,7 +80,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate6html.html">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="translate-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate6htmloutput.txt"/>
@@ -89,7 +90,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate3xml.xml">
-         <description>Global - Embedded and linked rules</description>
+         <description assertions="translate-global link-external-rules">Global - Embedded and linked rules</description>
          <expectedOutput location="expected/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate3xmloutput.txt"/>
@@ -99,7 +100,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate4xml.xml">
-         <description>Local - In host element</description>
+         <description assertions="translate-local">Local - In host element</description>
          <expectedOutput location="expected/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate4xmloutput.txt"/>
@@ -108,7 +109,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate2html.html">
-         <description>Local - In host element</description>
+         <description assertions="translate-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate2htmloutput.txt"/>
@@ -119,7 +120,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate5xml.xml">
-         <description>Local - In &lt;its:span&gt;</description>
+         <description assertions="translate-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate5xmloutput.txt"/>
@@ -129,7 +130,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate6xml.xml">
-         <description>Global (with //*) and local rules</description>
+         <description assertions="translate-global">Global (with //*) and local rules</description>
          <expectedOutput location="expected/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate6xmloutput.txt"/>
@@ -138,7 +139,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate3html.html">
-         <description>Global (with //*) and local rules</description>
+         <description assertions="translate-global html5-global-rules">Global (with //*) and local rules</description>
          <expectedOutput location="expected/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate3htmloutput.txt"/>
@@ -149,7 +150,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate7xml.xml">
-         <description>Global (with /doc) and local rules</description>
+         <description assertions="translate-global">Global (with /doc) and local rules</description>
          <expectedOutput location="expected/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate7xmloutput.txt"/>
@@ -158,7 +159,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate4html.html">
-         <description>Global (with /doc) and local rules</description>
+         <description assertions="translate-global html5-global-rules">Global (with /doc) and local rules</description>
          <expectedOutput location="expected/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate4htmloutput.txt"/>
@@ -169,7 +170,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="lucysoftware" location="outputimplementors/lucysoftware/translate/html/translate4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate8xml.xml">
-         <description>Global and local rules (inheritance)</description>
+         <description assertions="translate-global selection-precedence">Global and local rules (inheritance)</description>
          <expectedOutput location="expected/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate8xmloutput.txt"/>
@@ -179,7 +180,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate5html.html">
-         <description>Global and local rules (inheritance)</description>
+         <description assertions="translate-global html5-global-rules html5-selection-precedence">Global and local rules (inheritance)</description>
          <expectedOutput location="expected/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate5htmloutput.txt"/>
