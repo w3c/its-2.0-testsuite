@@ -1,0 +1,24 @@
+/doc
+/doc/@its:version
+/doc/file[1]
+/doc/file[1]/header[1]
+/doc/file[1]/header[1]/its:rules[1]
+/doc/file[1]/header[1]/its:rules[1]/@version
+/doc/file[1]/header[1]/its:rules[1]/its:locQualityIssueRule[1]
+/doc/file[1]/header[1]/its:rules[1]/its:locQualityIssueRule[1]/@locQualityIssuesRefPointer
+/doc/file[1]/header[1]/its:rules[1]/its:locQualityIssueRule[1]/@selector
+/doc/file[1]/unit[1]
+/doc/file[1]/unit[1]/@id
+/doc/file[1]/unit[1]/segment[1]
+/doc/file[1]/unit[1]/segment[1]/source[1]
+/doc/file[1]/unit[1]/segment[1]/target[1]
+/doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="75"
+/doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]/@ref
+/doc/file[1]/unit[1]/segment[1]/target[1]/mrk[1]/@type
+/doc/file[1]/unit[1]/its:locQualityIssues[1]
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/@xml:id
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef
+/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueSeverity
