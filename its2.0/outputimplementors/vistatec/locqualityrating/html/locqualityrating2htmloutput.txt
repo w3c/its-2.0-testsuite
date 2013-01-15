@@ -1,0 +1,12 @@
+/html	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/html/@its-loc-quality-rating-profile-ref
+/html/@its-loc-quality-rating-vote
+/html/@its-loc-quality-rating-vote-threshold
+/html/@lang
+/html/head[1]	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/html/head[1]/meta[1]	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/html/body[1]	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/html/body[1]/p[1]	locQualityRatingProfileRef="http://example.org/qamodel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+
