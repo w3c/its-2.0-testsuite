@@ -4527,20 +4527,20 @@ Line 20: Comparison failed.
 * Implementers file line:[/html/body[1]/p[3]/@its-line-break-type]</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/storagesize/xml/tbc.">
+      <inputfile location="inputdata/storagesize/xml/storagesize9xml.xml">
          <description>Local - In &lt;its:span&gt;</description>
-         <expectedOutput location="expected/storagesize/xml/tbc.output.txt"/>
+         <expectedOutput location="expected/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/storagesize/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/xml/tbc.</error>
+                             location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/xml/tbc.</error>
+                             location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/storagesize/xml/tbc.output.txt">
-            <error>referenceFileNotFound: inputdata/storagesize/xml/tbc.</error>
+                             location="outputimplementors/cocomore/storagesize/xml/storagesize9xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize6xml.xml">

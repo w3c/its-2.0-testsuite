@@ -785,6 +785,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="moravia" location="outputimplementors/moravia/disambiguation/xml/disambiguation7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/disambiguation/xml/disambiguation7xmloutput.txt"/>
 
+
       </inputfile>
       <inputfile location="inputdata/disambiguation/xml/disambiguation5xml.xml">
          <description>Local - In host element</description>
@@ -1745,12 +1746,12 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt"/>
       </inputfile>
-      <inputfile location="inputdata/storagesize/xml/tbc.">
+      <inputfile location="inputdata/storagesize/xml/storagesize9xml.xml">
          <description>Local - In &lt;its:span&gt;</description>
-         <expectedOutput location="expected/storagesize/xml/tbc.output.txt"/>
-         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/xml/tbc.output.txt"/>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/xml/tbc.output.txt"/>
-         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/xml/tbc.output.txt"/>
+         <expectedOutput location="expected/storagesize/xml/storagesize9xmloutput.txt"/>
+         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt"/>
+         <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/xml/storagesize9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize6xml.xml">
          <description>Local - In host element with lineBreak</description>
