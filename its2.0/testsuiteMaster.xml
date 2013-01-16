@@ -195,7 +195,7 @@ location CDATA #REQUIRED>
    <!--Localization Note-->
    <dataCategory name="Localization Note">
       <inputfile location="inputdata/localizationnote/xml/locnote1xml.xml">
-         <description>Global - Embedded rules with locNote</description>
+         <description assertions="locnote-global">Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
@@ -204,7 +204,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote1html.html">
-         <description>Global - Linked rules with locNote</description>
+         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt"/>
@@ -213,7 +213,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote2xml.xml">
-         <description>Global - Embedded rules with locNotePointer</description>
+         <description assertions="locnote-global">Global - Embedded rules with locNotePointer</description>
          <expectedOutput location="expected/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt"/>
@@ -222,7 +222,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote2html.html">
-         <description>Global - Linked rules with locNotePointer</description>
+         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNotePointer</description>
          <expectedOutput location="expected/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt"/>
@@ -231,7 +231,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote3xml.xml">
-         <description>Global - Embedded rules with locNoteRef</description>
+         <description assertions="locnote-global">Global - Embedded rules with locNoteRef</description>
          <expectedOutput location="expected/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote3xmloutput.txt"/>
@@ -240,7 +240,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote3html.html">
-         <description>Global - Linked rules with locNoteRef</description>
+         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNoteRef</description>
          <expectedOutput location="expected/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt"/>
@@ -249,7 +249,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote4xml.xml">
-         <description>Global - Embedded rules with locNoteRefPointer</description>
+         <description assertions="locnote-global">Global - Embedded rules with locNoteRefPointer</description>
          <expectedOutput location="expected/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote4xmloutput.txt"/>
@@ -258,7 +258,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote4html.html">
-         <description>Global - Linked rules with locNoteRefPointer</description>
+         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNoteRefPointer</description>
          <expectedOutput location="expected/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt"/>
@@ -267,7 +267,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote5xml.xml">
-         <description>Global - Linked rules with locNote</description>
+         <description assertions="locnote-global link-external-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote5xmloutput.txt"/>
@@ -276,7 +276,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html">
-         <description>Global - Linked rules with locNote</description>
+         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote5htmloutput.txt"/>
@@ -285,7 +285,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote6xml.xml">
-         <description>Global - Embedded rules with mixed notes</description>
+         <description assertions="locnote-global">Global - Embedded rules with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote6xmloutput.txt"/>
@@ -293,7 +293,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote6html.html">
-         <description>Global - Linked rules with mixed notes</description>
+         <description assertions="locnote-global link-external-rules">Global - Linked rules with mixed notes</description>
          <expectedOutput location="expected/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote6htmloutput.txt"/>
@@ -302,7 +302,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote7xml.xml">
-         <description>Local - In host element with locNote</description>
+         <description assertions="locnote-local">Local - In host element with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote7xmloutput.txt"/>
@@ -310,7 +310,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote7html.html">
-         <description>Local - In host element with locNote</description>
+         <description assertions="locnote-local html5-markup">Local - In host element with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote7htmloutput.txt"/>
@@ -319,7 +319,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote8xml.xml">
-         <description>Local - In host element with mixed notes</description>
+         <description assertions="locnote-local">Local - In host element with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote8xmloutput.txt"/>
@@ -327,7 +327,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote9xml.xml">
-         <description>Local - In &lt;its:span&gt; with mixed notes</description>
+         <description assertions="locnote-local">Local - In &lt;its:span&gt; with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote9xmloutput.txt"/>
@@ -335,7 +335,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote10xml.xml">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="locnote-global html5-external-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote10xmloutput.txt"/>
@@ -344,7 +344,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote9html.html">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="locnote-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt"/>
@@ -353,7 +353,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="locnote-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote11xmloutput.txt"/>
@@ -362,7 +362,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote8html.html">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="locnote-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote8htmloutput.txt"/>
@@ -375,18 +375,18 @@ location CDATA #REQUIRED>
    <!--Terminology-->
    <dataCategory name="Terminology">
       <inputfile location="inputdata/terminology/xml/terminology1xml.xml">
-         <description>Global - Embedded rules with termInfoPointer</description>
+         <description assertions="term-global">Global - Embedded rules with termInfoPointer</description>
          <expectedOutput location="expected/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/terminology/xml/terminology1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology2xml.xml">
-         <description>Global - Embedded rules with termInfoRef</description>
+         <description assertions="term-global">Global - Embedded rules with termInfoRef</description>
          <expectedOutput location="expected/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/terminology/xml/terminology2xmloutput.txt"/>
       </inputfile>
-      <inputfile location="inputdata/terminology/html/terminology1html.html">
+      <inputfile location="inputdata/terminology/html/terminology1html.html">+<inputfile location="inputdata/terminology/html/terminology1htmlrules.xml"/>
          <description>Global - Linked rules with termInfoRef</description>
          <expectedOutput location="expected/terminology/html/terminology1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/terminology/html/terminology1htmloutput.txt"/>
