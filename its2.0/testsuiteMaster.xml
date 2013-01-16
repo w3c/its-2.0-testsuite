@@ -630,35 +630,35 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext2html.html">
-         <description>Local - In host element</description>
+         <description assertions="within-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="within-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext6xml.xml">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="within-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext3html.html">
-         <description>Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="within-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
      <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
-         <description>Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="within-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt"/>
