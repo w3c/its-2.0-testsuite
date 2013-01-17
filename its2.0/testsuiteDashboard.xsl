@@ -211,7 +211,7 @@
             <li><q class="error">error</q> = an error occurred, e.g. the output file is not available or it is not
                 identical to the reference output file. Move the mouse over <q>error</q> to see
                 details.</li>
-            <li><q class="fnf">fileNotFound</q>: the output file from the implementer has not been found.</li>
+            <li><q class="fnf">fnf</q>: the output file from the implementer has not been found.</li>
         </ul>
         <xsl:for-each select="$datacategories">
             <xsl:variable name="currentDatacat" select="."/>
@@ -234,7 +234,7 @@
                         select="tokenize($currentInputFile/@location,'/')[last()]"/>
                     <tr>
                         <td>
-                            <a href="{$currentInputFile/@location}"><xsl:value-of select="$currentInputFileName"/></a>
+                            <a target="_blank" href="{$currentInputFile/@location}"><xsl:value-of select="$currentInputFileName"/></a>
                             <br/>
                             <xsl:value-of select="$currentInputFile/my:description"/>
                             <br/>
@@ -242,10 +242,10 @@
                                 (assertions:
                                 <xsl:for-each select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
                                     <xsl:variable name="no" select="position()"/>
-                                    <a href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"/>]</a>
+                                    <a target="_blank" href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"/>]</a>
                                 </xsl:for-each>)
                             </xsl:if>
-                            <a href="{$currentInputFile/my:expectedOutput/@location}">(expected)</a>
+                            <a target="_blank" href="{$currentInputFile/my:expectedOutput/@location}">(expected)</a>
                         </td>
                         <xsl:for-each select="$implemeters">
                             <xsl:variable name="currentImplementer" select="."/>
@@ -266,7 +266,7 @@
                                                   </xsl:for-each>
                                                 </xsl:variable>
                                                 <xsl:choose>
-                                                    <xsl:when test="contains($errorList,'outputFileNotFound')"><span class="fnf">fileNotFound</span></xsl:when>
+                                                    <xsl:when test="contains($errorList,'outputFileNotFound')"><span class="fnf" title="file not found">fnf</span></xsl:when>
                                                   <xsl:otherwise>
                                                   <span title="{$errorList}" class="error">error</span>
                                                   </xsl:otherwise>
