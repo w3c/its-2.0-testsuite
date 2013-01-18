@@ -216,9 +216,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -262,9 +260,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -288,9 +284,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -334,9 +328,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -405,9 +397,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt">
             <error>outputFileNotFound</error>
