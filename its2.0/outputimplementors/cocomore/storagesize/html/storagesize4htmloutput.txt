@@ -8,9 +8,9 @@
 /html/head[1]/title[1]
 /html/body[1]
 /html/body[1]/b[1]
-/html/body[1]/p[1]
+/html/body[1]/p[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
 /html/body[1]/p[1]/@contenteditable
 /html/body[1]/p[1]/@id
-/html/body[1]/p[2]
+/html/body[1]/p[2]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
 /html/body[1]/p[2]/@contenteditable
 /html/body[1]/p[2]/@id

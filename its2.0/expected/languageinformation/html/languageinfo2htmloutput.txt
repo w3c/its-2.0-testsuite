@@ -1,5 +1,4 @@
 /html
-/html/@lang
 /html/head[1]
 /html/head[1]/meta[1]
 /html/head[1]/meta[1]/@charset

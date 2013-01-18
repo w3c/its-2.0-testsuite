@@ -369,6 +369,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1746,7 +1747,6 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt"/>
-         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/storagesize/xml/storagesize9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize6xml.xml">
          <description assertions="storagesize-local">Local - In host element with lineBreak</description>
