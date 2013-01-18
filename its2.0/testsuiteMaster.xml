@@ -6,7 +6,7 @@
 <!ELEMENT inputfile (description, expectedOutput, outputImplementors*)>
 <!ATTLIST inputfile location CDATA #REQUIRED>
 <!ELEMENT description (#PCDATA)>
-<!ATTLIST description assertions NMTOKENS #IMPLIED>
+<!ATTLIST description assertions NMTOKENS #REQUIRED>
 <!ELEMENT expectedOutput EMPTY>
 <!ATTLIST expectedOutput location CDATA #REQUIRED>
 <!ELEMENT outputImplementors EMPTY>
