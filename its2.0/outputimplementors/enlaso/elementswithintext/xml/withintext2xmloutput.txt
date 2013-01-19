@@ -1,6 +1,5 @@
 /myDocument	withinText="no"
 /myDocument/@xml:lang
-/myDocument/@xmlns
 /myDocument/prolog[1]	withinText="no"
 /myDocument/prolog[1]/its:rules[1]	withinText="no"
 /myDocument/prolog[1]/its:rules[1]/@version
