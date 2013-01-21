@@ -42,12 +42,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="yes"	]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
@@ -175,12 +170,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate6htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	translate="no"	]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
       </inputfile>
@@ -360,32 +350,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"	]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"	]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"	]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"	]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="no"]
-* Implementers file line:[/html/body[1]	translate="yes"	]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]	translate="yes"	]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
