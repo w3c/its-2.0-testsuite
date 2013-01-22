@@ -1,0 +1,25 @@
+/text
+/text/its:rules[1]
+/text/its:rules[1]/@version
+/text/its:rules[1]/its:disambiguationRule[1]
+/text/its:rules[1]/its:disambiguationRule[1]/@disambigClassRefPointer
+/text/its:rules[1]/its:disambiguationRule[1]/@disambigGranularity
+/text/its:rules[1]/its:disambiguationRule[1]/@disambigIdentRefPointer
+/text/its:rules[1]/its:disambiguationRule[1]/@selector
+/text/its:rules[1]/its:disambiguationRule[2]
+/text/its:rules[1]/its:disambiguationRule[2]/@disambigClassPointer
+/text/its:rules[1]/its:disambiguationRule[2]/@disambigGranularity
+/text/its:rules[1]/its:disambiguationRule[2]/@disambigIdentPointer
+/text/its:rules[1]/its:disambiguationRule[2]/@disambigSourcePointer
+/text/its:rules[1]/its:disambiguationRule[2]/@selector
+/text/body[1]
+/text/body[1]/p[1]
+/text/body[1]/p[1]/span[1]	disambigClassRef="http://nerd.eurecom.fr/ontology#Place"	disambigGranularity="entity"	disambigIdentRef="http://dbpedia.org/resource/Dublin"
+/text/body[1]/p[1]/span[1]/@classref
+/text/body[1]/p[1]/span[1]/@id
+/text/body[1]/p[1]/span[1]/@identref
+/text/body[1]/p[1]/span[2]	disambigGranularity="lexical-concept"	disambigIdent="301467919"	disambigSource="Wordnet3.0"
+/text/body[1]/p[1]/span[2]/@class
+/text/body[1]/p[1]/span[2]/@id
+/text/body[1]/p[1]/span[2]/@ident
+/text/body[1]/p[1]/span[2]/@source
