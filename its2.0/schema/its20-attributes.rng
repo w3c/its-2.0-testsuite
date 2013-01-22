@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="its20.rng"/>
+  <start>
+    <group>
+      <optional>
+        <ref name="its-local.attributes"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.version"/>
+      </optional>
+    </group>
+  </start>
+</grammar>

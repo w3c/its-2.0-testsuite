@@ -1,0 +1,11 @@
+<!-- Apache Ant script to build ITS20 spec. -->     
+<project name="ITS 2.0 Testsuite" default="validate" basedir=".">
+    
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" classpath="lib/jing.jar"/>
+  
+  <target name="validate">
+    <jing rngfile="schema/its20.nvdl">
+      <fileset dir="inputdata" includes="**/*.xml"/>
+    </jing>
+  </target>
+</project>
