@@ -1,5 +1,4 @@
 /html
-/html/@lang
 /html/head[1]
 /html/head[1]/meta[1]
 /html/head[1]/meta[1]/@charset
@@ -9,7 +8,8 @@
 /html/head[1]/title[1]
 /html/body[1]
 /html/body[1]/p[1]
-/html/body[1]/p[1]/q[1]
+/html/body[1]/p[1]/q[1]	lang="fr-CA"
+/html/body[1]/p[1]/q[1]/@lang	lang="fr-CA"
 /html/body[1]/p[2]
 /html/body[1]/p[2]/q[1]	lang="fr-CA"
 /html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"

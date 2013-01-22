@@ -7,7 +7,7 @@
 /html/body[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"
 /html/body[1]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"
 /html/body[1]/p[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"
-/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="yes"	termInfoRef="#TDPV"
+/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="yes"	termConfidence="0.5"	termInfoRef="#TDPV"
 /html/body[1]/p[1]/span[1]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"
 /html/body[1]/p[1]/span[1]/@its-term	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"
 /html/body[1]/p[1]/span[1]/@its-term-confidence	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"

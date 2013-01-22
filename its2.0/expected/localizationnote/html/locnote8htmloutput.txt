@@ -17,5 +17,5 @@
 /html/body[1]/span[2]/img[1]
 /html/body[1]/span[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"
 /html/body[1]/span[2]/img[1]/@src
-/html/body[1]/span[3]        locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."        locNoteType="alert"
+/html/body[1]/span[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"
 /html/body[1]/span[3]/@id

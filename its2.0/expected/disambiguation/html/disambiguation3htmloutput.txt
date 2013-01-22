@@ -14,5 +14,5 @@
 /html/body[1]/p[1]/span[1]/@id
 /html/body[1]/p[1]/span[1]/@property
 /html/body[1]/p[1]/span[1]/@typeof
-/html/body[1]/p[1]/span[2]	disambigGranularity="lexical-concept"	disambigIdent="301467919"	disambigSource="Wordnet3.0"
+/html/body[1]/p[1]/span[2]
 /html/body[1]/p[1]/span[2]/@id

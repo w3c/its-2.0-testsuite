@@ -1,0 +1,9 @@
+/doc
+/doc/@its:version
+/doc/para[1]
+/doc/para[1]/span[1]	locQualityIssueComment="Sentence without capitalization"	locQualityIssueEnabled="yes"	locQualityIssueSeverity="50"
+/doc/para[1]/span[1]/@its:locQualityIssueComment
+/doc/para[1]/span[1]/@its:locQualityIssueSeverity
+/doc/para[1]/span[2]	locQualityIssueComment="should be 'transport include'"	locQualityIssueEnabled="yes"	locQualityIssueSeverity="75"
+/doc/para[1]/span[2]/@its:locQualityIssueComment
+/doc/para[1]/span[2]/@its:locQualityIssueSeverity

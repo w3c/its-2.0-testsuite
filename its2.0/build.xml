@@ -1,0 +1,41 @@
+<!-- Apache Ant script to build ITS20 spec. -->     
+<project name="ITS 2.0 Testsuite" default="validate" basedir=".">
+    
+  <property file="build.properties"/>
+  
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" classpath="lib/jing.jar"/>
+
+  <target name="validate">    
+    <antcall target="validate-html"/>
+    <antcall target="validate-xml"/>
+  </target>
+
+  <target name="validate-xml">
+    <jing rngfile="schema/its20.nvdl">
+      <fileset dir="inputdata" includes="**/*.xml"/>
+    </jing>
+  </target>
+
+  <target name="validate-html">
+    <path id="jing-cp">
+      <pathelement location="${htmltools.dir}/schema"/>
+      <pathelement location="${htmltools.dir}/lib/jing.jar"/>
+      <pathelement location="${htmltools.dir}/lib/html5-datatypes.jar"/>
+      <pathelement location="${htmltools.dir}/lib/iri.jar"/>
+      <pathelement location="${htmltools.dir}/lib/js.jar"/>
+      <pathelement location="${htmltools.dir}/lib/htmlparser.jar"/>
+      <pathelement location="${htmltools.dir}/lib/icu4j-4_4_2.jar"/>      
+    </path>    
+    <pathconvert property="jing-cp" refid="jing-cp"/>
+    <echo message="${jing-cp}"/>
+    <apply executable="java">
+      <arg value="-cp"/>
+      <arg value="${jing-cp}"/>
+      <arg value="com.thaiopensource.relaxng.util.Driver"/>
+      <arg value="-c"/>
+      <arg value="${htmltools.dir}/schema/html5-its-lang.rnc"/>
+      <fileset dir="inputdata" includes="**/*.html"/>
+    </apply>
+  </target>
+
+</project>

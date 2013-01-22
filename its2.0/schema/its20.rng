@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.w3.org/2005/11/its" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:its="http://www.w3.org/2005/11/its" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <include href="its20-types.rng"/>
+  <define name="its-attribute.translate">
+    <attribute name="its:translate">
+      <ref name="its-translate.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.translate.nons">
+    <attribute name="translate">
+      <ref name="its-translate.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.dir">
+    <attribute name="its:dir">
+      <ref name="its-dir.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.dir.nons">
+    <attribute name="dir">
+      <ref name="its-dir.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNote">
+    <attribute name="its:locNote">
+      <ref name="its-locNote.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNote.nons">
+    <attribute name="locNote">
+      <ref name="its-locNote.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNoteType">
+    <attribute name="its:locNoteType">
+      <ref name="its-locNoteType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNoteType.nons">
+    <attribute name="locNoteType">
+      <ref name="its-locNoteType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNoteRef">
+    <attribute name="its:locNoteRef">
+      <ref name="its-locNoteRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNoteRef.nons">
+    <attribute name="locNoteRef">
+      <ref name="its-locNoteRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.termInfoRef">
+    <attribute name="its:termInfoRef">
+      <ref name="its-termInfoRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.termInfoRef.nons">
+    <attribute name="termInfoRef">
+      <ref name="its-termInfoRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.term">
+    <attribute name="its:term">
+      <ref name="its-term.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.term.nons">
+    <attribute name="term">
+      <ref name="its-term.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.termConfidence">
+    <attribute name="its:termConfidence">
+      <ref name="its-termConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.termConfidence.nons">
+    <attribute name="termConfidence">
+      <ref name="its-termConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.withinText">
+    <attribute name="its:withinText">
+      <ref name="its-withinText.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.withinText.nons">
+    <attribute name="withinText">
+      <ref name="its-withinText.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.domainMapping">
+    <attribute name="its:domainMapping">
+      <ref name="its-domainMapping.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.domainMapping.nons">
+    <attribute name="domainMapping">
+      <ref name="its-domainMapping.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigGranularity">
+    <attribute name="its:disambigGranularity">
+      <ref name="its-disambigGranularity.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigGranularity.nons">
+    <attribute name="disambigGranularity">
+      <ref name="its-disambigGranularity.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigConfidence">
+    <attribute name="its:disambigConfidence">
+      <ref name="its-disambigConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigConfidence.nons">
+    <attribute name="disambigConfidence">
+      <ref name="its-disambigConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigClassRef">
+    <attribute name="its:disambigClassRef">
+      <ref name="its-disambigClassRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigClassRef.nons">
+    <attribute name="disambigClassRef">
+      <ref name="its-disambigClassRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdent">
+    <attribute name="its:disambigIdent">
+      <ref name="its-disambigIdent.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdent.nons">
+    <attribute name="disambigIdent">
+      <ref name="its-disambigIdent.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdentRef">
+    <attribute name="its:disambigIdentRef">
+      <ref name="its-disambigIdentRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdentRef.nons">
+    <attribute name="disambigIdentRef">
+      <ref name="its-disambigIdentRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigSource">
+    <attribute name="its:disambigSource">
+      <ref name="its-disambigSource.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigSource.nons">
+    <attribute name="disambigSource">
+      <ref name="its-disambigSource.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.localeFilterList">
+    <attribute name="its:localeFilterList">
+      <ref name="its-localeFilterList.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.localeFilterList.nons">
+    <attribute name="localeFilterList">
+      <ref name="its-localeFilterList.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.person">
+    <attribute name="its:person">
+      <ref name="its-person.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.person.nons">
+    <attribute name="person">
+      <ref name="its-person.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.personRef">
+    <attribute name="its:personRef">
+      <ref name="its-personRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.personRef.nons">
+    <attribute name="personRef">
+      <ref name="its-personRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.org">
+    <attribute name="its:org">
+      <ref name="its-org.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.org.nons">
+    <attribute name="org">
+      <ref name="its-org.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.orgRef">
+    <attribute name="its:orgRef">
+      <ref name="its-orgRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.orgRef.nons">
+    <attribute name="orgRef">
+      <ref name="its-orgRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.tool">
+    <attribute name="its:tool">
+      <ref name="its-tool.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.tool.nons">
+    <attribute name="tool">
+      <ref name="its-tool.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.toolRef">
+    <attribute name="its:toolRef">
+      <ref name="its-toolRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.toolRef.nons">
+    <attribute name="toolRef">
+      <ref name="its-toolRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revPerson">
+    <attribute name="its:revPerson">
+      <ref name="its-revPerson.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revPerson.nons">
+    <attribute name="revPerson">
+      <ref name="its-revPerson.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revPersonRef">
+    <attribute name="its:revPersonRef">
+      <ref name="its-revPersonRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revPersonRef.nons">
+    <attribute name="revPersonRef">
+      <ref name="its-revPersonRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revOrg">
+    <attribute name="its:revOrg">
+      <ref name="its-revOrg.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revOrg.nons">
+    <attribute name="revOrg">
+      <ref name="its-revOrg.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revOrgRef">
+    <attribute name="its:revOrgRef">
+      <ref name="its-revOrgRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revOrgRef.nons">
+    <attribute name="revOrgRef">
+      <ref name="its-revOrgRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revTool">
+    <attribute name="its:revTool">
+      <ref name="its-revTool.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revTool.nons">
+    <attribute name="revTool">
+      <ref name="its-revTool.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revToolRef">
+    <attribute name="its:revToolRef">
+      <ref name="its-revToolRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.revToolRef.nons">
+    <attribute name="revToolRef">
+      <ref name="its-revToolRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.provRef">
+    <attribute name="its:provRef">
+      <ref name="its-provRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.provRef.nons">
+    <attribute name="provRef">
+      <ref name="its-provRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.provenanceRecordsRef">
+    <attribute name="its:provenanceRecordsRef">
+      <ref name="its-provenanceRecordsRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.provenanceRecordsRef.nons">
+    <attribute name="provenanceRecordsRef">
+      <ref name="its-provenanceRecordsRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssuesRef">
+    <attribute name="its:locQualityIssuesRef">
+      <ref name="its-locQualityIssuesRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssuesRef.nons">
+    <attribute name="locQualityIssuesRef">
+      <ref name="its-locQualityIssuesRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueType">
+    <attribute name="its:locQualityIssueType">
+      <ref name="its-locQualityIssueType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueType.nons">
+    <attribute name="locQualityIssueType">
+      <ref name="its-locQualityIssueType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueComment">
+    <attribute name="its:locQualityIssueComment">
+      <ref name="its-locQualityIssueComment.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueComment.nons">
+    <attribute name="locQualityIssueComment">
+      <ref name="its-locQualityIssueComment.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueSeverity">
+    <attribute name="its:locQualityIssueSeverity">
+      <ref name="its-locQualityIssueSeverity.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueSeverity.nons">
+    <attribute name="locQualityIssueSeverity">
+      <ref name="its-locQualityIssueSeverity.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueProfileRef">
+    <attribute name="its:locQualityIssueProfileRef">
+      <ref name="its-locQualityIssueProfileRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueProfileRef.nons">
+    <attribute name="locQualityIssueProfileRef">
+      <ref name="its-locQualityIssueProfileRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueEnabled">
+    <attribute name="its:locQualityIssueEnabled">
+      <ref name="its-locQualityIssueEnabled.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityIssueEnabled.nons">
+    <attribute name="locQualityIssueEnabled">
+      <ref name="its-locQualityIssueEnabled.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingScore">
+    <attribute name="its:locQualityRatingScore">
+      <ref name="its-locQualityRatingScore.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingScore.nons">
+    <attribute name="locQualityRatingScore">
+      <ref name="its-locQualityRatingScore.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingVote">
+    <attribute name="its:locQualityRatingVote">
+      <ref name="its-locQualityRatingVote.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingVote.nons">
+    <attribute name="locQualityRatingVote">
+      <ref name="its-locQualityRatingVote.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingScoreThreshold">
+    <attribute name="its:locQualityRatingScoreThreshold">
+      <ref name="its-locQualityRatingScoreThreshold.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingScoreThreshold.nons">
+    <attribute name="locQualityRatingScoreThreshold">
+      <ref name="its-locQualityRatingScoreThreshold.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingVoteThreshold">
+    <attribute name="its:locQualityRatingVoteThreshold">
+      <ref name="its-locQualityRatingVoteThreshold.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingVoteThreshold.nons">
+    <attribute name="locQualityRatingVoteThreshold">
+      <ref name="its-locQualityRatingVoteThreshold.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingProfileRef">
+    <attribute name="its:locQualityRatingProfileRef">
+      <ref name="its-locQualityRatingProfileRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locQualityRatingProfileRef.nons">
+    <attribute name="locQualityRatingProfileRef">
+      <ref name="its-locQualityRatingProfileRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.mtConfidence">
+    <attribute name="its:mtConfidence">
+      <ref name="its-mtConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.mtConfidence.nons">
+    <attribute name="mtConfidence">
+      <ref name="its-mtConfidence.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.allowedCharacters">
+    <attribute name="its:allowedCharacters">
+      <ref name="its-allowedCharacters.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.allowedCharacters.nons">
+    <attribute name="allowedCharacters">
+      <ref name="its-allowedCharacters.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.storageSize">
+    <attribute name="its:storageSize">
+      <ref name="its-storageSize.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.storageSize.nons">
+    <attribute name="storageSize">
+      <ref name="its-storageSize.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.storageEncoding">
+    <attribute name="its:storageEncoding">
+      <ref name="its-storageEncoding.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.storageEncoding.nons">
+    <attribute name="storageEncoding">
+      <ref name="its-storageEncoding.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.lineBreakType">
+    <attribute name="its:lineBreakType">
+      <ref name="its-lineBreakType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.lineBreakType.nons">
+    <attribute name="lineBreakType">
+      <ref name="its-lineBreakType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.annotatorsRef">
+    <attribute name="its:annotatorsRef">
+      <ref name="its-annotatorsRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.annotatorsRef.nons">
+    <attribute name="annotatorsRef">
+      <ref name="its-annotatorsRef.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.version">
+    <attribute name="its:version">
+      <a:documentation>Version of ITS</a:documentation>
+      <ref name="its-version.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.version.nons">
+    <attribute name="version">
+      <a:documentation>Version of ITS</a:documentation>
+      <ref name="its-version.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.queryLanguage">
+    <attribute name="its:queryLanguage">
+      <ref name="its-queryLanguage.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.queryLanguage.nons">
+    <attribute name="queryLanguage">
+      <ref name="its-queryLanguage.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.xlink.href">
+    <attribute name="xlink:href">
+      <data type="anyURI"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.xlink.type">
+    <attribute name="xlink:type">
+      <value>simple</value>
+    </attribute>
+  </define>
+  <define name="its-attribute.selector">
+    <attribute name="selector">
+      <ref name="its-absolute-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-rules">
+    <element name="rules">
+      <a:documentation>Container for global rules</a:documentation>
+      <ref name="its-rules.content"/>
+      <ref name="its-rules.attributes"/>
+    </element>
+  </define>
+  <define name="its-rules.content">
+    <zeroOrMore>
+      <ref name="its-param"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <choice>
+        <ref name="its-translateRule"/>
+        <ref name="its-locNoteRule"/>
+        <ref name="its-termRule"/>
+        <ref name="its-dirRule"/>
+        <ref name="its-rubyRule"/>
+        <ref name="its-langRule"/>
+        <ref name="its-withinTextRule"/>
+        <ref name="its-domainRule"/>
+        <ref name="its-disambiguationRule"/>
+        <ref name="its-localeFilterRule"/>
+        <ref name="its-provRule"/>
+        <ref name="its-locQualityIssueRule"/>
+        <ref name="its-mtConfidenceRule"/>
+        <ref name="its-externalResourceRefRule"/>
+        <ref name="its-targetPointerRule"/>
+        <ref name="its-idValueRule"/>
+        <ref name="its-preserveSpaceRule"/>
+        <ref name="its-allowedCharactersRule"/>
+        <ref name="its-storageSizeRule"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="its-rules.attributes">
+    <ref name="its-attribute.version.nons"/>
+    <optional>
+      <ref name="its-attribute.xlink.href"/>
+      <optional>
+        <ref name="its-attribute.xlink.type"/>
+      </optional>
+    </optional>
+    <optional>
+      <ref name="its-attribute.queryLanguage.nons"/>
+    </optional>
+  </define>
+  <define name="its-param">
+    <element name="param">
+      <a:documentation>Declaration of variable used in selectors</a:documentation>
+      <ref name="its-param.content"/>
+      <ref name="its-param.attributes"/>
+    </element>
+  </define>
+  <define name="its-param.content">
+    <text/>
+  </define>
+  <define name="its-param.attributes">
+    <attribute name="name">
+      <data type="string"/>
+    </attribute>
+  </define>
+  <define name="its-local.attributes">
+    <interleave>
+      <optional>
+        <ref name="its-attribute.translate"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.dir"/>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.locNote"/>
+          <ref name="its-attribute.locNoteRef"/>
+        </choice>
+        <optional>
+          <ref name="its-attribute.locNoteType"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.term"/>
+        <optional>
+          <ref name="its-attribute.termInfoRef"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.termConfidence"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.withinText"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigConfidence"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigGranularity"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigClassRef"/>
+      </optional>
+      <optional>
+        <choice>
+          <group>
+            <ref name="its-attribute.disambigSource"/>
+            <ref name="its-attribute.disambigIdent"/>
+          </group>
+          <ref name="its-attribute.disambigIdentRef"/>
+        </choice>
+      </optional>
+      <optional>
+        <ref name="its-attribute.localeFilterList"/>
+      </optional>
+      <optional>
+        <choice>
+          <interleave>
+            <optional>
+              <choice>
+                <ref name="its-attribute.person"/>
+                <ref name="its-attribute.personRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.org"/>
+                <ref name="its-attribute.orgRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.tool"/>
+                <ref name="its-attribute.toolRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revPerson"/>
+                <ref name="its-attribute.revPersonRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revOrg"/>
+                <ref name="its-attribute.revOrgRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revTool"/>
+                <ref name="its-attribute.revToolRef"/>
+              </choice>
+            </optional>
+            <optional>
+              <ref name="its-attribute.provRef"/>
+            </optional>
+          </interleave>
+          <ref name="its-attribute.provenanceRecordsRef"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.locQualityIssuesRef"/>
+          <interleave>
+            <optional>
+              <ref name="its-attribute.locQualityIssueType"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueComment"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueSeverity"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueProfileRef"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueEnabled"/>
+            </optional>
+          </interleave>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <group>
+            <ref name="its-attribute.locQualityRatingScore"/>
+            <optional>
+              <ref name="its-attribute.locQualityRatingScoreThreshold"/>
+            </optional>
+          </group>
+          <group>
+            <ref name="its-attribute.locQualityRatingVote"/>
+            <optional>
+              <ref name="its-attribute.locQualityRatingVoteThreshold"/>
+            </optional>
+          </group>
+        </choice>
+        <optional>
+          <ref name="its-attribute.locQualityRatingProfileRef"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.mtConfidence"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.allowedCharacters"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.storageSize"/>
+        <optional>
+          <ref name="its-attribute.storageEncoding"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.lineBreakType"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.annotatorsRef"/>
+      </optional>
+    </interleave>
+  </define>
+  <define name="its-local.nons.attributes">
+    <interleave>
+      <optional>
+        <ref name="its-attribute.translate.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.dir.nons"/>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.locNote.nons"/>
+          <ref name="its-attribute.locNoteRef.nons"/>
+        </choice>
+        <optional>
+          <ref name="its-attribute.locNoteType.nons"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.term.nons"/>
+        <optional>
+          <ref name="its-attribute.termInfoRef.nons"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.termConfidence.nons"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.withinText.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigConfidence.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigGranularity.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.disambigClassRef.nons"/>
+      </optional>
+      <optional>
+        <choice>
+          <group>
+            <ref name="its-attribute.disambigSource.nons"/>
+            <ref name="its-attribute.disambigIdent.nons"/>
+          </group>
+          <ref name="its-attribute.disambigIdentRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <ref name="its-attribute.localeFilterList.nons"/>
+      </optional>
+      <optional>
+        <choice>
+          <interleave>
+            <optional>
+              <choice>
+                <ref name="its-attribute.person.nons"/>
+                <ref name="its-attribute.personRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.org.nons"/>
+                <ref name="its-attribute.orgRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.tool.nons"/>
+                <ref name="its-attribute.toolRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revPerson.nons"/>
+                <ref name="its-attribute.revPersonRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revOrg.nons"/>
+                <ref name="its-attribute.revOrgRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <choice>
+                <ref name="its-attribute.revTool.nons"/>
+                <ref name="its-attribute.revToolRef.nons"/>
+              </choice>
+            </optional>
+            <optional>
+              <ref name="its-attribute.provRef.nons"/>
+            </optional>
+          </interleave>
+          <ref name="its-attribute.provenanceRecordsRef"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.locQualityIssuesRef.nons"/>
+          <interleave>
+            <optional>
+              <ref name="its-attribute.locQualityIssueType.nons"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueComment.nons"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueSeverity.nons"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueProfileRef.nons"/>
+            </optional>
+            <optional>
+              <ref name="its-attribute.locQualityIssueEnabled.nons"/>
+            </optional>
+          </interleave>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <group>
+            <ref name="its-attribute.locQualityRatingScore.nons"/>
+            <optional>
+              <ref name="its-attribute.locQualityRatingScoreThreshold.nons"/>
+            </optional>
+          </group>
+          <group>
+            <ref name="its-attribute.locQualityRatingVote.nons"/>
+            <optional>
+              <ref name="its-attribute.locQualityRatingVoteThreshold.nons"/>
+            </optional>
+          </group>
+        </choice>
+        <optional>
+          <ref name="its-attribute.locQualityRatingProfileRef.nons"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.mtConfidence.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.allowedCharacters.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.storageSize.nons"/>
+        <optional>
+          <ref name="its-attribute.storageEncoding.nons"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.lineBreakType"/>
+        </optional>
+      </optional>
+      <optional>
+        <ref name="its-attribute.annotatorsRef.nons"/>
+      </optional>
+    </interleave>
+  </define>
+  <define name="its-span">
+    <element name="span">
+      <a:documentation>Inline element to contain ITS information</a:documentation>
+      <ref name="its-span.content"/>
+      <ref name="its-span.attributes"/>
+    </element>
+  </define>
+  <define name="its-span.content">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="its-ruby"/>
+        <ref name="its-span"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="its-span.attributes">
+    <ref name="its-local.nons.attributes"/>
+  </define>
+  <define name="its-translateRule">
+    <element name="translateRule">
+      <a:documentation>Rule about the Translate data category</a:documentation>
+      <ref name="its-translateRule.content"/>
+      <ref name="its-translateRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-translateRule.content">
+    <empty/>
+  </define>
+  <define name="its-translateRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.translate.nons"/>
+  </define>
+  <define name="its-locNoteRule">
+    <element name="locNoteRule">
+      <a:documentation>Rule about the Localization Note data category</a:documentation>
+      <ref name="its-attribute.selector"/>
+      <ref name="its-attribute.locNoteType.nons"/>
+      <choice>
+        <ref name="its-locNote"/>
+        <ref name="its-attribute.locNotePointer.nons"/>
+        <ref name="its-attribute.locNoteRef.nons"/>
+        <ref name="its-attribute.locNoteRefPointer.nons"/>
+      </choice>
+    </element>
+  </define>
+  <define name="its-attribute.locNotePointer.nons">
+    <attribute name="locNotePointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.locNoteRefPointer.nons">
+    <attribute name="locNoteRefPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-locNote">
+    <element name="locNote">
+      <a:documentation>Localization note</a:documentation>
+      <ref name="its-locNote.content"/>
+      <ref name="its-locNote.attributes"/>
+    </element>
+  </define>
+  <define name="its-locNote.content">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="its-ruby"/>
+        <ref name="its-span"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="its-locNote.attributes">
+    <ref name="its-local.attributes"/>
+  </define>
+  <define name="its-termRule">
+    <element name="termRule">
+      <a:documentation>Rule about the Terminology data category</a:documentation>
+      <ref name="its-termRule.content"/>
+      <ref name="its-termRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-termRule.content">
+    <empty/>
+  </define>
+  <define name="its-termRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.term.nons"/>
+    <optional>
+      <choice>
+        <ref name="its-attribute.termInfoPointer.nons"/>
+        <ref name="its-attribute.termInfoRef.nons"/>
+        <ref name="its-attribute.termInfoRefPointer.nons"/>
+      </choice>
+    </optional>
+  </define>
+  <define name="its-attribute.termInfoPointer.nons">
+    <attribute name="termInfoPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.termInfoRefPointer.nons">
+    <attribute name="termInfoRefPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-dirRule">
+    <element name="dirRule">
+      <a:documentation>Rule about the Directionality data category</a:documentation>
+      <ref name="its-dirRule.content"/>
+      <ref name="its-dirRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-dirRule.content">
+    <empty/>
+  </define>
+  <define name="its-dirRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.dir.nons"/>
+  </define>
+  <define name="its-rubyRule">
+    <element name="rubyRule">
+      <a:documentation>Rule about the Ruby data category</a:documentation>
+      <ref name="its-rubyRule.content"/>
+      <ref name="its-rubyRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-rubyRule.content">
+    <optional>
+      <ref name="its-rubyText"/>
+    </optional>
+  </define>
+  <define name="its-rubyRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <optional>
+      <ref name="its-attribute.rubyPointer.nons"/>
+    </optional>
+    <optional>
+      <ref name="its-attribute.rpPointer.nons"/>
+    </optional>
+    <optional>
+      <ref name="its-attribute.rtPointer.nons"/>
+    </optional>
+  </define>
+  <define name="its-attribute.rubyPointer.nons">
+    <attribute name="rubyPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.rpPointer.nons">
+    <attribute name="rpPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.rtPointer.nons">
+    <attribute name="rtPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-rubyText">
+    <element name="rubyText">
+      <a:documentation>Ruby text</a:documentation>
+      <ref name="its-rubyText.content"/>
+      <ref name="its-rubyText.attributes"/>
+    </element>
+  </define>
+  <define name="its-rubyText.content">
+    <text/>
+  </define>
+  <define name="its-rubyText.attributes">
+    <ref name="its-local.attributes"/>
+  </define>
+  <define name="its-ruby">
+    <element name="ruby">
+      <a:documentation>Ruby markup</a:documentation>
+      <ref name="its-ruby.content"/>
+      <ref name="its-ruby.attributes"/>
+    </element>
+  </define>
+  <!-- FIXME: Allow nested ruby as in HTML5 -->
+  <define name="its-ruby.content">
+    <oneOrMore>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="its-span"/>
+        </choice>
+      </oneOrMore>
+      <choice>
+        <ref name="its-rt"/>
+        <group>
+          <ref name="its-rp"/>
+          <ref name="its-rt"/>
+          <ref name="its-rp"/>
+        </group>
+      </choice>
+    </oneOrMore>
+  </define>
+  <define name="its-ruby.attributes">
+    <ref name="its-local.attributes"/>
+  </define>
+  <define name="its-rt">
+    <element name="rt">
+      <a:documentation>Ruby text</a:documentation>
+      <ref name="its-rt.content"/>
+      <ref name="its-rt.attributes"/>
+    </element>
+  </define>
+  <define name="its-rt.content">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="its-span"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="its-rt.attributes">
+    <ref name="its-local.attributes"/>
+  </define>
+  <define name="its-rp">
+    <element name="rp">
+      <a:documentation>Used in the case of simple ruby markup to specify characters 
+that can denote the beginning and end of ruby text when user
+agents do not have other ways to present ruby text distinctively
+from the base text. Typically contains parenthesis.</a:documentation>
+      <ref name="its-rp.content"/>
+      <ref name="its-rp.attributes"/>
+    </element>
+  </define>
+  <define name="its-rp.content">
+    <text/>
+  </define>
+  <define name="its-rp.attributes">
+    <ref name="its-local.attributes"/>
+  </define>
+  <define name="its-langRule">
+    <element name="langRule">
+      <a:documentation>Rule about the Language Information data category</a:documentation>
+      <ref name="its-langRule.content"/>
+      <ref name="its-langRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-langRule.content">
+    <empty/>
+  </define>
+  <define name="its-langRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.langPointer.nons"/>
+  </define>
+  <define name="its-attribute.langPointer.nons">
+    <attribute name="langPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-withinTextRule">
+    <element name="withinTextRule">
+      <a:documentation>Rule about the Elements Within Text data category</a:documentation>
+      <ref name="its-withinTextRule.content"/>
+      <ref name="its-withinTextRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-withinTextRule.content">
+    <empty/>
+  </define>
+  <define name="its-withinTextRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.withinText.nons"/>
+  </define>
+  <define name="its-domainRule">
+    <element name="domainRule">
+      <a:documentation>Rule about the Domain data category</a:documentation>
+      <ref name="its-domainRule.content"/>
+      <ref name="its-domainRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-domainRule.content">
+    <empty/>
+  </define>
+  <define name="its-domainRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.domainPointer.nons"/>
+    <optional>
+      <ref name="its-attribute.domainMapping.nons"/>
+    </optional>
+  </define>
+  <define name="its-attribute.domainPointer.nons">
+    <attribute name="domainPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-disambiguationRule">
+    <element name="disambiguationRule">
+      <a:documentation>Rule about the Disambiguation data category</a:documentation>
+      <ref name="its-disambiguationRule.content"/>
+      <ref name="its-disambiguationRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-disambiguationRule.content">
+    <empty/>
+  </define>
+  <define name="its-disambiguationRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <optional>
+      <ref name="its-attribute.disambigGranularity.nons"/>
+    </optional>
+    <optional>
+      <ref name="its-attribute.disambigSource.nons"/>
+    </optional>
+    <optional>
+      <choice>
+        <ref name="its-attribute.disambigClassPointer.nons"/>
+        <ref name="its-attribute.disambigClassRefPointer.nons"/>
+      </choice>
+    </optional>
+    <optional>
+      <choice>
+        <group>
+          <ref name="its-attribute.disambigSourcePointer.nons"/>
+          <ref name="its-attribute.disambigIdentPointer.nons"/>
+        </group>
+        <ref name="its-attribute.disambigIdentRefPointer.nons"/>
+      </choice>
+    </optional>
+  </define>
+  <define name="its-attribute.disambigClassPointer.nons">
+    <attribute name="disambigClassPointer">
+      <ref name="its-disambigClassPointer.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigClassRefPointer.nons">
+    <attribute name="disambigClassRefPointer">
+      <ref name="its-disambigClassRefPointer.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdentPointer.nons">
+    <attribute name="disambigIdentPointer">
+      <ref name="its-disambigIdentPointer.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigSourcePointer.nons">
+    <attribute name="disambigSourcePointer">
+      <ref name="its-disambigSourcePointer.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.disambigIdentRefPointer.nons">
+    <attribute name="disambigIdentRefPointer">
+      <ref name="its-disambigIdentRefPointer.type"/>
+    </attribute>
+  </define>
+  <define name="its-localeFilterRule">
+    <element name="localeFilterRule">
+      <a:documentation>Rule about the LocaleFilter data category</a:documentation>
+      <ref name="its-localeFilterRule.content"/>
+      <ref name="its-localeFilterRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-localeFilterRule.content">
+    <empty/>
+  </define>
+  <define name="its-localeFilterRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.localeFilterList.nons"/>
+  </define>
+  <define name="its-provRule">
+    <element name="provRule">
+      <a:documentation>Rule about the Provenance data category</a:documentation>
+      <ref name="its-provRule.content"/>
+      <ref name="its-provRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-provRule.content">
+    <empty/>
+  </define>
+  <define name="its-provRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.provenanceRecordsRefPointer.nons"/>
+  </define>
+  <define name="its-attribute.provenanceRecordsRefPointer.nons">
+    <attribute name="provenanceRecordsRefPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-externalResourceRefRule">
+    <element name="externalResourceRefRule">
+      <a:documentation>Rule about the External Resource data category</a:documentation>
+      <ref name="its-externalResourceRefRule.content"/>
+      <ref name="its-externalResourceRefRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-externalResourceRefRule.content">
+    <empty/>
+  </define>
+  <define name="its-externalResourceRefRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.externalResourceRefPointer.nons"/>
+  </define>
+  <define name="its-attribute.externalResourceRefPointer.nons">
+    <attribute name="externalResourceRefPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-targetPointerRule">
+    <element name="targetPointerRule">
+      <a:documentation>Rule about the Target Pointer data category</a:documentation>
+      <ref name="its-targetPointerRule.content"/>
+      <ref name="its-targetPointerRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-targetPointerRule.content">
+    <empty/>
+  </define>
+  <define name="its-targetPointerRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.targetPointer.nons"/>
+  </define>
+  <define name="its-attribute.targetPointer.nons">
+    <attribute name="targetPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-idValueRule">
+    <element name="idValueRule">
+      <a:documentation>Rule about the Id Value data category</a:documentation>
+      <ref name="its-idValueRule.content"/>
+      <ref name="its-idValueRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-idValueRule.content">
+    <empty/>
+  </define>
+  <define name="its-idValueRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.idValue.nons"/>
+  </define>
+  <define name="its-attribute.idValue.nons">
+    <attribute name="idValue">
+      <ref name="its-xpath-expression.type"/>
+    </attribute>
+  </define>
+  <define name="its-preserveSpaceRule">
+    <element name="preserveSpaceRule">
+      <a:documentation>Rule about the Preserve Space data category</a:documentation>
+      <ref name="its-preserveSpaceRule.content"/>
+      <ref name="its-preserveSpaceRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-preserveSpaceRule.content">
+    <empty/>
+  </define>
+  <define name="its-preserveSpaceRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.space.nons"/>
+  </define>
+  <define name="its-attribute.space.nons">
+    <attribute name="space">
+      <choice>
+        <value>default</value>
+        <value>preserve</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="its-locQualityIssueRule">
+    <element name="locQualityIssueRule">
+      <a:documentation>Rule about the Localization Quality Issue data category</a:documentation>
+      <ref name="its-locQualityIssueRule.content"/>
+      <ref name="its-locQualityIssueRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-locQualityIssueRule.content">
+    <empty/>
+  </define>
+  <define name="its-locQualityIssueRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <choice>
+      <choice>
+        <ref name="its-attribute.locQualityIssuesRef.nons"/>
+        <ref name="its-attribute.locQualityIssuesRefPointer.nons"/>
+      </choice>
+      <group>
+        <interleave>
+          <optional>
+            <ref name="its-attribute.locQualityIssueType.nons"/>
+          </optional>
+          <optional>
+            <ref name="its-attribute.locQualityIssueComment.nons"/>
+          </optional>
+        </interleave>
+        <optional>
+          <ref name="its-attribute.locQualityIssueSeverity.nons"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.locQualityIssueProfileRef.nons"/>
+        </optional>
+        <optional>
+          <ref name="its-attribute.locQualityIssueEnabled.nons"/>
+        </optional>
+      </group>
+    </choice>
+  </define>
+  <define name="its-attribute.locQualityIssuesRefPointer.nons">
+    <attribute name="locQualityIssuesRefPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-mtConfidenceRule">
+    <element name="mtConfidenceRule">
+      <a:documentation>Rule about the MT Confidence data category</a:documentation>
+      <ref name="its-mtConfidenceRule.content"/>
+      <ref name="its-mtConfidenceRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-mtConfidenceRule.content">
+    <empty/>
+  </define>
+  <define name="its-mtConfidenceRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <ref name="its-attribute.mtConfidence.nons"/>
+  </define>
+  <define name="its-allowedCharactersRule">
+    <element name="allowedCharactersRule">
+      <a:documentation>Rule about the Allowed Characters data category</a:documentation>
+      <ref name="its-allowedCharactersRule.content"/>
+      <ref name="its-allowedCharactersRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-allowedCharactersRule.content">
+    <empty/>
+  </define>
+  <define name="its-allowedCharactersRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <choice>
+      <ref name="its-attribute.allowedCharacters.nons"/>
+      <ref name="its-attribute.allowedCharactersPointer.nons"/>
+    </choice>
+  </define>
+  <define name="its-attribute.allowedCharactersPointer.nons">
+    <attribute name="allowedCharactersPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-storageSizeRule">
+    <element name="storageSizeRule">
+      <a:documentation>Rule about the Allowed Characters data category</a:documentation>
+      <ref name="its-storageSizeRule.content"/>
+      <ref name="its-storageSizeRule.attributes"/>
+    </element>
+  </define>
+  <define name="its-storageSizeRule.content">
+    <empty/>
+  </define>
+  <define name="its-storageSizeRule.attributes">
+    <ref name="its-attribute.selector"/>
+    <choice>
+      <ref name="its-attribute.storageSize.nons"/>
+      <ref name="its-attribute.storageSizePointer.nons"/>
+    </choice>
+    <optional>
+      <choice>
+        <ref name="its-attribute.storageEncoding.nons"/>
+        <ref name="its-attribute.storageEncodingPointer.nons"/>
+      </choice>
+    </optional>
+    <optional>
+      <ref name="its-attribute.lineBreakType.nons"/>
+    </optional>
+  </define>
+  <define name="its-attribute.storageSizePointer.nons">
+    <attribute name="storageSizePointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.storageEncodingPointer.nons">
+    <attribute name="storageEncodingPointer">
+      <ref name="its-relative-selector.type"/>
+    </attribute>
+  </define>
+  <define name="its-standoff">
+    <choice>
+      <ref name="its-provenanceRecords"/>
+      <ref name="its-locQualityIssues"/>
+    </choice>
+  </define>
+  <define name="its-provenanceRecords">
+    <element name="its:provenanceRecords">
+      <a:documentation>Standoff markup for Provenance data category</a:documentation>
+      <oneOrMore>
+        <ref name="its-provenanceRecord"/>
+      </oneOrMore>
+      <attribute name="xml:id">
+        <data type="ID"/>
+      </attribute>
+    </element>
+  </define>
+  <define name="its-provenanceRecord">
+    <element name="its:provenanceRecord">
+      <a:documentation>Provenance record used in Provenance standoff markup</a:documentation>
+      <ref name="its-provenanceRecord.attributes"/>
+    </element>
+  </define>
+  <define name="its-provenanceRecord.attributes">
+    <interleave>
+      <optional>
+        <choice>
+          <ref name="its-attribute.person.nons"/>
+          <ref name="its-attribute.personRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.org.nons"/>
+          <ref name="its-attribute.orgRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.tool.nons"/>
+          <ref name="its-attribute.toolRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.revPerson.nons"/>
+          <ref name="its-attribute.revPersonRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.revOrg.nons"/>
+          <ref name="its-attribute.revOrgRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="its-attribute.revTool.nons"/>
+          <ref name="its-attribute.revToolRef.nons"/>
+        </choice>
+      </optional>
+      <optional>
+        <ref name="its-attribute.provRef.nons"/>
+      </optional>
+    </interleave>
+  </define>
+  <define name="its-locQualityIssues">
+    <element name="its:locQualityIssues">
+      <a:documentation>Standoff markup for Localization Quality Issue data category</a:documentation>
+      <oneOrMore>
+        <ref name="its-locQualityIssue"/>
+      </oneOrMore>
+      <attribute name="xml:id">
+        <data type="ID"/>
+      </attribute>
+    </element>
+  </define>
+  <define name="its-locQualityIssue">
+    <element name="its:locQualityIssue">
+      <a:documentation>Issue recorded in Localization Quality standoff markup</a:documentation>
+      <ref name="its-locQualityIssue.attributes"/>
+    </element>
+  </define>
+  <define name="its-locQualityIssue.attributes">
+    <interleave>
+      <optional>
+        <ref name="its-attribute.locQualityIssueType.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.locQualityIssueComment.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.locQualityIssueSeverity.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.locQualityIssueProfileRef.nons"/>
+      </optional>
+      <optional>
+        <ref name="its-attribute.locQualityIssueEnabled.nons"/>
+      </optional>
+    </interleave>
+  </define>
+</grammar>

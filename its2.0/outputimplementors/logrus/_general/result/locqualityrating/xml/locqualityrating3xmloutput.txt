@@ -1,0 +1,8 @@
+/doc
+/doc/@its:version
+/doc/title[1]
+/doc/its:span[1]	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingScore="100"	locQualityRatingScoreThreshold="95"
+/doc/its:span[1]/@locQualityRatingProfileRef
+/doc/its:span[1]/@locQualityRatingScore
+/doc/its:span[1]/@locQualityRatingScoreThreshold
+/doc/its:span[1]/para[1]	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingScore="100"	locQualityRatingScoreThreshold="95"

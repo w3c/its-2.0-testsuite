@@ -11,4 +11,3 @@
 /html/body[1]/p[1]/@id	translate="no"
 /html/body[1]/p[1]/@title	translate="yes"
 /html/body[1]/p[1]/code[1]	translate="no"
-
