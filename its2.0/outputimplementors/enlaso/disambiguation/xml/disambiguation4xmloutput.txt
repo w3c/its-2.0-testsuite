@@ -8,8 +8,8 @@
 /text/body[1]/p[1]/span[1]/@classref
 /text/body[1]/p[1]/span[1]/@id
 /text/body[1]/p[1]/span[1]/@identref
-/text/body[1]/p[1]/span[2]	disambigClass="capital"	disambigGranularity="lexical-concept"	disambigIdent="301467919"	disambigSource="Wordnet3.0"
-/text/body[1]/p[1]/span[2]/@class
+/text/body[1]/p[1]/span[2]	disambigClassRef="http://nerd.eurecom.fr/ontology#City"	disambigGranularity="lexical-concept"	disambigIdent="301467919"	disambigSource="Wordnet3.0"
+/text/body[1]/p[1]/span[2]/@classref
 /text/body[1]/p[1]/span[2]/@id
 /text/body[1]/p[1]/span[2]/@ident
 /text/body[1]/p[1]/span[2]/@source
