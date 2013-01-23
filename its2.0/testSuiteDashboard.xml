@@ -2318,9 +2318,7 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/xml/domain1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/xml/domain1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain1html.html">
          <description assertions="domain-global html5-external-global-rules">Global - Linked rules with domainPointer</description>
@@ -2397,9 +2395,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/xml/domain2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/xml/domain2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain2html.html">
          <description assertions="domain-global html5-external-global-rules">Global - Linked rules with domainMapping</description>
@@ -2630,9 +2626,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/xml/domain6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/xml/domain6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain7xml.xml">
          <description assertions="domain-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -2691,9 +2685,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/xml/domain7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/xml/domain7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain3html.html">
          <description assertions="domain-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -2715,9 +2707,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/html/domain3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/html/domain3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain4html.html">
          <description assertions="domain-global its-param html5-global-rules">Global - Embedded with its:param and case-sensitive values</description>
@@ -2739,9 +2729,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Disambiguation--><dataCategory name="Disambiguation">
@@ -2749,9 +2737,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global">Global - Embedded rules</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation1xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2767,9 +2753,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global">Global - Embedded rules with class pointer</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation7xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation7xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation7xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2785,9 +2769,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-local">Local - In host element</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation5xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2803,9 +2785,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation2xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2821,9 +2801,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global link-external-rules">Global - Linked rules with class pointer</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation8xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation8xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation8xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2839,9 +2817,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation6xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2857,9 +2833,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-local html5-markup">Local - In host</description>
          <expectedOutput location="expected/disambiguation/html/disambiguation4htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/html/disambiguation4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2875,9 +2849,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/disambiguation/html/disambiguation1htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/html/disambiguation1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2893,9 +2865,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
          <expectedOutput location="expected/disambiguation/html/disambiguation3htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/html/disambiguation3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2911,9 +2881,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation3xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2929,9 +2897,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/disambiguation/xml/disambiguation4xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/xml/disambiguation4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/xml/disambiguation4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2947,9 +2913,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/disambiguation/html/disambiguation2htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/html/disambiguation2htmloutput.txt">
             <error>outputFileNotFound</error>
