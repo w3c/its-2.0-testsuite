@@ -1006,6 +1006,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt"/>
+		 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
