@@ -2929,9 +2929,7 @@ Line 14: Comparison failed.
          <description assertions="disambiguation-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/disambiguation/html/disambiguation5htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/disambiguation/html/disambiguation5htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/disambiguation/html/disambiguation5htmloutput.txt">
             <error>outputFileNotFound</error>
