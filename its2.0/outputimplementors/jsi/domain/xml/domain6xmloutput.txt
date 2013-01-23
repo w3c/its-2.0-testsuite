@@ -1,0 +1,17 @@
+/text
+/text/head[1]
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/its:param[1]
+/text/head[1]/its:rules[1]/its:param[1]/@name
+/text/head[1]/its:rules[1]/its:domainRule[1]
+/text/head[1]/its:rules[1]/its:domainRule[1]/@domainMapping
+/text/head[1]/its:rules[1]/its:domainRule[1]/@domainPointer
+/text/head[1]/its:rules[1]/its:domainRule[1]/@selector
+/text/head[1]/meta[1]
+/text/head[1]/meta[1]/@content
+/text/head[1]/meta[1]/@name
+/text/body[1]
+/text/body[1]/p[1]	domains="poetry"
+/text/body[1]/p[1]/span[1]	domains="poetry"
+/text/body[1]/p[1]/span[2]	domains="poetry"
