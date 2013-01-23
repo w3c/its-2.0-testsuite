@@ -34,8 +34,9 @@ Validating Output Test Files
 To validate test suite output files simply compile the test suite dashboard (this will only work if you have java installed and saxon downloaded):
 
 * Download saxon.jar from here: https://dl.dropbox.com/u/65779171/saxon.jar
-* Then use this command (Linux/Mac/Windows):
+* Then use this command (Linux/Mac/Windows): 
   java -jar /path/of/file/saxon.jar  testsuiteMaster.xml  testsuiteDashboard.xsl -o:testSuiteDashboard.html
+* Upload newly compiled testsuiteDashboard.html to the git hub
 * Check the state of your files in the related data categories on this web page:
   http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html
 
