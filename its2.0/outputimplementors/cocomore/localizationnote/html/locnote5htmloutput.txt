@@ -10,12 +10,12 @@
 /html/body[1]/p[1]
 /html/body[1]/p[1]/@id
 /html/body[1]/p[1]/img[1]
-/html/body[1]/p[1]/img[1]/@src
 /html/body[1]/p[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"
+/html/body[1]/p[1]/img[1]/@src
 /html/body[1]/p[2]
 /html/body[1]/p[2]/@id
 /html/body[1]/p[2]/img[1]
-/html/body[1]/p[2]/img[1]/@src
 /html/body[1]/p[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"
+/html/body[1]/p[2]/img[1]/@src
 /html/body[1]/p[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"
 /html/body[1]/p[3]/@id

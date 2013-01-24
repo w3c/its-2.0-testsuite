@@ -869,24 +869,7 @@ Line 25: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
-* Implementers file line:[/html/body[1]/p[1]/img[1]/@src]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@src]
-* Implementers file line:[/html/body[1]/p[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]
-* Implementers file line:[/html/body[1]/p[2]/img[1]/@src]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/img[1]/@src]
-* Implementers file line:[/html/body[1]/p[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1027,24 +1010,7 @@ Line 30: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
-* Implementers file line:[/html/body[1]/span[1]/img[1]/@src]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/span[1]/img[1]/@src]
-* Implementers file line:[/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/span[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]
-* Implementers file line:[/html/body[1]/span[2]/img[1]/@src]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/span[2]/img[1]/@src]
-* Implementers file line:[/html/body[1]/span[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1557,24 +1523,7 @@ Line 21: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
-* Implementers file line:[/html/body[1]/span[1]/img[1]/@src]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/span[1]/img[1]/@src]
-* Implementers file line:[/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/span[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]
-* Implementers file line:[/html/body[1]/span[2]/img[1]/@src]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/span[2]/img[1]/@src]
-* Implementers file line:[/html/body[1]/span[2]/img[1]/@alt	locNote="This text will be displayed over the image."	locNoteType="description"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Terminology--><dataCategory name="Terminology">
@@ -4766,24 +4715,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-line-break-type]
-* Implementers file line:[/html/body[1]/p[2]/@its-storage-size]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-storage-size]
-* Implementers file line:[/html/body[1]/p[2]/@its-line-break-type]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[3]/@its-line-break-type]
-* Implementers file line:[/html/body[1]/p[3]/@its-storage-size]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[3]/@its-storage-size]
-* Implementers file line:[/html/body[1]/p[3]/@its-line-break-type]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize9xml.xml">
          <description assertions="storagesize-local">Local - In &lt;its:span&gt;</description>
