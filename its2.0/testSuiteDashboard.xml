@@ -2841,7 +2841,16 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1] domains="LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1] domains="LAW, Judicial Matters, Sport, Law"]</error>
+         </outputImplementors>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2851,7 +2860,16 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
