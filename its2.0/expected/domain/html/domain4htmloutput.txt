@@ -10,5 +10,5 @@
 /html/head[1]/meta[3]/@name
 /html/head[1]/script[1]
 /html/head[1]/script[1]/@type
-/html/body[1]	domains="LAW, Judicial Matters, Sport, Law"
-/html/body[1]/p[1]	domains="LAW, Judicial Matters, Sport, Law"
+/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"
+/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"
