@@ -2381,9 +2381,7 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain2xml.xml">
          <description assertions="domain-global">Global - Embedded rules with domainMapping</description>
@@ -2466,9 +2464,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain4xml.xml">
          <description assertions="domain-global link-external-rules">Global - Linked rules</description>
@@ -2776,9 +2772,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain4html.html">
          <description assertions="domain-global its-param html5-global-rules">Global - Embedded with its:param and case-sensitive values</description>
@@ -2821,7 +2815,14 @@ Line 14: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
          </outputImplementors>
       </inputfile>
    </dataCategory>
