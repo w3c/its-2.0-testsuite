@@ -1,0 +1,9 @@
+/html
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/p[1]
+/html/body[1]/p[1]/span[1]	locQualityIssuesRef="locqualityissue9htmlstandoff.xml#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"	locQualityIssueComment[2]="Missing capital on the first word of a sentence."	locQualityIssueEnabled[2]="yes"	locQualityIssueSeverity[2]="30"	locQualityIssueType[2]="grammar"
+/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref

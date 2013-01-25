@@ -1,0 +1,10 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/p[1]
+/html/body[1]/p[1]/code[1]	allowedCharacters="[a-zA-Z_\-]"
+/html/body[1]/p[1]/code[1]/@its-allowed-characters

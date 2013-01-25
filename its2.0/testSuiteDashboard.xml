@@ -234,9 +234,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
