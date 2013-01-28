@@ -1,8 +1,7 @@
-﻿/msgList
+/msgList
 /msgList/head[1]
 /msgList/head[1]/its:rules[1]
 /msgList/head[1]/its:rules[1]/@version
-/msgList/head[1]/its:rules[1]/@xmlns:its
 /msgList/head[1]/its:rules[1]/its:locNoteRule[1]
 /msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType
 /msgList/head[1]/its:rules[1]/its:locNoteRule[1]/@selector
