@@ -1,4 +1,4 @@
-﻿/myRes
+/myRes
 /myRes/head[1]
 /myRes/head[1]/its:rules[1]
 /myRes/head[1]/its:rules[1]/@its:translate
