@@ -1,6 +1,5 @@
-﻿/Doc
+/Doc
 /Doc/@its:version
-/Doc/@xmlns:its
 /Doc/body[1]
 /Doc/body[1]/p[1]
 /Doc/body[1]/p[1]/its:span[1]	locNote="If possible keep the non-English terms in the translated version too"	locNoteType="description"
