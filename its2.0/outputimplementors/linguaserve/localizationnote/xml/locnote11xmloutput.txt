@@ -1,4 +1,4 @@
-﻿/msgList
+/msgList
 /msgList/head[1]
 /msgList/head[1]/its:rules[1]
 /msgList/head[1]/its:rules[1]/@version
