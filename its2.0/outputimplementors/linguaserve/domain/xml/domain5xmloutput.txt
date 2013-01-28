@@ -6,7 +6,6 @@
 /text/head[1]/its:rules[1]/@xlink:type
 /text/head[1]/its:rules[2]
 /text/head[1]/its:rules[2]/@version
-/text/head[1]/its:rules[2]/@xmlns:its
 /text/head[1]/its:rules[2]/its:domainRule[1]
 /text/head[1]/its:rules[2]/its:domainRule[1]/@domainMapping
 /text/head[1]/its:rules[2]/its:domainRule[1]/@domainPointer
