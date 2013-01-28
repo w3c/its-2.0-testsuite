@@ -1,4 +1,4 @@
-﻿/Res
+/Res
 /Res/@its:version
 /Res/@xmlns:its
 /Res/body[1]	locNote="The variable {0} is the name of the host."	locNoteType="description"
