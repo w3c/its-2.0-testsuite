@@ -1765,9 +1765,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml">
          <description assertions="withintext-local">Local - In host element</description>
@@ -1819,9 +1817,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml">
          <description assertions="withintext-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1873,9 +1869,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html">
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1891,9 +1885,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory name="Domain">
@@ -2161,16 +2153,7 @@ Line 14: Comparison failed.
 * Implementers file line:[/html/body[1]/p[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
-* Implementers file line:[/html/body[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
-* Implementers file line:[/html/body[1]/p[1]	domains="LAW, Judicial Matters, Sport, Law"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Disambiguation--><dataCategory name="Disambiguation">
@@ -2500,9 +2483,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale2html.html">
          <description assertions="localefilter-local html5-markup">Local - In host element</description>
@@ -2522,9 +2503,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale6xml.xml">
          <description assertions="localefilter-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -2576,9 +2555,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale4html.html">
          <description assertions="localefilter-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
@@ -2594,9 +2571,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Provenance--><dataCategory name="Provenance">
