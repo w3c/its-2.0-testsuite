@@ -1,0 +1,17 @@
+﻿/text
+/text/@language
+/text/head[1]
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/its:param[1]
+/text/head[1]/its:rules[1]/its:param[1]/@name
+/text/head[1]/its:rules[1]/its:langRule[1]
+/text/head[1]/its:rules[1]/its:langRule[1]/@langPointer
+/text/head[1]/its:rules[1]/its:langRule[1]/@selector
+/text/content[1]
+/text/content[1]/par[1]
+/text/content[1]/par[1]/q[1]	lang="fr-CA"
+/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"
+/text/content[1]/par[2]
+/text/content[1]/par[2]/q[1]
+/text/content[1]/par[2]/q[1]/@language

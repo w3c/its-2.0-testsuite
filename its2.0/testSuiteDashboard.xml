@@ -1422,9 +1422,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1444,9 +1442,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1541,9 +1537,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1642,9 +1636,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo4xmloutput.txt">
             <error>outputFileNotFound</error>
