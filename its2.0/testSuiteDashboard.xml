@@ -774,9 +774,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote2xml.xml">
          <description assertions="locnote-global">Global - Embedded rules with locNotePointer</description>
@@ -854,9 +852,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote4xml.xml">
          <description assertions="locnote-global">Global - Embedded rules with locNoteRefPointer</description>
@@ -894,9 +890,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote5xml.xml">
          <description assertions="locnote-global link-external-rules">Global - Linked rules with locNote</description>
@@ -935,7 +929,14 @@ Line 24: Comparison failed.
                              location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/p[1]/img[1]/@alt	locNote="Do not translate the word \"Chobe\""	locNoteType="alert"]</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/html/body[1]/p[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/p[3]	locNote="The variable\n{0}\nhas three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote6xml.xml">
@@ -971,7 +972,14 @@ Line 24: Comparison failed.
                              location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word \"Chobe\""	locNoteType="alert"]</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/html/body[1]/span[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[3]	locNote="The variable\n{0}\nhas three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote7xml.xml">
@@ -1078,9 +1086,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml">
          <description assertions="locnote-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -1117,7 +1123,14 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote8htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word "Chobe""	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[1]/img[1]/@alt	locNote="Do not translate the word \"Chobe\""	locNoteType="alert"]</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/html/body[1]/span[3]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[3]	locNote="The variable\n{0}\nhas three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
          </outputImplementors>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt">
@@ -2693,9 +2706,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance2html.html">
          <description assertions="provenance-global html5-global-rules">Global - Embedded rules</description>
@@ -3311,9 +3322,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue2html.html">
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueSeverity</description>
