@@ -18,18 +18,6 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt">
             <error>
-Line 11: Comparison failed.
-* Reference line: [/myMetaDoc/head[1]/its:rules[1]/its:translateRule[3]	translate="yes"]
-* Implementers file line:[/myMetaDoc/head[1]/its:rules[1]/its:translateRule[3]	translate="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/myMetaDoc/head[1]/its:rules[1]/its:translateRule[4]	translate="yes"]
-* Implementers file line:[/myMetaDoc/head[1]/its:rules[1]/its:translateRule[4]	translate="no"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/myMetaDoc/head[1]/its:rules[1]/its:translateRule[5]	translate="yes"]
-* Implementers file line:[/myMetaDoc/head[1]/its:rules[1]/its:translateRule[5]	translate="no"]</error>
-            <error>
 Line 40: Comparison failed.
 * Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:封面[1]/z:作者[1]	translate="no"]
 * Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:封面[1]/z:作者[1]	translate="yes"]</error>
@@ -41,14 +29,6 @@ Line 46: Comparison failed.
 Line 47: Comparison failed.
 * Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[2]	translate="no"]
 * Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[2]	translate="yes"]</error>
-            <error>
-Line 51: Comparison failed.
-* Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[1]	translate="yes"]
-* Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[1]	translate="no"]</error>
-            <error>
-Line 54: Comparison failed.
-* Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[2]	translate="yes"]
-* Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:躯[1]/i:rules[1]/i:translateRule[2]	translate="no"]</error>
          </outputImplementors>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt">
@@ -102,12 +82,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/doc/its:rules[1]/its:translateRule[2]	translate="no"]
-* Implementers file line:[/doc/its:rules[1]/its:translateRule[2]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -131,16 +106,7 @@ Line 9: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/myDoc/body[1]/par[1]/@title	translate="yes"]
-* Implementers file line:[/myDoc/body[1]/par[1]/@title	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/myDoc/body[1]/par[1]/code[1]	translate="no"]
-* Implementers file line:[/myDoc/body[1]/par[1]/code[1]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -164,28 +130,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/doc	translate="no"]
-* Implementers file line:[/doc	translate="yes"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/doc/its:rules[1]	translate="no"]
-* Implementers file line:[/doc/its:rules[1]	translate="yes"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/doc/msg[2]	translate="no"]
-* Implementers file line:[/doc/msg[2]	translate="yes"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/doc/msg[3]	translate="no"]
-* Implementers file line:[/doc/msg[3]	translate="yes"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/doc/msg[4]	translate="no"]
-* Implementers file line:[/doc/msg[4]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -345,24 +290,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/myDoc/head[1]	translate="no"]
-* Implementers file line:[/myDoc/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/myDoc/head[1]/its:rules[1]	translate="no"]
-* Implementers file line:[/myDoc/head[1]/its:rules[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/myDoc/body[1]/par[1]/@title	translate="yes"]
-* Implementers file line:[/myDoc/body[1]/par[1]/@title	translate="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/myDoc/body[1]/par[1]/code[1]	translate="no"]
-* Implementers file line:[/myDoc/body[1]/par[1]/code[1]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -446,12 +374,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/doc/head[1]/its:rules[1]/its:translateRule[2]	translate="no"]
-* Implementers file line:[/doc/head[1]/its:rules[1]/its:translateRule[2]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate3html.html">
          <description assertions="translate-global html5-global-rules">Global (with //*) and local rules</description>
@@ -532,12 +455,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/doc/head[1]/its:rules[1]/its:translateRule[2]	translate="no"]
-* Implementers file line:[/doc/head[1]/its:rules[1]/its:translateRule[2]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate4html.html">
          <description assertions="translate-global html5-global-rules">Global (with /doc) and local rules</description>
@@ -618,12 +536,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/topic/prolog[1]/its:rules[1]/its:translateRule[2]	translate="no"]
-* Implementers file line:[/topic/prolog[1]/its:rules[1]/its:translateRule[2]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt">
             <error>outputFileNotFound</error>
