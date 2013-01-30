@@ -7,5 +7,5 @@
 /myDoc/body[1]	translate="yes"
 /myDoc/body[1]/par[1]	translate="yes"
 /myDoc/body[1]/par[1]/@id	translate="no"
-/myDoc/body[1]/par[1]/@title	translate="no"
-/myDoc/body[1]/par[1]/code[1]	translate="yes"
+/myDoc/body[1]/par[1]/@title	translate="yes"
+/myDoc/body[1]/par[1]/code[1]	translate="no"

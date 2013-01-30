@@ -6,7 +6,7 @@
 /doc/its:rules[1]/its:translateRule[1]	translate="no"
 /doc/its:rules[1]/its:translateRule[1]/@selector	translate="no"
 /doc/its:rules[1]/its:translateRule[1]/@translate	translate="no"
-/doc/its:rules[1]/its:translateRule[2]	translate="yes"
+/doc/its:rules[1]/its:translateRule[2]	translate="no"
 /doc/its:rules[1]/its:translateRule[2]/@selector	translate="no"
 /doc/its:rules[1]/its:translateRule[2]/@translate	translate="no"
 /doc/msg[1]	translate="yes"
