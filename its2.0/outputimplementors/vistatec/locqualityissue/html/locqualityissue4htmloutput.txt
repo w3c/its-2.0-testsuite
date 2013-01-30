@@ -12,6 +12,6 @@
 /html/body[1]/p[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssueType="inconsistent-entities"
 /html/body[1]/p[1]/span[1]/@data-mytool-qacode
 /html/body[1]/p[1]/span[1]/@its-loc-quality-issue-type
-/html/body[1]/p[1]/span[2]	locQualityIssueEnabled="yes"	locQualityIssueType="misspelling"
+/html/body[1]/p[1]/span[2]	locQualityIssueEnabled="yes"	locQualityIssueType="MiSSPeLLiNG"
 /html/body[1]/p[1]/span[2]/@its-loc-quality-issue-type
 
