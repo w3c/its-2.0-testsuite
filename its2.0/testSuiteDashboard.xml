@@ -12,9 +12,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt">
             <error>
@@ -52,9 +50,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -78,9 +74,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -102,9 +96,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -126,9 +118,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -157,9 +147,7 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -264,9 +252,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -286,9 +272,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -308,9 +292,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
       </inputfile>
@@ -348,9 +330,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -370,9 +350,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
       </inputfile>
@@ -429,9 +407,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -451,9 +427,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
       </inputfile>
@@ -510,9 +484,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -532,9 +504,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -639,9 +609,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1344,9 +1312,7 @@ Line 20: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/xml/languageinfo1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -1364,9 +1330,7 @@ Line 20: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/xml/languageinfo2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -1384,9 +1348,7 @@ Line 20: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/html/languageinfo1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/html/languageinfo1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo1htmloutput.txt">
             <error>
@@ -1459,9 +1421,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/xml/languageinfo3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -1479,9 +1439,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo3htmloutput.txt">
             <error>
@@ -1558,9 +1516,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/xml/languageinfo4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -1578,9 +1534,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/html/languageinfo2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo2htmloutput.txt">
             <error>
@@ -1643,9 +1597,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/html/languageinfo4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/languageinformation/html/languageinfo4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/html/languageinfo4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1843,9 +1795,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1869,9 +1819,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -1893,9 +1841,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1919,9 +1865,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -1943,9 +1887,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1967,9 +1909,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1991,9 +1931,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain6xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain6xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2017,9 +1955,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain7xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/xml/domain7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/xml/domain7xmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/xml/domain7xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2043,9 +1979,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/html/domain3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2076,9 +2010,7 @@ Line 14: Comparison failed.
 * Implementers file line:[/html/body[1]/p[1] domains="LAW, Judicial Matters, Sport, Law"]</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2341,9 +2273,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2363,9 +2293,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2421,9 +2349,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt"/>
       </inputfile>
@@ -2441,9 +2367,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt"/>
       </inputfile>
@@ -3405,7 +3329,7 @@ Line 14: Comparison failed.
             <error>
 Line 17: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssuesRef="#lq1"]</error>
+* Implementers file line:[/html/body[1]/p[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]</error>
          </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/locqualityissue/html/locqualityissue7htmloutput.txt">
@@ -3570,9 +3494,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global">Global - Embedded rules</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3584,9 +3506,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3598,9 +3518,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3612,9 +3530,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-local">Local - In host element</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3626,9 +3542,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3640,9 +3554,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3654,9 +3566,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3668,9 +3578,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3682,9 +3590,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3696,9 +3602,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global html5-external-global-rules">Global - Linked rules with overriding annotators references</description>
          <expectedOutput location="expected/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="ul"
@@ -3710,9 +3614,7 @@ Line 17: Comparison failed.
          <description assertions="mtconfidence-global html5-external-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="ul"

@@ -1,0 +1,20 @@
+/text
+/text/head[1]
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@mtConfidence
+/text/head[1]/its:rules[1]/its:mtConfidenceRule[1]/@selector
+/text/body[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1"
+/text/body[1]/@its:annotatorsRef	annotatorsRef="mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/@its:annotatorsRef	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[1]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[2]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[2]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[3]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"	mtConfidence="0.8982"
+/text/body[1]/p[1]/span[3]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"
+/text/body[1]/p[1]/span[3]/@its:annotatorsRef	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"
+/text/body[1]/p[1]/span[4]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[4]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"
