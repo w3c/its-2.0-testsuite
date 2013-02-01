@@ -1443,7 +1443,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue8xml.xml">
          <description assertions="lqissue-local">Local - In host element with comment and severity</description>
@@ -1452,7 +1451,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue9xml.xml">
          <description assertions="lqissue-local">Local - In host element with comment, severity and profile-ref</description>
@@ -1461,7 +1459,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue10xml.xml">
          <description assertions="lqissue-local">Local - In &lt;its:span&gt;</description>
@@ -1513,6 +1510,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityissue/html/locqualityissue9htmloutput.txt"/>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue9htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue9htmloutput.txt"/>
+		 <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue11xml.xml">
          <description assertions="lqissue-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
