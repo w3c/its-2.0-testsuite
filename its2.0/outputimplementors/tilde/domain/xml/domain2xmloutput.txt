@@ -1,0 +1,13 @@
+/doc
+/doc/head[1]
+/doc/head[1]/its:rules[1]
+/doc/head[1]/its:rules[1]/@version
+/doc/head[1]/its:rules[1]/its:domainRule[1]
+/doc/head[1]/its:rules[1]/its:domainRule[1]/@domainMapping
+/doc/head[1]/its:rules[1]/its:domainRule[1]/@domainPointer
+/doc/head[1]/its:rules[1]/its:domainRule[1]/@selector
+/doc/head[1]/meta[1]
+/doc/head[1]/meta[1]/@content
+/doc/head[1]/meta[1]/@name
+/doc/body[1]	domains="auto"
+/doc/body[1]/p[1]	domains="auto"

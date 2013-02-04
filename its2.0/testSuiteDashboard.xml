@@ -1269,9 +1269,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo2xml.xml">
          <description assertions="lang-global link-external-rules">Global - Embedded and linked rules</description>
@@ -1287,9 +1285,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/languageinformation/xml/languageinfo2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/languageinformation/xml/languageinfo2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo1html.html">
          <description assertions="lang-global html5-external-global-rules">Global - Linked rules</description>
@@ -1321,9 +1317,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/languageinformation/xml/languageinfo3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/languageinformation/xml/languageinfo3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo3html.html">
          <description assertions="lang-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1355,9 +1349,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/languageinformation/xml/languageinfo4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/languageinformation/xml/languageinfo4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo2html.html">
          <description assertions="lang-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -1595,9 +1587,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain1html.html">
          <description assertions="domain-global html5-external-global-rules">Global - Linked rules with domainPointer</description>
@@ -1641,9 +1631,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain2html.html">
          <description assertions="domain-global html5-external-global-rules">Global - Linked rules with domainMapping</description>
@@ -1685,9 +1673,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain5xml.xml">
          <description assertions="domain-glassertionsobal link-external-rules">Global - Embedded and linked rules</description>
@@ -1707,9 +1693,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain6xml.xml">
          <description assertions="domain-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1731,9 +1715,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/domain/xml/domain6xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain7xml.xml">
          <description assertions="domain-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -1755,9 +1737,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/domain/xml/domain7xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/xml/domain7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/xml/domain7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain3html.html">
          <description assertions="domain-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
