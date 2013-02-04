@@ -1015,9 +1015,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology1html.html">
          <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoRef</description>
@@ -1041,9 +1039,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology4xml.xml">
          <description assertions="term-global link-external-rules">Global - Linked rules with termInfoPointer</description>
@@ -1055,9 +1051,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology2html.html">
          <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoPointer</description>
@@ -1081,9 +1075,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology9xml.xml">
          <description assertions="term-local">Local - In host element with its:annotatorsRef</description>
@@ -1095,9 +1087,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology3html.html">
          <description assertions="term-local html5-markup">Local - In host element</description>
@@ -1133,9 +1123,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology7xml.xml">
          <description assertions="term-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1147,9 +1135,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology6html.html">
          <description assertions="term-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1173,9 +1159,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology4html.html">
          <description assertions="term-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
