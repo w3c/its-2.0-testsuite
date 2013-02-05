@@ -605,17 +605,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo2htmloutput.txt"/>
-		  <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo2htmloutput.txt"/>
-		 
-      </inputfile>
-	<inputfile location="inputdata/languageinformation/html/languageinfo4html.html">
-         <description assertions="lang-global html5-global-rules">Global - Embedded rules (lang vs xml:lang)</description>
-         <expectedOutput location="expected/languageinformation/html/languageinfo4htmloutput.txt"/>
-         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/languageinformation/html/languageinfo4htmloutput.txt"/>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/languageinformation/html/languageinfo4htmloutput.txt"/>
-         <outputImplementors implementer="dcu" location="outputimplementors/dcu/languageinformation/html/languageinfo4htmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo4htmloutput.txt"/>
-         <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo4htmloutput.txt"/>
+		  <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo2htmloutput.txt"/>	 
       </inputfile>
    </dataCategory>
   
