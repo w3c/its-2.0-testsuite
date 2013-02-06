@@ -32,10 +32,6 @@ Line 47: Comparison failed.
                              location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate7html.html">
          <description assertions="translate-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
@@ -85,10 +81,6 @@ Line 11: Comparison failed.
                              location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate2xml.xml">
          <description assertions="translate-global link-external-rules">Global - Linked rules</description>
@@ -111,10 +103,6 @@ Line 11: Comparison failed.
                              location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate10xml.xml">
          <description assertions="translate-global link-external-rules its-param">Global - Linked rules&lt;its:param&gt;</description>
@@ -135,10 +123,6 @@ Line 11: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate10xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -295,10 +279,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate4xml.xml">
          <description assertions="translate-local">Local - In host element</description>
@@ -381,10 +361,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate3html.html">
          <description assertions="translate-global html5-global-rules">Global (with //*) and local rules</description>
@@ -462,10 +438,6 @@ Line 15: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate4html.html">
          <description assertions="translate-global html5-global-rules">Global (with /doc) and local rules</description>
@@ -545,10 +517,6 @@ Line 15: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate8xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -678,10 +646,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote1html.html">
          <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
@@ -718,10 +682,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote2xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -762,10 +722,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote3html.html">
          <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNoteRef</description>
@@ -802,10 +758,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote4xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -846,10 +798,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html">
          <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
@@ -884,10 +832,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote6html.html">
          <description assertions="locnote-global link-external-rules">Global - Linked rules with mixed notes</description>
@@ -1004,10 +948,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote9html.html">
          <description assertions="locnote-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1044,10 +984,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote11xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -1088,10 +1024,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/tilde/terminology/xml/terminology1xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology2xml.xml">
          <description assertions="term-global">Global - Embedded rules with termInfoRef</description>
@@ -1104,10 +1036,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology2xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology1html.html">
          <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoRef</description>
@@ -1148,10 +1076,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology4xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology2html.html">
          <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoPointer</description>
@@ -1248,10 +1172,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology7xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology6html.html">
          <description assertions="term-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1276,10 +1196,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology8xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology4html.html">
          <description assertions="term-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -2117,10 +2033,6 @@ Line 14: Comparison failed.
                              location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale2xml.xml">
          <description assertions="localefilter-local">Local - In host element</description>
@@ -2187,10 +2099,6 @@ Line 14: Comparison failed.
                              location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale4xml.xml">
          <description assertions="localefilter-global link-external-rules">Global - Embedded and linked rules</description>
@@ -2207,10 +2115,6 @@ Line 14: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale4xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -2267,10 +2171,6 @@ Line 14: Comparison failed.
                              location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale7xml.xml">
          <description assertions="localefilter-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -2287,10 +2187,6 @@ Line 14: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale7xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
