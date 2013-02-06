@@ -9,7 +9,7 @@
 /html/head[1]/title[1]
 /html/body[1]
 /html/body[1]/p[1]
-/html/body[1]/p[1]/span[1]	disambigClassRef="http://nerd.eurecom.fr/ontology#Place"	disambigGranularity="entity"	disambigIdentRef="http://dbpedia.org/resource/Dublin"
+/html/body[1]/p[1]/span[1]	tanClassRef="http://nerd.eurecom.fr/ontology#Place"	tanIdentRef="http://dbpedia.org/resource/Dublin"
 /html/body[1]/p[1]/span[1]/@about
 /html/body[1]/p[1]/span[1]/@id
 /html/body[1]/p[1]/span[1]/@property
