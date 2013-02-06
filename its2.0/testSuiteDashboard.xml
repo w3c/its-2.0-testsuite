@@ -1060,10 +1060,6 @@ Line 24: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology3xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology4xml.xml">
          <description assertions="term-global link-external-rules">Global - Linked rules with termInfoPointer</description>
