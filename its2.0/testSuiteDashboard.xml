@@ -8,9 +8,7 @@
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -92,9 +90,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -268,9 +264,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -288,9 +282,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -330,9 +322,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -354,9 +344,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -431,9 +419,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -508,9 +494,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1411,9 +1395,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1429,9 +1411,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1463,9 +1443,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1481,9 +1459,7 @@ Line 24: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2022,9 +1998,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2040,9 +2014,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -2064,9 +2036,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
@@ -2088,9 +2058,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2106,9 +2074,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2160,9 +2126,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2440,9 +2404,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource2xml.xml">
          <description assertions="externalresource-global link-external-rules">Global - Linked rules</description>
@@ -2454,9 +2416,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource3xml.xml">
          <description assertions="externalresource-global link-external-rules">Global - Embedded and linked rules</description>
@@ -2468,9 +2428,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource1html.html">
          <description assertions="externalresource-global html5-external-global-rules">Global - Linked rules</description>
@@ -2634,9 +2592,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2652,9 +2608,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue3xml.xml">
          <description assertions="idvalue-global link-external-rules">Global - Linked rules</description>
@@ -2666,9 +2620,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2756,9 +2708,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace3xml.xml">
          <description assertions="preservespace-global link-external-rules">Global - Linked rules</description>
@@ -2770,9 +2720,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace2xml.xml">
          <description assertions="preservespace-local">Local - In host element</description>
@@ -2784,9 +2732,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace4xml.xml">
          <description assertions="preservespace-local">Local - In &lt;its:span&gt;</description>
@@ -2798,9 +2744,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace5xml.xml">
          <description assertions="preservespace-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
