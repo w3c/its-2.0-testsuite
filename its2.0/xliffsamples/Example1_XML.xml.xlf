@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
-<file original="/Example_XML.xml" source-language="en-us" target-language="fr-fr" datatype="xml">
+<file original="/Example1_XML.xml" source-language="en-us" target-language="fr-fr" datatype="xml">
 <body>
 <trans-unit id="1" resname="p1">
-<source xml:lang="en-us" its:locQualityIssueComment="The target segment is empty, but its source is not empty." its:locQualityIssueSeverity="2" its:locQualityIssueType="ommission">Rome is the capital city of <g id="1">Italy</g>.</source>
+<source xml:lang="en-us">Rome is the capital city of <g id="1">Italy</g>.</source>
+<seg-source><mrk mid="0" mtype="seg">Rome is the capital city of <g id="1">Italy</g>.</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Rome is the capital city of <g id="1">Italy</g>.</mrk></target>
 </trans-unit>
 <trans-unit id="2" resname="p2">
-<source xml:lang="en-us" its:locQualityIssueComment="The target segment is empty, but its source is not empty." its:locQualityIssueSeverity="2" its:locQualityIssueType="ommission">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</source>
+<source xml:lang="en-us">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk mtype="x-its" comment="This should probably not be translated" okp:itsLocNoteType="description">Lazio</mrk></g> region of Italy.</source>
+<seg-source><mrk mid="0" mtype="seg">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</mrk> <mrk mid="1" mtype="seg">The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk mtype="x-its" comment="This should probably not be translated" okp:itsLocNoteType="description">Lazio</mrk></g> region of Italy.</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</mrk> <mrk mid="1" mtype="seg">The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk mtype="x-its" comment="This should probably not be translated" okp:itsLocNoteType="description">Lazio</mrk></g> region of Italy.</mrk></target>
+<note annotates="source">Terms:
+Lazio;
+</note>
 </trans-unit>
 <trans-unit id="3" xml:space="preserve">
-<source xml:lang="en-us" its:locQualityIssueComment="The target segment is empty, but its source is not empty." its:locQualityIssueSeverity="2" its:locQualityIssueType="ommission">Country:    Italy
+<source xml:lang="en-us">Country:    Italy
 Population: 2,777,979 (2011)
 Time zone:  CET</source>
+<seg-source><mrk mid="0" mtype="seg">Country:</mrk>    <mrk mid="1" mtype="seg">Italy</mrk>
+<mrk mid="2" mtype="seg">Population:</mrk> <mrk mid="3" mtype="seg">2,777,979 (2011)</mrk>
+<mrk mid="4" mtype="seg">Time zone:</mrk>  <mrk mid="5" mtype="seg">CET</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Country:</mrk>    <mrk mid="1" mtype="seg">Italy</mrk>
+<mrk mid="2" mtype="seg">Population:</mrk> <mrk mid="3" mtype="seg">2,777,979 (2011)</mrk>
+<mrk mid="4" mtype="seg">Time zone:</mrk>  <mrk mid="5" mtype="seg">CET</mrk></target>
 </trans-unit>
 </body>
 </file>
