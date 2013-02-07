@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<doc xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+ <prolog>
+  <date>2013-02-13</date>
+  <its:rules version="2.0" xmlns:itsx="http://www.w3.org/2008/12/its-extensions">
+   <its:translateRule selector="/doc/prolog" translate="no"/>
+   <its:idValueRule selector="//para" idValue="@id"/>
+   <its:withinTextRule selector="//b" withinText="yes"/>
+   <its:preserveSpaceRule selector="//literal" space="preserve"/>
+  </its:rules>
+ </prolog>
+ <body>
+  <para id="p1">Rome is the capital city of <b>Italy</b>.</para>
+  <para id="p2">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</para>
+  <literal>Country:    Italy
+Population: 2,777,979 (2011)
+Time zone:  CET</literal>
+ </body>
+</doc>

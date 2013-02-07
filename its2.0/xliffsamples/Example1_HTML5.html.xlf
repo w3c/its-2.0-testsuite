@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="/Example_HTML5.html" source-language="en-us" target-language="fr-fr" datatype="html">
+<body>
+<trans-unit id="1" its:storageSize="30">
+<source xml:lang="en-us">The Lost Temples of the Khmer</source>
+<target xml:lang="fr-fr">Les temples perdus des Khmers</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The Lost Temples of the Khmer</source>
+<target xml:lang="fr-fr">Les temples perdus des Khmers</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="2" its:storageSize="30">
+<source xml:lang="en-us">The Bridge on the Kwai River</source>
+<target xml:lang="fr-fr">Le pont sur la rivière Kwaï</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The Bridge on the Kwai River</source>
+<target xml:lang="fr-fr">Le pont sur la rivière Kwaï</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="3" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 35. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length">Canyon X and the Land of the Navajo</source>
+<target xml:lang="fr-fr" its:locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 32. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length">Canyon X et la terre des Navajos</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Canyon X and the Land of the Navajo</source>
+<target xml:lang="fr-fr">Canyon X et la terre des Navajos</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="4" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 31. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length">Machu Picchu and the Inca Trail</source>
+<target xml:lang="fr-fr">Machu Picchu et le Chemin Inca</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Machu Picchu and the Inca Trail</source>
+<target xml:lang="fr-fr">Machu Picchu et le Chemin Inca</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="5" its:storageSize="30">
+<source xml:lang="en-us">Castles of Bohemia</source>
+<target xml:lang="fr-fr">Châteaux en Bohême</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Castles of Bohemia</source>
+<target xml:lang="fr-fr">Châteaux en Bohême</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="6" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssuesRef="#P7EBACE3">Paris (The City of Lights)</source>
+<target xml:lang="fr-fr">Paris – La ville lumière</target>
+<alt-trans match-quality="71" origin="mytm.pentm" okp:matchType="FUZZY"><source xml:lang="en-us">Paris - The City of Lights</source>
+<target xml:lang="fr-fr">Paris – La ville lumière</target>
+</alt-trans>
+<its:locQualityIssues xml:id="P7EBACE3">
+<its:locQualityIssue locQualityIssueComment="The source part &quot;(&quot; has no correspondance in the target (from rule: Opening parenthesis)." locQualityIssueSeverity="0" locQualityIssueType="pattern-problem" okp:lqiType="UNEXPECTED_PATTERN" okp:lqiPos="6 7 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="The source part &quot;)&quot; has no correspondance in the target (from rule: Closing parenthesis)." locQualityIssueSeverity="0" locQualityIssueType="pattern-problem" okp:lqiType="UNEXPECTED_PATTERN" okp:lqiPos="25 26 0 -1"/>
+</its:locQualityIssues>
+</trans-unit>
+<trans-unit id="7" its:storageSize="30">
+<source xml:lang="en-us">Lemaire Channel</source>
+<target xml:lang="fr-fr">Le détroit de Lemaire</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Lemaire Channel</source>
+<target xml:lang="fr-fr">Le détroit de Lemaire</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="8" its:storageSize="30">
+<source xml:lang="en-us">Queensland - Emerald and Gold</source>
+<target xml:lang="fr-fr">Queensland – Émeraude et or</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Queensland - Emerald and Gold</source>
+<target xml:lang="fr-fr">Queensland – Émeraude et or</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="9" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 36. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length">The River that Never Reaches the Sea</source>
+<target xml:lang="fr-fr" its:locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 33. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length">La rivière qui n’arrive jamais</target>
+<alt-trans match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The River that Never Reaches the Sea</source>
+<target xml:lang="fr-fr">La rivière qui n’arrive jamais</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="10" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssueComment="The target segment is empty, but its source is not empty." its:locQualityIssueSeverity="2" its:locQualityIssueType="ommission">The Land of the Sun Bird</source>
+</trans-unit>
+<trans-unit id="11" its:storageSize="30">
+<source xml:lang="en-us" its:locQualityIssueComment="The target segment is empty, but its source is not empty." its:locQualityIssueSeverity="2" its:locQualityIssueType="ommission">Tigers in the Mist</source>
+</trans-unit>
+</body>
+</file>
+</xliff>
