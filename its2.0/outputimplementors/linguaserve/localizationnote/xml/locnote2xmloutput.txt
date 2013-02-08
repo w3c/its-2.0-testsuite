@@ -1,8 +1,7 @@
-﻿/Res
+/Res
 /Res/prolog[1]
 /Res/prolog[1]/its:rules[1]
 /Res/prolog[1]/its:rules[1]/@version
-/Res/prolog[1]/its:rules[1]/@xmlns:its
 /Res/prolog[1]/its:rules[1]/its:translateRule[1]
 /Res/prolog[1]/its:rules[1]/its:translateRule[1]/@selector
 /Res/prolog[1]/its:rules[1]/its:translateRule[1]/@translate

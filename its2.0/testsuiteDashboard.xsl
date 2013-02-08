@@ -261,7 +261,6 @@
                                                 <xsl:variable name="errorList">
                                                   <xsl:for-each
                                                   select="$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/my:error">
-                                                  <xsl:number count="."/>
                                                   <xsl:value-of select="."/>
                                                   </xsl:for-each>
                                                 </xsl:variable>

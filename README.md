@@ -45,6 +45,3 @@ Explanations of states :
 * OK = the output file is identical to the reference output file.
 * error = an error occurred, e.g. the output file is not available or it is not identical to the reference output file. Move the mouse over error to see details.
 * fnf: the output file from the implementer has not been found.
-
-
-test

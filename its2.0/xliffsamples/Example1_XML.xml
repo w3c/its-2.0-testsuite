@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<doc xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+ <prolog>
+  <date>2013-02-13</date>
+  <source>http://en.wikipedia.org/wiki/Rome</source>
+  <its:rules version="2.0" xmlns:itsx="http://www.w3.org/2008/12/its-extensions">
+   <its:translateRule selector="/doc/prolog" translate="no"/>
+   <its:idValueRule selector="//para" idValue="@id"/>
+   <its:withinTextRule selector="//b|//its:span|//span" withinText="yes"/>
+   <its:preserveSpaceRule selector="//literal" space="preserve"/>
+  </its:rules>
+ </prolog>
+ <body>
+  <para id="p1">Rome is the capital city of <b>Italy</b>.</para>
+  <para id="p2">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <its:span term='yes' its:locNote="This should probably not be translated" its:locNoteType="alert">Lazio</its:span> region of Italy.</para>
+  <para>Rome enjoys a Mediterranean climate (Csa in <span its:term="true">Köppen climate classification</span>) with mild, humid winters and warm, dry summers.</para>
+  <literal>Country:    Italy
+Population: 2,777,979 (2011)
+Time zone:  CET</literal>
+ </body>
+</doc>

@@ -1,11 +1,9 @@
-﻿/msgList
+/msgList
 /msgList/head[1]
 /msgList/head[1]/its:rules[1]
 /msgList/head[1]/its:rules[1]/@version
 /msgList/head[1]/its:rules[1]/@xlink:href
 /msgList/head[1]/its:rules[1]/@xlink:type
-/msgList/head[1]/its:rules[1]/@xmlns:its
-/msgList/head[1]/its:rules[1]/@xmlns:xlink
 /msgList/body[1]
 /msgList/body[1]/msg[1]
 /msgList/body[1]/msg[1]/@id

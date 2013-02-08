@@ -1,0 +1,16 @@
+﻿/text
+/text/@language
+/text/head[1]
+/text/head[1]/its:rules[1]
+/text/head[1]/its:rules[1]/@version
+/text/head[1]/its:rules[1]/@xlink:href
+/text/content[1]
+/text/content[1]/item[1]
+/text/content[1]/item[1]/lang[1]
+/text/content[1]/item[1]/text[1]
+/text/content[1]/item[1]/text[1]/q[1]	lang="fr-CA"
+/text/content[1]/item[1]/text[1]/q[1]/@language	lang="fr-CA"
+/text/content[1]/item[2]
+/text/content[1]/item[2]/lang[1]
+/text/content[1]/item[2]/text[1]
+/text/content[1]/item[2]/text[1]/q[1]
