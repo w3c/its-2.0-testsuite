@@ -1,0 +1,3 @@
+Error on line 129 of intermediate.xsl:
+  XPST0008: Variable LCID has not been declared
+Failed to compile stylesheet. 1 error detected.

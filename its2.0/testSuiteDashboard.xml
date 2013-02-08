@@ -65,7 +65,22 @@ Line 11: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/doc	translate="no"]
+* Implementers file line:[Error on line 129 of intermediate.xsl:]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/doc/its:rules[1]	translate="no"]
+* Implementers file line:[  XPST0008: Variable LCID has not been declared]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/doc/its:rules[1]/@version	translate="no"]
+* Implementers file line:[Failed to compile stylesheet. 1 error detected.]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/doc/its:rules[1]/its:param[1]	translate="no"]
+* Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate9xmloutput.txt">
@@ -86,9 +101,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -107,7 +120,22 @@ Line 11: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/doc	translate="no"]
+* Implementers file line:[Error on line 129 of intermediate.xsl:]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/doc/its:rules[1]	translate="no"]
+* Implementers file line:[  XPST0008: Variable LCID has not been declared]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/doc/its:rules[1]/@version	translate="no"]
+* Implementers file line:[Failed to compile stylesheet. 1 error detected.]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/doc/its:rules[1]/@xlink:href	translate="no"]
+* Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate10xmloutput.txt">
@@ -260,9 +288,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -618,7 +644,18 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="alert"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]	locNoteType="alert"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'.	locNoteType="alert"]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt">
@@ -638,7 +675,10 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/span[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/span[1]]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt">
@@ -656,7 +696,18 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]]
+* Implementers file line:[/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="description"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/Res/body[1]/msg[1]/data[1]	locNote="Indicates that the resource file {0} could not be loaded."	locNoteType="description"]
+* Implementers file line:[/Res/body[1]/msg[1]/data[1]	locNoteType="description"]</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/Res/body[1]/msg[2]/data[1]	locNote="A division by 0 was going to be computed."	locNoteType="description"]
+* Implementers file line:[/Res/body[1]/msg[2]/data[1]	locNoteType="description"]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt">
@@ -676,7 +727,26 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]]
+* Implementers file line:[/html/body[1]/p[1]]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/@id]
+* Implementers file line:[/html/body[1]/span[1]]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/p[1]]
+* Implementers file line:[/html/body[1]/p[2]]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	locNote="Indicates that the resource file {0} could not be loaded."	locNoteType="description"]
+* Implementers file line:[/html/body[1]/span[2]]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/section[2]]
+* Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt">
@@ -714,7 +784,10 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/span[1]	locNoteRef="ErrorsInfo.html/#NotFound"	locNoteType="description"]
+* Implementers file line:[/html/body[1]/span[1]]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt">
@@ -752,7 +825,14 @@ Line 24: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locNoteRef="Comments.html#FileNotFound"	locNoteType="description"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]]</error>
+            <error>
+Line 17: Comparison failed.
+* Reference line: [/html/body[1]/p[2]/span[1]	locNoteRef="Comments.html#DivByZero"	locNoteType="description"]
+* Implementers file line:[/html/body[1]/p[2]/span[1]]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt">
