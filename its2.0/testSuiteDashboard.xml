@@ -658,9 +658,7 @@ Line 11: Comparison failed.
 * Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'.	locNoteType="alert"]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -710,9 +708,7 @@ Line 20: Comparison failed.
 * Implementers file line:[/Res/body[1]/msg[2]/data[1]	locNoteType="description"]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -767,9 +763,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -808,9 +802,7 @@ Line 10: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -853,9 +845,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="adobe"
@@ -891,9 +881,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
@@ -925,9 +913,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="init"
@@ -963,9 +949,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="init"
@@ -983,9 +967,7 @@ Line 17: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="init"
