@@ -1619,9 +1619,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/xml/domain1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -1663,9 +1661,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/xml/domain2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -1707,9 +1703,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/xml/domain4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -1727,9 +1721,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/xml/domain5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="dcu"
