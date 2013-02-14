@@ -643,20 +643,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]
-* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="alert"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]
-* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]	locNoteType="alert"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
-* Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'.	locNoteType="alert"]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -693,20 +680,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]]
-* Implementers file line:[/Res/prolog[1]/its:rules[1]/its:locNoteRule[1]	locNoteType="description"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/Res/body[1]/msg[1]/data[1]	locNote="Indicates that the resource file {0} could not be loaded."	locNoteType="description"]
-* Implementers file line:[/Res/body[1]/msg[1]/data[1]	locNoteType="description"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/Res/body[1]/msg[2]/data[1]	locNote="A division by 0 was going to be computed."	locNoteType="description"]
-* Implementers file line:[/Res/body[1]/msg[2]/data[1]	locNoteType="description"]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -759,9 +733,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -798,9 +770,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -841,9 +811,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -877,9 +845,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -909,9 +875,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -945,9 +909,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -963,9 +925,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2759,7 +2719,50 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace1xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	space="default"]
+* Implementers file line:[/text]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	space="default"]
+* Implementers file line:[/text/head[1]]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	space="default"]
+* Implementers file line:[/text/head[1]/its:rules[1]]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	space="default"]
+* Implementers file line:[/text/head[1]/its:rules[1]/@version]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	space="default"]
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]	space="default"]
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@selector	space="default"]
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@space	space="default"]
+* Implementers file line:[/text/body[1]]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/verse[1]	space="preserve"]
+* Implementers file line:[/text/body[1]/img[1]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]/img[1]/@alt	rubyText="World Wide Web Consortium"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]/img[1]/@src]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
@@ -2783,7 +2786,54 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace2xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	space="default"]
+* Implementers file line:[/text]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	space="default"]
+* Implementers file line:[/text/head[1]]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/verse[1]	space="preserve"]
+* Implementers file line:[/text/head[1]/its:rules[1]]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/verse[1]/@xml:space	space="preserve"]
+* Implementers file line:[/text/head[1]/its:rules[1]/@version]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/head[1]/its:rules[1]/@xlink:href]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]/img[1]]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]/img[1]/@alt	rubyText="TBD"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: []
+* Implementers file line:[/text/body[1]/img[1]/@src]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
