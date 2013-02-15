@@ -1207,9 +1207,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/xml/dir1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/xml/dir1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir2xml.xml">
          <description assertions="dir-global link-external-rules">Global - Linked rules</description>
@@ -1217,9 +1215,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/xml/dir2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/xml/dir2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir3xml.xml">
          <description assertions="dir-local">Local - In host element</description>
@@ -1227,9 +1223,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/xml/dir3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/xml/dir3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir4xml.xml">
          <description assertions="dir-local">Local - In &lt;its:span&gt;</description>
@@ -1237,9 +1231,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/xml/dir4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/xml/dir4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir5xml.xml">
          <description assertions="dir-local its-param">Local - In host element &lt;its:param&gt;</description>
