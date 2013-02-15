@@ -1023,9 +1023,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1037,9 +1035,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology2xmloutput.txt"/>
       </inputfile>
@@ -1061,9 +1057,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology3xmloutput.txt"/>
       </inputfile>
@@ -1073,9 +1067,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology4xmloutput.txt"/>
       </inputfile>
@@ -1097,9 +1089,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="init"
@@ -1153,9 +1143,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/xml/terminology6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="init"
