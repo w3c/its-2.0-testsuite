@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/localizationnote/xml/locnote10xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">DisableInfo</source>
+<target xml:lang="fr">DisableInfo</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">This text will be displayed over the image.</source>
+<target xml:lang="fr">This text will be displayed over the image.</target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Do not translate the word "Chobe"</source>
+<target xml:lang="fr">Do not translate the word "Chobe"</target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'. </source>
+<target xml:lang="fr"> The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'. </target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This is a hippoptamus: </source>
+<target xml:lang="fr"> This is a hippoptamus: </target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> . </source>
+<target xml:lang="fr"> . </target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> This is an elephant: </source>
+<target xml:lang="fr"> This is an elephant: </target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> . </source>
+<target xml:lang="fr"> . </target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The {0} has been disabled.</source>
+<target xml:lang="fr">The {0} has been disabled.</target>
+<note>
+The variable
+{0}
+has three possible values: 'printer', 'stacker' and 'stapler options'.
+</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

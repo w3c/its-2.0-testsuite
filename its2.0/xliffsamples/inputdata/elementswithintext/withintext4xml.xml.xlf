@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/elementswithintext/xml/withintext4xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Designing User Interfaces</source>
+<target xml:lang="fr">Designing User Interfaces</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Janice Prakash</source>
+<target xml:lang="fr">Janice Prakash</target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">user interface, ui, software interface</source>
+<target xml:lang="fr">user interface, ui, software interface</target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The book <g id="1">Of Mice and Screens</g> by <g id="2">Aldus Brandywine</g> is one of the best introductions to the vast topic of designing user interfaces.</source>
+<target xml:lang="fr">The book <g id="1">Of Mice and Screens</g> by <g id="2">Aldus Brandywine</g> is one of the best introductions to the vast topic of designing user interfaces.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

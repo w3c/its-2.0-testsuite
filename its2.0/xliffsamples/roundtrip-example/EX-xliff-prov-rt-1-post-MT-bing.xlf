@@ -10,16 +10,16 @@
             </its:rules>
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl6"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/9c6fddc6-dff6-48c6-b429-41c1f237b5c1"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl7"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/faab81f2-2dc7-4119-bcac-af8f107636f6"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef=""http://www.cngl.ie/logger/logs/extract-bndl8"/>
+                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/4e3ab401-3d31-4354-a594-b3ce03ad2c0c"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr4">
-                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef=""http://www.cngl.ie/logger/logs/extract-bndl9"/>
+                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/a0bf0b9f-4bd0-4132-ba87-aec5c48c7986"/>
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">

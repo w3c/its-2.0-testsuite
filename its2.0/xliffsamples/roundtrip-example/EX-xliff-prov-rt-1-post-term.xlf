@@ -10,10 +10,10 @@
             </its:rules>
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl23"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/3f37155d-6f01-4abd-a7c0-87d64fc9f0fa"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl24"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/501bae14-3b8d-4b15-875e-7c442f2e1b1e"/>
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">

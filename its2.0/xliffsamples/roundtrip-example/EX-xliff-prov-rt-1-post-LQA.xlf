@@ -6,14 +6,14 @@
         <header>    
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/extract-bndl2"/>
+                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/9d709fc5-c7ab-4541-9b6f-93bc9d07baf6"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/extract-bndl3"/>
+                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/c303a857-b163-4fc2-97ac-d288d077b6b5"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/extract-bndl4"/>   
-                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/extract-bndl5"> 
+                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/a3ee4532-0828-44e8-821d-256a7d5c811f"/>   
+                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/bef47511-8ad9-4e6e-a230-f07d3e99b6ae"> 
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">

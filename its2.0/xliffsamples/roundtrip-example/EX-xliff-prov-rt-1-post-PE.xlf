@@ -10,20 +10,20 @@
             </its:rules>
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl13"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/2bbcaf0b-df6c-4606-bbc3-e2072da78f70"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord provRef=""http://www.cngl.ie/logger/logs/extract-bndl14"/>
+                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/d03645b1-2d8b-4d21-a925-74d91a954a50"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef=""http://www.cngl.ie/logger/logs/extract-bndl15"/>
+                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/7dbe77ff-ab33-4061-b0a7-0ee669c0b0e2"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr4">
-                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef=""http://www.cngl.ie/logger/logs/extract-bndl16"/>
+                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/cbc90f23-1a23-4b1a-8bac-6a3492435ec1"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr5">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef=""http://www.cngl.ie/logger/logs/extract-bndl17"/>   
-                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef=""http://www.cngl.ie/logger/logs/extract-bndl18"> 
+                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/bb29dc21-f603-4826-b729-e66d0eb93c36"/>   
+                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/d8ac853c-9014-48d2-a121-54b154c7adfa"> 
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">

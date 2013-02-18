@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/terminology/xml/terminology9xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sample file</source>
+<target xml:lang="fr">Sample file</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">And he said: you need a new </source>
+<target xml:lang="fr">And he said: you need a new </target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">motherboard</source>
+<target xml:lang="fr">motherboard</target>
+<note annotates="source">Terms:
+motherboard [REF:http://www.directron.com/motherboards1.html];
+</note>
+</trans-unit>
+</body>
+</file>
+</xliff>
