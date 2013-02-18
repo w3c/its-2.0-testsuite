@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/elementswithintext/html/withintext4html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Appaloosa</source>
+<target xml:lang="fr">Appaloosa</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">horse</source>
+<target xml:lang="fr">horse</target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">appaloosa</source>
+<target xml:lang="fr">appaloosa</target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The Appaloosa <g id="1"> The name comes from "Palouse horse" in reference to the Palouse River in Northern Idaho. </g> are rugged horses originally breed by the <g id="2">Nez-Perce</g> tribe in the US Northwest. </source>
+<target xml:lang="fr"> The Appaloosa <g id="1"> The name comes from "Palouse horse" in reference to the Palouse River in Northern Idaho. </g> are rugged horses originally breed by the <g id="2">Nez-Perce</g> tribe in the US Northwest. </target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Appaloosa horses</source>
+<target xml:lang="fr">Appaloosa horses</target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> They are often characterized by their spotted coats, as shown here: <x id="1"/> </source>
+<target xml:lang="fr"> They are often characterized by their spotted coats, as shown here: <x id="1"/> </target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <g id="1"> Copyright: <g id="2">Zebulon Inc.</g> </g> </source>
+<target xml:lang="fr"> <g id="1"> Copyright: <g id="2">Zebulon Inc.</g> </g> </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

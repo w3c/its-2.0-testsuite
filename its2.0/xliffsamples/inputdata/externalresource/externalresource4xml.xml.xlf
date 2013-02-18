@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/externalresource/xml/externalresource4xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">movie-frame.gif</source>
+<target xml:lang="fr">movie-frame.gif</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">This video illustrates the proper way to assemble an inverting time distortion device. </source>
+<target xml:lang="fr">This video illustrates the proper way to assemble an inverting time distortion device. </target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> It is imperative that the primary and secondary temporal couplings not be mounted in the wrong order. Temporal catastrophe is the likely result. The future you destroy may be your own. </source>
+<target xml:lang="fr"> It is imperative that the primary and secondary temporal couplings not be mounted in the wrong order. Temporal catastrophe is the likely result. The future you destroy may be your own. </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

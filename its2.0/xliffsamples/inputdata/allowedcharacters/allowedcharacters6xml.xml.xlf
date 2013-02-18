@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/allowedcharacters/xml/allowedcharacters6xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Click the </source>
+<target xml:lang="fr">Click the </target>
+</trans-unit>
+<trans-unit id="2" its:allowedCharacters="[ -þ]">
+<source xml:lang="en">CONTINUE</source>
+<target xml:lang="fr">CONTINUE</target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Button on the printer panel</source>
+<target xml:lang="fr"> Button on the printer panel</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

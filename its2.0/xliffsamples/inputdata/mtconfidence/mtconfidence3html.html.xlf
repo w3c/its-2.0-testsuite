@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/mtconfidence/html/mtconfidence3html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sentences about Dublin and Prague MTed from Czech with mtConfidence locally.</source>
+<target xml:lang="fr">Sentences about Dublin and Prague MTed from Czech with mtConfidence locally.</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> <g id="1"><mrk mtype="x-its"> Dublin is the capital of Ireland.</mrk></g> <g id="2"> The capital of the Czech Republic is Prague.</g> <g id="3">Berlin is the capital of Germany.</g> <g id="4">London is the capital of England</g> </source>
+<target xml:lang="fr"> <g id="1"><mrk mtype="x-its"> Dublin is the capital of Ireland.</mrk></g> <g id="2"> The capital of the Czech Republic is Prague.</g> <g id="3">Berlin is the capital of Germany.</g> <g id="4">London is the capital of England</g> </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

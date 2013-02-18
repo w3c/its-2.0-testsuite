@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/localizationnote/xml/locnote8xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Host {0} cannot be found.</source>
+<target xml:lang="fr">Host {0} cannot be found.</target>
+<note>The variable {0} is the name of the host.</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">The connection with {0} has been lost.</source>
+<target xml:lang="fr">The connection with {0} has been lost.</target>
+<note>The variable {0} is the name of the host.</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">{0} not found.</source>
+<target xml:lang="fr">{0} not found.</target>
+<note>{0} is a filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Cannot log with this username.</source>
+<target xml:lang="fr">Cannot log with this username.</target>
+<note>REF:myLocNotes.htm#CannotLog</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

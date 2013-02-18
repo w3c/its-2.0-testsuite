@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/locqualityissue/html/locqualityissue9html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Test</source>
+<target xml:lang="fr">Test</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en" its:locQualityIssuesRef="#lqi1"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
+<target xml:lang="fr" its:locQualityIssuesRef="#lqi1"> <g id="1">c'es</g> pourquoi il n'était pas coupable</target>
+<its:locQualityIssues xml:id="lqi1">
+<its:locQualityIssue locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" locQualityIssueSeverity="50" locQualityIssueType="misspelling"/>
+<its:locQualityIssue locQualityIssueComment="Missing capital on the first word of a sentence." locQualityIssueSeverity="30" locQualityIssueType="grammar"/>
+</its:locQualityIssues>
+<its:locQualityIssues xml:id="lqi1">
+<its:locQualityIssue locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" locQualityIssueSeverity="50" locQualityIssueType="misspelling"/>
+<its:locQualityIssue locQualityIssueComment="Missing capital on the first word of a sentence." locQualityIssueSeverity="30" locQualityIssueType="grammar"/>
+</its:locQualityIssues>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/disambiguation/xml/disambiguation8xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en" its:disambigClassRef="http://nerd.eurecom.fr/ontology#Place" its:disambigIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
+<target xml:lang="fr" its:disambigClassRef="http://nerd.eurecom.fr/ontology#Place" its:disambigIdentRef="http://dbpedia.org/resource/Dublin">Dublin</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> is the </source>
+<target xml:lang="fr"> is the </target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en" its:disambigGranularity="lexical-concept" its:disambigIdent="301467919" its:disambigSource="Wordnet3.0">capital</source>
+<target xml:lang="fr" its:disambigGranularity="lexical-concept" its:disambigIdent="301467919" its:disambigSource="Wordnet3.0">capital</target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> of Ireland.</source>
+<target xml:lang="fr"> of Ireland.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

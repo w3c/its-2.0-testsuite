@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/provenance/html/provenance2html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Test</source>
+<target xml:lang="fr">Test</target>
+</trans-unit>
+<trans-unit id="2" resname="#pr1">
+<source xml:lang="en">This paragraph was translated from the machine.</source>
+<target xml:lang="fr">This paragraph was translated from the machine.</target>
+</trans-unit>
+<trans-unit id="3" resname="#pr2">
+<source xml:lang="en">This text was translated directly by a person.</source>
+<target xml:lang="fr">This text was translated directly by a person.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

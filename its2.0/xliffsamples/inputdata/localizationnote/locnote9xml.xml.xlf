@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/localizationnote/xml/locnote9xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Everything started when Zebulon discovered that he had a </source>
+<target xml:lang="fr">Everything started when Zebulon discovered that he had a </target>
+<note>If possible keep the non-English terms in the translated version too</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">doppelgänger</source>
+<target xml:lang="fr">doppelgänger</target>
+<note>REF:http://en.wikipedia.org/wiki/Doppelganger</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> who was a </source>
+<target xml:lang="fr"> who was a </target>
+<note>If possible keep the non-English terms in the translated version too</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">serious</source>
+<target xml:lang="fr">serious</target>
+<note>If possible keep the non-English terms in the translated version too</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> baseball </source>
+<target xml:lang="fr"> baseball </target>
+<note>If possible keep the non-English terms in the translated version too</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">aficionado</source>
+<target xml:lang="fr">aficionado</target>
+<note>REF:http://en.wikipedia.org/wiki/Aficionado</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">.</source>
+<target xml:lang="fr">.</target>
+<note>If possible keep the non-English terms in the translated version too</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

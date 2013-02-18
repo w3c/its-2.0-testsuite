@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/domain/html/domain2html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1" okp:itsDomain="automotive">
+<source xml:lang="en">automotive</source>
+<target xml:lang="fr">automotive</target>
+</trans-unit>
+<trans-unit id="2" okp:itsDomain="automotive">
+<source xml:lang="en">Domain HTML</source>
+<target xml:lang="fr">Domain HTML</target>
+</trans-unit>
+<trans-unit id="3" okp:itsDomain="auto">
+<source xml:lang="en">The new car from XYZ - buy it now!</source>
+<target xml:lang="fr">The new car from XYZ - buy it now!</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

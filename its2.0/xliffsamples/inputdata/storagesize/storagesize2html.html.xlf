@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/storagesize/html/storagesize2html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Storage Size</source>
+<target xml:lang="fr">Storage Size</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> <g id="1">String to translate:</g> </source>
+<target xml:lang="fr"> <g id="1">String to translate:</g> </target>
+</trans-unit>
+<trans-unit id="3" resname="123" its:storageSize="25" its:storageEncoding="ISO-8859-1">
+<source xml:lang="en">Papua New-Guinea</source>
+<target xml:lang="fr">Papua New-Guinea</target>
+</trans-unit>
+<trans-unit id="4" resname="139" its:storageSize="25" its:storageEncoding="ISO-8859-1">
+<source xml:lang="en">Dominican Replubic</source>
+<target xml:lang="fr">Dominican Replubic</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

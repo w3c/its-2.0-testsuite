@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/locqualityissue/html/locqualityissue10html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Example</source>
+<target xml:lang="fr">Example</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en" its:locQualityIssuesRef="#lqi3"> <g id="1">music </g> is an art form whose medium is sound and silence. <g id="2">Musci acn </g> take many different forms and is experienced by individuals in a range of social settings ranging from being alone to attending a large concert. </source>
+<target xml:lang="fr" its:locQualityIssuesRef="#lqi3"> <g id="1">music </g> is an art form whose medium is sound and silence. <g id="2">Musci acn </g> take many different forms and is experienced by individuals in a range of social settings ranging from being alone to attending a large concert. </target>
+<its:locQualityIssues xml:id="lqi3">
+<its:locQualityIssue locQualityIssueComment="sentence without capitalization" locQualityIssueType="typographical"/>
+<its:locQualityIssue locQualityIssueComment="should be 'Music can'" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+<its:locQualityIssues xml:id="lqi3">
+<its:locQualityIssue locQualityIssueComment="sentence without capitalization" locQualityIssueType="typographical"/>
+<its:locQualityIssue locQualityIssueComment="should be 'Music can'" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+</trans-unit>
+</body>
+</file>
+</xliff>

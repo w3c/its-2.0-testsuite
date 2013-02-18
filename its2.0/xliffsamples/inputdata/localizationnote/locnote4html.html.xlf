@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/localizationnote/html/locnote4html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">EXAMPLE</source>
+<target xml:lang="fr">EXAMPLE</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Comments.html#FileNotFound</source>
+<target xml:lang="fr">Comments.html#FileNotFound</target>
+</trans-unit>
+<trans-unit id="3" resname="FileNotFound">
+<source xml:lang="en"> <g id="1"><mrk mtype="x-its" comment="REF:Comments.html#FileNotFound" okp:itsLocNoteType="description">Cannot find the file {0}.</mrk></g> </source>
+<target xml:lang="fr"> <g id="1"><mrk mtype="x-its" comment="REF:Comments.html#FileNotFound" okp:itsLocNoteType="description">Cannot find the file {0}.</mrk></g> </target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Comments.html#DivByZero</source>
+<target xml:lang="fr">Comments.html#DivByZero</target>
+</trans-unit>
+<trans-unit id="5" resname="DivByZero">
+<source xml:lang="en"> <g id="1"><mrk mtype="x-its" comment="REF:Comments.html#DivByZero" okp:itsLocNoteType="description">Invalid parameter.</mrk></g> </source>
+<target xml:lang="fr"> <g id="1"><mrk mtype="x-its" comment="REF:Comments.html#DivByZero" okp:itsLocNoteType="description">Invalid parameter.</mrk></g> </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/locqualityrating/xml/locqualityrating3xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">The Adventures of Tom Sawyer</source>
+<target xml:lang="fr">The Adventures of Tom Sawyer</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</source>
+<target xml:lang="fr">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

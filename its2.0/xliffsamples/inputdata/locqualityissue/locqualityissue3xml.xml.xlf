@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<file original="inputdata/locqualityissue/xml/locqualityissue3xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</source>
+<target xml:lang="fr" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> or transportation is the movement of people, animals and goods from one location to another. Modes of </source>
+<target xml:lang="fr"> or transportation is the movement of people, animals and goods from one location to another. Modes of </target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</source>
+<target xml:lang="fr" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> air, rail, road, water, cable, pipeline, and space. </source>
+<target xml:lang="fr"> air, rail, road, water, cable, pipeline, and space. </target>
+</trans-unit>
+</body>
+</file>
+</xliff>
