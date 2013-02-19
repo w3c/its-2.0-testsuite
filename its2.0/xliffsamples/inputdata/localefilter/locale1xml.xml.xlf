@@ -4,7 +4,6 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en"><x id="1"/></source>
-<target xml:lang="fr"><x id="1"/></target>
 </trans-unit>
 </body>
 </file>

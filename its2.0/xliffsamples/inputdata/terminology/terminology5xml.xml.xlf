@@ -4,33 +4,27 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">A </source>
-<target xml:lang="fr">A </target>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">motherboard</source>
-<target xml:lang="fr">motherboard</target>
+<source xml:lang="en" its:term="yes" its:termInfoRef="http://en.wikipedia.org/wiki/Motherboard">motherboard</source>
 <note annotates="source">Terms:
 motherboard [REF:http://en.wikipedia.org/wiki/Motherboard];
 </note>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">, also known as a </source>
-<target xml:lang="fr">, also known as a </target>
 </trans-unit>
 <trans-unit id="4">
-<source xml:lang="en">logic </source>
-<target xml:lang="fr">logic </target>
+<source xml:lang="en" its:term="yes">logic </source>
 </trans-unit>
 <trans-unit id="5">
-<source xml:lang="en">board</source>
-<target xml:lang="fr">board</target>
+<source xml:lang="en" its:term="yes">board</source>
 <note annotates="source">Terms:
 board;
 </note>
 </trans-unit>
 <trans-unit id="6">
 <source xml:lang="en"> on Apple Computers, is the primary circuit board making up a modern computer.</source>
-<target xml:lang="fr"> on Apple Computers, is the primary circuit board making up a modern computer.</target>
 <note annotates="source">Terms:
 logic board;
 </note>

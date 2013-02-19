@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Locale filter</source>
-<target xml:lang="fr">Locale filter</target>
 </trans-unit>
 <trans-unit id="2" resname="Canada">
 <source xml:lang="en"><x id="1"/></source>
-<target xml:lang="fr"><x id="1"/></target>
 </trans-unit>
 </body>
 </file>

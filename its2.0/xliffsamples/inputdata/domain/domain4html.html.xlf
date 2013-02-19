@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1" okp:itsDomain="SPORTS LAW, Judicial Matters">
 <source xml:lang="en">SPORTS LAW, Judicial Matters</source>
-<target xml:lang="fr">SPORTS LAW, Judicial Matters</target>
 </trans-unit>
 <trans-unit id="2" okp:itsDomain="SPORTS LAW, Judicial Matters, Sport, Law">
 <source xml:lang="en">Some text about sport and law.</source>
-<target xml:lang="fr">Some text about sport and law.</target>
 </trans-unit>
 </body>
 </file>

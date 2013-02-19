@@ -4,19 +4,15 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Storage Size</source>
-<target xml:lang="fr">Storage Size</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">String to translate:</source>
-<target xml:lang="fr">String to translate:</target>
 </trans-unit>
 <trans-unit id="3" resname="123" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">
 <source xml:lang="en">Papua New-Guinea</source>
-<target xml:lang="fr">Papua New-Guinea</target>
 </trans-unit>
 <trans-unit id="4" resname="139" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">
 <source xml:lang="en">Dominican Replubic</source>
-<target xml:lang="fr">Dominican Replubic</target>
 </trans-unit>
 </body>
 </file>

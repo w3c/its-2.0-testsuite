@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Id Value</source>
-<target xml:lang="fr">Id Value</target>
 </trans-unit>
 <trans-unit id="2" resname="settingsMissing">
 <source xml:lang="en"> <g id="1">Can't find settings file.</g> <g id="2">The module cannot find the default settings file. You need to re-initialize the system.</g> </source>
-<target xml:lang="fr"> <g id="1">Can't find settings file.</g> <g id="2">The module cannot find the default settings file. You need to re-initialize the system.</g> </target>
 </trans-unit>
 </body>
 </file>

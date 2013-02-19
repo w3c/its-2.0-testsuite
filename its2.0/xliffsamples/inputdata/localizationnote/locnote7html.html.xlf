@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">LocNote test: Default</source>
-<target xml:lang="fr">LocNote test: Default</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">This is a <g id="1"><mrk mtype="x-its" comment="Check with terminology engineer" okp:itsLocNoteType="alert">motherboard</mrk></g>.</source>
-<target xml:lang="fr">This is a <g id="1"><mrk mtype="x-its" comment="Check with terminology engineer" okp:itsLocNoteType="alert">motherboard</mrk></g>.</target>
 </trans-unit>
 </body>
 </file>

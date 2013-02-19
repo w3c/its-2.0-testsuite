@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">This is the content</source>
-<target xml:lang="fr">This is the content</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">c'es</source>
-<target xml:lang="fr" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">c'es</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> le contenu</source>
-<target xml:lang="fr"> le contenu</target>
 </trans-unit>
 </body>
 </file>

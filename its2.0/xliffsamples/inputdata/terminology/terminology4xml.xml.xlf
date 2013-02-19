@@ -3,37 +3,33 @@
 <file original="inputdata/terminology/xml/terminology4xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
-<source xml:lang="en">terms</source>
-<target xml:lang="fr">terms</target>
+<source xml:lang="en" its:term="yes">terms</source>
 <note annotates="source">Terms:
 terms;
 </note>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">, </source>
-<target xml:lang="fr">, </target>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en">rare </source>
-<target xml:lang="fr">rare </target>
+<source xml:lang="en" its:term="yes">rare </source>
 </trans-unit>
 <trans-unit id="4">
-<source xml:lang="en">words</source>
-<target xml:lang="fr">words</target>
+<source xml:lang="en" its:term="yes">words</source>
 <note annotates="source">Terms:
 words;
 </note>
 </trans-unit>
 <trans-unit id="5">
 <source xml:lang="en">We may define </source>
-<target xml:lang="fr">We may define </target>
 <note annotates="source">Terms:
 rare words;
 </note>
 </trans-unit>
 <trans-unit id="6">
-<source xml:lang="en">discoursal point of view</source>
-<target xml:lang="fr">discoursal point of view</target>
+<source xml:lang="en" its:term="yes" okp:itsTermInfo="the relationship, expressed through discourse
+structure, between the implied author or some other addresser,
+and the fiction">discoursal point of view</source>
 <note annotates="source">Terms:
 discoursal point of view [the relationship, expressed through discourse
 structure, between the implied author or some other addresser,
@@ -42,46 +38,36 @@ and the fiction];
 </trans-unit>
 <trans-unit id="7">
 <source xml:lang="en"> as </source>
-<target xml:lang="fr"> as </target>
 </trans-unit>
 <trans-unit id="8">
 <source xml:lang="en">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction</source>
-<target xml:lang="fr">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction</target>
 </trans-unit>
 <trans-unit id="9">
 <source xml:lang="en">.</source>
-<target xml:lang="fr">.</target>
 </trans-unit>
 <trans-unit id="10">
 <source xml:lang="en">We may define </source>
-<target xml:lang="fr">We may define </target>
 </trans-unit>
 <trans-unit id="11">
-<source xml:lang="en">refulgence</source>
-<target xml:lang="fr">refulgence</target>
+<source xml:lang="en" its:term="yes" okp:itsTermInfo="a radiant or resplendent quality or state.">refulgence</source>
 <note annotates="source">Terms:
 refulgence [a radiant or resplendent quality or state.];
 </note>
 </trans-unit>
 <trans-unit id="12">
 <source xml:lang="en"> as </source>
-<target xml:lang="fr"> as </target>
 </trans-unit>
 <trans-unit id="13">
 <source xml:lang="en">a radiant or resplendent quality or state.</source>
-<target xml:lang="fr">a radiant or resplendent quality or state.</target>
 </trans-unit>
 <trans-unit id="14">
 <source xml:lang="en">But I'm not sure how </source>
-<target xml:lang="fr">But I'm not sure how </target>
 </trans-unit>
 <trans-unit id="15">
 <source xml:lang="en">quincunx</source>
-<target xml:lang="fr">quincunx</target>
 </trans-unit>
 <trans-unit id="16">
 <source xml:lang="en"> can be defined.</source>
-<target xml:lang="fr"> can be defined.</target>
 </trans-unit>
 </body>
 </file>

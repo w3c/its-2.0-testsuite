@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Example</source>
-<target xml:lang="fr">Example</target>
 </trans-unit>
 <trans-unit id="2" resname="DisableInfo">
 <source xml:lang="en">The {0} has been disabled.</source>
-<target xml:lang="fr">The {0} has been disabled.</target>
 <note>The variable {0} has three possible values: 'printer', 
     'stacker' and 'stapler options'.</note>
 </trans-unit>

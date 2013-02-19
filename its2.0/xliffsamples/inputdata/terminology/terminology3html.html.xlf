@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Terminology test: default</source>
-<target xml:lang="fr">Terminology test: default</target>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">We need a new <g id="1">motherboard</g> </source>
-<target xml:lang="fr">We need a new <g id="1">motherboard</g> </target>
+<source xml:lang="en">We need a new <g id="1"><mrk mtype="x-its" its:term="yes" its:termInfoRef="#TDPV">motherboard</mrk></g> </source>
 <note annotates="source">Terms:
 motherboard [REF:#TDPV];
 </note>

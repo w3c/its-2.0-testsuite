@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1" resname="btnAgain">
 <source xml:lang="en">Try Again</source>
-<target xml:lang="fr">Try Again</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">click this to re-run the process with the current settings.</source>
-<target xml:lang="fr">click this to re-run the process with the current settings.</target>
 </trans-unit>
 </body>
 </file>

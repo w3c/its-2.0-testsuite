@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1" its:storageSize="25" its:storageEncoding="ISO-8859-1">
 <source xml:lang="en">Papouasie-Nouvelle-Guinée</source>
-<target xml:lang="fr">Papouasie-Nouvelle-Guinée</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">République Dominicaine</source>
-<target xml:lang="fr">République Dominicaine</target>
 </trans-unit>
 </body>
 </file>

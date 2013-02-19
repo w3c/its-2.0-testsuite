@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
-<target xml:lang="fr">EXAMPLE</target>
 </trans-unit>
 <trans-unit id="2" resname="term">
-<source xml:lang="en"> We may define <g id="1">discoursal point of view</g> as <g id="2"> the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction. </g> </source>
-<target xml:lang="fr"> We may define <g id="1">discoursal point of view</g> as <g id="2"> the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction. </g> </target>
+<source xml:lang="en"> We may define <g id="1"><mrk mtype="x-its" its:term="yes" its:termInfoRef="#TDPV">discoursal point of view</mrk></g> as <g id="2"> the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction. </g> </source>
 <note annotates="source">Terms:
 discoursal point of view [REF:#TDPV];
 </note>

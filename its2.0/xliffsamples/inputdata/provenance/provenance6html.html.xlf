@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Test</source>
-<target xml:lang="fr">Test</target>
 </trans-unit>
 <trans-unit id="2" its:provenanceRecordsRef="#prov1">
 <source xml:lang="en">This paragraph was translated from the machine and subsequently revised.</source>
-<target xml:lang="fr">This paragraph was translated from the machine and subsequently revised.</target>
 </trans-unit>
 </body>
 </file>

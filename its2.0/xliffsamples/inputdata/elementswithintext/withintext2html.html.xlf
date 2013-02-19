@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Within text test: Default</source>
-<target xml:lang="fr">Within text test: Default</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Text with <g id="1">bold</g>.</source>
-<target xml:lang="fr">Text with <g id="1">bold</g>.</target>
 </trans-unit>
 </body>
 </file>

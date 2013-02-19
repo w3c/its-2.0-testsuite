@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">DC.type</source>
-<target xml:lang="fr">DC.type</target>
 </trans-unit>
 <trans-unit id="2" okp:itsDomain="poetry">
 <source xml:lang="en"> A poem is a composition written in verse (although verse has also been used for epic and dramatic fiction). </source>
-<target xml:lang="fr"> A poem is a composition written in verse (although verse has also been used for epic and dramatic fiction). </target>
 </trans-unit>
 <trans-unit id="3" okp:itsDomain="poetry">
 <source xml:lang="en"> Poems make use of the aesthetic qualities of language to suggest differential meanings and to evoke emotive responses. Poems rely heavily on imagery and metaphor; they may have a rhythmic structure based on patterns of stresses (metric feet) or on patterns of different-length syllables (as in classical prosody); and they may or may not utilize rhyme. </source>
-<target xml:lang="fr"> Poems make use of the aesthetic qualities of language to suggest differential meanings and to evoke emotive responses. Poems rely heavily on imagery and metaphor; they may have a rhythmic structure based on patterns of stresses (metric feet) or on patterns of different-length syllables (as in classical prosody); and they may or may not utilize rhyme. </target>
 </trans-unit>
 </body>
 </file>

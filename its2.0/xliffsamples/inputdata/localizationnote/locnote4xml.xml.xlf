@@ -4,12 +4,10 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Cannot find the file {0}.</source>
-<target xml:lang="fr">Cannot find the file {0}.</target>
 <note>REF:Comments.html#FileNotFound</note>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Invalid parameter.</source>
-<target xml:lang="fr">Invalid parameter.</target>
 <note>REF:Comments.html#DivByZero</note>
 </trans-unit>
 </body>
