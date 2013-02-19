@@ -13,7 +13,7 @@
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
                 <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/a3ee4532-0828-44e8-821d-256a7d5c811f"/>   
-                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/bef47511-8ad9-4e6e-a230-f07d3e99b6ae"> 
+                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/bef47511-8ad9-4e6e-a230-f07d3e99b6ae"/> 
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">
