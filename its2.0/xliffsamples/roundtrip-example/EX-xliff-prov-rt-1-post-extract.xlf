@@ -9,7 +9,7 @@
             </its:rules>
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/94ff88f0-b6c4-4cfe-8b05-aec3d0262394"/>
+                <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/94ff88f0-b6c4-4cfe-8b05-aec3d0262394"/>
             </its:provenanceRecords>
         </header> 
         <body>
