@@ -23,7 +23,7 @@
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr5">
                 <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/bb29dc21-f603-4826-b729-e66d0eb93c36"/>   
-                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/d8ac853c-9014-48d2-a121-54b154c7adfa"> 
+                <its:proveanceRecord revTool="iomegat" revOrgRef="http://ex.acme-lsp.com" provRef="http://www.cngl.ie/logger/logs/d8ac853c-9014-48d2-a121-54b154c7adfa"/> 
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">
