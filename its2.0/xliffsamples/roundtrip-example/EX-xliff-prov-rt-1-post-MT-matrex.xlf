@@ -2,7 +2,7 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"
     xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
     <file original="/EX-xliff-prov-rt-1-src.html" source-language="en-us" target-language="fr-fr"
-        datatype="html" its:annotatorsRef="tan|http://enrycher.ijs.si">
+        datatype="html" its:annotatorsRef="text-analysis|http://enrycher.ijs.si">
         <header>
             <its:rules version="2.0">
                 <its:provRule selector="//trans-unit/source" provenanceRecordsRefPointer="#pr1"/>
