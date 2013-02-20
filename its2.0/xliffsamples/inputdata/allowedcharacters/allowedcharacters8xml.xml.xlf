@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">allowedchar</source>
-<target xml:lang="fr">allowedchar</target>
 </trans-unit>
 <trans-unit id="2" its:allowedCharacters="[^*+]">
 <source xml:lang="en">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</source>
-<target xml:lang="fr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</target>
 </trans-unit>
 </body>
 </file>

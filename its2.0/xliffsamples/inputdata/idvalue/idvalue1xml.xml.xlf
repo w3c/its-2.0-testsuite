@@ -4,27 +4,21 @@
 <body>
 <trans-unit id="1" resname="btn.OK">
 <source xml:lang="en">OK</source>
-<target xml:lang="fr">OK</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">1, 1</source>
-<target xml:lang="fr">1, 1</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">sendOK</source>
-<target xml:lang="fr">sendOK</target>
 </trans-unit>
 <trans-unit id="4" resname="btn.CANCEL">
 <source xml:lang="en">Cancel</source>
-<target xml:lang="fr">Cancel</target>
 </trans-unit>
 <trans-unit id="5">
 <source xml:lang="en">2, 1</source>
-<target xml:lang="fr">2, 1</target>
 </trans-unit>
 <trans-unit id="6">
 <source xml:lang="en">cancelAll</source>
-<target xml:lang="fr">cancelAll</target>
 </trans-unit>
 </body>
 </file>

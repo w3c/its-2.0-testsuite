@@ -4,19 +4,15 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Dublin is the capital city of Ireland.</source>
-<target xml:lang="fr">Dublin is the capital city of Ireland.</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Madrid is the capital of Spain.</source>
-<target xml:lang="fr">Madrid is the capital of Spain.</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">Berlin is the capital of Germany.</source>
-<target xml:lang="fr">Berlin is the capital of Germany.</target>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en">London is the capital of England</source>
-<target xml:lang="fr">London is the capital of England</target>
 </trans-unit>
 </body>
 </file>

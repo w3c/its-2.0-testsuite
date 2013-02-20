@@ -4,22 +4,18 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Host {0} cannot be found.</source>
-<target xml:lang="fr">Host {0} cannot be found.</target>
 <note>The variable {0} is the name of the host.</note>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">The connection with {0} has been lost.</source>
-<target xml:lang="fr">The connection with {0} has been lost.</target>
 <note>The variable {0} is the name of the host.</note>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">{0} not found.</source>
-<target xml:lang="fr">{0} not found.</target>
 <note>{0} is a filename</note>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en">Cannot log with this username.</source>
-<target xml:lang="fr">Cannot log with this username.</target>
 <note>REF:myLocNotes.htm#CannotLog</note>
 </trans-unit>
 </body>

@@ -1515,9 +1515,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext2xml.xml">
          <description assertions="withintext-global link-external-rules">Global - Linked rules</description>
@@ -1529,9 +1527,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext1html.html">
          <description assertions="withintext-global html5-external-global-rules">Global - Linked rules</description>
@@ -1561,9 +1557,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext4xml.xml">
          <description assertions="withintext-local">Local - In &lt;its:span&gt;</description>
@@ -1575,9 +1569,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext2html.html">
          <description assertions="withintext-local html5-markup">Local - In host element</description>
@@ -1609,9 +1601,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext6xml.xml">
          <description assertions="withintext-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -1627,9 +1617,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/xml/withintext6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/xml/withintext6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext3html.html">
          <description assertions="withintext-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -2104,9 +2092,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale2xml.xml">
          <description assertions="localefilter-local">Local - In host element</description>
@@ -2120,9 +2106,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="init"
                              location="outputimplementors/init/localefilter/xml/locale2xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2140,9 +2124,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="init"
                              location="outputimplementors/init/localefilter/xml/locale5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2158,9 +2140,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale4xml.xml">
          <description assertions="localefilter-global link-external-rules">Global - Embedded and linked rules</description>
@@ -2172,9 +2152,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale1html.html">
          <description assertions="localefilter-global html5-external-global-rules">Global - Linked rules</description>
@@ -2222,9 +2200,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale7xml.xml">
          <description assertions="localefilter-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -2240,9 +2216,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale3html.html">
          <description assertions="localefilter-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>

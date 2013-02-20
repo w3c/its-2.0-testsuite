@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Translation Revision Provenance Agent: Local Test in HTML5</source>
-<target xml:lang="fr">Translation Revision Provenance Agent: Local Test in HTML5</target>
 </trans-unit>
 <trans-unit id="2" resname="p1">
 <source xml:lang="en"> This paragraph was translated from the machine.</source>
-<target xml:lang="fr"> This paragraph was translated from the machine.</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">This text was translated directly by a person.</source>
-<target xml:lang="fr">This text was translated directly by a person.</target>
 </trans-unit>
 </body>
 </file>

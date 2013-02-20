@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Germany</source>
-<target xml:lang="fr">Germany</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">This legal notice is only for Canadian locales.</source>
-<target xml:lang="fr">This legal notice is only for Canadian locales.</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"><x id="1"/></source>
-<target xml:lang="fr"><x id="1"/></target>
 </trans-unit>
 </body>
 </file>

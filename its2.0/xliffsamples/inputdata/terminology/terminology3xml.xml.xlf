@@ -4,22 +4,18 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">We may define </source>
-<target xml:lang="fr">We may define </target>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">discoursal point of view</source>
-<target xml:lang="fr">discoursal point of view</target>
+<source xml:lang="en" its:term="yes" its:termInfoRef="#TDPV">discoursal point of view</source>
 <note annotates="source">Terms:
 discoursal point of view [REF:#TDPV];
 </note>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> as </source>
-<target xml:lang="fr"> as </target>
 </trans-unit>
 <trans-unit id="4" resname="TDPV">
 <source xml:lang="en">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction.</source>
-<target xml:lang="fr">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction.</target>
 </trans-unit>
 </body>
 </file>

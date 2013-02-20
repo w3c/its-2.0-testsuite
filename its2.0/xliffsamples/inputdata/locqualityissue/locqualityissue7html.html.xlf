@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Test</source>
-<target xml:lang="fr">Test</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
-<target xml:lang="fr" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling"> <g id="1">c'es</g> pourquoi il n'était pas coupable</target>
 </trans-unit>
 </body>
 </file>

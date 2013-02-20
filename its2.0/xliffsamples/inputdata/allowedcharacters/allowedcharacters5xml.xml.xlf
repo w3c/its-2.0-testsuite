@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Click the </source>
-<target xml:lang="fr">Click the </target>
 </trans-unit>
 <trans-unit id="2" its:allowedCharacters="[ -þ]">
 <source xml:lang="en">CONTINUE</source>
-<target xml:lang="fr">CONTINUE</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> Button on the printer panel</source>
-<target xml:lang="fr"> Button on the printer panel</target>
 </trans-unit>
 </body>
 </file>

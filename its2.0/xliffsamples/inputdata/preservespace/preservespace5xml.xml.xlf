@@ -4,7 +4,6 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">firstverse</source>
-<target xml:lang="fr">firstverse</target>
 </trans-unit>
 <trans-unit id="2" xml:space="preserve">
 <source xml:lang="en"> 
@@ -13,12 +12,6 @@
  All mimsy were the borogoves,
   And the mome raths outgrabe.
  </source>
-<target xml:lang="fr"> 
- 'Twas brillig, and the slithy toves
-  Did gyre and gimble in the wabe;
- All mimsy were the borogoves,
-  And the mome raths outgrabe.
- </target>
 </trans-unit>
 </body>
 </file>

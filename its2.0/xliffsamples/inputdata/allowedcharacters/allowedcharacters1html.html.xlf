@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Example</source>
-<target xml:lang="fr">Example</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Login names can only use letters from A to Z (upper or lowercase) and the character underscore (_) and minus (-). For example: <g id="1"><mrk mtype="x-its" its:allowedCharacters="[a-zA-Z_\-]">Huck_Finn</mrk></g>.</source>
-<target xml:lang="fr">Login names can only use letters from A to Z (upper or lowercase) and the character underscore (_) and minus (-). For example: <g id="1"><mrk mtype="x-its" its:allowedCharacters="[a-zA-Z_\-]">Huck_Finn</mrk></g>.</target>
 </trans-unit>
 </body>
 </file>

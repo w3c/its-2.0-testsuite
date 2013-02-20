@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Video element example</source>
-<target xml:lang="fr">Video element example</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">If your browser doesn't support the <g id="1">video</g> element, you can <g id="2">download the video</g> instead.</source>
-<target xml:lang="fr">If your browser doesn't support the <g id="1">video</g> element, you can <g id="2">download the video</g> instead.</target>
 </trans-unit>
 </body>
 </file>

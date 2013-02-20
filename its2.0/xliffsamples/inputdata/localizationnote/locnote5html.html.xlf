@@ -4,29 +4,23 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
-<target xml:lang="fr">EXAMPLE</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Hippo in the Chobe River</source>
-<target xml:lang="fr">Hippo in the Chobe River</target>
 <note>Do not translate the word "Chobe"</note>
 </trans-unit>
 <trans-unit id="3" resname="1">
 <source xml:lang="en"> This is a hippoptamus: <x id="1"/> . </source>
-<target xml:lang="fr"> This is a hippoptamus: <x id="1"/> . </target>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en">Elephants taking a mud bath</source>
-<target xml:lang="fr">Elephants taking a mud bath</target>
 <note>This text will be displayed over the image.</note>
 </trans-unit>
 <trans-unit id="5" resname="2">
 <source xml:lang="en"> This is an elephant: <x id="1"/> . </source>
-<target xml:lang="fr"> This is an elephant: <x id="1"/> . </target>
 </trans-unit>
 <trans-unit id="6" resname="DisableInfo">
 <source xml:lang="en">The {0} has been disabled.</source>
-<target xml:lang="fr">The {0} has been disabled.</target>
 <note>
 The variable
 {0}

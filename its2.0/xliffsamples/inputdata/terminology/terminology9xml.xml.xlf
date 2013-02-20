@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Sample file</source>
-<target xml:lang="fr">Sample file</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">And he said: you need a new </source>
-<target xml:lang="fr">And he said: you need a new </target>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en">motherboard</source>
-<target xml:lang="fr">motherboard</target>
+<source xml:lang="en" its:term="yes" its:termConfidence="0.5" its:termInfoRef="http://www.directron.com/motherboards1.html">motherboard</source>
 <note annotates="source">Terms:
 motherboard [REF:http://www.directron.com/motherboards1.html];
 </note>

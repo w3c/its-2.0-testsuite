@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1" okp:itsDomain="automotive">
 <source xml:lang="en">automotive</source>
-<target xml:lang="fr">automotive</target>
 </trans-unit>
 <trans-unit id="2" okp:itsDomain="automotive">
 <source xml:lang="en">Domain HTML</source>
-<target xml:lang="fr">Domain HTML</target>
 </trans-unit>
 <trans-unit id="3" okp:itsDomain="auto">
 <source xml:lang="en">The new car from XYZ - buy it now!</source>
-<target xml:lang="fr">The new car from XYZ - buy it now!</target>
 </trans-unit>
 </body>
 </file>
