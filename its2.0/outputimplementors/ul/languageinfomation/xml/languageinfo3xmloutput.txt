@@ -1,3 +1,0 @@
-Error on line 109 of intermediate.xsl:
-  XPST0008: Variable langParam has not been declared
-Failed to compile stylesheet. 1 error detected.

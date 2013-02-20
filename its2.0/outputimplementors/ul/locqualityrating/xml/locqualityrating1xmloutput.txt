@@ -1,0 +1,9 @@
+
+   
+path=/doc	text=	its:locQualityRatingProfileRef="http://example.org/qaModel/v13"	its:locQualityRatingScore="100"	its:locQualityRatingScoreThreshold="95"	
+path=/doc/@its:locQualityRatingProfileRef	text=	
+path=/doc/@its:locQualityRatingScore	text=	
+path=/doc/@its:locQualityRatingScoreThreshold	text=	
+path=/doc/@its:version	text=	
+path=/doc/title[1]	text=	its:locQualityRatingProfileRef="http://example.org/qaModel/v13"	its:locQualityRatingScore="100"	its:locQualityRatingScoreThreshold="95"	
+path=/doc/para[1]	text=	its:locQualityRatingProfileRef="http://example.org/qaModel/v13"	its:locQualityRatingScore="100"	its:locQualityRatingScoreThreshold="95"	
