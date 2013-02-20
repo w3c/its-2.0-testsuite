@@ -46,16 +46,16 @@
                     our planet. In 80 days, you will see more of the world than most see through
                     their entire lifetime!</source>
                 <seg-source>
-                    <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="term" its:tanConfidence="0.7"
+                    <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="x-its" its:tanConfidence="0.7"
                             its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                             its:tanIdentRef="http://dbpedia.org/resource/Arizona">
                         Arizona</mrk>, to
                         the Khmer temples deep in the jungle; from the tropical beaches of
-                        Queensland to the glaciers of <mrk mtype="term" its:tanConfidence="0.7"
+                        Queensland to the glaciers of <mrk mtype="x-its" its:tanConfidence="0.7"
                             its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                             its:tanIdentRef="http://dbpedia.org/resource/Antarctica">
                             Antarctica</mrk>; 
-                        or from the wild savanna of <mrk mtype="term" its:tanConfidence="0.7"
+                        or from the wild savanna of <mrk mtype="x-its" its:tanConfidence="0.7"
                                 its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                                 its:tanIdentRef="http://dbpedia.org/resource/Africa">
                             Africa</mrk>
