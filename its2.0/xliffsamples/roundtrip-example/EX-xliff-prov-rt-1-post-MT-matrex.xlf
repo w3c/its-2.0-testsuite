@@ -10,13 +10,13 @@
             </its:rules>
             <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/5933317a-0038-44aa-847b-ffa2352c312d"/>
+                <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/5933317a-0038-44aa-847b-ffa2352c312d"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/67747cb4-9622-4e28-b7a6-c47b9972ea48"/>
+                <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/67747cb4-9622-4e28-b7a6-c47b9972ea48"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/3e3b5d61-dea0-4cb8-b01d-4b50d57528a5"/>
+                <its:provenanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/3e3b5d61-dea0-4cb8-b01d-4b50d57528a5"/>
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">
