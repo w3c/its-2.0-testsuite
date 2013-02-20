@@ -4,7 +4,6 @@
     <file original="/EX-xliff-prov-rt-1-src.html" source-language="en-us" target-language="fr-fr"
         datatype="html" its:annotatorsRef="tan|http://enrycher.ijs.si">
         <header>    
-            <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
                 <its:provenanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/9d709fc5-c7ab-4541-9b6f-93bc9d07baf6"/>
             </its:provenanceRecords>
