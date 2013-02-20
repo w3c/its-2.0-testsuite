@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Test</source>
-<target xml:lang="fr">Test</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en"> This paragraph was translated from the machine.</source>
-<target xml:lang="fr"> This paragraph was translated from the machine.</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">This text was translated directly by a person.</source>
-<target xml:lang="fr">This text was translated directly by a person.</target>
 </trans-unit>
 </body>
 </file>

@@ -4,11 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
-<target xml:lang="fr">EXAMPLE</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en"> <g id="1"><mrk mtype="x-its" comment="REF:ErrorsInfo.html/#NotFound" okp:itsLocNoteType="description">Cannot find {0} on {1}.</mrk></g> </source>
-<target xml:lang="fr"> <g id="1"><mrk mtype="x-its" comment="REF:ErrorsInfo.html/#NotFound" okp:itsLocNoteType="description">Cannot find {0} on {1}.</mrk></g> </target>
 </trans-unit>
 </body>
 </file>

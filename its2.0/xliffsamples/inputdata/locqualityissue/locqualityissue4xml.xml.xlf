@@ -4,19 +4,15 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en" its:locQualityIssueEnabled="no" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</source>
-<target xml:lang="fr" its:locQualityIssueEnabled="no" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en"> or transportation is the movement of people, animals and goods from one location to another. Modes of </source>
-<target xml:lang="fr"> or transportation is the movement of people, animals and goods from one location to another. Modes of </target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</source>
-<target xml:lang="fr" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</target>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en"> air, rail, road, water, cable, pipeline, and space. </source>
-<target xml:lang="fr"> air, rail, road, water, cable, pipeline, and space. </target>
 </trans-unit>
 </body>
 </file>

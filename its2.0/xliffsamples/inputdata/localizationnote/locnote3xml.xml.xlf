@@ -4,7 +4,6 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Cannot find {0} on {1}.</source>
-<target xml:lang="fr">Cannot find {0} on {1}.</target>
 <note>REF:ErrorsInfo.html/#NotFound</note>
 </trans-unit>
 </body>

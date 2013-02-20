@@ -2,24 +2,19 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"
     xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
     <file original="/EX-xliff-prov-rt-1-src.html" source-language="en-us" target-language="fr-fr"
-        datatype="html" its:annotatorsRef="tan|http://enrycher.ijs.si">
+        datatype="html" its:annotatorsRef="text-analysis|http://enrycher.ijs.si">
         <header>
-            <its:rules version="2.0">
-                <its:provRule selector="//trans-unit/source" provenanceRecordsRefPointer="#pr1"/>
-                <its:provRule selector="//trans-unit/seg-source" provenanceRecordsRefPointer="#pr2"/>
-            </its:rules>
-            <its:domain></its:domain>
             <its:provenanceRecords xml:id="pr1">
-                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/9c6fddc6-dff6-48c6-b429-41c1f237b5c1"/>
+                <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/9c6fddc6-dff6-48c6-b429-41c1f237b5c1"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr2">
-                <its:proveanceRecord provRef="http://www.cngl.ie/logger/logs/faab81f2-2dc7-4119-bcac-af8f107636f6"/>
+                <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/faab81f2-2dc7-4119-bcac-af8f107636f6"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr3">
-                <its:proveanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/4e3ab401-3d31-4354-a594-b3ce03ad2c0c"/>
+                <its:provenanceRecord tool="matrexv2" orgRef="http://www.cngl.ie" provRef="http://www.cngl.ie/logger/logs/4e3ab401-3d31-4354-a594-b3ce03ad2c0c"/>
             </its:provenanceRecords>
             <its:provenanceRecords xml:id="pr4">
-                <its:proveanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/a0bf0b9f-4bd0-4132-ba87-aec5c48c7986"/>
+                <its:provenanceRecord tool="bingtranslate" orgRef="http://www.microsoft.com" provRef="http://www.cngl.ie/logger/logs/a0bf0b9f-4bd0-4132-ba87-aec5c48c7986"/>
             </its:provenanceRecords>
             <glossary>
                 <glossary-entry id="ge1">
@@ -41,18 +36,18 @@
             </glossary>
         </header> 
         <body>
-            <trans-unit id="1" translate="no">
-                <source xml:lang="en-us" >ITS, XLIFF and PROV Example</source>
-                <seg-source>
+            <trans-unit id="1" translate="no" its:domain="ITS">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">ITS, XLIFF and PROV Example</source>
+                <seg-source its:provenanceRecordsRef="#pr2">
                     <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
                 </seg-source>
             </trans-unit>
-            <trans-unit id="2">
-                <source xml:lang="en-us">Have you ever dreamed of stepping on each of the six
+            <trans-unit id="2" its:domain="ITS">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">Have you ever dreamed of stepping on each of the six
                     continents around the planet during a single, amazing trip? Our <g id="1">Around
                         the World in 80 Days</g> travel package is specifically designed for
                     this.</source>
-                <seg-source>
+                <seg-source its:provenanceRecordsRef="#pr2">
                     <mrk mid="0" mtype="seg">Have you ever dreamed of stepping on each of the six
                         continents around the planet during a single, amazing trip?</mrk>
                     <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel
@@ -73,14 +68,14 @@
                         continents, en un seul voyage magnifique autour de la planète ?</target>
                 </alt-trans>
             </trans-unit>
-            <trans-unit id="3">
-                <source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep in
+            <trans-unit id="3" its:domain="ITS">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">From the canyons of Arizona, to the Khmer temples deep in
                     the jungle; from the tropical beaches of Queensland to the glaciers of
                     Antarctica; or from the wild savanna of Africa to mysterious castles in the
                     forests of Bohemia, our offer takes you in some of the most amazing places on
                     our planet. In 80 days, you will see more of the world than most see through
                     their entire lifetime!</source>
-                <seg-source>
+                <seg-source its:provenanceRecordsRef="#pr2">
                     <mrk mid="0" mtype="seg">From the canyons of <mrk its:tanConfidence="0.7"
                             its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                             its:tanIdentRef="http://dbpedia.org/resource/Arizona">

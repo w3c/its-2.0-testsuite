@@ -4,16 +4,13 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
-<target xml:lang="fr">EXAMPLE</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">Hippo in the Chobe River</source>
-<target xml:lang="fr">Hippo in the Chobe River</target>
 <note>Do not translate the word "Chobe"</note>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">Elephants taking a mud bath</source>
-<target xml:lang="fr">Elephants taking a mud bath</target>
 <note>This text will be displayed over the image.</note>
 </trans-unit>
 <trans-unit id="4">
@@ -22,11 +19,6 @@ The variable
 {0}
 has three possible values: 'printer', 'stacker' and 'stapler options'.
 " okp:itsLocNoteType="alert">The {0} has been disabled.</mrk></g> </source>
-<target xml:lang="fr"> <g id="1"> This is a hippoptamus: <x id="2"/> . </g> <g id="3"> This is an elephant: <x id="4"/> . </g> <g id="5"><mrk mtype="x-its" comment="
-The variable
-{0}
-has three possible values: 'printer', 'stacker' and 'stapler options'.
-" okp:itsLocNoteType="alert">The {0} has been disabled.</mrk></g> </target>
 </trans-unit>
 </body>
 </file>

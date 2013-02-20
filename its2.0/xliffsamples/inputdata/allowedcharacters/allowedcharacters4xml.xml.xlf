@@ -4,7 +4,6 @@
 <body>
 <trans-unit id="1" its:allowedCharacters="[ ！–～]">
 <source xml:lang="en">ＦＵＬＬ ＷＩＤＴＨ ＯＮＬＹ</source>
-<target xml:lang="fr">ＦＵＬＬ ＷＩＤＴＨ ＯＮＬＹ</target>
 </trans-unit>
 </body>
 </file>

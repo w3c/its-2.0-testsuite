@@ -4,23 +4,18 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">John Doe</source>
-<target xml:lang="fr">John Doe</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">#pr1</source>
-<target xml:lang="fr">#pr1</target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">Translation Revision Provenance Agent: Global Test in XML</source>
-<target xml:lang="fr">Translation Revision Provenance Agent: Global Test in XML</target>
 </trans-unit>
 <trans-unit id="4" resname="#pr1">
 <source xml:lang="en"> This paragraph was translated from the machine.</source>
-<target xml:lang="fr"> This paragraph was translated from the machine.</target>
 </trans-unit>
 <trans-unit id="5" resname="#pr2">
 <source xml:lang="en">This text was translated directly by a person.</source>
-<target xml:lang="fr">This text was translated directly by a person.</target>
 </trans-unit>
 </body>
 </file>

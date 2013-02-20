@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1" its:storageSize="8" its:storageEncoding="UTF-16">
 <source xml:lang="en">CONTINUE</source>
-<target xml:lang="fr">CONTINUE</target>
 </trans-unit>
 <trans-unit id="2" its:storageSize="8" its:storageEncoding="UTF-16">
 <source xml:lang="en">STOP</source>
-<target xml:lang="fr">STOP</target>
 </trans-unit>
 <trans-unit id="3" its:storageSize="12" its:storageEncoding="UTF-16">
 <source xml:lang="en">CANCEL</source>
-<target xml:lang="fr">CANCEL</target>
 </trans-unit>
 </body>
 </file>

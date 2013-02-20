@@ -4,15 +4,9 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Example</source>
-<target xml:lang="fr">Example</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en" its:locQualityIssuesRef="#lqi3"> <g id="1">music </g> is an art form whose medium is sound and silence. <g id="2">Musci acn </g> take many different forms and is experienced by individuals in a range of social settings ranging from being alone to attending a large concert. </source>
-<target xml:lang="fr" its:locQualityIssuesRef="#lqi3"> <g id="1">music </g> is an art form whose medium is sound and silence. <g id="2">Musci acn </g> take many different forms and is experienced by individuals in a range of social settings ranging from being alone to attending a large concert. </target>
-<its:locQualityIssues xml:id="lqi3">
-<its:locQualityIssue locQualityIssueComment="sentence without capitalization" locQualityIssueProfileRef="http://example.org/qaMovel/v1" locQualityIssueSeverity="50" locQualityIssueType="typographical"/>
-<its:locQualityIssue locQualityIssueComment="should be 'Music can'" locQualityIssueProfileRef="http://example.org/qaMovel/v1" locQualityIssueSeverity="75" locQualityIssueType="misspelling"/>
-</its:locQualityIssues>
 <its:locQualityIssues xml:id="lqi3">
 <its:locQualityIssue locQualityIssueComment="sentence without capitalization" locQualityIssueProfileRef="http://example.org/qaMovel/v1" locQualityIssueSeverity="50" locQualityIssueType="typographical"/>
 <its:locQualityIssue locQualityIssueComment="should be 'Music can'" locQualityIssueProfileRef="http://example.org/qaMovel/v1" locQualityIssueSeverity="75" locQualityIssueType="misspelling"/>

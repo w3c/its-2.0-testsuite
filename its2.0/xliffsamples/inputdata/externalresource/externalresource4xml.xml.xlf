@@ -4,15 +4,12 @@
 <body>
 <trans-unit id="1">
 <source xml:lang="en">movie-frame.gif</source>
-<target xml:lang="fr">movie-frame.gif</target>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en">This video illustrates the proper way to assemble an inverting time distortion device. </source>
-<target xml:lang="fr">This video illustrates the proper way to assemble an inverting time distortion device. </target>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> It is imperative that the primary and secondary temporal couplings not be mounted in the wrong order. Temporal catastrophe is the likely result. The future you destroy may be your own. </source>
-<target xml:lang="fr"> It is imperative that the primary and secondary temporal couplings not be mounted in the wrong order. Temporal catastrophe is the likely result. The future you destroy may be your own. </target>
 </trans-unit>
 </body>
 </file>
