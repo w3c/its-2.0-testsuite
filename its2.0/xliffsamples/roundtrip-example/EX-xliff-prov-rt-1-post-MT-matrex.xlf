@@ -38,7 +38,7 @@
             </glossary>
         </header> 
         <body>
-            <trans-unit id="1" translate="no">
+            <trans-unit id="1" translate="no" its:domain="ITS">
                 <source xml:lang="en-us" >ITS, XLIFF and PROV Example</source>
                 <seg-source>
                     <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
@@ -63,7 +63,7 @@
                         continents, en un seul voyage magnifique autour de la planète ?</target>
                 </alt-trans>
             </trans-unit>
-            <trans-unit id="3">
+            <trans-unit id="3" its:domain="ITS">
                 <source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep in
                     the jungle; from the tropical beaches of Queensland to the glaciers of
                     Antarctica; or from the wild savanna of Africa to mysterious castles in the
