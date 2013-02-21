@@ -3324,9 +3324,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityrating/html/locqualityrating2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/html/locqualityrating2htmloutput.txt"/>
       </inputfile>
