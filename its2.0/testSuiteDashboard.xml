@@ -2762,52 +2762,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/preservespace/xml/preservespace1xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	space="default"]
-* Implementers file line:[/text]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	space="default"]
-* Implementers file line:[/text/head[1]]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	space="default"]
-* Implementers file line:[/text/head[1]/its:rules[1]]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]	space="default"]
-* Implementers file line:[/text/head[1]/its:rules[1]/@version]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@version	space="default"]
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]	space="default"]
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@selector	space="default"]
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:preserveSpaceRule[1]/@space	space="default"]
-* Implementers file line:[/text/body[1]]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/verse[1]	space="preserve"]
-* Implementers file line:[/text/body[1]/img[1]]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]/img[1]/@alt	rubyText="World Wide Web Consortium"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]/img[1]/@src]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
       </inputfile>
@@ -2817,9 +2772,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/preservespace/xml/preservespace3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>
       </inputfile>
@@ -2829,56 +2782,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/preservespace/xml/preservespace2xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	space="default"]
-* Implementers file line:[/text]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	space="default"]
-* Implementers file line:[/text/head[1]]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/verse[1]	space="preserve"]
-* Implementers file line:[/text/head[1]/its:rules[1]]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/verse[1]/@xml:space	space="preserve"]
-* Implementers file line:[/text/head[1]/its:rules[1]/@version]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/head[1]/its:rules[1]/@xlink:href]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/@selector]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/head[1]/its:rules[1]/its:rubyRule[1]/its:rubyText[1]]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]/img[1]]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]/img[1]/@alt	rubyText="TBD"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: []
-* Implementers file line:[/text/body[1]/img[1]/@src]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
       </inputfile>
@@ -2888,9 +2792,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/preservespace/xml/preservespace4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>
       </inputfile>
