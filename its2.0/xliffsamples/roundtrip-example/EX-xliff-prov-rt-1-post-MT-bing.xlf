@@ -76,21 +76,21 @@
                     our planet. In 80 days, you will see more of the world than most see through
                     their entire lifetime!</source>
                 <seg-source its:provenanceRecordsRef="#pr2">
-                    <mrk mid="0" mtype="seg">From the canyons of <mrk its:tanConfidence="0.7"
+                    <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="x-its" its:tanConfidence="0.7"
                             its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                             its:tanIdentRef="http://dbpedia.org/resource/Arizona">
-                        <mrk its:terminology="yes" its:termInfoRef="#ge1">Arizona</mrk></mrk>, to
+                        <mrk mtype="term" its:termInfoRef="#ge1">Arizona</mrk></mrk>, to
                         the Khmer temples deep in the jungle; from the tropical beaches of
-                        Queensland to the glaciers of <mrk its:tanConfidence="0.7"
+                        Queensland to the glaciers of <mrk mtype="x-its" its:tanConfidence="0.7"
                             its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                             its:tanIdentRef="http://dbpedia.org/resource/Antarctica">
-                            <mrk its:terminology="yes" its:termInfoRef="#ge2">Antarctica</mrk></mrk>; 
-                        or from the wild savanna of <mrk its:tanConfidence="0.7"
+                            <mrk mtype="term" its:termInfoRef="#ge2">Antarctica</mrk></mrk>; 
+                        or from the wild savanna of <mrk mtype="x-its" its:tanConfidence="0.7"
                                 its:tanClassRef="http://nerd.eurecom.fr/ontology#Place"
                                 its:tanIdentRef="http://dbpedia.org/resource/Africa">
-                            <mrk its:terminology="yes" its:termInfoRef="#ge3">Africa</mrk></mrk>
+                            <mrk mtype="term" its:termInfoRef="#ge3">Africa</mrk></mrk>
                         to mysterious castles in the forests of 
-                        <mrk mtype="x-its" its:terminology="yes" its:termInfoRef="#ge4">Bohemia</mrk>, 
+                        <mrk mtype="term" its:termInfoRef="#ge4">Bohemia</mrk>, 
                         our offer takes you in some of the most amazing places on our planet.</mrk>
                     <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most
                         see through their entire lifetime!</mrk>
