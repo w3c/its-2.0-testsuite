@@ -3388,9 +3388,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters2xml.xml">
          <description assertions="allowedchars-global">Global - Embedded rules with pointer</description>
@@ -3398,9 +3396,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters4html.html">
          <description assertions="allowedchars-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -3420,9 +3416,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters2html.html">
          <description assertions="allowedchars-global html5-external-global-rules">Global - Linked rules</description>
@@ -3442,9 +3436,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters1html.html">
          <description assertions="allowedchars-local html5-markup">Local - In host element</description>
@@ -3464,9 +3456,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters4xml.xml">
          <description assertions="allowedchars-global link-external-rules">Global - Linked rules with pointer</description>
@@ -3474,9 +3464,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/xml/allowedcharacters4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters8xml.xml">
          <description assertions="allowedchars-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
