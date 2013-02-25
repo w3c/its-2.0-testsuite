@@ -1023,9 +1023,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/terminology/xml/terminology1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/terminology/xml/terminology1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology2xml.xml">
          <description assertions="term-global">Global - Embedded rules with termInfoRef</description>
