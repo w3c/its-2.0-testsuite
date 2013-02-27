@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:itsx="http://www.w3.org/2005/11/itsx" xmlns:its="http://www.w3.org/2005/11/its">
+  <file original="/EX-xliff-prov-rt-1-src.html" source-language="en-us" target-language="fr-fr" datatype="html" its:annotatorsRef="text-analysis|http://enrycher.ijs.si">
+    <header>
+      <its:provenanceRecords xml:id="pr1">
+        <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/3f37155d-6f01-4abd-a7c0-87d64fc9f0fa" />
+      </its:provenanceRecords>
+      <its:provenanceRecords xml:id="pr2">
+        <its:provenanceRecord provRef="http://www.cngl.ie/logger/logs/501bae14-3b8d-4b15-875e-7c442f2e1b1e" />
+      </its:provenanceRecords>
+      <its:provenanceRecords xml:id="pr3">
+        <its:provenanceRecord its:tool="mosesmt" its:orgRef="http://www.moravia.com" its:provRef="" />
+      </its:provenanceRecords>
+      <glossary>
+        <glossary-entry id="ge1">
+          <term>Arizona</term>
+          <translation>Arizona</translation>
+        </glossary-entry>
+        <glossary-entry id="ge2">
+          <term>Antarctica</term>
+          <translation>Antarctique</translation>
+        </glossary-entry>
+        <glossary-entry id="ge3">
+          <term>Africa</term>
+          <translation>Afrique</translation>
+        </glossary-entry>
+        <glossary-entry id="ge4">
+          <term>Bohemia</term>
+          <translation>Bohême</translation>
+        </glossary-entry>
+      </glossary>
+    </header>
+    <body>
+      <trans-unit id="1" translate="no" itsx:domain="ITS-Example">
+        <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">ITS, XLIFF and PROV Example</source>
+        <seg-source its:provenanceRecordsRef="#pr2">
+          <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
+        </seg-source>
+        <target xml:lang="fr-fr">
+          <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
+        </target>
+      </trans-unit>
+      <trans-unit id="2" itsx:domain="ITS-Example">
+        <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">Have you ever dreamed of stepping on each of the six
+                    continents around the planet during a single, amazing trip? Our <g id="1">Around
+                        the World in 80 Days</g> travel package is specifically designed for
+                    this.</source>
+        <seg-source its:provenanceRecordsRef="#pr2">
+          <mrk mid="0" mtype="seg">Have you ever dreamed of stepping on each of the six
+                        continents around the planet during a single, amazing trip?</mrk>
+          <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel
+                        package is specifically designed for this.</mrk>
+        </seg-source>
+        <alt-trans mid="0" match-quality="0.749" origin="MT|Moses">
+          <source xml:lang="en-us">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip?</source>
+          <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr3">Avez-vous jamais rêvé d' empiéter sur chacun des six continents à travers la planète pendant un voyage, étonnant unique?</target>
+        </alt-trans>
+        <alt-trans mid="1" match-quality="0.749" origin="MT|Moses">
+          <source xml:lang="en-us">Our <g id="1" xmlns="">Around the World in 80 Days</g> travel package is specifically designed for this.</source>
+          <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr3">Notre <g id="1"> dans le monde entier dans 80 jours </g>forfait est spécifiquement conçu pour cela.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="3" itsx:domain="ITS-Example">
+        <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">From the canyons of Arizona, to the Khmer temples deep in
+                    the jungle; from the tropical beaches of Queensland to the glaciers of
+                    Antarctica; or from the wild savanna of Africa to mysterious castles in the
+                    forests of Bohemia, our offer takes you in some of the most amazing places on
+                    our planet. In 80 days, you will see more of the world than most see through
+                    their entire lifetime!</source>
+        <seg-source its:provenanceRecordsRef="#pr2">
+          <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Arizona"><mrk mtype="term" its:termInfoRef="#ge1">Arizona</mrk></mrk>, to
+                        the Khmer temples deep in the jungle; from the tropical beaches of
+                        Queensland to the glaciers of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Antarctica"><mrk mtype="term" its:termInfoRef="#ge2">Antarctica</mrk></mrk>; 
+                        or from the wild savanna of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Africa"><mrk mtype="term" its:termInfoRef="#ge3">Africa</mrk></mrk>
+                        to mysterious castles in the forests of 
+                        <mrk mtype="term" its:termInfoRef="#ge4">Bohemia</mrk>, 
+                        our offer takes you in some of the most amazing places on our planet.</mrk>
+          <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most
+                        see through their entire lifetime!</mrk>
+        </seg-source>
+        <alt-trans mid="0" match-quality="0.749" origin="MT|Moses">
+          <source xml:lang="en-us">From the canyons of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Arizona" xmlns:its="http://www.w3.org/2005/11/its" xmlns=""><mrk mtype="term" its:termInfoRef="#ge1">Arizona</mrk></mrk>, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Antarctica" xmlns:its="http://www.w3.org/2005/11/its" xmlns=""><mrk mtype="term" its:termInfoRef="#ge2">Antarctica</mrk></mrk>; or from the wild savanna of <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Africa" xmlns:its="http://www.w3.org/2005/11/its" xmlns=""><mrk mtype="term" its:termInfoRef="#ge3">Africa</mrk></mrk> to mysterious castles in the forests of <mrk mtype="term" its:termInfoRef="#ge4" xmlns:its="http://www.w3.org/2005/11/its" xmlns="">Bohemia</mrk>, our offer takes you in some of the most amazing places on our planet.</source>
+          <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr3">Des canyons de <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Arizona">Arizona</mrk> , à la "Khmers temples profonde dans la jungle tropicale; des plages du Queensland à les glaciers de <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Antarctica">Antarctique</mrk> à la vie sauvage de savanna <mrk mtype="x-its" its:taConfidence="0.7" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Africa">Afrique</mrk> de mystérieux châteaux dans les forêts de <mrk mtype="term" its:termInfoRef="#ge4"> la Bohème </mrk>, notre offre vous prenne dans certains endroits les plus sensationnels sur notre planète.</target>
+        </alt-trans>
+        <alt-trans mid="1" match-quality="0.749" origin="MT|Moses">
+          <source xml:lang="en-us">In 80 days, you will see more of the world than most see through their entire lifetime!</source>
+          <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr3">Dans 80 jours, vous verrez plus du monde que plus voir à travers toute leur vie!</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
