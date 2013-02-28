@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
 <file original="inputdata/localizationnote/html/locnote2html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Example</source>
 </trans-unit>
 <trans-unit id="2" resname="FileNotFound">
-<source xml:lang="en"> <g id="1"><mrk mtype="x-its" comment="
+<source xml:lang="en"> <g id="1"><mrk comment="
     Indicates that the resource file {0} could not be loaded.
-    " okp:itsLocNoteType="description">Cannot find the file {0}.</mrk></g> </source>
+    " okp:itsLocNoteType="description" mtype="x-its">Cannot find the file {0}.</mrk></g> </source>
 </trans-unit>
 <trans-unit id="3" resname="DivByZero">
-<source xml:lang="en"> <g id="1"><mrk mtype="x-its" comment="A division by 0 was going to be computed." okp:itsLocNoteType="description">Invalid parameter.</mrk></g> </source>
+<source xml:lang="en"> <g id="1"><mrk comment="A division by 0 was going to be computed." okp:itsLocNoteType="description" mtype="x-its">Invalid parameter.</mrk></g> </source>
 </trans-unit>
 </body>
 </file>
