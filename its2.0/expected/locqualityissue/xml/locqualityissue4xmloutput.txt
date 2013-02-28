@@ -13,7 +13,7 @@
 /doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssueType
 /doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@selector
 /doc/para[1]
-/doc/para[1]/span[1]	locQualityIssuesRef="#1234"	locQualityIssueEnabled[1]="no"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="typographical"
+/doc/para[1]/span[1]	locQualityIssuesRef="#id1234"	locQualityIssueEnabled[1]="no"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="typographical"
 /doc/para[1]/span[1]/@id
 /doc/para[1]/span[1]/@issues
 /doc/para[1]/span[2]	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="misspelling"
