@@ -330,10 +330,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate2html.html"
                  conformance-class="html-local">
@@ -374,10 +370,6 @@ Line 24: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/adobe/init/xml/translate5xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
@@ -918,10 +910,6 @@ Line 17: Comparison failed.
                              location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote7html.html"
                  conformance-class="html-local">
@@ -954,10 +942,6 @@ Line 17: Comparison failed.
                              location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote9xml.xml"
                  conformance-class="xml-local">
@@ -971,10 +955,6 @@ Line 17: Comparison failed.
                              location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localizationnote/xml/locnote9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote10xml.xml"
                  conformance-class="xml-global">
@@ -1138,10 +1118,6 @@ Line 17: Comparison failed.
                              location="outputimplementors/ul/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology5xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology9xml.xml"
                  conformance-class="html-local">
@@ -1155,10 +1131,6 @@ Line 17: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology9xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology3html.html"
                  conformance-class="html-local">
@@ -1196,10 +1168,6 @@ Line 17: Comparison failed.
                              location="outputimplementors/ul/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology6xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/terminology/xml/terminology6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology7xml.xml"
                  conformance-class="xml-global">
@@ -2163,10 +2131,6 @@ Line 14: Comparison failed.
                              location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale5xml.xml"
                  conformance-class="xml-local">
@@ -2182,10 +2146,6 @@ Line 14: Comparison failed.
                              location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
-         <outputImplementors implementer="init"
-                             location="outputimplementors/init/localefilter/xml/locale5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale3xml.xml"
                  conformance-class="xml-global">
