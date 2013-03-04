@@ -5,8 +5,9 @@
 
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
     <xsl:param name="output">html</xsl:param>
-    <xsl:variable name="testsuiteLocation"></xsl:variable>
-    <xsl:variable name="its2spec">http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html</xsl:variable>
+    <xsl:variable name="testsuiteLocation"/>
+    <xsl:variable name="its2spec"
+        >http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html</xsl:variable>
     <xsl:variable name="annotatedTestSuiteMaster">
         <xsl:apply-templates select="/" mode="annotateTestSuiteMaster"/>
     </xsl:variable>
@@ -40,13 +41,15 @@
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:choose>
-                        <xsl:when test="not(unparsed-text-available(concat($testsuiteLocation,@location)))">
+                        <xsl:when
+                            test="not(unparsed-text-available(concat($testsuiteLocation,@location)))">
                             <error>outputFileNotFound</error>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:variable name="referenceFileLines"
                                 select="tokenize(unparsed-text(concat($testsuiteLocation,preceding-sibling::my:expectedOutput/@location)), '\r?\n')"/>
-                            <xsl:for-each select="tokenize(unparsed-text(concat($testsuiteLocation,@location)), '\r?\n')">
+                            <xsl:for-each
+                                select="tokenize(unparsed-text(concat($testsuiteLocation,@location)), '\r?\n')">
                                 <xsl:variable name="position" select="position()"/>
                                 <xsl:variable name="line" select="."/>
                                 <xsl:if
@@ -90,10 +93,22 @@
                         td.firstcolumn{
                             text-align:right;
                         }
-                    *.fnf { color: blue;}
-                    *.na { color: grey; }
-                    *.ok { color: green;}
-                    *.error { color: red; }</style>
+                        *.fnf{
+                            color:blue;
+                        }
+                        *.na{
+                            color:grey;
+                        }
+                        *.ok{
+                            color:green;
+                        }
+                        *.error{
+                            color:red;
+                        }
+                        table.conformanceclasses{
+                            text-align:left;
+                            empty-cells:show;
+                        }</style>
                 </head>
                 <body>
                     <h1>ITS 2.0 Test Suite Dashboard</h1>
@@ -106,6 +121,9 @@
                                 (summary)</a>
                         </li>
                         <li>
+                            <a href="#conformance-classes-overview">Overview of conformance classes</a>
+                        </li>
+                        <li>
                             <a href="#tests-current-state-details">Current state of tests
                                 (details)</a>
                         </li>
@@ -114,7 +132,11 @@
                         </li>
                     </ul>
                     <xsl:call-template name="implementersVersusDatacategories"/>
+                    <hr/>
+                    <xsl:call-template name="conformance-classes-overview"/>
+                    <hr/>
                     <xsl:call-template name="current-state-details"/>
+                    <hr/>
                     <h2 id="tests-current-state-xml-dump">XML dump of current state</h2>
                     <p>For ease of debugging, <a href="testSuiteDashboard.xml"
                             >testSuiteDashboard.xml</a> is an XML dump of the current state of the
@@ -122,6 +144,7 @@
                     <xsl:result-document href="testSuiteDashboard.xml">
                         <xsl:copy-of select="$annotatedTestSuiteMaster"/>
                     </xsl:result-document>
+                    <hr/>
                 </body>
             </html>
         </xsl:result-document>
@@ -147,9 +170,12 @@
         <p>The following table compares actual tests run, versus number of tests to be run per
             implementer. Explanation:</p>
         <ul>
-            <li><q class="na">N/A</q> = the implementer did not commit to run the tests for a given data category.</li>
-            <li><q class="ok">OK</q> = for a given data category, all output files are identical to the reference output files.</li>
-            <li><q class="error">error</q> = for a given data category an error occurred in one or several output files, or one or more output files are missing.</li>
+            <li><q class="na">N/A</q> = the implementer did not commit to run the tests for a given
+                data category.</li>
+            <li><q class="ok">OK</q> = for a given data category, all output files are identical to
+                the reference output files.</li>
+            <li><q class="error">error</q> = for a given data category an error occurred in one or
+                several output files, or one or more output files are missing.</li>
         </ul>
         <table border="1" width="100%">
             <tr>
@@ -176,11 +202,23 @@
                             select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile/my:outputImplementors[@implementer=$currentImplementer][not(my:error)])"/>
                         <td>
                             <xsl:choose>
-                                <xsl:when test="$numberOfFiles = 0"><span class="na">n/a</span></xsl:when>
-                                <xsl:when test="$numberOfFilesSuccessfullyRun &lt; $numberOfFiles"><span class="error"><xsl:value-of
-                                    select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/></span></xsl:when>
-                                <xsl:when test="$numberOfFilesSuccessfullyRun = $numberOfFiles"><span class="ok"><xsl:value-of
-                                    select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/></span></xsl:when>
+                                <xsl:when test="$numberOfFiles = 0">
+                                    <span class="na">n/a</span>
+                                </xsl:when>
+                                <xsl:when test="$numberOfFilesSuccessfullyRun &lt; $numberOfFiles">
+                                    <span class="error">
+                                        <xsl:value-of
+                                            select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"
+                                        />
+                                    </span>
+                                </xsl:when>
+                                <xsl:when test="$numberOfFilesSuccessfullyRun = $numberOfFiles">
+                                    <span class="ok">
+                                        <xsl:value-of
+                                            select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"
+                                        />
+                                    </span>
+                                </xsl:when>
                             </xsl:choose>
                         </td>
                     </xsl:for-each>
@@ -202,22 +240,132 @@
             </tr>
         </table>
     </xsl:template>
+    <xsl:function name="my:countConformingImplementations" as="item()*">
+        <xsl:param name="conformanceClassTests"/>
+        <xsl:variable name="implementationsPerConformanceClass">
+            <my:isGood>
+                <xsl:for-each
+                    select="distinct-values($conformanceClassTests/my:outputImplementors/@implementer)">
+                    <xsl:variable name="currentImplementer" select="."/>
+                    <xsl:variable name="relatedTests"
+                        select="$conformanceClassTests/my:outputImplementors[@implementer=$currentImplementer]"/>
+                    <xsl:if
+                        test="not($relatedTests/my:error) and count($relatedTests) = count($conformanceClassTests)">
+                        <my:ok/>
+                    </xsl:if>
+                </xsl:for-each>
+            </my:isGood>
+        </xsl:variable>
+        <xsl:value-of select="count($implementationsPerConformanceClass/my:isGood/my:ok)"/>
+    </xsl:function>
+    <xsl:template name="writeConformanceInfo">
+        <xsl:variable name="currentInputFile" select="."/>
+        <xsl:variable name="currentInputFileName"
+            select="tokenize($currentInputFile/@location,'/')[last()]"/>
+        <a href="{concat('#t-',substring-before($currentInputFileName,'.'))}">
+            <xsl:value-of select="substring-before($currentInputFileName,'.')"/>
+        </a>
+    </xsl:template>
+    <xsl:template name="conformance-classes-overview">
+        <h2 id="conformance-classes-overview">Overview of conformance classes</h2>
+        <p>The ITS 2.0 specification provides four types of processor conformance: processing XML <a href="http://www.w3.org/TR/its20/#its-conformance-2-1-1">global or local</a>, and processing HTML <a href="http://www.w3.org/TR/its20/#its-conformance-3-1-1">global or local</a>. The tables below summarize the implementation status with regards to these conformance classes. <strong>Note:</strong> not each data category implements both local and local processing. See the <a href="http://www.w3.org/TR/its20/#datacategories-overview">data category overview table</a> for details.</p>
+        <xsl:for-each select="$datacategories">
+            <xsl:variable name="currentDatacat" select="."/>
+            <p><strong><xsl:value-of select="."/></strong></p>
+            <xsl:variable name="xml-global"
+                select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'xml-global')]"/>
+            <xsl:variable name="xml-local"
+                select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'xml-local')]"/>
+            <xsl:variable name="html-global"
+                select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'html-global')]"/>
+            <xsl:variable name="html-local"
+                select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'html-local')]"/>
+            <table width="100%" border="1" class="conformanceclasses">
+                <tr>
+                    <td>
+                        <strong>Conformance class</strong>
+                    </td>
+                    <td>
+                        <strong>Conforming<br/>implementations</strong>
+                    </td>
+                    <td>
+                        <strong>Test files</strong>
+                    </td>
+                </tr>
+                <xsl:if test="$xml-global">
+                    <tr>
+                        <td>XML Global</td>
+                        <td>
+                            <xsl:value-of select="my:countConformingImplementations($xml-global)"/>
+                        </td>
+                        <td>
+                            <xsl:for-each select="$xml-global">
+                                <xsl:call-template name="writeConformanceInfo"/>
+                            </xsl:for-each>
+                        </td>
+                    </tr>
+                </xsl:if>
+                <xsl:if test="$xml-local">
+                    <tr>
+                        <td>XML Local</td>
+                        <td>
+                            <xsl:value-of select="my:countConformingImplementations($xml-local)"/>
+                        </td>
+                        <td>
+                            <xsl:for-each select="$xml-local">
+                                <xsl:call-template name="writeConformanceInfo"/>
+                            </xsl:for-each>
+                        </td>
+                    </tr>
+                </xsl:if>
+                <xsl:if test="$html-global">
+                    <tr>
+                        <td>HTML Global</td>
+                        <td>
+                            <xsl:value-of select="my:countConformingImplementations($html-global)"/>
+                        </td>
+                        <td>
+                            <xsl:for-each select="$html-global">
+                                <xsl:call-template name="writeConformanceInfo"/>
+                            </xsl:for-each>
+                        </td>
+                    </tr>
+                </xsl:if>
+                <xsl:if test="$html-local">
+                    <tr>
+                        <td>HTML Local</td>
+                        <td>
+                            <xsl:value-of select="my:countConformingImplementations($html-local)"/>
+                        </td>
+                        <td>
+                            <xsl:for-each select="$html-local">
+                                <xsl:call-template name="writeConformanceInfo"/>
+                            </xsl:for-each>
+                        </td>
+                    </tr>
+                </xsl:if>
+            </table>
+        </xsl:for-each>
+    </xsl:template>
     <xsl:template name="current-state-details">
         <h2 id="tests-current-state-details">Details of current state</h2>
         <p>Explanation:</p>
         <ul>
             <li><q class="na">N/A</q> = the implementer did not commit to run the test.</li>
-            <li><q class="ok">OK</q> = the output file is identical to the reference output file.</li>
-            <li><q class="error">error</q> = an error occurred, e.g. the output file is not available or it is not
-                identical to the reference output file. Move the mouse over <q>error</q> to see
-                details.</li>
-            <li><q class="fnf">fnf</q>: the output file from the implementer has not been found.</li>
+            <li><q class="ok">OK</q> = the output file is identical to the reference output
+                file.</li>
+            <li><q class="error">error</q> = an error occurred, e.g. the output file is not
+                available or it is not identical to the reference output file. Move the mouse over
+                    <q>error</q> to see details.</li>
+            <li><q class="fnf">fnf</q>: the output file from the implementer has not been
+                found.</li>
         </ul>
         <xsl:for-each select="$datacategories">
             <xsl:variable name="currentDatacat" select="."/>
             <h3 id="{replace(.,'[\s+,+]','')}">
                 <xsl:value-of select="."/>
             </h3>
+            <p>Detailed overview:</p>
             <table border="1" width="100%">
                 <tr>
                     <td>-</td>
@@ -234,26 +382,32 @@
                         select="tokenize($currentInputFile/@location,'/')[last()]"/>
                     <tr>
                         <td>
-                            <a target="_blank" href="{$currentInputFile/@location}"><xsl:value-of select="$currentInputFileName"/></a>
+                            <a target="_blank" href="{$currentInputFile/@location}"
+                                id="{concat('t-',substring-before($currentInputFileName,'.'))}">
+                                <xsl:value-of select="$currentInputFileName"/>
+                            </a>
                             <br/>
                             <xsl:value-of select="$currentInputFile/my:description"/>
                             <br/>
                             <xsl:if test="$currentInputFile/my:description/@assertions">
-                                (assertions:
-                                <xsl:for-each select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
+                                (assertions: <xsl:for-each
+                                    select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
                                     <xsl:variable name="no" select="position()"/>
-                                    <a target="_blank" href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"/>]</a>
-                                </xsl:for-each>)
-                            </xsl:if>
-                            <a target="_blank" href="{$currentInputFile/my:expectedOutput/@location}">(expected)</a>
+                                    <a target="_blank" href="{concat($its2spec,'#',.)}"
+                                            >[<xsl:value-of select="$no"/>]</a>
+                                </xsl:for-each>) </xsl:if>
+                            <a target="_blank"
+                                href="{$currentInputFile/my:expectedOutput/@location}"
+                                >(expected)</a>
                         </td>
                         <xsl:for-each select="$implemeters">
                             <xsl:variable name="currentImplementer" select="."/>
                             <td>
                                 <xsl:choose>
                                     <xsl:when
-                                        test="not($currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)"
-                                        ><span class="na">N/A</span></xsl:when>
+                                        test="not($currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)">
+                                        <span class="na">N/A</span>
+                                    </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:choose>
                                             <xsl:when
@@ -265,13 +419,20 @@
                                                   </xsl:for-each>
                                                 </xsl:variable>
                                                 <xsl:choose>
-                                                    <xsl:when test="contains($errorList,'outputFileNotFound')"><span class="fnf" title="file not found">fnf</span></xsl:when>
+                                                  <xsl:when
+                                                  test="contains($errorList,'outputFileNotFound')">
+                                                  <span class="fnf" title="file not found"
+                                                  >fnf</span>
+                                                  </xsl:when>
                                                   <xsl:otherwise>
-                                                  <span title="{$errorList}" class="error">error</span>
+                                                  <span title="{$errorList}" class="error"
+                                                  >error</span>
                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:when>
-                                            <xsl:otherwise><span class="ok">OK</span></xsl:otherwise>
+                                            <xsl:otherwise>
+                                                <span class="ok">OK</span>
+                                            </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:otherwise>
                                 </xsl:choose>
