@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/terminology/html/terminology6html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">EXAMPLE</source>
+</trans-unit>
+<trans-unit id="2" resname="term">
+<source xml:lang="en"> We may define <g id="1"><mrk its:termInfoRef="#TDPV" mtype="term">discoursal point of view</mrk></g> as <g id="2"> the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction. </g> </source>
+<note annotates="source">Terms:
+discoursal point of view [REF:#TDPV];
+</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

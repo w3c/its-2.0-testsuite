@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/mtconfidence/html/mtconfidence5html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sentences about European capitals.</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> <g id="1"><mrk mtype="x-its"> Dublin is the capital of Ireland.</mrk></g> <g id="2"><mrk mtype="x-its"> The capital of the Czech Republic is Prague.</mrk></g> <g id="3"><mrk mtype="x-its">Madrid is the capital of Spain.</mrk></g> <g id="4"><mrk mtype="x-its">Berlin is the capital of Germany.</mrk></g> </source>
+</trans-unit>
+</body>
+</file>
+</xliff>

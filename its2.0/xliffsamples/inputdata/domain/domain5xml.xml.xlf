@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/domain/xml/domain5xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1" okp:itsDomain="law">
+<source xml:lang="en"> Sports law is an umbrella term used to describe the legal issues at work in the world of both amateur and professional sports. Sports law overlaps substantially with labor law, contract law, competition or antitrust law, and tort law. </source>
+</trans-unit>
+<trans-unit id="2" okp:itsDomain="amateur">
+<source xml:lang="en">Unlike intercollegiate sports, international amateur sports are run by a variety of organizations. </source>
+</trans-unit>
+</body>
+</file>
+</xliff>

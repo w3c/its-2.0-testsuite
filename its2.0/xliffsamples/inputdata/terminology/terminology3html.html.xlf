@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/terminology/html/terminology3html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Terminology test: default</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">We need a new <g id="1"><mrk its:termInfoRef="#TDPV" mtype="term">motherboard</mrk></g> </source>
+<note annotates="source">Terms:
+motherboard [REF:#TDPV];
+</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

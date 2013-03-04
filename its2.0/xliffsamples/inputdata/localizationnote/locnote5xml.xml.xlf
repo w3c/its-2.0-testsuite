@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/localizationnote/xml/locnote5xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Do not translate the word "Chobe"</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">This is a hippoptamus: </source>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">.</source>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">This is an elephant: </source>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">.</source>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The {0} has been disabled.</source>
+<note>The variable {0} has three possible values: 'printer', 
+  'stacker' and 'stapler options'.</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

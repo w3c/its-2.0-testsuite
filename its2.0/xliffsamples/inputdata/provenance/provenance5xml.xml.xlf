@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/provenance/xml/provenance5xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">John Doe</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">#pr1</source>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Translation Revision Provenance Agent: Global Test in XML</source>
+</trans-unit>
+<trans-unit id="4" resname="#pr1">
+<source xml:lang="en"> This paragraph was translated from the machine.</source>
+</trans-unit>
+<trans-unit id="5" resname="#pr2">
+<source xml:lang="en">This text was translated directly by a person.</source>
+</trans-unit>
+</body>
+</file>
+</xliff>

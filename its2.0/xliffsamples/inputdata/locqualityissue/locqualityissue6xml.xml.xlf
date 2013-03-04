@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<file original="inputdata/locqualityissue/xml/locqualityissue6xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en" its:locQualityIssueType="typographical">transport</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> or transportation is the movement of people, animals and goods from one location to another.Modes of </source>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en" its:locQualityIssueType="misspelling">tranport inc.</source>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> air, rail, road, water, cable, pipeline, and space.</source>
+</trans-unit>
+</body>
+</file>
+</xliff>
