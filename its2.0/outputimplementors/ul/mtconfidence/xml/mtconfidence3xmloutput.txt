@@ -1,0 +1,16 @@
+/text
+/text/@its:version
+/text/body[1]
+/text/body[1]/p[1]
+/text/body[1]/p[1]/span[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1"	mtConfidence="0.6982"
+/text/body[1]/p[1]/span[1]/@its:annotatorsRef	annotatorsRef="mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[1]/@its:mtConfidence	annotatorsRef="mt-confidence|file:///tools.xml#T1"
+/text/body[1]/p[1]/span[2]	annotatorsRef="mt-confidence|file:///tools.xml#T2"	mtConfidence="0.7982"
+/text/body[1]/p[1]/span[2]/@its:annotatorsRef	annotatorsRef="mt-confidence|file:///tools.xml#T2"
+/text/body[1]/p[1]/span[2]/@its:mtConfidence	annotatorsRef="mt-confidence|file:///tools.xml#T2"
+/text/body[1]/p[1]/span[3]	annotatorsRef="mt-confidence|file:///tools.xml#T3"	mtConfidence="0.9982"
+/text/body[1]/p[1]/span[3]/@its:annotatorsRef	annotatorsRef="mt-confidence|file:///tools.xml#T3"
+/text/body[1]/p[1]/span[3]/@its:mtConfidence	annotatorsRef="mt-confidence|file:///tools.xml#T3"
+/text/body[1]/p[1]/span[4]	annotatorsRef="mt-confidence|file:///tools.xml#T4"	mtConfidence="0.6982"
+/text/body[1]/p[1]/span[4]/@its:annotatorsRef	annotatorsRef="mt-confidence|file:///tools.xml#T4"
+/text/body[1]/p[1]/span[4]/@its:mtConfidence	annotatorsRef="mt-confidence|file:///tools.xml#T4"
