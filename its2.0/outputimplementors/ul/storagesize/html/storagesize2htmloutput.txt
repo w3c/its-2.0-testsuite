@@ -1,0 +1,17 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/head[1]/link[1]
+/html/head[1]/link[1]/@href
+/html/head[1]/link[1]/@rel
+/html/body[1]
+/html/body[1]/b[1]
+/html/body[1]/p[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
+/html/body[1]/p[1]/@contenteditable
+/html/body[1]/p[1]/@id
+/html/body[1]/p[2]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
+/html/body[1]/p[2]/@contenteditable
+/html/body[1]/p[2]/@id

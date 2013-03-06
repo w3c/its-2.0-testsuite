@@ -10,8 +10,8 @@
 /html/body[1]/p[1]
 /html/body[1]/p[1]/@id
 /html/body[1]/p[1]/@title
-/html/body[1]/p[1]/span[1]
+/html/body[1]/p[1]/span[1]	locNoteRef="Comments.html#FileNotFound"	locNoteType="description"
 /html/body[1]/p[2]
 /html/body[1]/p[2]/@id
 /html/body[1]/p[2]/@title
-/html/body[1]/p[2]/span[1]
+/html/body[1]/p[2]/span[1]	locNoteRef="Comments.html#DivByZero"	locNoteType="description"
