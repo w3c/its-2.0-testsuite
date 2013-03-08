@@ -1,0 +1,20 @@
+/html
+/html/@lang
+/html/head[1]
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/p[1]
+/html/body[1]/p[2]	lineBreakType="nel"	storageEncoding="ISO-8859-1"	storageSize="25"
+/html/body[1]/p[2]/@contenteditable
+/html/body[1]/p[2]/@id
+/html/body[1]/p[2]/@its-line-break-type
+/html/body[1]/p[2]/@its-storage-encoding
+/html/body[1]/p[2]/@its-storage-size
+/html/body[1]/p[3]	lineBreakType="nel"	storageEncoding="ISO-8859-1"	storageSize="25"
+/html/body[1]/p[3]/@contenteditable
+/html/body[1]/p[3]/@id
+/html/body[1]/p[3]/@its-line-break-type
+/html/body[1]/p[3]/@its-storage-encoding
+/html/body[1]/p[3]/@its-storage-size
