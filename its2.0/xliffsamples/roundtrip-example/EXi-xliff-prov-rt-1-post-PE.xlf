@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.ul.ie/its/x-its">
+    <file original="/EX-xliff-prov-rt-1-src.html" source-language="en-us" target-language="fr-fr"
+        datatype="html" its:annotatorsRef="text-analysis|http://enrycher.ijs.si terminology|http://www.cngl.ie/termchecker">
+        <header>
+            <its:provenanceRecords xml:id="pr1">
+                <its:provenanceRecord its:provRef="http://www.cngl.ie/logger/logs/2bbcaf0b-df6c-4606-bbc3-e2072da78f70"/>
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr2">
+                <its:provenanceRecord its:provRef="http://www.cngl.ie/logger/logs/d03645b1-2d8b-4d21-a925-74d91a954a50"/>
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr3">
+                <its:provenanceRecord its:tool="matrexv2" its:orgRef="http://www.cngl.ie" its:provRef="http://www.cngl.ie/logger/logs/7dbe77ff-ab33-4061-b0a7-0ee669c0b0e2"/>
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr4">
+                <its:provenanceRecord its:tool="bingtranslate" its:orgRef="http://www.microsoft.com" its:provRef="http://www.cngl.ie/logger/logs/cbc90f23-1a23-4b1a-8bac-6a3492435ec1"/>
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr5">
+                <its:provenanceRecord its:tool="M4LOC" its:orgRef="http://www.moravia.com" its:provRef="http://www.cngl.ie/logger/logs/f025ad10-8031-11e2-9e96-0800200c9a66"/>
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr6">                
+                <its:provenanceRecord its:tool="matrexv2" its:orgRef="http://www.cngl.ie" its:provRef="http://www.cngl.ie/logger/logs/7dbe77ff-ab33-4061-b0a7-0ee669c0b0e2"/>   
+                <its:provenanceRecord its:revTool="CMS-LION-CAT" its:revOrgRef="http://ex.acme-lsp.com" its:revPerson="Ed Itter" its:provRef="http://www.cngl.ie/logger/logs/c76674b2-daa0-4139-9210-e73c3a185e07"/> 
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr7">
+                <its:provenanceRecord its:tool="bingtranslate" its:orgRef="http://www.microsoft.com" its:provRef="http://www.cngl.ie/logger/logs/cbc90f23-1a23-4b1a-8bac-6a3492435ec1"/>   
+                <its:provenanceRecord its:revTool="CMS-LION-CAT" its:revOrgRef="http://ex.acme-lsp.com" its:revPerson="Ed Itter" its:provRef="http://www.cngl.ie/logger/logs/37a1b35a-a6b7-42ec-b661-7c3e5e6a29ad"/> 
+            </its:provenanceRecords>
+            <its:provenanceRecords xml:id="pr8">
+                <its:provenanceRecord its:tool="M4LOC" its:orgRef="http://www.moravia.com" its:provRef="http://www.cngl.ie/logger/logs/f025ad10-8031-11e2-9e96-0800200c9a66"/> 
+                <its:provenanceRecord its:revTool="CMS-LION-CAT" its:revOrgRef="http://ex.acme-lsp.com" its:revPerson="Ed Itter" its:provRef="http://www.cngl.ie/logger/logs/de6af3ab-b0b6-4954-b4e2-1780d071f3a1"/> 
+            </its:provenanceRecords>
+            <glossary>
+               <internal-file>
+                <itsx:glossary-entry id="ge1">
+                    <itsx:term>Arizona</itsx:term>
+                    <itsx:translation>Arizona</itsx:translation>
+                </itsx:glossary-entry>
+                <itsx:glossary-entry id="ge2">
+                    <itsx:term>Antarctica</itsx:term>
+                    <itsx:translation>Antarctique</itsx:translation>
+                </itsx:glossary-entry>
+                <itsx:glossary-entry id="ge3">
+                    <itsx:term>Africa</itsx:term>
+                    <itsx:translation>Afrique</itsx:translation>
+                </itsx:glossary-entry>
+                <itsx:glossary-entry id="ge4">
+                    <itsx:term>Bohemia</itsx:term>
+                    <itsx:translation>Bohême</itsx:translation>
+                </itsx:glossary-entry>
+               </internal-file>
+            </glossary>
+        </header> 
+        <body>
+            <trans-unit id="1" translate="no" itsx:domain="ITS">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">ITS, XLIFF and PROV Example</source>
+                <seg-source its:provenanceRecordsRef="#pr2">
+                    <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
+                </seg-source>
+                <target xml:lang="fr-fr">
+                    <mrk mid="0" mtype="seg">ITS, XLIFF and PROV Example</mrk>
+                </target>
+            </trans-unit>
+            <trans-unit id="2" itsx:domain="Travel">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">Have you ever dreamed of stepping on each of the six
+                    continents around the planet during a single, amazing trip? Our <g id="1">Around
+                        the World in 80 Days</g> travel package is specifically designed for
+                    this.</source>
+                <seg-source its:provenanceRecordsRef="#pr2">
+                    <mrk mid="0" mtype="seg">Have you ever dreamed of stepping on each of the six
+                        continents around the planet during a single, amazing trip?</mrk>
+                    <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel
+                        package is specifically designed for this.</mrk>
+                </seg-source>
+                <target xml:lang="fr-fr">
+                    <mrk mid="0" mtype="seg" its:provenanceRecordsRef="#pr6">N’avez-vous jamais rêvé de marcher sur les six
+                        continents, en un seul voyage magnifique autour de la planète ?</mrk>
+                    <mrk mid="1" mtype="seg" its:provenanceRecordsRef="#pr8">Notre <g id="1">tour du monde en 80 jours</g> de voyage
+                        paquet est spécifiquement conçu pour cela.</mrk>
+                </target>
+                <alt-trans mid="0" match-quality="0.345" origin="MT">
+                    <source xml:lang="en-us">Have you ever dreamed of stepping on each of the six
+                        continents around the planet during a single, amazing trip?</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr3">
+                        N’avez-vous jamais rêvé de marcher sur les six
+                        continents, en un seul voyage magnifique autour de la planète ?</target>
+                </alt-trans>
+                <alt-trans mid="0">
+                    <source xml:lang="en-us">Have you ever dreamed of stepping on each of the six
+                        continents around the planet during a single, amazing trip?</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr4">
+                        N’avez-vous jamais rêvé de marcher sur les six
+                        continents, en un seul voyage magnifique autour de la planète ?</target>
+                </alt-trans>
+                <alt-trans mid="0" match-quality="0.567" origin="MT">
+                    <source xml:lang="en-us">Have you ever dreamed of stepping on each of the six
+                        continents around the planet during a single, amazing trip?</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr5">
+                        Avez-vous jamais rêvé de marcher sur chacun des cinq continents de 
+                        la planète au cours d'un seul voyage extraordinaire?</target>
+                </alt-trans>
+                <alt-trans mid="1" match-quality="0.475" origin="MT">
+                    <source xml:lang="en-us">Our <g id="1">Around the World in 80 Days</g> travel
+                        package is specifically designed for this.</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr5">
+                        Notre <g id="1">tour du monde en 80 jours</g> de voyage
+                        paquet est spécifiquement conçu pour cela.</target>
+                </alt-trans>
+            </trans-unit>
+            <trans-unit id="3" itsx:domain="Travel">
+                <source xml:lang="en-us" its:provenanceRecordsRef="#pr1">From the canyons of Arizona, to the Khmer temples deep in
+                    the jungle; from the tropical beaches of Queensland to the glaciers of
+                    Antarctica; or from the wild savanna of Africa to mysterious castles in the
+                    forests of Bohemia, our offer takes you in some of the most amazing places on
+                    our planet. In 80 days, you will see more of the world than most see through
+                    their entire lifetime! You will come back with the rich experience that nothing
+                    but a true journey can provide.</source>
+                <seg-source its:provenanceRecordsRef="#pr2">
+                    <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="phrase" its:taConfidence="0.7"
+                        its:taClassRef="http://nerd.eurecom.fr/ontology#Place"
+                        its:taIdentRef="http://dbpedia.org/resource/Arizona">
+                        <mrk mtype="term" its:termInfoRef="#ge1">Arizona</mrk></mrk>, to
+                        the Khmer temples deep in the jungle; from the tropical beaches of
+                        Queensland to the glaciers of <mrk mtype="phrase" its:taConfidence="0.7"
+                            its:taClassRef="http://nerd.eurecom.fr/ontology#Place"
+                            its:taIdentRef="http://dbpedia.org/resource/Antarctica">
+                            <mrk  mtype="term" its:termInfoRef="#ge2">Antarctica</mrk></mrk>; 
+                        or from the wild savanna of <mrk mtype="phrase" its:taConfidence="0.7"
+                            its:taClassRef="http://nerd.eurecom.fr/ontology#Place"
+                            its:taIdentRef="http://dbpedia.org/resource/Africa">
+                            <mrk mtype="term" its:termInfoRef="#ge3">Africa</mrk></mrk>
+                        to mysterious castles in the forests of 
+                        <mrk mtype="term" its:termInfoRef="#ge4" its:termConfidence="0.5">Bohemia</mrk>, 
+                        our offer takes you in some of the most amazing places on our planet.</mrk>
+                    <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most
+                        see through their entire lifetime!</mrk>
+                </seg-source>
+                <target xml:lang="fr-fr" >
+                    <mrk mid="0" mtype="seg" its:provenanceRecordsRef="#pr6">Des canyons de l’Arizona, aux temples Khmers enfouis
+                        dans la jungle; des plages tropicales du Queensland aux glaciers
+                        d’Antarctique; ou de la savane africaine aux mystérieux château au cœur des
+                        forets de Bohême, notre offre vous amène aux endroits les plus incroyables
+                        de notre planète.</mrk>
+                    <mrk mid="1" mtype="seg" its:provenanceRecordsRef="#pr7">En 80 jours, vous pourrez voir plus de monde que la plupart
+                        Voir à travers leur vie entière !</mrk>
+                </target>
+                <alt-trans mid="0" match-quality="0.345" origin="MT">
+                    <source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep
+                        in the jungle; from the tropical beaches of Queensland to the glaciers of
+                        Antarctica; or from the wild savanna of Africa to
+                        mysterious castles in the forests of Bohemia, our offer takes you in some of
+                        the most amazing places on our planet.</source>
+                    <target xml:lang="fr-fr"  
+                        its:provenanceRecordsRef="#pr3">
+                        Des canyons de l’Arizona, aux temples Khmers enfouis
+                        dans la jungle; des plages tropicales du Queensland aux glaciers
+                        d’Antarctique; ou de la savane africaine aux mystérieux château au cœur des
+                        forets de Bohême, notre offre vous amène aux endroits les plus incroyables
+                        de notre planète.</target>
+                </alt-trans>
+                <alt-trans mid="1" match-quality="0.765" origin="MT">
+                    <source xml:lang="en-us">In 80 days, you will see more of the world than most
+                        see through their entire lifetime!</source>
+                    <target xml:lang="fr-fr" 
+                        its:provenanceRecordsRef="#pr3">En 80 jours, vous verrez plus du monde que la plupart
+                        voient dans l’espace de leur vie!</target>
+                </alt-trans>
+                <alt-trans mid="0">
+                    <source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep
+                        in the jungle; from the tropical beaches of Queensland to the glaciers of
+                        Antarctica; or from the wild savanna of Africa to
+                        mysterious castles in the forests of Bohemia, our offer takes you in some of
+                        the most amazing places on our planet.</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr4">Depuis les canyons de l'Arizona, aux temples khmers profondes
+                        dans la jungle ; des plages tropicales du Queensland pour les glaciers de
+                        L'Antarctique ; ou de la savane sauvage d'Afrique à
+                        Châteaux mystérieux dans les forêts de Bohême, notre offre vous emmène dans certains
+                        endroits les plus étonnantes sur notre planète.</target>
+                </alt-trans>
+                <alt-trans mid="1">
+                    <source xml:lang="en-us">In 80 days, you will see more of the world than most
+                        see through their entire lifetime!</source>
+                    <target xml:lang="fr-fr" its:provenanceRecordsRef="#pr4">En 80 jours, vous pourrez voir plus de monde que la plupart
+                        Voir à travers leur vie entière !</target>
+                </alt-trans>
+                <alt-trans mid="0" match-quality="0.546" origin="MT">
+                    <source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep
+                        in the jungle; from the tropical beaches of Queensland to the glaciers of
+                        Antarctica; or from the wild savanna of Africa to
+                        mysterious castles in the forests of Bohemia, our offer takes you in some of
+                        the most amazing places on our planet.</source>
+                    <target xml:lang="fr-fr" its:mtconfidence="0.546" 
+                        its:provenanceRecordsRef="#pr5">
+                        Des canyons de <mrk mtype="phrase" its:taIdentRef="http://fr.dbpedia.org/page/Arizona">l'Arizona</mrk>, aux temples khmers profondes
+                        dans la jungle, des plages tropicales du Queensland pour les glaciers de
+                        <mrk mtype="phrase" its:taIdentRef="http://fr.dbpedia.org/page/Antarctique">L'Antarctique</mrk>, ou de la savane sauvage de 
+                        <mrk mtype="phrase" its:taIdentRef="http://fr.dbpedia.org/page/Afrique">l'Afrique</mrk> de
+                        châteaux mystérieux dans les forêts de Bohême, notre offre vous emmène dans certaines
+                        les endroits les plus étonnants de la planète.</target>
+                </alt-trans>
+                <alt-trans mid="1" match-quality="0.667" origin="MT">
+                    <source xml:lang="en-us">In 80 days, you will see more of the world than most
+                        see through their entire lifetime!</source>
+                    <target xml:lang="fr-fr" 
+                        its:provenanceRecordsRef="#pr5">En 80 jours, vous verrez plus du monde que la plupart
+                        voient dans l’espace de leur vie!</target>
+                </alt-trans>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
