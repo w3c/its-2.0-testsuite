@@ -56,8 +56,7 @@
                     Antarctica; or from the wild savanna of Africa to mysterious castles in the
                     forests of Bohemia, our offer takes you in some of the most amazing places on
                     our planet. In 80 days, you will see more of the world than most see through
-                    their entire lifetime! You will come back with the rich experience that nothing
-                    but a true journey can provide.</source>
+                    their entire lifetime! </source>
                 <seg-source its:provenanceRecordsRef="#pr2">
                     <mrk mid="0" mtype="seg">From the canyons of <mrk mtype="phrase" its:taConfidence="0.7"
                         its:taClassRef="http://nerd.eurecom.fr/ontology#Place"
