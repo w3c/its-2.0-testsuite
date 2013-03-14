@@ -13,20 +13,7 @@
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt">
-            <error>
-Line 40: Comparison failed.
-* Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:封面[1]/z:作者[1]	translate="no"]
-* Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:封面[1]/z:作者[1]	translate="yes"]</error>
-            <error>
-Line 46: Comparison failed.
-* Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[1]	translate="no"]
-* Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[1]	translate="yes"]</error>
-            <error>
-Line 47: Comparison failed.
-* Reference line: [/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[2]	translate="no"]
-* Implementers file line:[/myMetaDoc/body[1]/insert[1]/z:书籍[1]/z:章节[1]/z:段落识别[1]/z:姓名[2]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -170,16 +157,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate1htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@title	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/@title	translate="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -338,9 +316,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -395,48 +371,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate3htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	translate="no"]
-* Implementers file line:[/html	translate="yes"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="no"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	translate="yes"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -472,48 +407,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate4htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	translate="no"]
-* Implementers file line:[/html	translate="yes"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="no"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	translate="yes"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="yes"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -553,92 +447,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate5htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	translate="no"]
-* Implementers file line:[/html	translate="yes"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="no"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/@id	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/@id	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/b[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/b[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/cite[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/cite[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/cite[1]/i[1]	translate="yes"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/cite[1]/i[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/ul[1]	translate="yes"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[1]	translate="yes"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[1]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[2]	translate="yes"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[2]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[3]	translate="yes"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[3]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[4]	translate="yes"]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[4]	translate="no"]
-* Implementers file line:[/html/body[1]/p[2]	translate="yes"]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[2]/span[1]	translate="yes"]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[2]/span[1]/@lang	translate="no"]</error>
-            <error>
-Line 24: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/span[1]/@lang	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -678,12 +487,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/span[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
-* Implementers file line:[/html/body[1]/span[1]]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -717,28 +521,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]]
-* Implementers file line:[/html/body[1]/p[1]]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/@id]
-* Implementers file line:[/html/body[1]/span[1]]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]]
-* Implementers file line:[/html/body[1]/p[2]]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	locNote="Indicates that the resource file {0} could not be loaded."	locNoteType="description"]
-* Implementers file line:[/html/body[1]/span[2]]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[2]]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -772,12 +555,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/span[1]	locNoteRef="ErrorsInfo.html/#NotFound"	locNoteType="description"]
-* Implementers file line:[/html/body[1]/span[1]]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -811,16 +589,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	locNoteRef="Comments.html#FileNotFound"	locNoteType="description"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/span[1]	locNoteRef="Comments.html#DivByZero"	locNoteType="description"]
-* Implementers file line:[/html/body[1]/p[2]/span[1]]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -854,9 +623,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -886,9 +653,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote6htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -918,9 +683,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote7htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1067,9 +830,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology1htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology1htmloutput.txt"/>
       </inputfile>
@@ -1102,9 +863,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology2htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology2htmloutput.txt"/>
       </inputfile>
@@ -1127,7 +886,30 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/terminology/xml/terminology9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/terminology/xml/terminology9xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/body[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]
+* Implementers file line:[/book/body[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/body[1]/p[1]/quote[1]	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="yes"	termConfidence="0.5"	termInfoRef="http://www.directron.com/motherboards1.html"]
+* Implementers file line:[/book/body[1]/p[1]/quote[1]	annotatorsRef="terminology|http://example.com/term-tool#T2"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/body[1]/p[1]/quote[1]/@its:annotatorsRef	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]
+* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:annotatorsRef	annotatorsRef="terminology|http://example.com/term-tool#T2"	term="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/body[1]/p[1]/quote[1]/@its:term	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]
+* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:term	annotatorsRef="terminology|http://example.com/term-tool#T2"	term="no"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/body[1]/p[1]/quote[1]/@its:termConfidence	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]
+* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:termConfidence	annotatorsRef="terminology|http://example.com/term-tool#T2"	term="no"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/body[1]/p[1]/quote[1]/@its:termInfoRef	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]
+* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:termInfoRef	annotatorsRef="terminology|http://example.com/term-tool#T2"	term="no"]</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology9xmloutput.txt"/>
@@ -1139,9 +921,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology3htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology3htmloutput.txt"/>
       </inputfile>
@@ -1211,9 +991,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology4htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology4htmloutput.txt"/>
       </inputfile>
@@ -1351,63 +1129,59 @@ Line 1: Comparison failed.
             <error>
 Line 2: Comparison failed.
 * Reference line: [/html/@lang	lang="en"]
-* Implementers file line:[/html/@lang]</error>
+* Implementers file line:[/html/head[1]]</error>
             <error>
 Line 3: Comparison failed.
 * Reference line: [/html/head[1]	lang="en"]
-* Implementers file line:[/html/head[1]]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	lang="en"]
 * Implementers file line:[/html/head[1]/meta[1]]</error>
             <error>
 Line 5: Comparison failed.
 * Reference line: [/html/head[1]/meta[1]/@charset	lang="en"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset]</error>
+* Implementers file line:[/html/head[1]/link[1]]</error>
             <error>
 Line 6: Comparison failed.
 * Reference line: [/html/head[1]/link[1]	lang="en"]
-* Implementers file line:[/html/head[1]/link[1]]</error>
+* Implementers file line:[/html/head[1]/link[1]/@href]</error>
             <error>
 Line 7: Comparison failed.
 * Reference line: [/html/head[1]/link[1]/@href	lang="en"]
-* Implementers file line:[/html/head[1]/link[1]/@href]</error>
+* Implementers file line:[/html/head[1]/link[1]/@rel]</error>
             <error>
 Line 8: Comparison failed.
 * Reference line: [/html/head[1]/link[1]/@rel	lang="en"]
-* Implementers file line:[/html/head[1]/link[1]/@rel]</error>
+* Implementers file line:[/html/head[1]/title[1]]</error>
             <error>
 Line 9: Comparison failed.
 * Reference line: [/html/head[1]/title[1]	lang="en"]
-* Implementers file line:[/html/head[1]/title[1]]</error>
+* Implementers file line:[/html/body[1]]</error>
             <error>
 Line 10: Comparison failed.
 * Reference line: [/html/body[1]	lang="en"]
-* Implementers file line:[/html/body[1]]</error>
+* Implementers file line:[/html/body[1]/p[1]]</error>
             <error>
 Line 11: Comparison failed.
 * Reference line: [/html/body[1]/p[1]	lang="en"]
-* Implementers file line:[/html/body[1]/p[1]]</error>
+* Implementers file line:[/html/body[1]/p[1]/q[1]	lang="fr-CA"]</error>
             <error>
 Line 12: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]]</error>
+* Implementers file line:[/html/body[1]/p[1]/q[1]/@lang	lang="fr-CA"]</error>
             <error>
 Line 13: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]/@lang]</error>
+* Implementers file line:[/html/body[1]/p[2]]</error>
             <error>
 Line 14: Comparison failed.
 * Reference line: [/html/body[1]/p[2]	lang="en"]
-* Implementers file line:[/html/body[1]/p[2]]</error>
+* Implementers file line:[/html/body[1]/p[2]/q[1]	lang="fr-CA"]</error>
             <error>
 Line 15: Comparison failed.
 * Reference line: [/html/body[1]/p[2]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]]</error>
+* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]</error>
             <error>
 Line 16: Comparison failed.
 * Reference line: [/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang]</error>
+* Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/languageinformation/html/languageinfo1htmloutput.txt"/>
@@ -1580,9 +1354,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/elementswithintext/html/withintext2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1684,9 +1456,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/html/domain1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -1728,9 +1498,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/domain/html/domain2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="dcu"
@@ -2180,9 +1948,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2199,9 +1965,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2246,9 +2010,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2541,9 +2303,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2892,9 +2652,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global">Global - Embedded rules with locQualityType only</description>
          <expectedOutput location="expected/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2905,9 +2663,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global">Global - Embedded rules with comment and severity</description>
          <expectedOutput location="expected/locqualityissue/xml/locqualityissue2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue2xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2918,9 +2674,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global">Global - Embedded rules with everything</description>
          <expectedOutput location="expected/locqualityissue/xml/locqualityissue3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue3xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2948,7 +2702,12 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="logrus"
-                             location="outputimplementors/logrus/locqualityissue/xml/locqualityissue4xmloutput.txt"/>
+                             location="outputimplementors/logrus/locqualityissue/xml/locqualityissue4xmloutput.txt">
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/doc/para[1]/span[1]	locQualityIssuesRef="#id1234"	locQualityIssueEnabled[1]="no"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="typographical"]
+* Implementers file line:[/doc/para[1]/span[1]	locQualityIssuesRef="#1234"	locQualityIssueEnabled[1]="no"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="typographical"]</error>
+         </outputImplementors>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue4xmloutput.txt"/>
       </inputfile>
@@ -2957,9 +2716,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/locqualityissue/xml/locqualityissue5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue5xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2970,9 +2727,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueEnabled</description>
          <expectedOutput location="expected/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -2985,9 +2740,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueSeverity</description>
          <expectedOutput location="expected/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3000,9 +2753,7 @@ Line 14: Comparison failed.
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueProfileRef</description>
          <expectedOutput location="expected/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3017,9 +2768,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue6xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3032,9 +2781,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3047,9 +2794,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3062,9 +2807,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3077,9 +2820,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue10xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue10xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue10xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3092,9 +2833,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3109,9 +2848,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3126,9 +2863,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3180,9 +2915,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue11xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue11xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue11xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3195,9 +2928,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/xml/locqualityissue12xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue12xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/xml/locqualityissue12xmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/xml/locqualityissue12xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -3311,9 +3042,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence2xml.xml"
                  conformance-class="xml-global">
@@ -3324,9 +3053,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence2html.html"
                  conformance-class="html-global">
@@ -3350,9 +3077,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence4xml.xml"
                  conformance-class="xml-local">
@@ -3363,9 +3088,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence1html.html"
                  conformance-class="html-local">
@@ -3389,9 +3112,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence5xml.xml"
                  conformance-class="xml-global">
@@ -3402,9 +3123,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence3html.html"
                  conformance-class="html-global">
@@ -3494,9 +3213,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/html/allowedcharacters2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
       </inputfile>
@@ -3565,9 +3282,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/allowedcharacters/html/allowedcharacters3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
       </inputfile>
@@ -3616,9 +3331,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/storagesize/html/storagesize2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/storagesize2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/storagesize/html/storagesize2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize2htmloutput.txt"/>
       </inputfile>
@@ -3638,9 +3351,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/storagesize1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt"/>
       </inputfile>
@@ -3687,9 +3398,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/storagesize/html/storagesize3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/storagesize3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/storagesize/html/storagesize3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize3htmloutput.txt"/>
       </inputfile>
