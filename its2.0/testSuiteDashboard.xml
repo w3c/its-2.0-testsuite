@@ -1655,9 +1655,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis7xml.xml"
                  conformance-class="xml-global">
@@ -1674,9 +1672,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis5xml.xml"
                  conformance-class="xml-local">
@@ -1693,9 +1689,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis2xml.xml"
                  conformance-class="xml-global">
@@ -1712,9 +1706,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis8xml.xml"
                  conformance-class="xml-global">
@@ -1731,9 +1723,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis6xml.xml"
                  conformance-class="xml-local">
@@ -1750,9 +1740,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis4html.html"
                  conformance-class="html-local">
@@ -1769,9 +1757,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/html/textanalysis4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis1html.html"
                  conformance-class="html-global">
@@ -1788,9 +1774,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/html/textanalysis1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis3html.html"
                  conformance-class="html-global">
@@ -1807,9 +1791,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/html/textanalysis3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis3xml.xml"
                  conformance-class="xml-global">
@@ -1826,9 +1808,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis4xml.xml"
                  conformance-class="xml-global">
@@ -1845,9 +1825,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis2html.html"
                  conformance-class="html-global">
@@ -1864,9 +1842,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/html/textanalysis2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis5html.html"
                  conformance-class="html-global">
@@ -1883,9 +1859,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/textanalysis/html/textanalysis5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Locale Filter--><dataCategory identifier="locale-filter" name="Locale Filter">
