@@ -32,7 +32,7 @@
    </head>
    <body>
       <h1>ITS 2.0 Test Suite Dashboard</h1>
-      <p>Version generated: 2013-03-21T08:20:18.777+01:00</p>
+      <p>Version generated: 2013-03-21T08:59:59.595+01:00</p>
       <h2 id="purpose">Purpose</h2>
       <p>This document provides a summary of the ITS 2.0 Test Suite:</p>
       <ul>
@@ -55,7 +55,7 @@
       <ul>
          <li>Total number of input and reference output files: 223</li>
          <li>Total number of tests from all implementers: 839</li>
-         <li>Current coverage: 650 tests successfully run (77%).</li>
+         <li>Current coverage: 663 tests successfully run (79%).</li>
       </ul>
       <p>The following table compares actual tests run, versus number of tests to be run per
             implementer. Explanation:</p>
@@ -481,7 +481,7 @@
                <span class="error">0/13</span>
             </td>
             <td>
-               <span class="error">0/13</span>
+               <span class="ok">13/13</span>
             </td>
             <td>
                <span class="na">n/a</span>
@@ -1034,7 +1034,7 @@
             <td>24/24</td>
             <td>49/49</td>
             <td>206/219</td>
-            <td>6/19</td>
+            <td>19/19</td>
             <td>72/72</td>
             <td>22/23</td>
             <td>8/8</td>
@@ -1427,39 +1427,39 @@
          </tr>
          <tr>
             <td>XML Global</td>
-            <td>0</td>
+            <td>1</td>
             <td>
-               <a href="#t-disambiguation1xml">disambiguation1xml</a>
-               <a href="#t-disambiguation7xml">disambiguation7xml</a>
-               <a href="#t-disambiguation2xml">disambiguation2xml</a>
-               <a href="#t-disambiguation8xml">disambiguation8xml</a>
-               <a href="#t-disambiguation3xml">disambiguation3xml</a>
-               <a href="#t-disambiguation4xml">disambiguation4xml</a>
+               <a href="#t-textanalysis1xml">textanalysis1xml</a>
+               <a href="#t-textanalysis7xml">textanalysis7xml</a>
+               <a href="#t-textanalysis2xml">textanalysis2xml</a>
+               <a href="#t-textanalysis8xml">textanalysis8xml</a>
+               <a href="#t-textanalysis3xml">textanalysis3xml</a>
+               <a href="#t-textanalysis4xml">textanalysis4xml</a>
             </td>
          </tr>
          <tr>
             <td>XML Local</td>
-            <td>0</td>
+            <td>1</td>
             <td>
-               <a href="#t-disambiguation5xml">disambiguation5xml</a>
-               <a href="#t-disambiguation6xml">disambiguation6xml</a>
+               <a href="#t-textanalysis5xml">textanalysis5xml</a>
+               <a href="#t-textanalysis6xml">textanalysis6xml</a>
             </td>
          </tr>
          <tr>
             <td>HTML Global</td>
-            <td>0</td>
+            <td>1</td>
             <td>
-               <a href="#t-disambiguation1html">disambiguation1html</a>
-               <a href="#t-disambiguation3html">disambiguation3html</a>
-               <a href="#t-disambiguation2html">disambiguation2html</a>
-               <a href="#t-disambiguation5html">disambiguation5html</a>
+               <a href="#t-textanalysis1html">textanalysis1html</a>
+               <a href="#t-textanalysis3html">textanalysis3html</a>
+               <a href="#t-textanalysis2html">textanalysis2html</a>
+               <a href="#t-textanalysis5html">textanalysis5html</a>
             </td>
          </tr>
          <tr>
             <td>HTML Local</td>
-            <td>0</td>
+            <td>1</td>
             <td>
-               <a href="#t-disambiguation4html">disambiguation4html</a>
+               <a href="#t-textanalysis4html">textanalysis4html</a>
             </td>
          </tr>
       </table>
@@ -7015,12 +7015,12 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation1xml.xml"
-                  id="t-disambiguation1xml">disambiguation1xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis1xml.xml"
+                  id="t-textanalysis1xml">textanalysis1xml.xml</a>
                <br/>Global - Embedded rules<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation1xmloutput.txt">(expected)</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>) <a target="_blank"
+                  href="expected/textanalysis/xml/textanalysis1xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7032,25 +7032,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7062,8 +7047,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7072,12 +7068,12 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation7xml.xml"
-                  id="t-disambiguation7xml">disambiguation7xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis7xml.xml"
+                  id="t-textanalysis7xml">textanalysis7xml.xml</a>
                <br/>Global - Embedded rules with class pointer<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation7xmloutput.txt">(expected)</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>) <a target="_blank"
+                  href="expected/textanalysis/xml/textanalysis7xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7089,25 +7085,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7119,8 +7100,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7129,12 +7121,12 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation5xml.xml"
-                  id="t-disambiguation5xml">disambiguation5xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis5xml.xml"
+                  id="t-textanalysis5xml">textanalysis5xml.xml</a>
                <br/>Local - In host element<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-local">[1]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation5xmloutput.txt">(expected)</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-local">[1]</a>) <a target="_blank"
+                  href="expected/textanalysis/xml/textanalysis5xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7146,25 +7138,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7176,8 +7153,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7186,14 +7174,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation2xml.xml"
-                  id="t-disambiguation2xml">disambiguation2xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis2xml.xml"
+                  id="t-textanalysis2xml">textanalysis2xml.xml</a>
                <br/>Global - Linked rules<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#link-external-rules">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation2xmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/xml/textanalysis2xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7205,25 +7193,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7235,8 +7208,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7245,14 +7229,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation8xml.xml"
-                  id="t-disambiguation8xml">disambiguation8xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis8xml.xml"
+                  id="t-textanalysis8xml">textanalysis8xml.xml</a>
                <br/>Global - Linked rules with class pointer<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#link-external-rules">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation8xmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/xml/textanalysis8xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7264,25 +7248,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7294,8 +7263,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7304,12 +7284,12 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation6xml.xml"
-                  id="t-disambiguation6xml">disambiguation6xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis6xml.xml"
+                  id="t-textanalysis6xml">textanalysis6xml.xml</a>
                <br/>Local - In &lt;its:span&gt;<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-local">[1]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation6xmloutput.txt">(expected)</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-local">[1]</a>) <a target="_blank"
+                  href="expected/textanalysis/xml/textanalysis6xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7321,25 +7301,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7351,8 +7316,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7361,14 +7337,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/html/disambiguation4html.html"
-                  id="t-disambiguation4html">disambiguation4html.html</a>
+                  href="inputdata/textanalysis/html/textanalysis4html.html"
+                  id="t-textanalysis4html">textanalysis4html.html</a>
                <br/>Local - In host<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-local">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-local">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#html5-markup">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/html/disambiguation4htmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/html/textanalysis4htmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7380,25 +7356,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7410,8 +7371,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7420,14 +7392,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/html/disambiguation1html.html"
-                  id="t-disambiguation1html">disambiguation1html.html</a>
+                  href="inputdata/textanalysis/html/textanalysis1html.html"
+                  id="t-textanalysis1html">textanalysis1html.html</a>
                <br/>Global - Linked rules<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#html5-external-global-rules">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/html/disambiguation1htmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/html/textanalysis1htmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7439,25 +7411,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7469,8 +7426,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7479,14 +7447,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/html/disambiguation3html.html"
-                  id="t-disambiguation3html">disambiguation3html.html</a>
+                  href="inputdata/textanalysis/html/textanalysis3html.html"
+                  id="t-textanalysis3html">textanalysis3html.html</a>
                <br/>Global - Linked rules with class ref pointer<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#html5-external-global-rules">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/html/disambiguation3htmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/html/textanalysis3htmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7498,25 +7466,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7528,8 +7481,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7538,14 +7502,14 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation3xml.xml"
-                  id="t-disambiguation3xml">disambiguation3xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis3xml.xml"
+                  id="t-textanalysis3xml">textanalysis3xml.xml</a>
                <br/>Global - Embedded rules &lt;its:param&gt;<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#its-param">[2]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation3xmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/xml/textanalysis3xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7557,25 +7521,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7587,8 +7536,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7597,16 +7557,16 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/xml/disambiguation4xml.xml"
-                  id="t-disambiguation4xml">disambiguation4xml.xml</a>
+                  href="inputdata/textanalysis/xml/textanalysis4xml.xml"
+                  id="t-textanalysis4xml">textanalysis4xml.xml</a>
                <br/>Global - Linked rules &lt;its:param&gt;<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#its-param">[2]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#link-external-rules">[3]</a>) <a target="_blank"
-                  href="expected/disambiguation/xml/disambiguation4xmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/xml/textanalysis4xmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7618,25 +7578,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7648,8 +7593,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7658,16 +7614,16 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/html/disambiguation2html.html"
-                  id="t-disambiguation2html">disambiguation2html.html</a>
+                  href="inputdata/textanalysis/html/textanalysis2html.html"
+                  id="t-textanalysis2html">textanalysis2html.html</a>
                <br/>Global - Linked rules &lt;its:param&gt;<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#its-param">[2]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#html5-external-global-rules">[3]</a>) <a target="_blank"
-                  href="expected/disambiguation/html/disambiguation2htmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/html/textanalysis2htmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7679,25 +7635,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7709,8 +7650,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7719,16 +7671,16 @@
          <tr>
             <td>
                <a target="_blank"
-                  href="inputdata/disambiguation/html/disambiguation5html.html"
-                  id="t-disambiguation5html">disambiguation5html.html</a>
+                  href="inputdata/textanalysis/html/textanalysis5html.html"
+                  id="t-textanalysis5html">textanalysis5html.html</a>
                <br/>Global - Embedded rules &lt;its:param&gt;<br/>
                                 (assertions: <a target="_blank"
-                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#disambiguation-global">[1]</a>
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#textanalysis-global">[1]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#its-param">[2]</a>
                <a target="_blank"
                   href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#html5-global-rules">[3]</a>) <a target="_blank"
-                  href="expected/disambiguation/html/disambiguation5htmloutput.txt">(expected)</a>
+                  href="expected/textanalysis/html/textanalysis5htmloutput.txt">(expected)</a>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7740,25 +7692,10 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html"
-                     class="error">error</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span class="na">N/A</span>
-            </td>
-            <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -7770,8 +7707,19 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html"
-                     class="error">error</span>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="na">N/A</span>
