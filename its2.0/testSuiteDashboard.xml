@@ -1640,277 +1640,251 @@ Line 15: Comparison failed.
       </inputfile>
    </dataCategory>
    <!--Text Analysis --><dataCategory identifier="text-analysis" name="Text Analysis">
-      <inputfile location="inputdata/disambiguation/xml/disambiguation1xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global">Global - Embedded rules</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation1xmloutput.txt"/>
+         <description assertions="textanalysis-global">Global - Embedded rules</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation1xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation1xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis1xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation1xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis1xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation1xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation1xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis1xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation7xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis7xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global">Global - Embedded rules with class pointer</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation7xmloutput.txt"/>
+         <description assertions="textanalysis-global">Global - Embedded rules with class pointer</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation7xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation7xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis7xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation7xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis7xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation7xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation7xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis7xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation5xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis5xml.xml"
                  conformance-class="xml-local">
-         <description assertions="disambiguation-local">Local - In host element</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation5xmloutput.txt"/>
+         <description assertions="textanalysis-local">Local - In host element</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation5xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation5xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis5xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation5xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis5xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation5xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation5xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis5xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation2xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global link-external-rules">Global - Linked rules</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation2xmloutput.txt"/>
+         <description assertions="textanalysis-global link-external-rules">Global - Linked rules</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation2xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation2xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis2xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation2xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis2xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation2xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation2xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis2xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation8xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis8xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global link-external-rules">Global - Linked rules with class pointer</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation8xmloutput.txt"/>
+         <description assertions="textanalysis-global link-external-rules">Global - Linked rules with class pointer</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation8xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation8xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis8xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation8xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis8xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation8xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation8xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis8xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation6xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis6xml.xml"
                  conformance-class="xml-local">
-         <description assertions="disambiguation-local">Local - In &lt;its:span&gt;</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation6xmloutput.txt"/>
+         <description assertions="textanalysis-local">Local - In &lt;its:span&gt;</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation6xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation6xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis6xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation6xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis6xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation6xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation6xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis6xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/html/disambiguation4html.html"
+      <inputfile location="inputdata/textanalysis/html/textanalysis4html.html"
                  conformance-class="html-local">
-         <description assertions="disambiguation-local html5-markup">Local - In host</description>
-         <expectedOutput location="expected/disambiguation/html/disambiguation4htmloutput.txt"/>
+         <description assertions="textanalysis-local html5-markup">Local - In host</description>
+         <expectedOutput location="expected/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation4htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/html/disambiguation4htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html</error>
+                             location="outputimplementors/ul/textanalysis/html/textanalysis4htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/html/disambiguation4htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html</error>
+                             location="outputimplementors/moravia/textanalysis/html/textanalysis4htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/html/disambiguation4htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation4html.html</error>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis4htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/html/disambiguation1html.html"
+      <inputfile location="inputdata/textanalysis/html/textanalysis1html.html"
                  conformance-class="html-global">
-         <description assertions="disambiguation-global html5-external-global-rules">Global - Linked rules</description>
-         <expectedOutput location="expected/disambiguation/html/disambiguation1htmloutput.txt"/>
+         <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules</description>
+         <expectedOutput location="expected/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation1htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/html/disambiguation1htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html</error>
+                             location="outputimplementors/ul/textanalysis/html/textanalysis1htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/html/disambiguation1htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html</error>
+                             location="outputimplementors/moravia/textanalysis/html/textanalysis1htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/html/disambiguation1htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation1html.html</error>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis1htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/html/disambiguation3html.html"
+      <inputfile location="inputdata/textanalysis/html/textanalysis3html.html"
                  conformance-class="html-global">
-         <description assertions="disambiguation-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
-         <expectedOutput location="expected/disambiguation/html/disambiguation3htmloutput.txt"/>
+         <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
+         <expectedOutput location="expected/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation3htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/html/disambiguation3htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html</error>
+                             location="outputimplementors/ul/textanalysis/html/textanalysis3htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/html/disambiguation3htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html</error>
+                             location="outputimplementors/moravia/textanalysis/html/textanalysis3htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/html/disambiguation3htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation3html.html</error>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis3htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation3xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis3xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation3xmloutput.txt"/>
+         <description assertions="textanalysis-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation3xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation3xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis3xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation3xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis3xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation3xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation3xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis3xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/xml/disambiguation4xml.xml"
+      <inputfile location="inputdata/textanalysis/xml/textanalysis4xml.xml"
                  conformance-class="xml-global">
-         <description assertions="disambiguation-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/disambiguation/xml/disambiguation4xmloutput.txt"/>
+         <description assertions="textanalysis-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/xml/disambiguation4xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/xml/disambiguation4xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml</error>
+                             location="outputimplementors/ul/textanalysis/xml/textanalysis4xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/xml/disambiguation4xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml</error>
+                             location="outputimplementors/moravia/textanalysis/xml/textanalysis4xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/xml/disambiguation4xmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/xml/disambiguation4xml.xml</error>
+                             location="outputimplementors/enlaso/textanalysis/xml/textanalysis4xmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/html/disambiguation2html.html"
+      <inputfile location="inputdata/textanalysis/html/textanalysis2html.html"
                  conformance-class="html-global">
-         <description assertions="disambiguation-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/disambiguation/html/disambiguation2htmloutput.txt"/>
+         <description assertions="textanalysis-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation2htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/html/disambiguation2htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html</error>
+                             location="outputimplementors/ul/textanalysis/html/textanalysis2htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/html/disambiguation2htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html</error>
+                             location="outputimplementors/moravia/textanalysis/html/textanalysis2htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/html/disambiguation2htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation2html.html</error>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis2htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
-      <inputfile location="inputdata/disambiguation/html/disambiguation5html.html"
+      <inputfile location="inputdata/textanalysis/html/textanalysis5html.html"
                  conformance-class="html-global">
-         <description assertions="disambiguation-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
-         <expectedOutput location="expected/disambiguation/html/disambiguation5htmloutput.txt"/>
+         <description assertions="textanalysis-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
+         <expectedOutput location="expected/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/disambiguation/html/disambiguation5htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/disambiguation/html/disambiguation5htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html</error>
+                             location="outputimplementors/ul/textanalysis/html/textanalysis5htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="moravia"
-                             location="outputimplementors/moravia/disambiguation/html/disambiguation5htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html</error>
+                             location="outputimplementors/moravia/textanalysis/html/textanalysis5htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/disambiguation/html/disambiguation5htmloutput.txt">
-            <error>referenceFileNotFound: inputdata/disambiguation/html/disambiguation5html.html</error>
+                             location="outputimplementors/enlaso/textanalysis/html/textanalysis5htmloutput.txt">
+            <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
    </dataCategory>
