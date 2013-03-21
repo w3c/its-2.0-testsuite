@@ -1084,20 +1084,139 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/languageinformation/xml/languageinfo1xmloutput.txt">
             <error>
+Line 8: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]]
+* Implementers file line:[/text/content[1]	lang="en"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@langPointer]
+* Implementers file line:[/text/content[1]/@language	lang="en"]</error>
+            <error>
 Line 10: Comparison failed.
-* Reference line: [/text/content[1]/par[1]	lang="en"]
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@selector]
 * Implementers file line:[/text/content[1]/par[1]]</error>
             <error>
+Line 11: Comparison failed.
+* Reference line: [/text/content[1]	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]	lang="fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/text/content[1]/@language	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]</error>
+            <error>
 Line 13: Comparison failed.
-* Reference line: [/text/content[1]/par[2]	lang="en"]
+* Reference line: [/text/content[1]/par[1]	lang="en"]
 * Implementers file line:[/text/content[1]/par[2]]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]	lang="la"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]/@language	lang="la"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/text/content[1]/par[2]	lang="en"]
+* Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/languageinformation/xml/languageinfo1xmloutput.txt"/>
+                             location="outputimplementors/dcu/languageinformation/xml/languageinfo1xmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]]
+* Implementers file line:[/text/content[1]	lang="en"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@langPointer]
+* Implementers file line:[/text/content[1]/@language	lang="en"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@selector]
+* Implementers file line:[/text/content[1]/par[1]	lang="en"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/text/content[1]	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]	lang="fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/text/content[1]/@language	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]	lang="la"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]/@language	lang="la"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/text/content[1]/par[2]	lang="en"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt"/>
+                             location="outputimplementors/linguaserve/languageinformation/xml/languageinfo1xmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]]
+* Implementers file line:[/text/content[1]	lang="en"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@langPointer]
+* Implementers file line:[/text/content[1]/@language	lang="en"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@selector]
+* Implementers file line:[/text/content[1]/par[1]	lang="en"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/text/content[1]	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]	lang="fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/text/content[1]/@language	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]	lang="la"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]/@language	lang="la"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt"/>
+                             location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]]
+* Implementers file line:[/text/content[1]	lang="en"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@langPointer]
+* Implementers file line:[/text/content[1]/@language	lang="en"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/text/head[1]/its:rules[1]/its:langRule[2]/@selector]
+* Implementers file line:[/text/content[1]/par[1]	lang="en"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/text/content[1]	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]	lang="fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/text/content[1]/@language	lang="en"]
+* Implementers file line:[/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]	lang="la"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/text/content[1]/par[1]/q[1]/@language	lang="fr-CA"]
+* Implementers file line:[/text/content[1]/par[2]/q[1]/@language	lang="la"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo2xml.xml"
                  conformance-class="xml-global">
