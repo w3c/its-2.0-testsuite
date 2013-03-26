@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+ <prolog>
+  <its:rules version="2.0">
+   <!--Translate-->
+   <its:translateRule selector="/doc/prolog|/doc/epilog" translate="no" />
+   <its:translateRule selector="//img/@alt" translate="yes" />
+   <!--Localization Note-->
+   <its:locNoteRule selector="//string" locNotePointer="@note" locNoteType="description"/>
+   <!--Terminology-->
+   <its:termRule selector="//term" term="yes" />
+   <!--Element Within Text-->
+   <its:withinTextRule selector="//b|//term|//img|//span" withinText="yes" />
+   <!--Domain-->
+   <its:domainRule selector="/doc" domainPointer="/doc/prolog/topics" domainMapping="topic1 domain1" />
+   <!--Text Analysis-->
+   <!--Locale Filter-->
+   <its:localeFilterRule selector="//ednote" localeFilterList="*" localeFilterType="exclude" />
+   <!--External Resource-->
+   <its:externalResourceRefRule selector="//img" externalResourceRefPointer="@src" />
+   <!--Target Pointer-->
+   <its:targetPointerRule selector="//biTextEntry/source" targetPointer="../target" />
+   <its:translateRule selector="//biTextEntry/target" translate="no" />
+   <!--Id Value-->
+   <its:idValueRule selector="//p[@name]" idValue="@name" />
+   <!--Preserve Space-->
+   <its:preserveSpaceRule selector="//pre" space="preserve" />
+   <!--Localization Quality Issue-->
+   <its:locQualityIssueRule selector="//string" locQualityIssuesRefPointer="@lqiRef" />
+   <!--TODO-->
+   <!--Localization Quality Rating
+       Local only -->
+   <!--MT Confidence-->
+   <!--TODO-->
+   <!--Allowed Characters-->
+   <its:allowedCharactersRule selector="//string" allowedCharacters="[a-z]" />
+   <!--Storage Size-->
+   <its:storageSizeRule selector="//string" storageSize="15" />
+  </its:rules>
+  <topics>topic1, domain2</topics>
+ </prolog>
+ <body>
+  <p name="p1">Text <b>in <term>bold face</term></b>.</p>
+  <ednote>not to translate</ednote>
+  <p name="p2">An image: <img src="image.png" alt="Caption text"/></p>
+  <p name="p3">Text with <span its:locNote="Note on 'a note'">a note</span>.</p>
+  <pre>line 1
+line 2 [  ]=2 spaces</pre>
+  <biTextEntry>
+   <source>Text in English</source>
+   <target its:mtConfidence="0.7" its:annotatorsRef="mt-confidence|MT1"
+   >Texte en français</target>
+  </biTextEntry>
+  <strings>
+   <string xml:id="m1" lqiRef="#lqim1"
+    note="Note for the string m1">Text of the mesage</string>
+  </strings>
+ </body>
+ <epilog>
+  <its:locQualityIssues xml:id="lqim1">
+   <its:locQualityIssue locQualityIssueType="misspelling" locQualityIssueComment="'mesage' is probably 'message'." locQualityIssueSeverity="50" />
+   <its:locQualityIssue locQualityIssueType="length" locQualityIssueComment="Text too long" />
+   <its:locQualityIssue locQualityIssueComment="Character not allowed: 'T'" />
+  </its:locQualityIssues>
+</epilog>
+</doc>
