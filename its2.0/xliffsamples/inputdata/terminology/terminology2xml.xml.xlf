@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
 <file original="inputdata/terminology/xml/terminology2xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">We may define </source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:term="yes" its:termInfoRef="#TDPV">discoursal point of view</source>
+<source xml:lang="en" its:term="yes" itsx:termInfoRef="#TDPV">discoursal point of view</source>
 <note annotates="source">Terms:
 discoursal point of view [REF:#TDPV];
 </note>

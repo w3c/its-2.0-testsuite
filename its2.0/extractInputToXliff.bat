@@ -1,8 +1,8 @@
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\allowedcharacters -nocopy -x inputdata\allowedcharacters\xml\*xml.xml
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\allowedcharacters -nocopy -x inputdata\allowedcharacters\html\*html.html -fc okf_itshtml5
 
-call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\disambiguation -nocopy -x inputdata\disambiguation\xml\*xml.xml
-call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\disambiguation -nocopy -x inputdata\disambiguation\html\*html.html -fc okf_itshtml5
+call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\textanalysis -nocopy -x inputdata\textanalysis\xml\*xml.xml
+call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\textanalysis -nocopy -x inputdata\textanalysis\html\*html.html -fc okf_itshtml5
 
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\domain -nocopy -x inputdata\domain\xml\*xml.xml
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\domain -nocopy -x inputdata\domain\html\*html.html -fc okf_itshtml5

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<file original="inputdata/textanalysis/xml/textanalysis6xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taConfidence="0.7" its:taIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"> is the </source>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en" its:taConfidence="0.5" its:taIdent="301467919" its:taSource="Wordnet3.0">capital</source>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> of Ireland.</source>
+</trans-unit>
+</body>
+</file>
+</xliff>

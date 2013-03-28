@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
 <file original="inputdata/localizationnote/html/locnote7html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">LocNote test: Default</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">This is a <g id="1"><mrk comment="Check with terminology engineer" okp:itsLocNoteType="alert" mtype="x-its">motherboard</mrk></g>.</source>
+<source xml:lang="en">This is a <g id="1"><mrk comment="Check with terminology engineer" itsx:locNoteType="alert" mtype="x-its">motherboard</mrk></g>.</source>
 </trans-unit>
 </body>
 </file>

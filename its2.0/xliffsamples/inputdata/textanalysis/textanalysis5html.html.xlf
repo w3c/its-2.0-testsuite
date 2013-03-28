@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<file original="inputdata/textanalysis/html/textanalysis5html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Textanalysis: Local Test</source>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"><g id="1"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Dublin" mtype="x-its">Dublin</mrk></g> is the <g id="2"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#City" its:taIdent="301467919" its:taSource="Wordnet3.0" mtype="x-its">capital</mrk></g> of Ireland.</source>
+</trans-unit>
+</body>
+</file>
+</xliff>

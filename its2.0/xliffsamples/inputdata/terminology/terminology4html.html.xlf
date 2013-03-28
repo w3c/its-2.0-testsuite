@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
 <file original="inputdata/terminology/html/terminology4html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en"> We may define <g id="1"><mrk comment="the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction" mtype="term">discoursal point of view</mrk></g> as <g id="2">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction</g> . </source>
+<source xml:lang="en"> We may define <g id="1"><mrk itsx:termInfo="the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction" mtype="term">discoursal point of view</mrk></g> as <g id="2">the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction</g> . </source>
 <note annotates="source">Terms:
 discoursal point of view [the relationship, expressed through discourse structure, between the implied author or some other addresser, and the fiction];
 </note>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en"> We may define <g id="1"><mrk comment="a radiant or resplendent quality or state" mtype="term">refulgence</mrk></g> as <g id="2">a radiant or resplendent quality or state</g> </source>
+<source xml:lang="en"> We may define <g id="1"><mrk itsx:termInfo="a radiant or resplendent quality or state" mtype="term">refulgence</mrk></g> as <g id="2">a radiant or resplendent quality or state</g> </source>
 <note annotates="source">Terms:
 refulgence [a radiant or resplendent quality or state];
 </note>
