@@ -26,56 +26,7 @@
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate7htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	translate="yes"]
-* Implementers file line:[/html]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="no"]
-* Implementers file line:[/html/@lang]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]	translate="yes"]
-* Implementers file line:[/html/head[1]]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/script[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/script[1]/@type	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/title[1]]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	translate="no"]
-* Implementers file line:[/html/body[1]]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	locNote="Check with terminology engineer"	locNoteType="alert"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-loc-note]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-loc-note-type]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate7htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -178,92 +129,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/translate/html/translate6htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	translate="no"]
-* Implementers file line:[/html	translate="yes"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="no"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/span[1]/@id	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/@id	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/b[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/b[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/cite[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/cite[1]	translate="no"]
-* Implementers file line:[/html/body[1]/span[1]/cite[1]/i[1]	translate="yes"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]/cite[1]/i[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/ul[1]	translate="yes"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[1]	translate="yes"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[1]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[2]	translate="yes"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[2]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[3]	translate="yes"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[3]	translate="no"]
-* Implementers file line:[/html/body[1]/ul[1]/li[4]	translate="yes"]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/ul[1]/li[4]	translate="no"]
-* Implementers file line:[/html/body[1]/p[2]	translate="yes"]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[2]/span[1]	translate="yes"]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[2]/span[1]/@lang	translate="no"]</error>
-            <error>
-Line 24: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/span[1]/@lang	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/translate/html/translate6htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -745,9 +611,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -783,9 +647,7 @@ Line 24: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/html/locnote8htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1989,11 +1851,146 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale1xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale1xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale2xml.xml"
                  conformance-class="xml-local">
@@ -2002,13 +1999,113 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale2xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale2xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
+                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale5xml.xml"
                  conformance-class="xml-local">
@@ -2017,13 +2114,113 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale5xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale5xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
+                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale3xml.xml"
                  conformance-class="xml-global">
@@ -2032,11 +2229,122 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale3xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale3xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale4xml.xml"
                  conformance-class="xml-global">
@@ -2045,11 +2353,218 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale4xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale4xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/@version	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 17: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/@version	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 17: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/@version	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 17: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale1html.html"
                  conformance-class="html-global">
@@ -2058,15 +2573,162 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale1htmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/html/locale1htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt"/>
+                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale2html.html"
                  conformance-class="html-local">
@@ -2075,15 +2737,138 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt"/>
+                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale6xml.xml"
                  conformance-class="xml-global">
@@ -2092,11 +2877,194 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale6xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale6xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>
+                             location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale7xml.xml"
                  conformance-class="xml-global">
@@ -2105,13 +3073,130 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/xml/locale7xmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/xml/locale7xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/xml/locale7xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
+* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/localefilter/xml/locale8xml.xml"
+                 conformance-class="xml-local">
+         <description assertions="localefilter-local">Local - Exclusion</description>
+         <expectedOutput location="expected/localefilter/xml/locale8xmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/localefilter/xml/locale8xmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/localefilter/xml/locale8xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="shaun"
+                             location="outputimplementors/shaun/localefilter/xml/locale8xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="tilde"
+                             location="outputimplementors/tilde/localefilter/xml/locale8xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale3html.html"
                  conformance-class="html-global">
@@ -2120,13 +3205,111 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localefilter/html/locale3htmloutput.txt"/>
+                             location="outputimplementors/ul/localefilter/html/locale3htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale4html.html"
                  conformance-class="html-global">
@@ -2136,14 +3319,121 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/html/locale4htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/script[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/script[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@type	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/script[1]/@type	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
          </outputImplementors>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt"/>
+                             location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt">
+            <error>
+Line 1: Comparison failed.
+* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html	localeFilterList="*"]</error>
+            <error>
+Line 2: Comparison failed.
+* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
+            <error>
+Line 3: Comparison failed.
+* Reference line: [/html/head[1]/script[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/script[1]	localeFilterList="*"]</error>
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@type	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/script[1]/@type	localeFilterList="*"]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
+         </outputImplementors>
+      </inputfile>
+      <inputfile location="inputdata/localefilter/html/locale5html.html"
+                 conformance-class="html-local">
+         <description assertions="localefilter-local html5-markup">Local - Exclusion</description>
+         <expectedOutput location="expected/localefilter/html/locale5htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/localefilter/html/locale5htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/localefilter/html/locale5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="shaun"
+                             location="outputimplementors/shaun/localefilter/html/locale5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+         <outputImplementors implementer="tilde"
+                             location="outputimplementors/tilde/localefilter/html/locale5htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--Provenance--><dataCategory identifier="provenance" name="Provenance">
@@ -3191,9 +4481,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/html/mtconfidence2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/html/mtconfidence2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence3xml.xml"
                  conformance-class="xml-local">
@@ -3226,9 +4514,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/html/mtconfidence1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/html/mtconfidence1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence6xml.xml"
                  conformance-class="xml-global">
