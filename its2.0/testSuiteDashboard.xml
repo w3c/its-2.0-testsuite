@@ -745,40 +745,7 @@
          <description assertions="term-local">Local - In host element with its:annotatorsRef</description>
          <expectedOutput location="expected/terminology/xml/terminology9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/terminology/xml/terminology9xmloutput.txt">
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/body[1]	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/body[1]/@its:annotatorsRef	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/@its:annotatorsRef	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/body[1]/p[1]	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/p[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/quote[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termConfidence="0.5"	termInfoRef="http://www.directron.com/motherboards1.html"]
-* Implementers file line:[/book/body[1]/p[1]/quote[1]	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="yes"	termConfidence="0.5"	termInfoRef="http://www.directron.com/motherboards1.html"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/quote[1]/@its:annotatorsRef	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:annotatorsRef	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/quote[1]/@its:term	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:term	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/quote[1]/@its:termConfidence	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:termConfidence	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/quote[1]/@its:termInfoRef	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/book/body[1]/p[1]/quote[1]/@its:termInfoRef	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/terminology/xml/terminology9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/terminology/xml/terminology9xmloutput.txt">
             <error>
@@ -866,40 +833,7 @@ Line 11: Comparison failed.
          <description assertions="term-local html5-markup">Local - In host element with its:annotatorsRef</description>
          <expectedOutput location="expected/terminology/html/terminology5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/terminology/html/terminology5htmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/body[1]	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/@its-annotators-ref	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	annotatorsRef="text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/p[1]	annotatorsRef="disambiguation|file:///tools.xml#T1"	term="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termConfidence="0.5"	termInfoRef="#TDPV"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="yes"	termConfidence="0.5"	termInfoRef="#TDPV"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-annotators-ref	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-term	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-term	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-term-confidence	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-term-confidence	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-term-info-ref	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@its-term-info-ref	annotatorsRef="disambiguation|file:///tools.xml#T1 terminology|http://example.com/term-tool#T2"	term="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/terminology/html/terminology5htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/terminology/html/terminology5htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1455,20 +1389,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	withinText="no"]
-* Implementers file line:[/html/body[1]	withinText="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml"
                  conformance-class="xml-local">
@@ -1556,20 +1477,7 @@ Line 10: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	withinText="no"]
-* Implementers file line:[/html/body[1]	withinText="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html"
                  conformance-class="html-global">
@@ -1586,20 +1494,7 @@ Line 10: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	withinText="no"]
-* Implementers file line:[/html/body[1]	withinText="no"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/section[1]	withinText="no"]
-* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -1827,16 +1722,7 @@ Line 14: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/head[1]/title[1]]
-* Implementers file line:[/html/body[1]	domains="law"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]	domains="law"]
-* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain4html.html"
                  conformance-class="html-global">
@@ -1898,16 +1784,7 @@ Line 15: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/head[1]/title[1]]
-* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
-* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Text Analysis --><dataCategory identifier="text-analysis" name="Text Analysis">
@@ -4398,52 +4275,7 @@ Line 22: Comparison failed.
 * Implementers file line:[/html/body[1]/p[1]/span[4]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/mtconfidence/html/mtconfidence4htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-annotators-ref	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"	mtConfidence="0.8982"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"	mtConfidence="0.8982"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@id	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]/@id	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[3]	annotatorsRef="mt-confidence|file:///tools.xml#T3 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[3]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[3]/@id	annotatorsRef="mt-confidence|file:///tools.xml#T3 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[3]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[3]/@its-annotators-ref	annotatorsRef="mt-confidence|file:///tools.xml#T3 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[3]/@its-annotators-ref	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T3"]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[4]	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[4]	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[4]/@id	annotatorsRef="mt-confidence|file:///tools.xml#T1 text-analysis|file:///tools.xml#T2"]
-* Implementers file line:[/html/body[1]/p[1]/span[4]/@id	annotatorsRef="disambiguation|file:///tools.xml#T2 mt-confidence|file:///tools.xml#T1"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence4htmloutput.txt">
             <error>outputFileNotFound</error>
