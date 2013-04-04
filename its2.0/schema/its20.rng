@@ -101,64 +101,54 @@
       <ref name="its-domainMapping.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigGranularity">
-    <attribute name="its:disambigGranularity">
-      <ref name="its-disambigGranularity.type"/>
+  <define name="its-attribute.taConfidence">
+    <attribute name="its:taConfidence">
+      <ref name="its-taConfidence.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigGranularity.nons">
-    <attribute name="disambigGranularity">
-      <ref name="its-disambigGranularity.type"/>
+  <define name="its-attribute.taConfidence.nons">
+    <attribute name="taConfidence">
+      <ref name="its-taConfidence.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigConfidence">
-    <attribute name="its:disambigConfidence">
-      <ref name="its-disambigConfidence.type"/>
+  <define name="its-attribute.taClassRef">
+    <attribute name="its:taClassRef">
+      <ref name="its-taClassRef.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigConfidence.nons">
-    <attribute name="disambigConfidence">
-      <ref name="its-disambigConfidence.type"/>
+  <define name="its-attribute.taClassRef.nons">
+    <attribute name="taClassRef">
+      <ref name="its-taClassRef.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigClassRef">
-    <attribute name="its:disambigClassRef">
-      <ref name="its-disambigClassRef.type"/>
+  <define name="its-attribute.taIdent">
+    <attribute name="its:taIdent">
+      <ref name="its-taIdent.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigClassRef.nons">
-    <attribute name="disambigClassRef">
-      <ref name="its-disambigClassRef.type"/>
+  <define name="its-attribute.taIdent.nons">
+    <attribute name="taIdent">
+      <ref name="its-taIdent.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigIdent">
-    <attribute name="its:disambigIdent">
-      <ref name="its-disambigIdent.type"/>
+  <define name="its-attribute.taIdentRef">
+    <attribute name="its:taIdentRef">
+      <ref name="its-taIdentRef.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigIdent.nons">
-    <attribute name="disambigIdent">
-      <ref name="its-disambigIdent.type"/>
+  <define name="its-attribute.taIdentRef.nons">
+    <attribute name="taIdentRef">
+      <ref name="its-taIdentRef.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigIdentRef">
-    <attribute name="its:disambigIdentRef">
-      <ref name="its-disambigIdentRef.type"/>
+  <define name="its-attribute.taSource">
+    <attribute name="its:taSource">
+      <ref name="its-taSource.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigIdentRef.nons">
-    <attribute name="disambigIdentRef">
-      <ref name="its-disambigIdentRef.type"/>
-    </attribute>
-  </define>
-  <define name="its-attribute.disambigSource">
-    <attribute name="its:disambigSource">
-      <ref name="its-disambigSource.type"/>
-    </attribute>
-  </define>
-  <define name="its-attribute.disambigSource.nons">
-    <attribute name="disambigSource">
-      <ref name="its-disambigSource.type"/>
+  <define name="its-attribute.taSource.nons">
+    <attribute name="taSource">
+      <ref name="its-taSource.type"/>
     </attribute>
   </define>
   <define name="its-attribute.localeFilterList">
@@ -169,6 +159,16 @@
   <define name="its-attribute.localeFilterList.nons">
     <attribute name="localeFilterList">
       <ref name="its-localeFilterList.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.localeFilterType">
+    <attribute name="its:localeFilterType">
+      <ref name="its-localeFilterType.type"/>
+    </attribute>
+  </define>
+  <define name="its-attribute.localeFilterType.nons">
+    <attribute name="localeFilterType">
+      <ref name="its-localeFilterType.type"/>
     </attribute>
   </define>
   <define name="its-attribute.person">
@@ -539,7 +539,7 @@
         <ref name="its-langRule"/>
         <ref name="its-withinTextRule"/>
         <ref name="its-domainRule"/>
-        <ref name="its-disambiguationRule"/>
+        <ref name="its-textAnalysisRule"/>
         <ref name="its-localeFilterRule"/>
         <ref name="its-provRule"/>
         <ref name="its-locQualityIssueRule"/>
@@ -610,25 +610,25 @@
         <ref name="its-attribute.withinText"/>
       </optional>
       <optional>
-        <ref name="its-attribute.disambigConfidence"/>
+        <ref name="its-attribute.taConfidence"/>
       </optional>
       <optional>
-        <ref name="its-attribute.disambigGranularity"/>
-      </optional>
-      <optional>
-        <ref name="its-attribute.disambigClassRef"/>
+        <ref name="its-attribute.taClassRef"/>
       </optional>
       <optional>
         <choice>
           <group>
-            <ref name="its-attribute.disambigSource"/>
-            <ref name="its-attribute.disambigIdent"/>
+            <ref name="its-attribute.taSource"/>
+            <ref name="its-attribute.taIdent"/>
           </group>
-          <ref name="its-attribute.disambigIdentRef"/>
+          <ref name="its-attribute.taIdentRef"/>
         </choice>
       </optional>
       <optional>
         <ref name="its-attribute.localeFilterList"/>
+        <optional>
+          <ref name="its-attribute.localeFilterType"/>
+        </optional>
       </optional>
       <optional>
         <choice>
@@ -767,25 +767,25 @@
         <ref name="its-attribute.withinText.nons"/>
       </optional>
       <optional>
-        <ref name="its-attribute.disambigConfidence.nons"/>
+        <ref name="its-attribute.taConfidence.nons"/>
       </optional>
       <optional>
-        <ref name="its-attribute.disambigGranularity.nons"/>
-      </optional>
-      <optional>
-        <ref name="its-attribute.disambigClassRef.nons"/>
+        <ref name="its-attribute.taClassRef.nons"/>
       </optional>
       <optional>
         <choice>
           <group>
-            <ref name="its-attribute.disambigSource.nons"/>
-            <ref name="its-attribute.disambigIdent.nons"/>
+            <ref name="its-attribute.taSource.nons"/>
+            <ref name="its-attribute.taIdent.nons"/>
           </group>
-          <ref name="its-attribute.disambigIdentRef.nons"/>
+          <ref name="its-attribute.taIdentRef.nons"/>
         </choice>
       </optional>
       <optional>
         <ref name="its-attribute.localeFilterList.nons"/>
+        <optional>
+          <ref name="its-attribute.localeFilterType.nons"/>
+        </optional>
       </optional>
       <optional>
         <choice>
@@ -886,7 +886,7 @@
           <ref name="its-attribute.storageEncoding.nons"/>
         </optional>
         <optional>
-          <ref name="its-attribute.lineBreakType"/>
+          <ref name="its-attribute.lineBreakType.nons"/>
         </optional>
       </optional>
       <optional>
@@ -1184,63 +1184,49 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <ref name="its-relative-selector.type"/>
     </attribute>
   </define>
-  <define name="its-disambiguationRule">
-    <element name="disambiguationRule">
+  <define name="its-textAnalysisRule">
+    <element name="textAnalysisRule">
       <a:documentation>Rule about the Disambiguation data category</a:documentation>
-      <ref name="its-disambiguationRule.content"/>
-      <ref name="its-disambiguationRule.attributes"/>
+      <ref name="its-textAnalysisRule.content"/>
+      <ref name="its-textAnalysisRule.attributes"/>
     </element>
   </define>
-  <define name="its-disambiguationRule.content">
+  <define name="its-textAnalysisRule.content">
     <empty/>
   </define>
-  <define name="its-disambiguationRule.attributes">
+  <define name="its-textAnalysisRule.attributes">
     <ref name="its-attribute.selector"/>
     <optional>
-      <ref name="its-attribute.disambigGranularity.nons"/>
-    </optional>
-    <optional>
-      <ref name="its-attribute.disambigSource.nons"/>
-    </optional>
-    <optional>
-      <choice>
-        <ref name="its-attribute.disambigClassPointer.nons"/>
-        <ref name="its-attribute.disambigClassRefPointer.nons"/>
-      </choice>
+      <ref name="its-attribute.taClassRefPointer.nons"/>
     </optional>
     <optional>
       <choice>
         <group>
-          <ref name="its-attribute.disambigSourcePointer.nons"/>
-          <ref name="its-attribute.disambigIdentPointer.nons"/>
+          <ref name="its-attribute.taSourcePointer.nons"/>
+          <ref name="its-attribute.taIdentPointer.nons"/>
         </group>
-        <ref name="its-attribute.disambigIdentRefPointer.nons"/>
+        <ref name="its-attribute.taIdentRefPointer.nons"/>
       </choice>
     </optional>
   </define>
-  <define name="its-attribute.disambigClassPointer.nons">
-    <attribute name="disambigClassPointer">
-      <ref name="its-disambigClassPointer.type"/>
+  <define name="its-attribute.taClassRefPointer.nons">
+    <attribute name="taClassRefPointer">
+      <ref name="its-taClassRefPointer.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigClassRefPointer.nons">
-    <attribute name="disambigClassRefPointer">
-      <ref name="its-disambigClassRefPointer.type"/>
+  <define name="its-attribute.taIdentPointer.nons">
+    <attribute name="taIdentPointer">
+      <ref name="its-taIdentPointer.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigIdentPointer.nons">
-    <attribute name="disambigIdentPointer">
-      <ref name="its-disambigIdentPointer.type"/>
+  <define name="its-attribute.taSourcePointer.nons">
+    <attribute name="taSourcePointer">
+      <ref name="its-taSourcePointer.type"/>
     </attribute>
   </define>
-  <define name="its-attribute.disambigSourcePointer.nons">
-    <attribute name="disambigSourcePointer">
-      <ref name="its-disambigSourcePointer.type"/>
-    </attribute>
-  </define>
-  <define name="its-attribute.disambigIdentRefPointer.nons">
-    <attribute name="disambigIdentRefPointer">
-      <ref name="its-disambigIdentRefPointer.type"/>
+  <define name="its-attribute.taIdentRefPointer.nons">
+    <attribute name="taIdentRefPointer">
+      <ref name="its-taIdentRefPointer.type"/>
     </attribute>
   </define>
   <define name="its-localeFilterRule">
@@ -1256,6 +1242,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-localeFilterRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.localeFilterList.nons"/>
+    <optional>
+      <ref name="its-attribute.localeFilterType.nons"/>
+    </optional>
   </define>
   <define name="its-provRule">
     <element name="provRule">
@@ -1485,6 +1474,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <attribute name="xml:id">
         <data type="ID"/>
       </attribute>
+      <optional>
+        <ref name="its-attribute.version.nons"/>
+      </optional>
     </element>
   </define>
   <define name="its-provenanceRecord">
@@ -1545,6 +1537,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <attribute name="xml:id">
         <data type="ID"/>
       </attribute>
+      <optional>
+        <ref name="its-attribute.version.nons"/>
+      </optional>
     </element>
   </define>
   <define name="its-locQualityIssue">

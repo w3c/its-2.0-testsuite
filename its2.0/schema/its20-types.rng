@@ -28,7 +28,7 @@
     <data type="string" datatypeLibrary=""/>
   </define>
   <define name="its-confidence.type">
-    <data type="decimal">
+    <data type="double">
       <param name="minInclusive">0</param>
       <param name="maxInclusive">1</param>
     </data>
@@ -102,45 +102,44 @@ and workflow specific values. The values may contain spaces; in
 that case they MUST be delimited by quotation marks.</a:documentation>
     <data type="string" datatypeLibrary=""/>
   </define>
-  <define name="its-disambigGranularity.type">
-    <choice>
-      <value>lexical-concept</value>
-      <value>ontology-concept</value>
-      <value>entity</value>
-    </choice>
-  </define>
-  <define name="its-disambigConfidence.type">
+  <define name="its-taConfidence.type">
     <ref name="its-confidence.type"/>
   </define>
-  <define name="its-disambigClassPointer.type">
+  <define name="its-taClassPointer.type">
     <ref name="its-relative-selector.type"/>
   </define>
-  <define name="its-disambigClassRefPointer.type">
+  <define name="its-taClassRefPointer.type">
     <ref name="its-relative-selector.type"/>
   </define>
-  <define name="its-disambigClassRef.type">
+  <define name="its-taClassRef.type">
     <data type="anyURI"/>
   </define>
-  <define name="its-disambigIdentRef.type">
+  <define name="its-taIdentRef.type">
     <data type="anyURI"/>
   </define>
-  <define name="its-disambigIdent.type">
+  <define name="its-taIdent.type">
     <data type="string" datatypeLibrary=""/>
   </define>
-  <define name="its-disambigSource.type">
+  <define name="its-taSource.type">
     <data type="string" datatypeLibrary=""/>
   </define>
-  <define name="its-disambigIdentPointer.type">
+  <define name="its-taIdentPointer.type">
     <ref name="its-relative-selector.type"/>
   </define>
-  <define name="its-disambigIdentRefPointer.type">
+  <define name="its-taIdentRefPointer.type">
     <ref name="its-relative-selector.type"/>
   </define>
-  <define name="its-disambigSourcePointer.type">
+  <define name="its-taSourcePointer.type">
     <ref name="its-relative-selector.type"/>
   </define>
   <define name="its-localeFilterList.type">
     <data type="string" datatypeLibrary=""/>
+  </define>
+  <define name="its-localeFilterType.type">
+    <choice>
+      <value>include</value>
+      <value>exclude</value>
+    </choice>
   </define>
   <define name="its-provenanceRecordsRef.type">
     <data type="anyURI"/>
@@ -235,6 +234,7 @@ that case they MUST be delimited by quotation marks.</a:documentation>
       <value>whitespace</value>
       <value>internationalization</value>
       <value>length</value>
+      <value>non-conformance</value>
       <value>uncategorized</value>
       <value>other</value>
     </choice>
@@ -249,7 +249,7 @@ that case they MUST be delimited by quotation marks.</a:documentation>
     <ref name="its-relative-selector.type"/>
   </define>
   <define name="its-locQualityIssueSeverity.type">
-    <data type="decimal">
+    <data type="double">
       <param name="minInclusive">0</param>
       <param name="maxInclusive">100</param>
     </data>
@@ -270,7 +270,7 @@ that case they MUST be delimited by quotation marks.</a:documentation>
     </choice>
   </define>
   <define name="its-locQualityRatingScore.type">
-    <data type="decimal">
+    <data type="double">
       <param name="minInclusive">0</param>
       <param name="maxInclusive">100</param>
     </data>
@@ -279,7 +279,7 @@ that case they MUST be delimited by quotation marks.</a:documentation>
     <data type="integer"/>
   </define>
   <define name="its-locQualityRatingScoreThreshold.type">
-    <data type="decimal">
+    <data type="double">
       <param name="minInclusive">0</param>
       <param name="maxInclusive">100</param>
     </data>
