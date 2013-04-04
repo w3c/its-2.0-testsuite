@@ -22,4 +22,3 @@
 /html/body[1]/p[3]	withinText="yes"
 /html/body[1]/p[3]/@id
 /html/body[1]/p[3]/em[1]	withinText="yes"
-
