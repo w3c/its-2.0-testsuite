@@ -485,7 +485,7 @@ location CDATA #REQUIRED>
    </dataCategory>
 
    <!--Directionality-->
-   <dataCategory identifier="directionality" name="Directionality, non-normative">
+   <dataCategory identifier="directionality" name="Directionality">
       <inputfile location="inputdata/directionality/xml/dir1xml.xml" conformance-class="xml-global">
          <description assertions="dir-global">Global - Embedded rules</description>
          <expectedOutput location="expected/directionality/xml/dir1xmloutput.txt"/>
