@@ -5,6 +5,9 @@
 /text/head[1]/its:rules[1]/its:langRule[1]
 /text/head[1]/its:rules[1]/its:langRule[1]/@langPointer
 /text/head[1]/its:rules[1]/its:langRule[1]/@selector
+/text/head[1]/its:rules[1]/its:langRule[2]
+/text/head[1]/its:rules[1]/its:langRule[2]/@langPointer
+/text/head[1]/its:rules[1]/its:langRule[2]/@selector
 /text/content[1]	lang="en"
 /text/content[1]/@language	lang="en"
 /text/content[1]/par[1]	lang="en"
