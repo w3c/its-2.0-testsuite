@@ -1301,7 +1301,20 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1311,7 +1324,20 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml"
                  conformance-class="xml-local">
@@ -1389,7 +1415,20 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1399,14 +1438,40 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html"
                  conformance-class="html-global">
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1416,7 +1481,20 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/title[1]	withinText="no"]
+* Implementers file line:[/html/body[1]	withinText="no"]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/html/body[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]	withinText="no"]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/section[1]	withinText="no"]
+* Implementers file line:[/html/body[1]/section[1]/title[1]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -1589,46 +1667,168 @@ Line 15: Comparison failed.
          <description assertions="domain-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/domain/html/domain3htmloutput.txt"/>
+                             location="outputimplementors/enlaso/domain/html/domain3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="law"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]	domains="law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]	domains="law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/domain/html/domain3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain3htmloutput.txt"/>
+                             location="outputimplementors/linguaserve/domain/html/domain3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="law"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]	domains="law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]	domains="law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain3htmloutput.txt"/>
+                             location="outputimplementors/dcu/domain/html/domain3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="law"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]	domains="law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]	domains="law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/html/domain3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/html/domain3htmloutput.txt"/>
+                             location="outputimplementors/jsi/domain/html/domain3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="law"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]	domains="law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[2]	domains="law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt"/>
+                             location="outputimplementors/tilde/domain/html/domain3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="law"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]	domains="law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain4html.html"
                  conformance-class="html-global">
          <description assertions="domain-global its-param html5-global-rules">Global - Embedded with its:param and case-sensitive values</description>
          <expectedOutput location="expected/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/enlaso/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/jsi/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[]</error>
+         </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt"/>
+                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/head[1]/title[1]]
+* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
+* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--Text Analysis --><dataCategory identifier="text-analysis" name="Text Analysis">
