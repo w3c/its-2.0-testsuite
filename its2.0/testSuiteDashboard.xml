@@ -924,6 +924,17 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
       </inputfile>
+      <inputfile location="inputdata/directionality/html/dir2html.html"
+                 conformance-class="html-global">
+         <description assertions="dir-global">Global - Embedded rules</description>
+         <expectedOutput location="expected/directionality/html/dir2htmloutput.txt"/>
+         <outputImplementors implementer="enlaso"
+                             location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt"/>
+         <outputImplementors implementer="ul"
+                             location="outputimplementors/ul/directionality/html/dir2htmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
+      </inputfile>
    </dataCategory>
    <!--Ruby--><dataCategory identifier="ruby" name="Ruby, non-normative">
       <inputfile location="inputdata/ruby/xml/ruby1xml.xml"
