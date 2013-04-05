@@ -1673,20 +1673,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain3htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/head[1]/title[1]]
-* Implementers file line:[/html/body[1]	domains="law"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]	domains="law"]
-* Implementers file line:[/html/body[1]/p[1]	domains="law"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]	domains="law"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/html/domain3htmloutput.txt">
             <error>
@@ -1735,20 +1722,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/head[1]/title[1]]
-* Implementers file line:[/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
-* Implementers file line:[/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	domains="SPORTS LAW, Judicial Matters, Sport, Law"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
             <error>
