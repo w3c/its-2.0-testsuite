@@ -1,0 +1,14 @@
+/file
+/file/its:rules[1]
+/file/its:rules[1]/@version
+/file/its:rules[1]/@xlink:href
+/file/entry[1]
+/file/entry[1]/@id
+/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"
+/file/entry[1]/target[1]
+/file/entry[1]/target[1]/@id
+/file/entry[2]
+/file/entry[2]/@id
+/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"
+/file/entry[2]/target[1]
+/file/entry[2]/target[1]/@id
