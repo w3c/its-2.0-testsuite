@@ -47,9 +47,9 @@
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:variable name="referenceFileLines"
-                                select="tokenize(unparsed-text(concat($testsuiteLocation,preceding-sibling::my:expectedOutput/@location)), '\r?\n')"/>
+                                select="tokenize(unparsed-text(concat($testsuiteLocation,@location)), '\r?\n')"/>
                             <xsl:for-each
-                                select="tokenize(unparsed-text(concat($testsuiteLocation,@location)), '\r?\n')">
+                                select="tokenize(unparsed-text(concat($testsuiteLocation,preceding-sibling::my:expectedOutput/@location)), '\r?\n')">
                                 <xsl:variable name="position" select="position()"/>
                                 <xsl:variable name="line" select="."/>
                                 <xsl:if
