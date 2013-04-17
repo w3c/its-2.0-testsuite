@@ -46,20 +46,20 @@
                             <error>outputFileNotFound</error>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:variable name="referenceFileLines"
+                            <xsl:variable name="implementersFileLines"
                                 select="tokenize(unparsed-text(concat($testsuiteLocation,@location)), '\r?\n')"/>
                             <xsl:for-each
                                 select="tokenize(unparsed-text(concat($testsuiteLocation,preceding-sibling::my:expectedOutput/@location)), '\r?\n')">
                                 <xsl:variable name="position" select="position()"/>
                                 <xsl:variable name="line" select="."/>
                                 <xsl:if
-                                    test="string-length(replace($line,'\s+','')) != string-length(replace($referenceFileLines[position()=$position],'\s+',''))">
+                                    test="compare(replace($line,'\s+',''), replace($implementersFileLines[position()=$position],'\s+',''))!=0">
                                     <error><xsl:text>&#xA;Line </xsl:text><xsl:value-of
                                             select="$position"
                                             /><xsl:text>: Comparison failed.&#xA;* Reference line: </xsl:text>[<xsl:value-of
-                                            select="$referenceFileLines[position()=$position]"
+                                            select="$line"
                                             /><xsl:text>]&#xA;* Implementers file line:[</xsl:text><xsl:value-of
-                                            select="$line"/><xsl:text>]</xsl:text></error>
+                                            select="$implementersFileLines[position()=$position]"/><xsl:text>]</xsl:text></error>
                                 </xsl:if>
                             </xsl:for-each>
                         </xsl:otherwise>
