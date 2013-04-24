@@ -12,4 +12,3 @@
 /html/body[1]/p[1]/q[1]	dir="rtl"
 /html/body[1]/p[1]/q[1]/@class	dir="rtl"
 /html/body[1]/p[1]/q[1]/@lang	dir="rtl"
-/html/body[1]/p[1]/quote[1]	dir="ltr"

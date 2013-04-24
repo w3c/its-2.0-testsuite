@@ -938,12 +938,7 @@ Line 11: Comparison failed.
          <description assertions="dir-local">Local</description>
          <expectedOutput location="expected/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/directionality/html/dir1htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/html/dir1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -961,12 +956,7 @@ Line 12: Comparison failed.
          <description assertions="dir-global html5-global-rules">Global - Embedded rules</description>
          <expectedOutput location="expected/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/html/dir2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -984,12 +974,7 @@ Line 14: Comparison failed.
          <description assertions="dir-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/directionality/html/dir3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/directionality/html/dir3htmloutput.txt">
-            <error>
-Line 15: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/directionality/html/dir3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/html/dir3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1007,12 +992,7 @@ Line 15: Comparison failed.
          <description assertions="dir-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/directionality/html/dir4htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/html/dir4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -4211,52 +4191,7 @@ Line 22: Comparison failed.
          <description assertions="storagesize-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt">
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/messages/its:span[1]/@storageEncoding]
-* Implementers file line:[/messages/its:span[1]/@num]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/messages/its:span[1]/@storageSize]
-* Implementers file line:[/messages/its:span[1]/@storageEncoding]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/messages/its:span[2]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="8"]
-* Implementers file line:[/messages/its:span[1]/@storageSize]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/messages/its:span[2]/@lineBreakType]
-* Implementers file line:[/messages/its:span[2]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="8"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/messages/its:span[2]/@storageEncoding]
-* Implementers file line:[/messages/its:span[2]/@lineBreakType]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/messages/its:span[2]/@storageSize]
-* Implementers file line:[/messages/its:span[2]/@num]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/messages/its:span[3]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="12"]
-* Implementers file line:[/messages/its:span[2]/@storageEncoding]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/messages/its:span[3]/@lineBreakType]
-* Implementers file line:[/messages/its:span[2]/@storageSize]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/messages/its:span[3]/@storageEncoding]
-* Implementers file line:[/messages/its:span[3]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="12"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/messages/its:span[3]/@storageSize]
-* Implementers file line:[/messages/its:span[3]/@lineBreakType]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: []
-* Implementers file line:[/messages/its:span[3]/@num]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt">
             <error>
