@@ -1467,6 +1467,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue2html.html" conformance-class="html-global">
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueSeverity</description>
@@ -1475,6 +1476,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue3html.html" conformance-class="html-global">
          <description assertions="lqissue-global html5-external-global-rules">Global - Linked rules with locQualityIssueProfileRef</description>
@@ -1532,6 +1534,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue5html.html" conformance-class="html-local">
          <description assertions="lqissue-local html5-markup">Local - in host with locQualityComment</description>
@@ -1541,6 +1544,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue5htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue6html.html" conformance-class="html-local">
          <description assertions="lqissue-local html5-markup">Local - in host with everything</description>
@@ -1550,6 +1554,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue6htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue7html.html" conformance-class="html-local">
          <description assertions="lqissue-local html5-markup">Local - standoff in same document</description>
@@ -1559,6 +1564,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue9html.html" conformance-class="html-local">
          <description assertions="lqissue-local html5-markup">Local - standoff in an external document</description>
@@ -1567,6 +1573,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue9htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue9htmloutput.txt"/>
 		 <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue9htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue11xml.xml" conformance-class="xml-global">
          <description assertions="lqissue-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1592,6 +1599,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue8htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue8htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue8htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue8htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue10html.html" conformance-class="html-global">
          <description assertions="lqissue-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1601,6 +1609,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue10htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue10htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 

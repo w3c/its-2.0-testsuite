@@ -944,12 +944,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/directionality/html/dir1htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/directionality/html/dir1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir2html.html"
                  conformance-class="html-global">
@@ -962,12 +957,7 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/directionality/html/dir2htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/directionality/html/dir2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir3html.html"
                  conformance-class="html-global">
@@ -980,12 +970,7 @@ Line 14: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/directionality/html/dir3htmloutput.txt">
-            <error>
-Line 15: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/directionality/html/dir3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir4html.html"
                  conformance-class="html-global">
@@ -998,12 +983,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/directionality/html/dir4htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/quote[1]	dir="ltr"]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/directionality/html/dir4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Ruby--><dataCategory identifier="ruby" name="Ruby, non-normative">
@@ -1498,7 +1478,12 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 22: Comparison failed.
+* Reference line: [/html/body[1]/p[3]	withinText="no"]
+* Implementers file line:[/html/body[1]/p[3]	withinText="yes"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1508,7 +1493,12 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 22: Comparison failed.
+* Reference line: [/html/body[1]/p[3]	withinText="no"]
+* Implementers file line:[/html/body[1]/p[3]	withinText="yes"]</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -3519,6 +3509,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue2html.html"
                  conformance-class="html-global">
@@ -3532,6 +3524,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue3html.html"
                  conformance-class="html-global">
@@ -3630,6 +3624,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue5html.html"
                  conformance-class="html-local">
@@ -3645,6 +3641,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue5htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue6html.html"
                  conformance-class="html-local">
@@ -3660,6 +3658,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue6htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue7html.html"
                  conformance-class="html-local">
@@ -3668,20 +3668,149 @@ Line 15: Comparison failed.
          <outputImplementors implementer="vistatec"
                              location="outputimplementors/vistatec/locqualityissue/html/locqualityissue7htmloutput.txt">
             <error>
-Line 17: Comparison failed.
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@id]
+* Implementers file line:[/html/head[1]/script[1]/@src]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/head[1]/style[1]]
+* Implementers file line:[/html/head[1]/script[2]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/head[1]/style[1]/@type]
+* Implementers file line:[/html/head[1]/script[2]/@id]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]]
+* Implementers file line:[/html/head[1]/script[2]/@type]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]]
+* Implementers file line:[/html/head[1]/style[1]]</error>
+            <error>
+Line 13: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	locQualityIssueEnabled="yes"	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]</error>
+* Implementers file line:[/html/head[1]/style[1]/@type]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
+* Implementers file line:[/html/body[1]]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: []
+* Implementers file line:[/html/body[1]/@onload]</error>
          </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/locqualityissue/html/locqualityissue7htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="logrus"
-                             location="outputimplementors/logrus/locqualityissue/html/locqualityissue7htmloutput.txt"/>
+                             location="outputimplementors/logrus/locqualityissue/html/locqualityissue7htmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@id]
+* Implementers file line:[/html/head[1]/script[1]/@src]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/head[1]/style[1]]
+* Implementers file line:[/html/head[1]/script[2]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/head[1]/style[1]/@type]
+* Implementers file line:[/html/head[1]/script[2]/@id]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]]
+* Implementers file line:[/html/head[1]/script[2]/@type]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]]
+* Implementers file line:[/html/head[1]/style[1]]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
+* Implementers file line:[/html/head[1]/style[1]/@type]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
+* Implementers file line:[/html/body[1]]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: []
+* Implementers file line:[/html/body[1]/@onload]</error>
+         </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt"/>
+                             location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@id]
+* Implementers file line:[/html/head[1]/script[1]/@src]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/head[1]/style[1]]
+* Implementers file line:[/html/head[1]/script[2]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/head[1]/style[1]/@type]
+* Implementers file line:[/html/head[1]/script[2]/@id]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]]
+* Implementers file line:[/html/head[1]/script[2]/@type]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]]
+* Implementers file line:[/html/head[1]/style[1]]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
+* Implementers file line:[/html/head[1]/style[1]/@type]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
+* Implementers file line:[/html/body[1]]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: []
+* Implementers file line:[/html/body[1]/@onload]</error>
+         </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt"/>
+                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/html/head[1]/script[1]/@id]
+* Implementers file line:[/html/head[1]/script[1]/@src]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/head[1]/style[1]]
+* Implementers file line:[/html/head[1]/script[2]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/head[1]/style[1]/@type]
+* Implementers file line:[/html/head[1]/script[2]/@id]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]]
+* Implementers file line:[/html/head[1]/script[2]/@type]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]]
+* Implementers file line:[/html/head[1]/style[1]]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
+* Implementers file line:[/html/head[1]/style[1]/@type]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
+* Implementers file line:[/html/body[1]]</error>
+            <error>
+Line 15: Comparison failed.
+* Reference line: []
+* Implementers file line:[/html/body[1]/@onload]</error>
+         </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue9html.html"
                  conformance-class="html-local">
@@ -3697,6 +3826,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue9htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue9htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue11xml.xml"
                  conformance-class="xml-global">
@@ -3740,6 +3871,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue8htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue8htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue8htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue10html.html"
                  conformance-class="html-global">
@@ -3759,6 +3892,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue10htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityissue/html/locqualityissue10htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--LQR--><dataCategory identifier="localization-quality-rating"
