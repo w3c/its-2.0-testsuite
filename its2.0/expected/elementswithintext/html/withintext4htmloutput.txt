@@ -19,6 +19,6 @@
 /html/body[1]/p[2]/img[1]	withinText="yes"
 /html/body[1]/p[2]/img[1]/@alt
 /html/body[1]/p[2]/img[1]/@src
-/html/body[1]/p[3]	withinText="no"
+/html/body[1]/p[3]	withinText="yes"
 /html/body[1]/p[3]/@id
 /html/body[1]/p[3]/em[1]	withinText="yes"
