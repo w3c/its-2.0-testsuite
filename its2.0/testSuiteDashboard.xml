@@ -1478,12 +1478,7 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[3]	withinText="no"]
-* Implementers file line:[/html/body[1]/p[3]	withinText="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1493,12 +1488,7 @@ Line 22: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[3]	withinText="no"]
-* Implementers file line:[/html/body[1]/p[3]	withinText="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -2804,9 +2794,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance2xml.xml"
                  conformance-class="xml-global">
@@ -2817,9 +2805,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance2xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance3xml.xml"
                  conformance-class="xml-global">
@@ -2830,9 +2816,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance4xml.xml"
                  conformance-class="xml-global">
@@ -2843,9 +2827,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance5xml.xml"
                  conformance-class="xml-global">
@@ -2856,9 +2838,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance6xml.xml"
                  conformance-class="xml-global">
@@ -2869,9 +2849,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance6xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/provenance/xml/provenance6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/provenance/xml/provenance6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/xml/provenance7xml.xml"
                  conformance-class="xml-local">
@@ -3740,40 +3718,7 @@ Line 15: Comparison failed.
 * Implementers file line:[/html/body[1]/@onload]</error>
          </outputImplementors>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/script[1]/@id]
-* Implementers file line:[/html/head[1]/script[1]/@src]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/head[1]/style[1]]
-* Implementers file line:[/html/head[1]/script[2]]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/head[1]/style[1]/@type]
-* Implementers file line:[/html/head[1]/script[2]/@id]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]]
-* Implementers file line:[/html/head[1]/script[2]/@type]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]]
-* Implementers file line:[/html/head[1]/style[1]]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
-* Implementers file line:[/html/head[1]/style[1]/@type]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
-* Implementers file line:[/html/body[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/@onload]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt">
             <error>
