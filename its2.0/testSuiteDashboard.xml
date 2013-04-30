@@ -3127,9 +3127,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/targetpointer/xml/targetpointer1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3871,6 +3869,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/ul/locqualityrating/html/locqualityrating1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/html/locqualityrating1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityrating/html/locqualityrating1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/html/locqualityrating2html.html"
                  conformance-class="html-local">
@@ -3882,6 +3882,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/ul/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/html/locqualityrating2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/locqualityrating/html/locqualityrating2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating3xml.xml"
                  conformance-class="xml-local">
@@ -3935,6 +3937,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/mtconfidence/html/mtconfidence2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence3xml.xml"
                  conformance-class="xml-local">
@@ -3968,6 +3972,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/mtconfidence/html/mtconfidence1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence6xml.xml"
                  conformance-class="xml-global">
@@ -4003,6 +4009,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/mtconfidence/html/mtconfidence3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence4html.html"
                  conformance-class="html-global">
@@ -4061,6 +4069,8 @@ Line 22: Comparison failed.
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence4htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/mtconfidence/html/mtconfidence4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence5html.html"
                  conformance-class="html-global">
@@ -4074,6 +4084,8 @@ Line 22: Comparison failed.
                              location="outputimplementors/ul/mtconfidence/html/mtconfidence5htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
+         <outputImplementors implementer="cocomore"
+                             location="outputimplementors/cocomore/mtconfidence/html/mtconfidence5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Allowed Characters--><dataCategory identifier="allowed-characters" name="Allowed Characters">
