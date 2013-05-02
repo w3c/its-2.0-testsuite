@@ -2790,16 +2790,7 @@ Line 11: Comparison failed.
          <description assertions="provenance-global">Global - Embedded rules</description>
          <expectedOutput location="expected/provenance/xml/provenance1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance1xmloutput.txt">
-            <error>
-Line 31: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 33: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance1xmloutput.txt">
             <error>
@@ -2828,16 +2819,7 @@ Line 33: Comparison failed.
          <description assertions="provenance-global">Global - Embedded rules with ref</description>
          <expectedOutput location="expected/provenance/xml/provenance2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance2xmloutput.txt">
-            <error>
-Line 31: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 33: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance2xmloutput.txt">
             <error>
@@ -2866,16 +2848,7 @@ Line 33: Comparison failed.
          <description assertions="provenance-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/provenance/xml/provenance3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance3xmloutput.txt">
-            <error>
-Line 26: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 28: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance3xmloutput.txt">
             <error>
@@ -2904,16 +2877,7 @@ Line 28: Comparison failed.
          <description assertions="provenance-global link-external-rules">Global - Linked rules with ref</description>
          <expectedOutput location="expected/provenance/xml/provenance4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance4xmloutput.txt">
-            <error>
-Line 26: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 28: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance4xmloutput.txt">
             <error>
@@ -2942,16 +2906,7 @@ Line 28: Comparison failed.
          <description assertions="provenance-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance5xmloutput.txt">
-            <error>
-Line 33: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 35: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance5xmloutput.txt">
             <error>
@@ -2980,16 +2935,7 @@ Line 35: Comparison failed.
          <description assertions="provenance-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance6xmloutput.txt">
-            <error>
-Line 26: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@xml:id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/text/body[1]/par[1]/@xml:id]</error>
-            <error>
-Line 28: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@xml:id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@xml:id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance6xmloutput.txt">
             <error>
@@ -3018,56 +2964,7 @@ Line 28: Comparison failed.
          <description assertions="provenance-local">Local - In host element</description>
          <expectedOutput location="expected/provenance/xml/provenance7xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance7xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:org]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:personRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:personRef]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:provRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:provRef]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:revOrg	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:revOrg]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:revToolRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:revToolRef]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/text/body[1]/par[1]/@its:toolRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/par[1]/@its:toolRef]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:orgRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:orgRef]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:person]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:provRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:provRef]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:revOrgRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:revOrgRef]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:revPerson	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:revPerson]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/text/body[1]/legalnotice[1]/@its:tool	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/legalnotice[1]/@its:tool]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance7xmloutput.txt">
             <error>
@@ -3129,56 +3026,7 @@ Line 18: Comparison failed.
          <description assertions="provenance-local">Local - In host element &lt;its:span&gt;</description>
          <expectedOutput location="expected/provenance/xml/provenance8xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/xml/provenance8xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@org]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@personRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@personRef]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@provRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@provRef]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@revOrg	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@revOrg]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@revToolRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@revToolRef]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/text/body[1]/its:span[1]/@toolRef	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/text/body[1]/its:span[1]/@toolRef]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@orgRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@orgRef]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@person]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@provRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@provRef]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@revOrgRef	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@revOrgRef]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@revPerson	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@revPerson]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/text/body[1]/its:span[2]/@tool	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/text/body[1]/its:span[2]/@tool]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/xml/provenance8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/xml/provenance8xmloutput.txt">
             <error>
@@ -3240,16 +3088,7 @@ Line 18: Comparison failed.
          <description assertions="provenance-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance1htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance1htmloutput.txt">
             <error>
@@ -3284,16 +3123,7 @@ Line 19: Comparison failed.
          <description assertions="provenance-global html5-global-rules">Global - Embedded rules</description>
          <expectedOutput location="expected/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance2htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance2htmloutput.txt">
             <error>
@@ -3328,16 +3158,7 @@ Line 18: Comparison failed.
          <description assertions="provenance-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance3htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="#pr1"	org[1]="acme-CAT-v2.3"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revToolRef[1]="http://www.mycat.com/v1.0/download"	toolRef[1]="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-provenance-records-ref	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.legaltrans-ex.com/"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.vistatec.com/"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt">
             <error>
@@ -3372,64 +3193,7 @@ Line 16: Comparison failed.
          <description assertions="provenance-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance4htmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-org]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-person-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-person-ref]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-prov-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-prov-ref]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-rev-org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-rev-org]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-rev-tool-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-rev-tool-ref]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-tool-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-tool-ref]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@class]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-org-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-org-ref]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-person]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-prov-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-prov-ref]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-rev-org-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-rev-org-ref]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-rev-person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-rev-person]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-tool	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-tool]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance4htmloutput.txt">
             <error>
@@ -3560,16 +3324,7 @@ Line 23: Comparison failed.
          <description assertions="provenance-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance5htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance5htmloutput.txt">
             <error>
@@ -3604,12 +3359,7 @@ Line 19: Comparison failed.
          <description assertions="provenance-local html5-markup">Local - HTML standoff with XML </description>
          <expectedOutput location="expected/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance6htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="provenance6htmlstandoff.xml#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance6htmloutput.txt">
             <error>
@@ -3636,12 +3386,7 @@ Line 8: Comparison failed.
          <description assertions="provenance-local html5-markup">Local - HTML standoff with HTML </description>
          <expectedOutput location="expected/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance7htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="provenance7htmlstandoff.html#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance7htmloutput.txt">
             <error>
@@ -3668,16 +3413,7 @@ Line 8: Comparison failed.
          <description assertions="provenance-global it-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/provenance/html/provenance8htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/provenance/html/provenance8htmloutput.txt">
             <error>
