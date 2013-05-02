@@ -1633,6 +1633,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="vistatec" location="outputimplementors/vistatec/locqualityrating/html/locqualityrating1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityrating/html/locqualityrating1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityrating/html/locqualityrating1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityrating/html/locqualityrating1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/html/locqualityrating2html.html" conformance-class="html-local">
          <description assertions="lqrating-local html5-markup">Local - in host element with vote</description>
@@ -1640,6 +1641,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="vistatec" location="outputimplementors/vistatec/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityrating/html/locqualityrating2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityrating/html/locqualityrating2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating3xml.xml" conformance-class="xml-local">
          <description assertions="lqrating-local">Local - In &lt;its:span&gt; with score</description>
@@ -1677,6 +1679,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/mtconfidence/html/mtconfidence2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence3xml.xml" conformance-class="xml-local">
          <description assertions="mtconfidence-local">Local - In host element</description>
@@ -1698,6 +1701,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/mtconfidence/html/mtconfidence1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence6xml.xml" conformance-class="xml-global">
          <description assertions="mtconfidence-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1719,6 +1723,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/mtconfidence/html/mtconfidence3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence4html.html" conformance-class="html-global">
          <description assertions="mtconfidence-global html5-external-global-rules">Global - Linked rules with overriding annotators references</description>
@@ -1726,6 +1731,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/mtconfidence/html/mtconfidence4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence5html.html" conformance-class="html-global">
          <description assertions="mtconfidence-global html5-external-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1733,6 +1739,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/mtconfidence/html/mtconfidence5htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/mtconfidence/html/mtconfidence5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
