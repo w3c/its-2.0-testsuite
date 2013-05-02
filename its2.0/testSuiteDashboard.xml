@@ -3733,24 +3733,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/video[1]/code[1]]
-* Implementers file line:[/html/body[1]/video[1]/p[1]]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/video[1]/a[1]]
-* Implementers file line:[/html/body[1]/video[1]/p[1]/code[1]]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/video[1]/a[1]/@href]
-* Implementers file line:[/html/body[1]/video[1]/p[1]/a[1]]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/video[1]/p[1]/a[1]/@href]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3789,9 +3772,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/externalresource/html/externalresource2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/externalresource/html/externalresource2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/externalresource/html/externalresource2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3804,9 +3785,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/externalresource/html/externalresource3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/externalresource/html/externalresource3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/externalresource/html/externalresource3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -3860,9 +3839,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/targetpointer/xml/targetpointer3xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/targetpointer/xml/targetpointer3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/targetpointer/xml/targetpointer3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer4xml.xml"
                  conformance-class="xml-global">
@@ -3871,9 +3848,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/targetpointer/xml/targetpointer4xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/targetpointer/xml/targetpointer4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/targetpointer/xml/targetpointer4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer2html.html"
                  conformance-class="html-global">
