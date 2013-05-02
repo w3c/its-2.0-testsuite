@@ -1141,6 +1141,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance2html.html" conformance-class="html-global">
          <description assertions="provenance-global html5-global-rules">Global - Embedded rules</description>
@@ -1149,6 +1150,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance3html.html" conformance-class="html-local">
          <description assertions="provenance-local html5-markup">Local - In host element</description>
@@ -1157,6 +1159,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance4html.html" conformance-class="html-local">
          <description assertions="provenance-local html5-markup">Local - In host element</description>
@@ -1165,6 +1168,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance5html.html" conformance-class="html-global">
          <description assertions="provenance-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -1173,6 +1177,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance6html.html" conformance-class="html-local">
          <description assertions="provenance-local  html5-markup">Local - HTML standoff with XML </description>
@@ -1181,6 +1186,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance6htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance7html.html" conformance-class="html-local">
          <description assertions="provenance-local  html5-markup">Local - HTML standoff with HTML </description>
@@ -1189,6 +1195,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance7htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance8html.html" conformance-class="html-global">
          <description assertions="provenance-global it-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1197,6 +1204,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
