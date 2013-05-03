@@ -639,12 +639,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote7htmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	locNote="Check with terminology engineer"	locNoteType="alert"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	locNote="check with terminology engineer"	locNoteType="alert"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote8xml.xml"
                  conformance-class="xml-local">
@@ -2135,16 +2130,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/html/textanalysis4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/dublin"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taConfidence="0.5"	taIdent="301467919"	taSource="Wordnet3.0"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taConfidence="0.5"	taIdent="301467919"	taSource="wordnet3.0"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/html/textanalysis4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis1html.html"
                  conformance-class="html-global">
@@ -3943,32 +3929,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue13xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue13xmloutput.txt">
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]]
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment]
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/@xml:id]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled]
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef]
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment]</error>
-            <error>
-Line 24: Comparison failed.
-* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueSeverity]
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled]</error>
-            <error>
-Line 25: Comparison failed.
-* Reference line: []
-* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue13xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue4xml.xml"
                  conformance-class="xml-global">
@@ -4187,12 +4148,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue6htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssueComment="should be Thomas Cahill."	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="100"	locQualityIssueType="inconsistent-entities"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	locQualityIssueComment="should be Thomas Cahill."	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qamovel/v1"	locQualityIssueSeverity="100"	locQualityIssueType="inconsistent-entities"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue7html.html"
                  conformance-class="html-local">
