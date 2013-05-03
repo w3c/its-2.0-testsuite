@@ -1,0 +1,7 @@
+/doc	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/doc/@its:locQualityRatingProfileRef
+/doc/@its:locQualityRatingVote
+/doc/@its:locQualityRatingVoteThreshold
+/doc/@its:version
+/doc/title[1]	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"
+/doc/para[1]	locQualityRatingProfileRef="http://example.org/qaModel/v13"	locQualityRatingVote="-1"	locQualityRatingVoteThreshold="10"

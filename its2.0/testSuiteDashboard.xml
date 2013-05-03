@@ -19,9 +19,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate7html.html"
                  conformance-class="xml-global">
@@ -44,9 +42,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml"
                  conformance-class="xml-global">
@@ -69,9 +65,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate2xml.xml"
                  conformance-class="xml-global">
@@ -92,9 +86,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate10xml.xml"
                  conformance-class="xml-global">
@@ -117,9 +109,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate1html.html"
                  conformance-class="xml-global">
@@ -142,9 +132,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate6html.html"
                  conformance-class="xml-global">
@@ -165,9 +153,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate3xml.xml"
                  conformance-class="xml-global">
@@ -188,9 +174,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate4xml.xml"
                  conformance-class="xml-local">
@@ -207,9 +191,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate2html.html"
                  conformance-class="html-local">
@@ -232,9 +214,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate5xml.xml"
                  conformance-class="xml-local">
@@ -255,9 +235,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate6xml.xml"
                  conformance-class="xml-global">
@@ -274,9 +252,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate3html.html"
                  conformance-class="html-global">
@@ -299,9 +275,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate7xml.xml"
                  conformance-class="xml-global">
@@ -318,9 +292,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate4html.html"
                  conformance-class="html-global">
@@ -343,9 +315,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate8xml.xml"
                  conformance-class="xml-global">
@@ -366,9 +336,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate5html.html"
                  conformance-class="html-local">
@@ -391,9 +359,7 @@
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Localization Note--><dataCategory identifier="localization-note" name="Localization Note">
@@ -402,21 +368,39 @@
          <description assertions="locnote-global">Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
+         </outputImplementors>
          <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
+         </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
+         </outputImplementors>
          <outputImplementors implementer="adobe"
                              location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote1html.html"
                  conformance-class="html-global">
@@ -435,9 +419,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote2xml.xml"
                  conformance-class="xml-global">
@@ -456,9 +438,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote2html.html"
                  conformance-class="html-global">
@@ -477,9 +457,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote3xml.xml"
                  conformance-class="xml-global">
@@ -498,9 +476,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote3html.html"
                  conformance-class="html-global">
@@ -519,9 +495,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote4xml.xml"
                  conformance-class="xml-global">
@@ -540,9 +514,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote4html.html"
                  conformance-class="html-global">
@@ -561,9 +533,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote5xml.xml"
                  conformance-class="xml-global">
@@ -582,9 +552,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html"
                  conformance-class="html-global">
@@ -603,9 +571,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote6xml.xml"
                  conformance-class="xml-global">
@@ -620,9 +586,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote6html.html"
                  conformance-class="html-global">
@@ -641,9 +605,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote7xml.xml"
                  conformance-class="xml-local">
@@ -658,9 +620,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote7html.html"
                  conformance-class="html-local">
@@ -680,7 +640,10 @@
                              location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote7htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locNote="Check with terminology engineer"	locNoteType="alert"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	locNote="check with terminology engineer"	locNoteType="alert"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote8xml.xml"
@@ -696,9 +659,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote9xml.xml"
                  conformance-class="xml-local">
@@ -713,9 +674,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote10xml.xml"
                  conformance-class="xml-global">
@@ -736,9 +695,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote9html.html"
                  conformance-class="html-global">
@@ -757,9 +714,7 @@
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote9htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml"
                  conformance-class="xml-global">
@@ -780,9 +735,7 @@
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote8html.html"
                  conformance-class="html-global">
@@ -805,9 +758,7 @@
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localizationnote/html/locnote8htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localizationnote/html/locnote8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Terminology--><dataCategory identifier="terminology" name="Terminology">
@@ -1096,9 +1047,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir2xml.xml"
                  conformance-class="xml-global">
@@ -1109,9 +1058,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir3xml.xml"
                  conformance-class="xml-local">
@@ -1122,9 +1069,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir4xml.xml"
                  conformance-class="xml-local">
@@ -1135,9 +1080,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir5xml.xml"
                  conformance-class="xml-global">
@@ -1148,9 +1091,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir6xml.xml"
                  conformance-class="xml-global">
@@ -1161,9 +1102,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/directionality/xml/dir6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/xml/dir6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/xml/dir6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir1html.html"
                  conformance-class="html-local">
@@ -1178,9 +1117,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/html/dir1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/html/dir1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir2html.html"
                  conformance-class="html-global">
@@ -1195,9 +1132,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/html/dir2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/html/dir2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir3html.html"
                  conformance-class="html-global">
@@ -1212,9 +1147,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/html/dir3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/html/dir3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir4html.html"
                  conformance-class="html-global">
@@ -1229,9 +1162,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/directionality/html/dir4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/directionality/html/dir4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Ruby--><dataCategory identifier="ruby" name="Ruby, non-normative">
@@ -1407,9 +1338,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/xml/languageinfo1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/xml/languageinfo1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo2xml.xml"
                  conformance-class="xml-global">
@@ -1426,9 +1355,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/xml/languageinfo2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/xml/languageinfo2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo1html.html"
                  conformance-class="xml-global">
@@ -1510,9 +1437,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/html/languageinfo1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/html/languageinfo1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/html/languageinfo1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo3xml.xml"
                  conformance-class="xml-global">
@@ -1529,9 +1454,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/xml/languageinfo3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/xml/languageinfo3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo3html.html"
                  conformance-class="html-global">
@@ -1557,9 +1480,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/html/languageinfo3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/html/languageinfo3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo4xml.xml"
                  conformance-class="xml-global">
@@ -1576,9 +1497,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/xml/languageinfo4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/xml/languageinfo4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo2html.html"
                  conformance-class="html-global">
@@ -1612,9 +1531,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/languageinformation/html/languageinfo2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/languageinformation/html/languageinfo2htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Elements Within Text--><dataCategory identifier="elements-within-text" name="Elements Within Text">
@@ -1631,9 +1548,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext2xml.xml"
                  conformance-class="xml-global">
@@ -1648,9 +1563,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext1html.html"
                  conformance-class="xml-global">
@@ -1669,9 +1582,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml"
                  conformance-class="xml-local">
@@ -1686,9 +1597,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext4xml.xml"
                  conformance-class="xml-local">
@@ -1703,9 +1612,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext2html.html"
                  conformance-class="html-local">
@@ -1722,9 +1629,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml"
                  conformance-class="xml-local">
@@ -1741,9 +1646,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext6xml.xml"
                  conformance-class="xml-local">
@@ -1760,9 +1663,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/xml/withintext6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/xml/withintext6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext3html.html"
                  conformance-class="html-global">
@@ -1781,9 +1682,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html"
                  conformance-class="html-global">
@@ -1802,9 +1701,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -1829,9 +1726,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain1html.html"
                  conformance-class="html-global">
@@ -1856,9 +1751,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/domain/html/domain1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/html/domain1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/html/domain1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain2xml.xml"
                  conformance-class="xml-global">
@@ -1881,9 +1774,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain2html.html"
                  conformance-class="html-global">
@@ -1908,9 +1799,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/domain/html/domain2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/html/domain2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/html/domain2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain4xml.xml"
                  conformance-class="xml-global">
@@ -1931,9 +1820,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain5xml.xml"
                  conformance-class="xml-global">
@@ -1954,9 +1841,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain6xml.xml"
                  conformance-class="xml-global">
@@ -1979,9 +1864,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain7xml.xml"
                  conformance-class="xml-global">
@@ -2004,9 +1887,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/domain/xml/domain7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/xml/domain7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/xml/domain7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain3html.html"
                  conformance-class="html-global">
@@ -2050,9 +1931,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/html/domain3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/html/domain3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/domain/html/domain4html.html"
                  conformance-class="html-global">
@@ -2092,9 +1971,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/domain/html/domain4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/domain/html/domain4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Text Analysis --><dataCategory identifier="text-analysis" name="Text Analysis">
@@ -2118,9 +1995,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis7xml.xml"
                  conformance-class="xml-global">
@@ -2142,9 +2017,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis5xml.xml"
                  conformance-class="xml-local">
@@ -2168,9 +2041,7 @@ Line 6: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis2xml.xml"
                  conformance-class="xml-global">
@@ -2192,9 +2063,7 @@ Line 7: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis8xml.xml"
                  conformance-class="xml-global">
@@ -2216,9 +2085,7 @@ Line 7: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis6xml.xml"
                  conformance-class="xml-local">
@@ -2242,9 +2109,7 @@ Line 6: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis4html.html"
                  conformance-class="html-local">
@@ -2271,7 +2136,14 @@ Line 10: Comparison failed.
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/textanalysis/html/textanalysis4htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/dublin"]</error>
+            <error>
+Line 14: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[2]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taConfidence="0.5"	taIdent="301467919"	taSource="Wordnet3.0"]
+* Implementers file line:[/html/body[1]/p[1]/span[2]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taConfidence="0.5"	taIdent="301467919"	taSource="wordnet3.0"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis1html.html"
@@ -2296,9 +2168,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/html/textanalysis1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/html/textanalysis1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis3html.html"
                  conformance-class="html-global">
@@ -2322,9 +2192,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/html/textanalysis3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/html/textanalysis3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis3xml.xml"
                  conformance-class="xml-global">
@@ -2346,9 +2214,7 @@ Line 19: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis4xml.xml"
                  conformance-class="xml-global">
@@ -2370,9 +2236,7 @@ Line 7: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/xml/textanalysis4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/xml/textanalysis4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis2html.html"
                  conformance-class="html-global">
@@ -2396,9 +2260,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/html/textanalysis2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/html/textanalysis2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis5html.html"
                  conformance-class="html-global">
@@ -2422,9 +2284,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/textanalysis/html/textanalysis5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/textanalysis/html/textanalysis5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Locale Filter--><dataCategory identifier="locale-filter" name="Locale Filter">
@@ -2486,9 +2346,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale2xml.xml"
                  conformance-class="xml-local">
@@ -2555,9 +2413,7 @@ Line 6: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale5xml.xml"
                  conformance-class="xml-local">
@@ -2624,9 +2480,7 @@ Line 6: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale3xml.xml"
                  conformance-class="xml-global">
@@ -2678,9 +2532,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale4xml.xml"
                  conformance-class="xml-global">
@@ -2777,9 +2629,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale1html.html"
                  conformance-class="html-global">
@@ -2898,9 +2748,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/html/locale1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/html/locale1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale2html.html"
                  conformance-class="html-local">
@@ -2962,9 +2810,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/html/locale2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/html/locale2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale6xml.xml"
                  conformance-class="xml-global">
@@ -3040,9 +2886,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale7xml.xml"
                  conformance-class="xml-global">
@@ -3059,9 +2903,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/xml/locale8xml.xml"
                  conformance-class="xml-local">
@@ -3080,9 +2922,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/xml/locale8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/xml/locale8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale3html.html"
                  conformance-class="html-global">
@@ -3150,9 +2990,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/html/locale3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/html/locale3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale4html.html"
                  conformance-class="html-global">
@@ -3216,9 +3054,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/html/locale4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/html/locale4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localefilter/html/locale5html.html"
                  conformance-class="html-local">
@@ -3239,9 +3075,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/localefilter/html/locale5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/localefilter/html/locale5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Provenance--><dataCategory identifier="provenance" name="Provenance">
@@ -3636,9 +3470,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/xml/externalresource1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/xml/externalresource1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource2xml.xml"
                  conformance-class="xml-global">
@@ -3651,9 +3483,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/xml/externalresource2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/xml/externalresource2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource3xml.xml"
                  conformance-class="xml-global">
@@ -3666,9 +3496,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/xml/externalresource3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/xml/externalresource3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource1html.html"
                  conformance-class="html-global">
@@ -3683,9 +3511,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/html/externalresource1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/html/externalresource1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource4xml.xml"
                  conformance-class="xml-global">
@@ -3700,9 +3526,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/xml/externalresource4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/xml/externalresource4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource5xml.xml"
                  conformance-class="xml-global">
@@ -3717,9 +3541,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/xml/externalresource5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/xml/externalresource5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource2html.html"
                  conformance-class="html-global">
@@ -3734,9 +3556,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/html/externalresource2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/html/externalresource2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource3html.html"
                  conformance-class="html-global">
@@ -3751,9 +3571,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Target Pointer--><dataCategory identifier="target-pointer" name="Target Pointer">
@@ -3770,9 +3588,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer2xml.xml"
                  conformance-class="xml-global">
@@ -3789,9 +3605,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer1html.html"
                  conformance-class="html-global">
@@ -3804,9 +3618,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer3xml.xml"
                  conformance-class="xml-global">
@@ -3817,9 +3629,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/xml/targetpointer3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer4xml.xml"
                  conformance-class="xml-global">
@@ -3830,9 +3640,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/xml/targetpointer4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer2html.html"
                  conformance-class="html-global">
@@ -3845,9 +3653,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer3html.html"
                  conformance-class="html-global">
@@ -3860,9 +3666,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--ID Value --><dataCategory identifier="id-value" name="Id Value">
@@ -3881,9 +3685,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/xml/idvalue1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/xml/idvalue1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue2xml.xml"
                  conformance-class="xml-global">
@@ -3896,9 +3698,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/xml/idvalue2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/xml/idvalue2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue3xml.xml"
                  conformance-class="xml-global">
@@ -3917,9 +3717,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/xml/idvalue3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/xml/idvalue3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue1html.html"
                  conformance-class="html-global">
@@ -3936,9 +3734,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue5xml.xml"
                  conformance-class="xml-global">
@@ -3955,9 +3751,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/xml/idvalue5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/xml/idvalue5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue4xml.xml"
                  conformance-class="xml-global">
@@ -3974,9 +3768,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/xml/idvalue4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/xml/idvalue4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue2html.html"
                  conformance-class="html-global">
@@ -3993,9 +3785,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue3html.html"
                  conformance-class="html-global">
@@ -4012,9 +3802,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Preserve Space--><dataCategory identifier="preserve-space" name="Preserve Space">
@@ -4029,9 +3817,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace3xml.xml"
                  conformance-class="xml-global">
@@ -4044,9 +3830,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace2xml.xml"
                  conformance-class="xml-local">
@@ -4059,9 +3843,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace4xml.xml"
                  conformance-class="xml-local">
@@ -4074,9 +3856,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace5xml.xml"
                  conformance-class="xml-global">
@@ -4091,9 +3871,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace6xml.xml"
                  conformance-class="xml-global">
@@ -4108,9 +3886,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/preservespace/xml/preservespace6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/preservespace/xml/preservespace6xmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--LQI--><dataCategory identifier="localization-quality-issue"
@@ -4126,9 +3902,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue2xml.xml"
                  conformance-class="xml-global">
@@ -4141,9 +3915,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue3xml.xml"
                  conformance-class="xml-global">
@@ -4156,9 +3928,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue13xml.xml"
                  conformance-class="xml-global">
@@ -4174,7 +3944,30 @@ Line 18: Comparison failed.
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue13xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/locqualityissue/xml/locqualityissue13xmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 20: Comparison failed.
+* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]]
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]]</error>
+            <error>
+Line 21: Comparison failed.
+* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment]
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/@xml:id]</error>
+            <error>
+Line 22: Comparison failed.
+* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled]
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]]</error>
+            <error>
+Line 23: Comparison failed.
+* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef]
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueComment]</error>
+            <error>
+Line 24: Comparison failed.
+* Reference line: [/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueSeverity]
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled]</error>
+            <error>
+Line 25: Comparison failed.
+* Reference line: []
+* Implementers file line:[/doc/file[1]/unit[1]/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue4xml.xml"
@@ -4195,9 +3988,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue5xml.xml"
                  conformance-class="xml-global">
@@ -4210,9 +4001,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue1html.html"
                  conformance-class="html-global">
@@ -4229,9 +4018,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue2html.html"
                  conformance-class="html-global">
@@ -4248,9 +4035,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue3html.html"
                  conformance-class="html-global">
@@ -4265,9 +4050,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue6xml.xml"
                  conformance-class="xml-local">
@@ -4282,9 +4065,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue7xml.xml"
                  conformance-class="xml-local">
@@ -4299,9 +4080,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue8xml.xml"
                  conformance-class="xml-local">
@@ -4316,9 +4095,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue9xml.xml"
                  conformance-class="xml-local">
@@ -4333,9 +4110,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue10xml.xml"
                  conformance-class="xml-local">
@@ -4350,9 +4125,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue10xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue4html.html"
                  conformance-class="html-local">
@@ -4376,9 +4149,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue5html.html"
                  conformance-class="html-local">
@@ -4397,9 +4168,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue6html.html"
                  conformance-class="html-local">
@@ -4419,7 +4188,10 @@ Line 15: Comparison failed.
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/locqualityissue/html/locqualityissue6htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssueComment="should be Thomas Cahill."	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="100"	locQualityIssueType="inconsistent-entities"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	locQualityIssueComment="should be Thomas Cahill."	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qamovel/v1"	locQualityIssueSeverity="100"	locQualityIssueType="inconsistent-entities"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue7html.html"
@@ -4540,9 +4312,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue9html.html"
                  conformance-class="html-local">
@@ -4561,9 +4331,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue9htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue9htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue11xml.xml"
                  conformance-class="xml-global">
@@ -4578,9 +4346,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue11xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue11xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue12xml.xml"
                  conformance-class="xml-global">
@@ -4595,9 +4361,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/xml/locqualityissue12xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue12xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/xml/locqualityissue12xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue8html.html"
                  conformance-class="html-global">
@@ -4618,9 +4382,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue8htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue8htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/html/locqualityissue10html.html"
                  conformance-class="html-global">
@@ -4643,9 +4405,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue10htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityissue/html/locqualityissue10htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--LQR--><dataCategory identifier="localization-quality-rating"
@@ -4659,9 +4419,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating2xml.xml"
                  conformance-class="xml-local">
@@ -4672,9 +4430,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/html/locqualityrating1html.html"
                  conformance-class="html-local">
@@ -4689,9 +4445,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityrating/html/locqualityrating1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/html/locqualityrating1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/html/locqualityrating1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/html/locqualityrating2html.html"
                  conformance-class="html-local">
@@ -4706,9 +4460,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityrating/html/locqualityrating2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/html/locqualityrating2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/html/locqualityrating2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating3xml.xml"
                  conformance-class="xml-local">
@@ -4719,9 +4471,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating4xml.xml"
                  conformance-class="xml-local">
@@ -4732,9 +4482,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityrating/xml/locqualityrating4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/locqualityrating/xml/locqualityrating4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--MT Confidence--><dataCategory identifier="mt-confidence" name="MT Confidence">
@@ -4749,9 +4497,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence2xml.xml"
                  conformance-class="xml-global">
@@ -4764,9 +4510,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence2html.html"
                  conformance-class="html-global">
@@ -4781,9 +4525,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence3xml.xml"
                  conformance-class="xml-local">
@@ -4796,9 +4538,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence4xml.xml"
                  conformance-class="xml-local">
@@ -4811,9 +4551,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence1html.html"
                  conformance-class="html-local">
@@ -4828,9 +4566,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence6xml.xml"
                  conformance-class="xml-global">
@@ -4843,9 +4579,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence5xml.xml"
                  conformance-class="xml-global">
@@ -4858,9 +4592,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/xml/mtconfidence5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence3html.html"
                  conformance-class="html-global">
@@ -4877,9 +4609,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence4html.html"
                  conformance-class="html-global">
@@ -4941,9 +4671,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/mtconfidence/html/mtconfidence5html.html"
                  conformance-class="html-global">
@@ -4960,9 +4688,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/mtconfidence/html/mtconfidence5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Allowed Characters--><dataCategory identifier="allowed-characters" name="Allowed Characters">
@@ -4975,9 +4701,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters2xml.xml"
                  conformance-class="xml-global">
@@ -4988,9 +4712,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters4html.html"
                  conformance-class="html-global">
@@ -5005,9 +4727,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters3xml.xml"
                  conformance-class="xml-global">
@@ -5018,9 +4738,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters2html.html"
                  conformance-class="html-global">
@@ -5033,9 +4751,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters5xml.xml"
                  conformance-class="xml-local">
@@ -5046,9 +4762,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters1html.html"
                  conformance-class="html-local">
@@ -5063,9 +4777,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters6xml.xml"
                  conformance-class="xml-local">
@@ -5076,9 +4788,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters4xml.xml"
                  conformance-class="xml-global">
@@ -5089,9 +4799,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters8xml.xml"
                  conformance-class="xml-global">
@@ -5102,9 +4810,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters7xml.xml"
                  conformance-class="xml-global">
@@ -5115,9 +4821,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/allowedcharacters/xml/allowedcharacters7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/xml/allowedcharacters7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/allowedcharacters/html/allowedcharacters3html.html"
                  conformance-class="html-global">
@@ -5130,9 +4834,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Storage Size--><dataCategory identifier="storage-size" name="Storage Size">
@@ -5145,9 +4847,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize2xml.xml"
                  conformance-class="xml-global">
@@ -5158,9 +4858,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize3xml.xml"
                  conformance-class="xml-global">
@@ -5171,9 +4869,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize4xml.xml"
                  conformance-class="xml-global">
@@ -5184,9 +4880,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/html/storagesize2html.html"
                  conformance-class="html-global">
@@ -5199,9 +4893,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/html/storagesize2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/html/storagesize2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize5xml.xml"
                  conformance-class="xml-local">
@@ -5212,9 +4904,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/html/storagesize1html.html"
                  conformance-class="html-local">
@@ -5227,9 +4917,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/html/storagesize1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/html/storagesize1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize9xml.xml"
                  conformance-class="xml-local">
@@ -5240,9 +4928,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize6xml.xml"
                  conformance-class="xml-local">
@@ -5253,9 +4939,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize8xml.xml"
                  conformance-class="xml-global">
@@ -5266,9 +4950,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/xml/storagesize7xml.xml"
                  conformance-class="xml-global">
@@ -5279,9 +4961,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/storagesize/xml/storagesize7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/xml/storagesize7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/xml/storagesize7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/html/storagesize3html.html"
                  conformance-class="html-global">
@@ -5294,9 +4974,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/html/storagesize3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/html/storagesize3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/storagesize/html/storagesize4html.html"
                  conformance-class="html-global">
@@ -5311,9 +4989,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/storagesize/html/storagesize4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/storagesize/html/storagesize4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 </testSuite>

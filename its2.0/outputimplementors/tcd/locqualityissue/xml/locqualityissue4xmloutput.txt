@@ -1,0 +1,27 @@
+/doc
+/doc/@its:version
+/doc/header[1]
+/doc/header[1]/its:rules[1]
+/doc/header[1]/its:rules[1]/@version
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[1]
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[1]/@locQualityIssuesRefPointer
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[1]/@selector
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssueEnabled
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssueProfileRef
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssueSeverity
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssueType
+/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@selector
+/doc/para[1]
+/doc/para[1]/span[1]	locQualityIssuesRef="#id1234"	locQualityIssueEnabled[1]="no"	locQualityIssueProfileRef[1]="http://example.org/qaMovel/v1"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="typographical"
+/doc/para[1]/span[1]/@id
+/doc/para[1]/span[1]/@issues
+/doc/para[1]/span[2]	locQualityIssueEnabled="yes"	locQualityIssueProfileRef="http://example.org/qaMovel/v1"	locQualityIssueSeverity="75"	locQualityIssueType="misspelling"
+/doc/para[1]/span[2]/@id
+/doc/its:locQualityIssues[1]
+/doc/its:locQualityIssues[1]/@xml:id
+/doc/its:locQualityIssues[1]/its:locQualityIssue[1]
+/doc/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueEnabled
+/doc/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueProfileRef
+/doc/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueSeverity
+/doc/its:locQualityIssues[1]/its:locQualityIssue[1]/@locQualityIssueType

@@ -1,0 +1,14 @@
+/db
+/db/its:rules[1]
+/db/its:rules[1]/@version
+/db/its:rules[1]/its:param[1]
+/db/its:rules[1]/its:param[1]/@name
+/db/its:rules[1]/its:storageSizeRule[1]
+/db/its:rules[1]/its:storageSizeRule[1]/@selector
+/db/its:rules[1]/its:storageSizeRule[1]/@storageEncoding
+/db/its:rules[1]/its:storageSizeRule[1]/@storageSize
+/db/data[1]
+/db/data[1]/country[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
+/db/data[1]/country[1]/@id
+/db/data[1]/country[2]
+/db/data[1]/country[2]/@id

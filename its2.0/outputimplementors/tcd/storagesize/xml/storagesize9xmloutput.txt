@@ -1,0 +1,14 @@
+/messages
+/messages/@its:version
+/messages/its:span[1]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="8"
+/messages/its:span[1]/@lineBreakType
+/messages/its:span[1]/@storageEncoding
+/messages/its:span[1]/@storageSize
+/messages/its:span[2]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="8"
+/messages/its:span[2]/@lineBreakType
+/messages/its:span[2]/@storageEncoding
+/messages/its:span[2]/@storageSize
+/messages/its:span[3]	lineBreakType="nel"	storageEncoding="UTF-16"	storageSize="12"
+/messages/its:span[3]/@lineBreakType
+/messages/its:span[3]/@storageEncoding
+/messages/its:span[3]/@storageSize
