@@ -911,12 +911,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology3htmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	term="yes"	termInfoRef="#TDPV"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	term="yes"	terminforef="#TDPV"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology5html.html"
                  conformance-class="html-local">
@@ -933,12 +928,7 @@ Line 9: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology5htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termConfidence="0.5"	termInfoRef="#TDPV"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termconfidence="0.5"	terminforef="#TDPV"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology6xml.xml"
                  conformance-class="xml-local">
