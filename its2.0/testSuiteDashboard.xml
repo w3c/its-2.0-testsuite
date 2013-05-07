@@ -768,9 +768,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology2xml.xml"
                  conformance-class="xml-global">
@@ -783,9 +781,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology1html.html"
                  conformance-class="html-global">
@@ -800,9 +796,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology3xml.xml"
                  conformance-class="xml-global">
@@ -815,9 +809,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology4xml.xml"
                  conformance-class="xml-global">
@@ -830,9 +822,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology2html.html"
                  conformance-class="html-global">
@@ -847,9 +837,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology5xml.xml"
                  conformance-class="xml-local">
@@ -862,9 +850,7 @@ Line 4: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology9xml.xml"
                  conformance-class="html-local">
@@ -910,9 +896,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology3html.html"
                  conformance-class="html-local">
@@ -928,7 +912,10 @@ Line 11: Comparison failed.
                              location="outputimplementors/cocomore/terminology/html/terminology3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/terminology/html/terminology3htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	term="yes"	termInfoRef="#TDPV"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	term="yes"	terminforef="#TDPV"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology5html.html"
@@ -947,7 +934,10 @@ Line 11: Comparison failed.
                              location="outputimplementors/cocomore/terminology/html/terminology5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/terminology/html/terminology5htmloutput.txt">
-            <error>outputFileNotFound</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termConfidence="0.5"	termInfoRef="#TDPV"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1"	term="yes"	termconfidence="0.5"	terminforef="#TDPV"]</error>
          </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology6xml.xml"
@@ -961,9 +951,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology7xml.xml"
                  conformance-class="xml-global">
@@ -976,9 +964,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology6html.html"
                  conformance-class="html-global">
@@ -995,9 +981,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology8xml.xml"
                  conformance-class="xml-global">
@@ -1010,9 +994,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/xml/terminology8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/xml/terminology8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/xml/terminology8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology4html.html"
                  conformance-class="html-global">
@@ -1027,9 +1009,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/terminology/html/terminology4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/terminology/html/terminology4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/terminology/html/terminology4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Directionality--><dataCategory identifier="directionality" name="Directionality">
