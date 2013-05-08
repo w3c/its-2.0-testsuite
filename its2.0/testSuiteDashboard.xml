@@ -1503,7 +1503,16 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1513,9 +1522,27 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml"
                  conformance-class="xml-local">
@@ -1603,7 +1630,16 @@ Line 15: Comparison failed.
          <description assertions="withintext-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1613,16 +1649,43 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 13: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html"
                  conformance-class="html-global">
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -1632,9 +1695,27 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt">
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
+* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
