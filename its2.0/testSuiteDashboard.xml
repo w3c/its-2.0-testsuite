@@ -1120,29 +1120,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/tcd/directionality/html/dir4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Ruby--><dataCategory identifier="ruby" name="Ruby, non-normative">
-      <inputfile location="inputdata/ruby/xml/ruby1xml.xml"
-                 conformance-class="xml-global">
-         <description assertions="ruby-global">Global - Embedded rules</description>
-         <expectedOutput location="expected/ruby/xml/ruby1xmloutput.txt"/>
-      </inputfile>
-      <inputfile location="inputdata/ruby/xml/ruby2xml.xml"
-                 conformance-class="xml-global">
-         <description assertions="ruby-global link-external-rules">Global - Linked rules</description>
-         <expectedOutput location="expected/ruby/xml/ruby2xmloutput.txt"/>
-      </inputfile>
-      <inputfile location="inputdata/ruby/xml/ruby3xml.xml"
-                 conformance-class="xml-global">
-         <description assertions="ruby-global">Global - Pointer rules</description>
-         <expectedOutput location="expected/ruby/xml/ruby3xmloutput.txt"/>
-      </inputfile>
-      <inputfile location="inputdata/ruby/xml/ruby4xml.xml"
-                 conformance-class="xml-local">
-         <description assertions="ruby-local">Local - ITS markup</description>
-         <expectedOutput location="expected/ruby/xml/ruby4xmloutput.txt"/>
-      </inputfile>
-   </dataCategory>
-   <!--Language Information--><dataCategory identifier="language-information" name="Language Information">
+   <!--Ruby REMOVED--><!--Language Information--><dataCategory identifier="language-information" name="Language Information">
       <inputfile location="inputdata/languageinformation/xml/languageinfo1xml.xml"
                  conformance-class="xml-global">
          <description assertions="lang-global">Global - Embedded rules</description>
