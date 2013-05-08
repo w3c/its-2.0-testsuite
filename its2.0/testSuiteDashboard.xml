@@ -3630,48 +3630,130 @@ Line 18: Comparison failed.
          <description assertions="targetpointer-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/targetpointer/xml/targetpointer3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/targetpointer/xml/targetpointer3xmloutput.txt"/>
+                             location="outputimplementors/enlaso/targetpointer/xml/targetpointer3xmloutput.txt">
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 21: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/targetpointer/xml/targetpointer3xmloutput.txt"/>
+                             location="outputimplementors/ul/targetpointer/xml/targetpointer3xmloutput.txt">
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 21: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt"/>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt">
+            <error>
+Line 16: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 21: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer4xml.xml"
                  conformance-class="xml-global">
          <description assertions="targetpointer-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/targetpointer/xml/targetpointer4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/targetpointer/xml/targetpointer4xmloutput.txt"/>
+                             location="outputimplementors/enlaso/targetpointer/xml/targetpointer4xmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/targetpointer/xml/targetpointer4xmloutput.txt"/>
+                             location="outputimplementors/ul/targetpointer/xml/targetpointer4xmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt"/>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt">
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
+* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
+* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer2html.html"
                  conformance-class="html-global">
          <description assertions="targetpointer-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/targetpointer/html/targetpointer2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/targetpointer/html/targetpointer2htmloutput.txt"/>
+                             location="outputimplementors/enlaso/targetpointer/html/targetpointer2htmloutput.txt">
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
+            <error>
+Line 18: Comparison failed.
+* Reference line: [/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class='targetfile']"]
+* Implementers file line:[/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class=$targetFile]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/html/targetpointer2htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt"/>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt">
+            <error>
+Line 12: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
+            <error>
+Line 18: Comparison failed.
+* Reference line: [/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class='targetfile']"]
+* Implementers file line:[/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class=$targetFile]"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer3html.html"
                  conformance-class="html-global">
          <description assertions="targetpointer-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/targetpointer/html/targetpointer3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/targetpointer/html/targetpointer3htmloutput.txt"/>
+                             location="outputimplementors/enlaso/targetpointer/html/targetpointer3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/html/targetpointer3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt">
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
+* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
+         </outputImplementors>
       </inputfile>
    </dataCategory>
    <!--ID Value --><dataCategory identifier="id-value" name="Id Value">
