@@ -368,19 +368,9 @@
          <description assertions="locnote-global">Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt">
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
-* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
-         </outputImplementors>
+                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt">
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
-* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt">
             <error>
