@@ -1632,10 +1632,6 @@ Line 13: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt">
             <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
 Line 13: Comparison failed.
 * Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
 * Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
@@ -1651,20 +1647,12 @@ Line 13: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
             <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
 Line 13: Comparison failed.
 * Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
 * Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
             <error>
 Line 13: Comparison failed.
 * Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
@@ -3652,16 +3640,7 @@ Line 21: Comparison failed.
 * Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
-* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
-* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer4xml.xml"
                  conformance-class="xml-global">
@@ -3690,16 +3669,7 @@ Line 12: Comparison failed.
 * Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/file/entry[1]/source[1]	targetPointer="../target[@id='firstfolder']"]
-* Implementers file line:[/file/entry[1]/source[1]	targetPointer="../target[@id=$targetOneParam]"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/file/entry[2]/source[1]	targetPointer="../target[@id='firstfile']"]
-* Implementers file line:[/file/entry[2]/source[1]	targetPointer="../target[@id=$targetTwoParam]"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer2html.html"
                  conformance-class="html-global">
