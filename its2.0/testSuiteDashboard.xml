@@ -3721,16 +3721,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
-* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class='targetfile']"]
-* Implementers file line:[/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class=$targetFile]"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer3html.html"
                  conformance-class="html-global">
@@ -3748,12 +3739,7 @@ Line 11: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"]
-* Implementers file line:[/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class=$targetFolder]"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--ID Value --><dataCategory identifier="id-value" name="Id Value">
