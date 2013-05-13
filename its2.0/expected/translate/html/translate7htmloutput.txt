@@ -1,5 +1,5 @@
 /html	translate="yes"
-/html/@lang	translate="no"
+/html/@lang	translate="yes"
 /html/head[1]	translate="yes"
 /html/head[1]/script[1]	translate="yes"
 /html/head[1]/script[1]/@type	translate="no"
