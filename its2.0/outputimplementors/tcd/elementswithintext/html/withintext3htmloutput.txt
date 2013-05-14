@@ -10,7 +10,7 @@
 /html/body[1]/section[1]	withinText="no"
 /html/body[1]/section[1]/span[1]	withinText="no"
 /html/body[1]/section[1]/span[1]/@itemref
-/html/body[1]/section[1]/span[2]	withinText="no"
+/html/body[1]/section[1]/span[2]	withinText="yes"
 /html/body[1]/section[1]/span[2]/@itemref
 /html/body[1]/p[1]	withinText="no"
 /html/body[1]/p[1]/cite[1]	withinText="nested"
