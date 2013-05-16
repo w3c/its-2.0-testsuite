@@ -1709,9 +1709,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -1822,9 +1820,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1837,9 +1833,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1867,9 +1861,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2152,16 +2144,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2195,24 +2178,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/languageinformation/html/languageinfo2htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]/@lang]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2269,16 +2235,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
@@ -2378,12 +2335,7 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
@@ -2402,16 +2354,7 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
@@ -4447,9 +4390,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -4498,9 +4439,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -4515,9 +4454,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -5084,9 +5021,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue10htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -5294,9 +5229,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -5674,9 +5607,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
