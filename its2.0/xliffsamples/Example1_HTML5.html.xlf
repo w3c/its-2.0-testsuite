@@ -17,110 +17,110 @@
 <seg-source><mrk mid="0" mtype="seg">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet.</mrk> <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most see through their entire lifetime!</mrk> <mrk mid="2" mtype="seg">You will come back with the rich experience that nothing but a true journey can provide.</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet.</mrk> <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most see through their entire lifetime!</mrk> <mrk mid="2" mtype="seg">You will come back with the rich experience that nothing but a true journey can provide.</mrk></target>
 </trans-unit>
-<trans-unit id="4" its:storageSize="30">
-<source xml:lang="en-us">The Lost Temples of the Khmer</source>
+<trans-unit id="4">
+<source xml:lang="en-us" its:storageSize="30">The Lost Temples of the Khmer</source>
 <seg-source><mrk mid="0" mtype="seg">The Lost Temples of the Khmer</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Lost Temples of the Khmer</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">The Lost Temples of the Khmer</mrk></target>
 </trans-unit>
 <trans-unit id="5">
 <source xml:lang="en-us">Reservation with Pnomphen Treks Inc.</source>
 <seg-source><mrk mid="0" mtype="seg">Reservation with Pnomphen Treks Inc.</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Reservation with Pnomphen Treks Inc.</mrk></target>
 </trans-unit>
-<trans-unit id="6" its:storageSize="30">
-<source xml:lang="en-us">The Bridge on the Kwai River</source>
+<trans-unit id="6">
+<source xml:lang="en-us" its:storageSize="30">The Bridge on the Kwai River</source>
 <seg-source><mrk mid="0" mtype="seg">The Bridge on the Kwai River</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Bridge on the Kwai River</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">The Bridge on the Kwai River</mrk></target>
 </trans-unit>
 <trans-unit id="7">
 <source xml:lang="en-us">Add 300 for an extra day</source>
 <seg-source><mrk mid="0" mtype="seg">Add 300 for an extra day</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Add 300 for an extra day</mrk></target>
 </trans-unit>
-<trans-unit id="8" its:storageSize="30">
-<source xml:lang="en-us">Canyon X and the Land of the Navajo</source>
+<trans-unit id="8">
+<source xml:lang="en-us" its:storageSize="30">Canyon X and the Land of the Navajo</source>
 <seg-source><mrk mid="0" mtype="seg">Canyon X and the Land of the Navajo</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Canyon X and the Land of the Navajo</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Canyon X and the Land of the Navajo</mrk></target>
 </trans-unit>
 <trans-unit id="9">
 <source xml:lang="en-us">Only the breakfast is included</source>
 <seg-source><mrk mid="0" mtype="seg">Only the breakfast is included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Only the breakfast is included</mrk></target>
 </trans-unit>
-<trans-unit id="10" its:storageSize="30">
-<source xml:lang="en-us">Machu Picchu and the Inca Trail</source>
+<trans-unit id="10">
+<source xml:lang="en-us" its:storageSize="30">Machu Picchu and the Inca Trail</source>
 <seg-source><mrk mid="0" mtype="seg">Machu Picchu and the Inca Trail</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Machu Picchu and the Inca Trail</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Machu Picchu and the Inca Trail</mrk></target>
 </trans-unit>
 <trans-unit id="11">
 <source xml:lang="en-us">Only for fit customers</source>
 <seg-source><mrk mid="0" mtype="seg">Only for fit customers</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Only for fit customers</mrk></target>
 </trans-unit>
-<trans-unit id="12" its:storageSize="30">
-<source xml:lang="en-us">Castles of Bohemia</source>
+<trans-unit id="12">
+<source xml:lang="en-us" its:storageSize="30">Castles of Bohemia</source>
 <seg-source><mrk mid="0" mtype="seg">Castles of Bohemia</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Castles of Bohemia</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Castles of Bohemia</mrk></target>
 </trans-unit>
 <trans-unit id="13">
 <source xml:lang="en-us">Wine is not included</source>
 <seg-source><mrk mid="0" mtype="seg">Wine is not included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Wine is not included</mrk></target>
 </trans-unit>
-<trans-unit id="14" its:storageSize="30">
-<source xml:lang="en-us">Paris (The City of Lights)</source>
+<trans-unit id="14">
+<source xml:lang="en-us" its:storageSize="30">Paris (The City of Lights)</source>
 <seg-source><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></target>
 </trans-unit>
 <trans-unit id="15">
 <source xml:lang="en-us">Eiffel Tower tour included</source>
 <seg-source><mrk mid="0" mtype="seg">Eiffel Tower tour included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Eiffel Tower tour included</mrk></target>
 </trans-unit>
-<trans-unit id="16" its:storageSize="30">
-<source xml:lang="en-us">Lemaire Channel</source>
+<trans-unit id="16">
+<source xml:lang="en-us" its:storageSize="30">Lemaire Channel</source>
 <seg-source><mrk mid="0" mtype="seg">Lemaire Channel</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Lemaire Channel</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Lemaire Channel</mrk></target>
 </trans-unit>
 <trans-unit id="17">
 <source xml:lang="en-us">Flight to Ushuaia is not included, but can be added</source>
 <seg-source><mrk mid="0" mtype="seg">Flight to Ushuaia is not included, but can be added</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Flight to Ushuaia is not included, but can be added</mrk></target>
 </trans-unit>
-<trans-unit id="18" its:storageSize="30">
-<source xml:lang="en-us">Queensland - Emerald and Gold</source>
+<trans-unit id="18">
+<source xml:lang="en-us" its:storageSize="30">Queensland - Emerald and Gold</source>
 <seg-source><mrk mid="0" mtype="seg">Queensland - Emerald and Gold</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Queensland - Emerald and Gold</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Queensland - Emerald and Gold</mrk></target>
 </trans-unit>
 <trans-unit id="19">
 <source xml:lang="en-us">Keep the rainy season in mind</source>
 <seg-source><mrk mid="0" mtype="seg">Keep the rainy season in mind</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Keep the rainy season in mind</mrk></target>
 </trans-unit>
-<trans-unit id="20" its:storageSize="30">
-<source xml:lang="en-us">The River that Never Reaches the Sea</source>
+<trans-unit id="20">
+<source xml:lang="en-us" its:storageSize="30">The River that Never Reaches the Sea</source>
 <seg-source><mrk mid="0" mtype="seg">The River that Never Reaches the Sea</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The River that Never Reaches the Sea</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">The River that Never Reaches the Sea</mrk></target>
 </trans-unit>
 <trans-unit id="21">
 <source xml:lang="en-us">Recommend strongly to take all-inclusive insurance</source>
 <seg-source><mrk mid="0" mtype="seg">Recommend strongly to take all-inclusive insurance</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Recommend strongly to take all-inclusive insurance</mrk></target>
 </trans-unit>
-<trans-unit id="22" its:storageSize="30">
-<source xml:lang="en-us">The Land of the Sun Bird</source>
+<trans-unit id="22">
+<source xml:lang="en-us" its:storageSize="30">The Land of the Sun Bird</source>
 <seg-source><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></target>
 </trans-unit>
 <trans-unit id="23">
 <source xml:lang="en-us">Need special visa for the Zimbabwe part</source>
 <seg-source><mrk mid="0" mtype="seg">Need special visa for the Zimbabwe part</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Need special visa for the Zimbabwe part</mrk></target>
 </trans-unit>
-<trans-unit id="24" its:storageSize="30">
-<source xml:lang="en-us">Tigers in the Mist</source>
+<trans-unit id="24">
+<source xml:lang="en-us" its:storageSize="30">Tigers in the Mist</source>
 <seg-source><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></target>
 </trans-unit>
 <trans-unit id="25">
 <source xml:lang="en-us">Count one full day for the transfer to Katmandu</source>
