@@ -1,0 +1,9 @@
+/myRes
+/myRes/head[1]
+/myRes/head[1]/its:rules[1]
+/myRes/head[1]/its:rules[1]/@version
+/myRes/head[1]/its:rules[1]/@xlink:href
+/myRes/head[1]/its:rules[1]/@xlink:type
+/myRes/body[1]
+/myRes/body[1]/content[1]	allowedCharacters="[^*+]"
+/myRes/body[1]/content[1]/@id

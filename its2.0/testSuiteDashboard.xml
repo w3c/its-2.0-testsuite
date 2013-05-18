@@ -86,32 +86,7 @@ Line 14: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/@lang	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/@title	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@style	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]/@id	translate="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt">
             <error>
@@ -167,32 +142,7 @@ Line 14: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate7htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/@lang	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/@title	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@style	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]/@id	translate="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml"
                  conformance-class="xml-global">
@@ -358,48 +308,7 @@ Line 18: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/@id	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/@title	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@title	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate1htmloutput.txt">
             <error>
@@ -487,48 +396,7 @@ Line 18: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate1htmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/@id	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/@title	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@title	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate6html.html"
                  conformance-class="xml-global">
@@ -751,48 +619,7 @@ Line 15: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/book/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@alt	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[1]	translate="no"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[1]/@its:translate	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[2]	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/body[1]/p[1]	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[1]/@its:translate	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[2]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate2html.html"
                  conformance-class="html-local">
@@ -939,72 +766,7 @@ Line 17: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate2htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	translate="no"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="yes"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/body[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@translate	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]/@translate	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@src	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@translate	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]/@translate	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate2htmloutput.txt">
             <error>
@@ -1140,72 +902,7 @@ Line 17: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate2htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	translate="no"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="yes"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/body[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@translate	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]/@translate	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@src	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@translate	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]/@translate	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate5xml.xml"
                  conformance-class="xml-local">
@@ -1294,24 +991,7 @@ Line 16: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="cocomore"
-                             location="outputimplementors/cocomore/translate/html/translate3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/@title	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/cocomore/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/html/translate3htmloutput.txt">
             <error>
@@ -1351,24 +1031,7 @@ Line 16: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/translate/html/translate3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/@title	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/translate/html/translate3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate7xml.xml"
                  conformance-class="xml-global">
@@ -2046,9 +1709,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -2159,9 +1820,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2174,9 +1833,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2204,9 +1861,7 @@ Line 11: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/directionality/html/dir4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2489,16 +2144,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2532,24 +2178,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/languageinformation/html/languageinfo2htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[1]/q[1]/@lang]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"]
-* Implementers file line:[/html/body[1]/p[2]/q[1]/@lang]</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2606,27 +2235,9 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml"
                  conformance-class="xml-local">
@@ -2724,19 +2335,9 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html"
                  conformance-class="html-global">
@@ -2753,27 +2354,9 @@ Line 13: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[1]	withinText="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/span[2]	withinText="yes"]
-* Implementers file line:[/html/body[1]/section[1]/span[2]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--Domain--><dataCategory identifier="domain" name="Domain">
@@ -4807,9 +4390,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -4858,9 +4439,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -4875,9 +4454,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="shaun"
                              location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -5444,9 +5021,7 @@ Line 15: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/locqualityissue/html/locqualityissue10htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="logrus"
                              location="outputimplementors/logrus/locqualityissue/html/locqualityissue10htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
@@ -5654,9 +5229,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/mtconfidence/html/mtconfidence3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -6034,9 +5607,7 @@ Line 22: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/ul/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/storagesize/html/storagesize4htmloutput.txt"/>
          <outputImplementors implementer="tcd"

@@ -11,5 +11,5 @@
 /html/body[1]/p[1]/q[1]
 /html/body[1]/p[2]
 /html/body[1]/p[2]/@id
-/html/body[1]/p[2]/q[1]
-/html/body[1]/p[2]/q[1]/@lang
+/html/body[1]/p[2]/q[1]	lang="fr-CA"
+/html/body[1]/p[2]/q[1]/@lang	lang="fr-CA"
