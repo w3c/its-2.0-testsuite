@@ -5,8 +5,8 @@
 <trans-unit id="1">
 <source xml:lang="en">Video element example</source>
 </trans-unit>
-<trans-unit id="2" itsx:externalResourceRef="video-image.png">
-<source xml:lang="en">If your browser doesn't support the <g id="1">video</g> element, you can <g id="2">download the video</g> instead.</source>
+<trans-unit id="2" resname="1">
+<source xml:lang="en"> <g id="1"><mrk itsx:externalResourceRef="video-image.png" mtype="x-its">If your browser doesn't support the <g id="2">video</g> element, you can <g id="3">download the video</g> instead.</mrk></g> </source>
 </trans-unit>
 </body>
 </file>

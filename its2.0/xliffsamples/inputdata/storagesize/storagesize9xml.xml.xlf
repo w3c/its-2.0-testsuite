@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
 <file original="inputdata/storagesize/xml/storagesize9xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">
-<source xml:lang="en">CONTINUE</source>
+<trans-unit id="1">
+<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">CONTINUE</source>
 </trans-unit>
-<trans-unit id="2" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">
-<source xml:lang="en">STOP</source>
+<trans-unit id="2">
+<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">STOP</source>
 </trans-unit>
-<trans-unit id="3" its:storageSize="12" its:storageEncoding="UTF-16" its:storageLinebreak="nel">
-<source xml:lang="en">CANCEL</source>
+<trans-unit id="3">
+<source xml:lang="en" its:storageSize="12" its:storageEncoding="UTF-16" its:storageLinebreak="nel">CANCEL</source>
 </trans-unit>
 </body>
 </file>

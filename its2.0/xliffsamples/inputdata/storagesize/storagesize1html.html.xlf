@@ -8,11 +8,11 @@
 <trans-unit id="2">
 <source xml:lang="en">String to translate:</source>
 </trans-unit>
-<trans-unit id="3" resname="123" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">
-<source xml:lang="en">Papua New-Guinea</source>
+<trans-unit id="3" resname="123">
+<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">Papua New-Guinea</source>
 </trans-unit>
-<trans-unit id="4" resname="139" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">
-<source xml:lang="en">Dominican Replubic</source>
+<trans-unit id="4" resname="139">
+<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">Dominican Replubic</source>
 </trans-unit>
 </body>
 </file>

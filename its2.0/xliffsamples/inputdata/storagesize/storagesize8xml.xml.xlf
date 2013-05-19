@@ -5,8 +5,8 @@
 <trans-unit id="1">
 <source xml:lang="en">123</source>
 </trans-unit>
-<trans-unit id="2" its:storageSize="25" its:storageEncoding="ISO-8859-1">
-<source xml:lang="en">Papouasie-Nouvelle-Guinée</source>
+<trans-unit id="2">
+<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1">Papouasie-Nouvelle-Guinée</source>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en">République Dominicaine</source>

@@ -2,10 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
 <file original="inputdata/domain/html/domain4html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1" itsx:domain="SPORTS LAW, Judicial Matters">
+<trans-unit id="1" itsx:domains="SPORTS LAW, Judicial Matters">
 <source xml:lang="en">SPORTS LAW, Judicial Matters</source>
 </trans-unit>
-<trans-unit id="2" itsx:domain="SPORTS LAW, Judicial Matters, Sport, Law">
+<trans-unit id="2" itsx:domains="SPORTS LAW, Judicial Matters, Sport, Law">
 <source xml:lang="en">Some text about sport and law.</source>
 </trans-unit>
 </body>

@@ -6,7 +6,7 @@
 <source xml:lang="en">Test</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
+<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling" okp:lqiPos="9 13 0 -1"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
 </trans-unit>
 </body>
 </file>

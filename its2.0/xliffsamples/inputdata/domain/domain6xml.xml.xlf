@@ -5,10 +5,10 @@
 <trans-unit id="1">
 <source xml:lang="en">DC.type</source>
 </trans-unit>
-<trans-unit id="2" itsx:domain="poetry">
+<trans-unit id="2" itsx:domains="poetry">
 <source xml:lang="en"> A poem is a composition written in verse (although verse has also been used for epic and dramatic fiction). </source>
 </trans-unit>
-<trans-unit id="3" itsx:domain="poetry">
+<trans-unit id="3" itsx:domains="poetry">
 <source xml:lang="en"> Poems make use of the aesthetic qualities of language to suggest differential meanings and to evoke emotive responses. Poems rely heavily on imagery and metaphor; they may have a rhythmic structure based on patterns of stresses (metric feet) or on patterns of different-length syllables (as in classical prosody); and they may or may not utilize rhyme. </source>
 </trans-unit>
 </body>

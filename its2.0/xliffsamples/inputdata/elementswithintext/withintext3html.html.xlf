@@ -9,7 +9,7 @@
 <source xml:lang="en">horse</source>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en">appaloosa</source>
+<source xml:lang="en"> <g id="1">appaloosa</g> </source>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en"> The Appaloosa <g id="1"> The name comes from "Palouse horse" in reference to the Palouse River in Northern Idaho. </g> are rugged horses originally breed by the <g id="2">Nez-Perce</g> tribe in the US Northwest. </source>

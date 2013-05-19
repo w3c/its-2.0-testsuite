@@ -3,6 +3,9 @@
 <file original="inputdata/localizationnote/xml/locnote1xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
+<source xml:lang="en">The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'.</source>
+</trans-unit>
+<trans-unit id="2">
 <source xml:lang="en">The {0} has been disabled.</source>
 <note>The variable {0} has three possible values: 'printer', 
     'stacker' and 'stapler options'.</note>

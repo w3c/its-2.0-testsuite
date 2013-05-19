@@ -3,7 +3,7 @@
 <file original="inputdata/textanalysis/xml/textanalysis2xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
-<source xml:lang="en" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
+<source xml:lang="en" its:taClassRef="http://nerd.eurecom.fr/ontology#Location" its:taIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en"> is the </source>

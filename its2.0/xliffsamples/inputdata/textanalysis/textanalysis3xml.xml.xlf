@@ -9,7 +9,7 @@
 <source xml:lang="en">capital</source>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en" its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
+<source xml:lang="en" its:taClassRef="http://nerd.eurecom.fr/ontology#Location" its:taIdentRef="http://dbpedia.org/resource/Dublin">Dublin</source>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en"> is the </source>

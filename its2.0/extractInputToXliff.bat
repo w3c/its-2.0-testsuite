@@ -32,7 +32,6 @@ call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdat
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\mtconfidence -nocopy -x inputdata\mtconfidence\html\*html.html -fc okf_itshtml5
 
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\preservespace -nocopy -x inputdata\preservespace\xml\*xml.xml
-call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\preservespace -nocopy -x inputdata\preservespace\html\*html.html -fc okf_itshtml5
 
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\provenance -nocopy -x inputdata\provenance\xml\*xml.xml
 call ..\..\trunk\deployment\maven\dist_win32-x86\tikal -od xliffsamples\inputdata\provenance -nocopy -x inputdata\provenance\html\*html.html -fc okf_itshtml5

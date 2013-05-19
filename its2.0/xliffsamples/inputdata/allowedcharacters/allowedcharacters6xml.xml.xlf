@@ -5,8 +5,8 @@
 <trans-unit id="1">
 <source xml:lang="en">Click the </source>
 </trans-unit>
-<trans-unit id="2" its:allowedCharacters="[ -þ]">
-<source xml:lang="en">CONTINUE</source>
+<trans-unit id="2">
+<source xml:lang="en" its:allowedCharacters="[ -þ]">CONTINUE</source>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> Button on the printer panel</source>

@@ -6,7 +6,7 @@
 <source xml:lang="en">Text Analysis: Local Test</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en"> <g id="1"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#Place" its:taIdentRef="http://dbpedia.org/resource/Dublin" mtype="x-its">Dublin</mrk></g> is the <g id="2"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#City" its:taIdent="301467919" its:taSource="Wordnet3.0" mtype="x-its">capital</mrk></g> of Ireland.</source>
+<source xml:lang="en"> <g id="1"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#Location" its:taIdentRef="http://dbpedia.org/resource/Dublin" mtype="phrase">Dublin</mrk></g> is the <g id="2"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#City" its:taIdent="301467919" its:taSource="Wordnet3.0" mtype="phrase">capital</mrk></g> of Ireland.</source>
 </trans-unit>
 </body>
 </file>

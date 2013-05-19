@@ -6,7 +6,7 @@
 <source xml:lang="en">Video element example</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">If your browser doesn't support the <g id="1">video</g> element, you can <g id="2">download the video</g> instead.</source>
+<source xml:lang="en"> <g id="1">If your browser doesn't support the <g id="2">video</g> element, you can <g id="3">download the video</g> instead.</g> </source>
 </trans-unit>
 </body>
 </file>
