@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/domain/xml/domain6xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">DC.type</source>
 </trans-unit>
-<trans-unit id="2" itsx:domains="poetry">
+<trans-unit id="2" itsxlf:domains="poetry">
 <source xml:lang="en"> A poem is a composition written in verse (although verse has also been used for epic and dramatic fiction). </source>
 </trans-unit>
-<trans-unit id="3" itsx:domains="poetry">
+<trans-unit id="3" itsxlf:domains="poetry">
 <source xml:lang="en"> Poems make use of the aesthetic qualities of language to suggest differential meanings and to evoke emotive responses. Poems rely heavily on imagery and metaphor; they may have a rhythmic structure based on patterns of stresses (metric feet) or on patterns of different-length syllables (as in classical prosody); and they may or may not utilize rhyme. </source>
 </trans-unit>
 </body>
