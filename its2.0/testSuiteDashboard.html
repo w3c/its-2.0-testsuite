@@ -32,7 +32,7 @@
    </head>
    <body>
       <h1>ITS 2.0 Test Suite Dashboard</h1>
-      <p>Version generated: 2013-05-16T18:52:33.155+03:00</p>
+      <p>Version generated: 2013-05-22T15:27:47.255-06:00</p>
       <h2 id="purpose">Purpose</h2>
       <p>This document provides a summary of the ITS 2.0 Test Suite:</p>
       <ul>
@@ -358,10 +358,10 @@
                <span class="error">4/10</span>
             </td>
             <td>
-               <span class="ok">10/10</span>
+               <span class="error">9/10</span>
             </td>
             <td>
-               <span class="ok">10/10</span>
+               <span class="error">9/10</span>
             </td>
             <td>
                <span class="error">7/10</span>
@@ -769,7 +769,7 @@
                <span class="error">9/10</span>
             </td>
             <td>
-               <span class="error">21/23</span>
+               <span class="ok">23/23</span>
             </td>
             <td>
                <span class="na">n/a</span>
@@ -989,12 +989,12 @@
             <td>225/225</td>
             <td>6/19</td>
             <td>56/72</td>
-            <td>21/23</td>
+            <td>23/23</td>
             <td>4/8</td>
             <td>0/23</td>
             <td>29/82</td>
-            <td>225/225</td>
-            <td>55/55</td>
+            <td>224/225</td>
+            <td>54/55</td>
             <td>167/225</td>
             <td>12/15</td>
          </tr>
@@ -1295,7 +1295,7 @@
          </tr>
          <tr>
             <td>HTML Global</td>
-            <td>3</td>
+            <td>1</td>
             <td>
                <a href="#t-withintext3html">withintext3html</a>
                <a href="#t-withintext4html">withintext4html</a>
@@ -1667,7 +1667,7 @@
          </tr>
          <tr>
             <td>XML Global</td>
-            <td>2</td>
+            <td>3</td>
             <td>
                <a href="#t-locqualityissue1xml">locqualityissue1xml</a>
                <a href="#t-locqualityissue2xml">locqualityissue2xml</a>
@@ -1703,7 +1703,7 @@
          </tr>
          <tr>
             <td>HTML Local</td>
-            <td>3</td>
+            <td>4</td>
             <td>
                <a href="#t-locqualityissue4html">locqualityissue4html</a>
                <a href="#t-locqualityissue5html">locqualityissue5html</a>
@@ -6360,10 +6360,12 @@
                <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
-               <span class="ok">OK</span>
+               <span title="&#xA;Line 3: Comparison failed.&#xA;* Reference line: [/html/head[1]/script[1]&#x9;withinText=&#34;nested&#34;]&#xA;* Implementers file line:[/html/head[1]/script[1]&#x9;withinText=&#34;no&#34;]"
+                     class="error">error</span>
             </td>
             <td>
-               <span class="ok">OK</span>
+               <span title="&#xA;Line 3: Comparison failed.&#xA;* Reference line: [/html/head[1]/script[1]&#x9;withinText=&#34;nested&#34;]&#xA;* Implementers file line:[/html/head[1]/script[1]&#x9;withinText=&#34;no&#34;]"
+                     class="error">error</span>
             </td>
             <td>
                <span class="fnf" title="file not found">fnf</span>
@@ -11265,8 +11267,7 @@
                <span class="na">N/A</span>
             </td>
             <td>
-               <span title="&#xA;Line 16: Comparison failed.&#xA;* Reference line: [/doc/para[1]/span[1]&#x9;locQualityIssuesRef=&#34;#id1234&#34;&#x9;locQualityIssueEnabled[1]=&#34;no&#34;&#x9;locQualityIssueProfileRef[1]=&#34;http://example.org/qaMovel/v1&#34;&#x9;locQualityIssueSeverity[1]=&#34;50&#34;&#x9;locQualityIssueType[1]=&#34;typographical&#34;]&#xA;* Implementers file line:[/doc/para[1]/span[1]&#x9;locQualityIssuesRef=&#34;#1234&#34;&#x9;locQualityIssueEnabled[1]=&#34;no&#34;&#x9;locQualityIssueProfileRef[1]=&#34;http://example.org/qaMovel/v1&#34;&#x9;locQualityIssueSeverity[1]=&#34;50&#34;&#x9;locQualityIssueType[1]=&#34;typographical&#34;]"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
@@ -11975,8 +11976,7 @@
                      class="error">error</span>
             </td>
             <td>
-               <span title="&#xA;Line 7: Comparison failed.&#xA;* Reference line: [/html/head[1]/script[1]/@id]&#xA;* Implementers file line:[/html/head[1]/script[1]/@src]&#xA;Line 9: Comparison failed.&#xA;* Reference line: [/html/head[1]/style[1]]&#xA;* Implementers file line:[/html/head[1]/script[2]]&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/style[1]/@type]&#xA;* Implementers file line:[/html/head[1]/script[2]/@id]&#xA;Line 11: Comparison failed.&#xA;* Reference line: [/html/body[1]]&#xA;* Implementers file line:[/html/head[1]/script[2]/@type]&#xA;Line 12: Comparison failed.&#xA;* Reference line: [/html/body[1]/p[1]]&#xA;* Implementers file line:[/html/head[1]/style[1]]&#xA;Line 13: Comparison failed.&#xA;* Reference line: [/html/body[1]/p[1]/span[1]&#x9;locQualityIssuesRef=&#34;#lq1&#34;&#x9;locQualityIssueComment[1]=&#34;'c'es' is unknown. Could be 'c'est'&#34;&#x9;locQualityIssueEnabled[1]=&#34;yes&#34;&#x9;locQualityIssueSeverity[1]=&#34;50&#34;&#x9;locQualityIssueType[1]=&#34;misspelling&#34;]&#xA;* Implementers file line:[/html/head[1]/style[1]/@type]&#xA;Line 14: Comparison failed.&#xA;* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]&#xA;* Implementers file line:[/html/body[1]]&#xA;Line 15: Comparison failed.&#xA;* Reference line: []&#xA;* Implementers file line:[/html/body[1]/@onload]"
-                     class="error">error</span>
+               <span class="ok">OK</span>
             </td>
             <td>
                <span class="na">N/A</span>
