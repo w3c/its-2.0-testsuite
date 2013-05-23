@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testSuite xmlns="http://example.com/myns"><!--Translate-->
-   <dataCategory identifier="translate" name="Translate">
+<testSuite xmlns="http://example.com/myns"><!--Translate--><dataCategory identifier="translate" name="Translate">
       <inputfile location="inputdata/translate/xml/translate1xml.xml"
                  conformance-class="xml-global">
          <description assertions="translate-global">Global - Embedded rule</description>
@@ -1119,8 +1118,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/tcd/translate/html/translate5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Localization Note-->
-   <dataCategory identifier="localization-note" name="Localization Note">
+   <!--Localization Note--><dataCategory identifier="localization-note" name="Localization Note">
       <inputfile location="inputdata/localizationnote/xml/locnote1xml.xml"
                  conformance-class="xml-global">
          <description assertions="locnote-global">Global - Embedded rules with locNote</description>
@@ -1504,8 +1502,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/tcd/localizationnote/html/locnote8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Terminology-->
-   <dataCategory identifier="terminology" name="Terminology">
+   <!--Terminology--><dataCategory identifier="terminology" name="Terminology">
       <inputfile location="inputdata/terminology/xml/terminology1xml.xml"
                  conformance-class="xml-global">
          <description assertions="term-global">Global - Embedded rules with termInfoPointer</description>
@@ -1749,8 +1746,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/tcd/terminology/html/terminology4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Directionality-->
-   <dataCategory identifier="directionality" name="Directionality">
+   <!--Directionality--><dataCategory identifier="directionality" name="Directionality">
       <inputfile location="inputdata/directionality/xml/dir1xml.xml"
                  conformance-class="xml-global">
          <description assertions="dir-global">Global - Embedded rules</description>
@@ -1872,9 +1868,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/tcd/directionality/html/dir4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Ruby REMOVED-->
-   <!--Language Information-->
-   <dataCategory identifier="language-information" name="Language Information">
+   <!--Ruby REMOVED--><!--Language Information--><dataCategory identifier="language-information" name="Language Information">
       <inputfile location="inputdata/languageinformation/xml/languageinfo1xml.xml"
                  conformance-class="xml-global">
          <description assertions="lang-global">Global - Embedded rules</description>
@@ -2195,8 +2189,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/tcd/languageinformation/html/languageinfo2htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Elements Within Text-->
-   <dataCategory identifier="elements-within-text" name="Elements Within Text">
+   <!--Elements Within Text--><dataCategory identifier="elements-within-text" name="Elements Within Text">
       <inputfile location="inputdata/elementswithintext/xml/withintext1xml.xml"
                  conformance-class="xml-global">
          <description assertions="withintext-global">Global - Embedded rules</description>
@@ -2291,7 +2284,12 @@ Line 16: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt"/>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt">
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/html/body[1]/p[1]/span[1]	withinText="yes"]
+* Implementers file line:[/html/body[1]/p[1]/span[1]	withintext="yes"]</error>
+         </outputImplementors>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml"
                  conformance-class="xml-local">
@@ -2368,16 +2366,10 @@ Line 3: Comparison failed.
 * Implementers file line:[/html/head[1]/script[1]	withinText="no"]</error>
          </outputImplementors>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt">
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/script[1]	withinText="nested"]
-* Implementers file line:[/html/head[1]/script[1]	withinText="no"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Domain-->
-   <dataCategory identifier="domain" name="Domain">
+   <!--Domain--><dataCategory identifier="domain" name="Domain">
       <inputfile location="inputdata/domain/xml/domain1xml.xml"
                  conformance-class="xml-global">
          <description assertions="domain-global">Global - Embedded rules with domainPointer</description>
@@ -2647,8 +2639,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/tcd/domain/html/domain4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Text Analysis -->
-   <dataCategory identifier="text-analysis" name="Text Analysis">
+   <!--Text Analysis --><dataCategory identifier="text-analysis" name="Text Analysis">
       <inputfile location="inputdata/textanalysis/xml/textanalysis1xml.xml"
                  conformance-class="xml-global">
          <description assertions="textanalysis-global">Global - Embedded rules</description>
@@ -2952,8 +2943,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/tcd/textanalysis/html/textanalysis5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Locale Filter-->
-   <dataCategory identifier="locale-filter" name="Locale Filter">
+   <!--Locale Filter--><dataCategory identifier="locale-filter" name="Locale Filter">
       <inputfile location="inputdata/localefilter/xml/locale1xml.xml"
                  conformance-class="xml-global">
          <description assertions="localefilter-global">Global - Embedded rules</description>
@@ -3744,8 +3734,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/tcd/localefilter/html/locale5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Provenance-->
-   <dataCategory identifier="provenance" name="Provenance">
+   <!--Provenance--><dataCategory identifier="provenance" name="Provenance">
       <inputfile location="inputdata/provenance/xml/provenance1xml.xml"
                  conformance-class="xml-global">
          <description assertions="provenance-global">Global - Embedded rules</description>
@@ -4125,8 +4114,7 @@ Line 18: Comparison failed.
          </outputImplementors>
       </inputfile>
    </dataCategory>
-   <!--External Resource-->
-   <dataCategory identifier="external-resource" name="External Resource">
+   <!--External Resource--><dataCategory identifier="external-resource" name="External Resource">
       <inputfile location="inputdata/externalresource/xml/externalresource1xml.xml"
                  conformance-class="xml-global">
          <description assertions="externalresource-global">Global - Embedded rules</description>
@@ -4242,8 +4230,7 @@ Line 18: Comparison failed.
                              location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Target Pointer-->
-   <dataCategory identifier="target-pointer" name="Target Pointer">
+   <!--Target Pointer--><dataCategory identifier="target-pointer" name="Target Pointer">
       <inputfile location="inputdata/targetpointer/xml/targetpointer1xml.xml"
                  conformance-class="xml-global">
          <description assertions="targetpointer-global">Global - Embedded rules</description>
@@ -4356,8 +4343,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--ID Value -->
-   <dataCategory identifier="id-value" name="Id Value">
+   <!--ID Value --><dataCategory identifier="id-value" name="Id Value">
       <inputfile location="inputdata/idvalue/xml/idvalue1xml.xml"
                  conformance-class="xml-global">
          <description assertions="idvalue-global">Global - Embedded rules</description>
@@ -4487,8 +4473,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Preserve Space-->
-   <dataCategory identifier="preserve-space" name="Preserve Space">
+   <!--Preserve Space--><dataCategory identifier="preserve-space" name="Preserve Space">
       <inputfile location="inputdata/preservespace/xml/preservespace1xml.xml"
                  conformance-class="xml-global">
          <description assertions="preservespace-global">Global - Embedded rules</description>
@@ -4572,8 +4557,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/preservespace/xml/preservespace6xmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--LQI-->
-   <dataCategory identifier="localization-quality-issue"
+   <!--LQI--><dataCategory identifier="localization-quality-issue"
                  name="Localization Quality Issue">
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue1xml.xml"
                  conformance-class="xml-global">
@@ -5022,8 +5006,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/tcd/locqualityissue/html/locqualityissue10htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--LQR-->
-   <dataCategory identifier="localization-quality-rating"
+   <!--LQR--><dataCategory identifier="localization-quality-rating"
                  name="Localization Quality Rating">
       <inputfile location="inputdata/locqualityrating/xml/locqualityrating1xml.xml"
                  conformance-class="xml-local">
@@ -5100,8 +5083,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/tcd/locqualityrating/xml/locqualityrating4xmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--MT Confidence-->
-   <dataCategory identifier="mt-confidence" name="MT Confidence">
+   <!--MT Confidence--><dataCategory identifier="mt-confidence" name="MT Confidence">
       <inputfile location="inputdata/mtconfidence/xml/mtconfidence1xml.xml"
                  conformance-class="xml-global">
          <description assertions="mtconfidence-global">Global - Embedded rules</description>
@@ -5305,8 +5287,7 @@ Line 22: Comparison failed.
                              location="outputimplementors/tcd/mtconfidence/html/mtconfidence5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Allowed Characters-->
-   <dataCategory identifier="allowed-characters" name="Allowed Characters">
+   <!--Allowed Characters--><dataCategory identifier="allowed-characters" name="Allowed Characters">
       <inputfile location="inputdata/allowedcharacters/xml/allowedcharacters1xml.xml"
                  conformance-class="xml-global">
          <description assertions="allowedchars-global">Global - Embedded rules</description>
@@ -5452,8 +5433,7 @@ Line 22: Comparison failed.
                              location="outputimplementors/tcd/allowedcharacters/html/allowedcharacters3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
-   <!--Storage Size-->
-   <dataCategory identifier="storage-size" name="Storage Size">
+   <!--Storage Size--><dataCategory identifier="storage-size" name="Storage Size">
       <inputfile location="inputdata/storagesize/xml/storagesize1xml.xml"
                  conformance-class="xml-global">
          <description assertions="storagesize-global">Global - Embedded rules</description>
