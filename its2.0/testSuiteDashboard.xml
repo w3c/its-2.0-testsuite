@@ -2284,12 +2284,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
-                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	withinText="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	withintext="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml"
                  conformance-class="xml-local">
