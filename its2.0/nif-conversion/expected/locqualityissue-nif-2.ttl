@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix its: <http://www.w3.org/2005/11/its> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://example.com/exampledoc.html#char=0,178> nif:sourceUrl <http://example.com/exampledoc.html> ;
+	nif:isString "transport or transportation is the movement of people, animals and goods from one location to another. Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." ;
+	a nif:Context .
+
+<http://example.com/exampledoc.html#char=0,9> a nif:RFC5147String ;
+	nif:anchorOf "transport" ;
+	itsrdf:hasLocQualityIssue _:node17rgq1455x1 .
+
+_:node17rgq1455x1 a itsrdf:LocQualityIssue ;
+	itsrdf:locQualityIssueComment "Sentence without capitalization" ;
+	itsrdf:locQualityIssueSeverity "50" .
+
+<http://example.com/exampledoc.html#char=0,9> nif:referenceContext <http://example.com/exampledoc.html#char=0,178> ;
+	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B1%5D)> .
+
+<http://example.com/exampledoc.html#char=112,125> a nif:RFC5147String ;
+	nif:anchorOf "tranport inc." ;
+	itsrdf:hasLocQualityIssue _:node17rgq1455x2 .
+
+_:node17rgq1455x2 a itsrdf:LocQualityIssue ;
+	itsrdf:locQualityIssueComment "should be 'transport include'" ;
+	itsrdf:locQualityIssueSeverity "75" .
+
+<http://example.com/exampledoc.html#char=112,125> nif:referenceContext <http://example.com/exampledoc.html#char=0,178> ;
+	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/span%5B2%5D)> .
