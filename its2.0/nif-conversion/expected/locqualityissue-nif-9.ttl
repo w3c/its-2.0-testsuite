@@ -1,32 +1,29 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
-@prefix its: <http://www.w3.org/2005/11/its> .
 @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
 
-<http://example.com/exampledoc.html#char=0,176> nif:sourceUrl <http://example.com/exampledoc.html> ;
-	nif:isString "transport or transportation is the movement of people, animals and goods from one location to another.Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." ;
-	a nif:Context .
+<http://example.com/exampledoc.html#char=0,176>
+	a nif:Context ;
+	nif:isString "transport or transportation is the movement of people, animals and goods from one location to another.Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
 
-<http://example.com/exampledoc.html#char=0,9> a nif:RFC5147String ;
-	nif:anchorOf "transport" ;
-	itsrdf:hasLocQualityIssue _:node17rgq3spnx1 .
+<http://example.com/exampledoc.html#char=0,9>
+	nif:beginIndex "0" ;
+	nif:endIndex "9" ;
+	a nif:RFC5147String ;
+	itsrdf:hasLocQualityIssue [
+		itsrdf:locQualityIssueComment "Sentence without capitalization" ;
+		itsrdf:locQualityIssueSeverity "50" ;
+		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;
+	];
+	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
 
-_:node17rgq3spnx1 a itsrdf:LocQualityIssue ;
-	itsrdf:locQualityIssueComment "Sentence without capitalization" ;
-	itsrdf:locQualityIssueSeverity "50" ;
-	itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> .
-
-<http://example.com/exampledoc.html#char=0,9> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/its:span%5B1%5D)> .
-
-<http://example.com/exampledoc.html#char=111,124> a nif:RFC5147String ;
-	nif:anchorOf "tranport inc." ;
-	itsrdf:hasLocQualityIssue _:node17rgq3spnx2 .
-
-_:node17rgq3spnx2 a itsrdf:LocQualityIssue ;
-	itsrdf:locQualityIssueComment "should be 'transport include'" ;
-	itsrdf:locQualityIssueSeverity "75" ;
-	itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> .
-
-<http://example.com/exampledoc.html#char=111,124> nif:referenceContext <http://example.com/exampledoc.html#char=0,176> ;
-	nif:convertedFrom <http://example.com/exampledoc.html#xpath(/doc/para%5B1%5D/its:span%5B2%5D)> .
+<http://example.com/exampledoc.html#char=111,124>
+	nif:beginIndex "111" ;
+	nif:endIndex "124" ;
+	a nif:RFC5147String ;
+	itsrdf:hasLocQualityIssue [
+		itsrdf:locQualityIssueComment "should be 'transport include'" ;
+		itsrdf:locQualityIssueSeverity "75" ;
+		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;
+	];
+	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
