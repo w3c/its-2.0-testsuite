@@ -4,6 +4,8 @@
 
 <http://example.com/exampledoc.html#char=0,34>
 	a nif:Context ;
+	nif:beginIndex "0" ;
+	nif:endIndex "34" ;
 	nif:isString "This is the contentc'es le contenu" .
 
 <http://example.com/exampledoc.html#char=19,23>
