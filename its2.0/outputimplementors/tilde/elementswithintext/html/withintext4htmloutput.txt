@@ -1,6 +1,6 @@
 /html	withinText="no"
 /html/head[1]	withinText="no"
-/html/head[1]/script[1]	withinText="no"
+/html/head[1]/script[1]	withinText="nested"
 /html/head[1]/script[1]/@type
 /html/head[1]/meta[1]	withinText="no"
 /html/head[1]/meta[1]/@charset
