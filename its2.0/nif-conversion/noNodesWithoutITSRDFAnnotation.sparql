@@ -1,0 +1,12 @@
+PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+Select * { 
+		# all RFC5147String that aren't contexts must have an explicit referenceContext, no nodes without an itsrdf annotation
+		?s a nif:RFC5147String .
+		FILTER (NOT EXISTS {?s a nif:Context } ) .
+		FILTER (NOT EXISTS {
+						?s ?p ?o . 
+						FILTER (regex(str(?p),'^http://www.w3.org/2005/11/its/rdf' ) )  
+						} 
+				) .
+}
