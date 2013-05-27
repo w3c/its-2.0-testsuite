@@ -13,6 +13,7 @@
 	nif:endIndex "9" ;
 	a nif:RFC5147String ;
 	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
 		itsrdf:locQualityIssueComment "Sentence without capitalization" ;
 	];
 	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
@@ -22,6 +23,7 @@
 	nif:endIndex "124" ;
 	a nif:RFC5147String ;
 	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
 		itsrdf:locQualityIssueComment "should be 'transport include'" ;
 	];
 	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.

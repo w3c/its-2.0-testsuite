@@ -13,6 +13,7 @@
 	nif:endIndex "23" ;
 	a nif:RFC5147String ;
 	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
 		itsrdf:locQualityIssueComment "'c'es' is unknown. Could be 'c'est'" ;
 		itsrdf:locQualityIssueSeverity "75" ;
 		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;

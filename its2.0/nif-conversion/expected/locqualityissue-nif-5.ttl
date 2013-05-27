@@ -13,6 +13,7 @@
 	nif:endIndex "9" ;
 	a nif:RFC5147String ;
 	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
 		itsrdf:locQualityIssueType "typographical" ;
 	];
 	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
@@ -22,6 +23,7 @@
 	nif:endIndex "124" ;
 	a nif:RFC5147String ;
 	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
 		itsrdf:locQualityIssueType "misspelling" ;
 	];
 	nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
