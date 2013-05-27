@@ -4,6 +4,7 @@
 
 <http://example.com/exampledoc.html#char=0,176>
 	a nif:Context ;
+	a nif:RFC5147String ;
 	nif:beginIndex "0" ;
 	nif:endIndex "176" ;
 	nif:isString "transport or transportation is the movement of people, animals and goods from one location to another.Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
