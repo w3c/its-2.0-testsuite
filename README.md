@@ -45,3 +45,17 @@ Explanations of states :
 * OK = the output file is identical to the reference output file.
 * error = an error occurred, e.g. the output file is not available or it is not identical to the reference output file. Move the mouse over error to see details.
 * fnf: the output file from the implementer has not been found.
+
+Validating NIF output files
+---------------------------
+Prerequisites: Java and Unix Shell
+* create a temporary folder for output files (hence called $datafolder)
+* read ITS files from "its2.0/nif-conversion/input/" one by one, convert to NIF and write output files in turtle to $datafolder
+* go to directory 
+  cd its2.0/nif-conversion/sparqltest
+* run :
+  ./executeAllTests.sh ../relative/pathTo/$datafolder
+  
+Explanations of output:
+* If no message appears between "Running: test1.sparql" and "Done: test1.sparql" the test was successfull. 
+* Otherwise the output filename and additional debug output is shown.  
