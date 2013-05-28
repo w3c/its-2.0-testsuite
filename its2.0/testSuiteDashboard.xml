@@ -88,32 +88,7 @@ Line 14: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/@lang	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/@title	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@style	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]/@id	translate="no"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate7htmloutput.txt">
             <error>
@@ -310,48 +285,7 @@ Line 18: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/html/translate1htmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="yes"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/@id	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/@title	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/code[1]	translate="no"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@title	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate1htmloutput.txt">
             <error>
@@ -768,72 +702,7 @@ Line 17: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/html/translate2htmloutput.txt">
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/@lang	translate="yes"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	translate="no"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="yes"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/body[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]/@translate	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/span[2]/@translate	translate="no"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@src	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/img[1]/@width	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@translate	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[2]/@translate	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate2htmloutput.txt">
             <error>
@@ -993,24 +862,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/translate/html/translate3htmloutput.txt">
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/@title	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[1]	translate="no"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[1]	translate="no"]
-* Implementers file line:[/html/body[1]/section[1]/p[1]/span[2]	translate="no"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="lucysoftware"
                              location="outputimplementors/lucysoftware/translate/html/translate3htmloutput.txt">
             <error>
@@ -3884,16 +3736,7 @@ Line 28: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance2html.html"
                  conformance-class="html-global">
@@ -3908,16 +3751,7 @@ Line 19: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance3html.html"
                  conformance-class="html-local">
@@ -3932,16 +3766,7 @@ Line 18: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance3htmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="#pr1"	org[1]="acme-CAT-v2.3"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revToolRef[1]="http://www.mycat.com/v1.0/download"	toolRef[1]="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-provenance-records-ref	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.legaltrans-ex.com/"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.vistatec.com/"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance4html.html"
                  conformance-class="html-local">
@@ -3956,64 +3781,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance4htmloutput.txt">
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-org]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-person-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-person-ref]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-prov-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-prov-ref]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-rev-org	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-rev-org]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-rev-tool-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-rev-tool-ref]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-tool-ref	org="acme-CAT-v2.3"	personRef="http://www.provdata.com/person/#John_Doe"	provRef="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg="acme-CAT-v2.3"	revToolRef="http://www.mycat.com/v1.0/download"	toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/"]
-* Implementers file line:[/html/body[1]/p[1]/@its-tool-ref]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@class]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-org-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-org-ref]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-person]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-prov-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-prov-ref]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-rev-org-ref	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-rev-org-ref]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-rev-person	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-rev-person]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@its-tool	orgRef="http://www.legaltrans-ex.com/"	person="John Doe"	provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef="http://www.vistatec.com/"	revPerson="Tommy Atkins"	tool="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@its-tool]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance5html.html"
                  conformance-class="html-global">
@@ -4028,16 +3796,7 @@ Line 23: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance6html.html"
                  conformance-class="html-local">
@@ -4052,12 +3811,7 @@ Line 19: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance6htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="provenance6htmlstandoff.xml#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance7html.html"
                  conformance-class="html-local">
@@ -4072,12 +3826,7 @@ Line 8: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance7htmloutput.txt">
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@its-provenance-records-ref	provenanceRecordsRef="provenance7htmlstandoff.html#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@its-provenance-records-ref]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance8html.html"
                  conformance-class="html-global">
@@ -4092,16 +3841,7 @@ Line 8: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[/html/body[1]/p[2]/@id]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
    <!--External Resource--><dataCategory identifier="external-resource" name="External Resource">
@@ -4865,40 +4605,7 @@ Line 15: Comparison failed.
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/script[1]/@id]
-* Implementers file line:[/html/head[1]/script[1]/@src]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/head[1]/style[1]]
-* Implementers file line:[/html/head[1]/script[2]]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/head[1]/style[1]/@type]
-* Implementers file line:[/html/head[1]/script[2]/@id]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]]
-* Implementers file line:[/html/head[1]/script[2]/@type]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]]
-* Implementers file line:[/html/head[1]/style[1]]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	locQualityIssuesRef="#lq1"	locQualityIssueComment[1]="'c'es' is unknown. Could be 'c'est'"	locQualityIssueEnabled[1]="yes"	locQualityIssueSeverity[1]="50"	locQualityIssueType[1]="misspelling"]
-* Implementers file line:[/html/head[1]/style[1]/@type]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]/@its-loc-quality-issues-ref]
-* Implementers file line:[/html/body[1]]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/@onload]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/locqualityissue/html/locqualityissue7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
