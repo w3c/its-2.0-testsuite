@@ -5,10 +5,10 @@
 <trans-unit id="1">
 <source xml:lang="en">Test</source>
 </trans-unit>
-<trans-unit id="2" resname="#pr1">
+<trans-unit id="2" resname="#pr1" its:tool="onlinemtex" its:revOrg="acme-CAT-v2.3" its:revPerson="James Joyce" its:revTool="mycat-v1.0" its:provRef="http://www.examplelsp.com/excontent987/production/prov/e6354">
 <source xml:lang="en">This paragraph was translated from the machine.</source>
 </trans-unit>
-<trans-unit id="3" resname="#pr2">
+<trans-unit id="3" resname="#pr2" its:org="legaltrans-ex" its:person="John Doe" its:revOrg="vistatec" its:revPerson="Tommy Atkins" its:provRef="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469">
 <source xml:lang="en">This text was translated directly by a person.</source>
 </trans-unit>
 </body>
