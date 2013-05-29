@@ -7,7 +7,7 @@
 /html/head[1]/title[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"
 /html/body[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"
 /html/body[1]/p[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"
-/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"
+/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"
 /html/body[1]/p[1]/span[1]/@its-ta-class-ref	annotatorsRef="text-analysis|http://enrycher.ijs.si"
 /html/body[1]/p[1]/span[1]/@its-ta-confidence	annotatorsRef="text-analysis|http://enrycher.ijs.si"
 /html/body[1]/p[1]/span[1]/@its-ta-ident-ref	annotatorsRef="text-analysis|http://enrycher.ijs.si"

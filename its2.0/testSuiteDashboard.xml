@@ -2487,12 +2487,7 @@ Line 15: Comparison failed.
          <description assertions="textanalysis-global">Global - Embedded rules</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis1xmloutput.txt">
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2509,12 +2504,7 @@ Line 15: Comparison failed.
          <description assertions="textanalysis-global">Global - Embedded rules with class pointer</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis7xmloutput.txt">
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2531,12 +2521,7 @@ Line 14: Comparison failed.
          <description assertions="textanalysis-local">Local - In host element</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis5xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis5xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2555,12 +2540,7 @@ Line 6: Comparison failed.
          <description assertions="textanalysis-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis2xmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2577,12 +2557,7 @@ Line 7: Comparison failed.
          <description assertions="textanalysis-global link-external-rules">Global - Linked rules with class pointer</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis8xmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2599,12 +2574,7 @@ Line 7: Comparison failed.
          <description assertions="textanalysis-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis6xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/its:span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/its:span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis6xmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2623,12 +2593,7 @@ Line 6: Comparison failed.
          <description assertions="textanalysis-local html5-markup">Local - In host</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/html/textanalysis4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	annotatorsRef="text-analysis|http://enrycher.ijs.si"	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taConfidence="0.7"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/html/textanalysis4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2649,12 +2614,7 @@ Line 10: Comparison failed.
          <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/html/textanalysis1htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2673,12 +2633,7 @@ Line 12: Comparison failed.
          <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/html/textanalysis3htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2697,12 +2652,7 @@ Line 12: Comparison failed.
          <description assertions="textanalysis-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis3xmloutput.txt">
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2719,12 +2669,7 @@ Line 19: Comparison failed.
          <description assertions="textanalysis-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/xml/textanalysis4xmloutput.txt">
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2741,12 +2686,7 @@ Line 7: Comparison failed.
          <description assertions="textanalysis-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/html/textanalysis2htmloutput.txt">
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="moravia"
@@ -2765,12 +2705,7 @@ Line 12: Comparison failed.
          <description assertions="textanalysis-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="jsi"
-                             location="outputimplementors/jsi/textanalysis/html/textanalysis5htmloutput.txt">
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"]
-* Implementers file line:[/html/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Place"	taIdentRef="http://dbpedia.org/resource/Dublin"]</error>
-         </outputImplementors>
+                             location="outputimplementors/jsi/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="moravia"
