@@ -16,7 +16,7 @@
    Modes of <span id="q2">tranport inc.</span> air, rail, road, water, cable, pipeline, and space.
  </para>
  <its:locQualityIssues xml:id="id1234">
-  <its:locQualityIssue locQualityIssueType="typographical"
+  <its:locQualityIssueRule locQualityIssueType="typographical"
    locQualityIssueSeverity="50"
    locQualityIssueProfileRef="http://example.org/qaMovel/v1"
    locQualityIssueEnabled="no"/>
