@@ -1,0 +1,20 @@
+/html
+/html/head[1]
+/html/head[1]/script[1]
+/html/head[1]/script[1]/@type
+/html/head[1]/meta[1]
+/html/head[1]/meta[1]/@charset
+/html/head[1]/title[1]
+/html/body[1]
+/html/body[1]/div[1]
+/html/body[1]/div[1]/@id
+/html/body[1]/div[1]/p[1]	targetPointer="../h:p[@class='targetfolder']"
+/html/body[1]/div[1]/p[1]/@class
+/html/body[1]/div[1]/p[2]
+/html/body[1]/div[1]/p[2]/@class
+/html/body[1]/div[2]
+/html/body[1]/div[2]/@id
+/html/body[1]/div[2]/p[1]	targetPointer="../h:p[@class='targetfile']"
+/html/body[1]/div[2]/p[1]/@class
+/html/body[1]/div[2]/p[2]
+/html/body[1]/div[2]/p[2]/@class

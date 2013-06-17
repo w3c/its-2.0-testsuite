@@ -1,0 +1,34 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> . 
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://example.com/exampledoc.html#char=0,180>
+ a nif:Context; 
+ a nif:RFC5147String; 
+ nif:beginIndex "0" ;
+ nif:endIndex "180"; 
+ nif:isString "q1 transport or transportation is the movement of people, animals and goods from one location to another. Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
+
+<http://example.com/exampledoc.html#char=2,11> 
+ nif:beginIndex "2" ;
+ nif:endIndex "11"; 
+ a nif:RFC5147String; 
+ itsrdf:hasLocQualityIssue [
+ 	 a itsrdf:LocQualityIssue ;
+ 	 itsrdf:locQualityIssueComment "Sentence without capitalization";
+ 	 itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1>;
+ 	 itsrdf:locQualityIssueSeverity "50";
+ ]; 
+ nif:referenceContext <http://example.com/exampledoc.html#char=0,180>.
+
+<http://example.com/exampledoc.html#char=115,128> 
+ nif:beginIndex "115" ;
+ nif:endIndex "128"; 
+ a nif:RFC5147String; 
+ itsrdf:hasLocQualityIssue [
+ 	 a itsrdf:LocQualityIssue ;
+ 	 itsrdf:locQualityIssueComment "should be 'transport include'";
+ 	 itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1>;
+ 	 itsrdf:locQualityIssueSeverity "75";
+ ]; 
+ nif:referenceContext <http://example.com/exampledoc.html#char=0,180>.

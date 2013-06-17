@@ -1,0 +1,8 @@
+/text	dir="ltr"
+/text/@its:version	dir="ltr"
+/text/@xml:lang	dir="ltr"
+/text/body[1]	dir="ltr"
+/text/body[1]/par[1]	dir="ltr"
+/text/body[1]/par[1]/its:span[1]	dir="rtl"
+/text/body[1]/par[1]/its:span[1]/@dir	dir="rtl"
+/text/body[1]/par[1]/its:span[1]/@xml:lang	dir="rtl"

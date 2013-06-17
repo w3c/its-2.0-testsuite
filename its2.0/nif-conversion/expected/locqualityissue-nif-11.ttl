@@ -1,0 +1,23 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://example.com/exampledoc.html#char=0,34>
+	a nif:Context ;
+	a nif:RFC5147String ;
+	nif:beginIndex "0" ;
+	nif:endIndex "34" ;
+	nif:isString "This is the contentc'es le contenu" .
+
+<http://example.com/exampledoc.html#char=19,23>
+	nif:beginIndex "19" ;
+	nif:endIndex "23" ;
+	a nif:RFC5147String ;
+	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
+		itsrdf:locQualityIssueComment "'c'es' is unknown. Could be 'c'est'" ;
+		itsrdf:locQualityIssueSeverity "75" ;
+		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;
+		itsrdf:locQualityIssueEnabled "yes" ;
+	];
+	nif:referenceContext <http://example.com/exampledoc.html#char=0,34>.

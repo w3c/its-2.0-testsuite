@@ -1,0 +1,6 @@
+/messages
+/messages/@its:version
+/messages/msg[1]
+/messages/msg[1]/@num
+/messages/msg[1]/its:span[1]	allowedCharacters="[ -þ]"
+/messages/msg[1]/its:span[1]/@allowedCharacters

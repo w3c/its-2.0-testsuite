@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/domain/html/domain3html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1" itsx:domain="sports law">
+<trans-unit id="1" itsxlf:domains="sports law">
 <source xml:lang="en">sports law</source>
 </trans-unit>
-<trans-unit id="2" itsx:domain="law">
+<trans-unit id="2" itsxlf:domains="law">
 <source xml:lang="en"> Sports law is an umbrella term used to describe the legal issues at work in the world of both amateur and professional sports. </source>
 </trans-unit>
-<trans-unit id="3" itsx:domain="law">
+<trans-unit id="3" itsxlf:domains="law">
 <source xml:lang="en"> Sports law overlaps substantially with labor law, contract law, competition or antitrust law, and tort law. </source>
 </trans-unit>
 </body>

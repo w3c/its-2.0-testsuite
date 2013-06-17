@@ -1,0 +1,9 @@
+/myRes
+/myRes/head[1]
+/myRes/head[1]/its:rules[1]
+/myRes/head[1]/its:rules[1]/@version
+/myRes/head[1]/its:rules[1]/its:allowedCharactersRule[1]
+/myRes/head[1]/its:rules[1]/its:allowedCharactersRule[1]/@allowedCharacters
+/myRes/head[1]/its:rules[1]/its:allowedCharactersRule[1]/@selector
+/myRes/body[1]
+/myRes/body[1]/content[1]	allowedCharacters="[^*+]"

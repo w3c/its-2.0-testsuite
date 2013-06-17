@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://example.com/exampledoc.html#char=0,178>
+	a nif:Context ;
+	a nif:RFC5147String ;
+	nif:beginIndex "0" ;
+	nif:endIndex "178" ;
+	nif:isString " transport or transportation is the movement of people, animals and goods from one location to another. Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
+
+<http://example.com/exampledoc.html#char=1,10>
+	nif:beginIndex "1" ;
+	nif:endIndex "10" ;
+	a nif:RFC5147String ;
+	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
+		itsrdf:locQualityIssueEnabled "yes" ;
+		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;
+		itsrdf:locQualityIssueSeverity "50" ;
+		itsrdf:locQualityIssueType "typographical" ;
+	];
+	nif:referenceContext <http://example.com/exampledoc.html#char=0,178>.
+
+<http://example.com/exampledoc.html#char=113,126>
+	nif:beginIndex "113" ;
+	nif:endIndex "126" ;
+	a nif:RFC5147String ;
+	itsrdf:hasLocQualityIssue [
+		a itsrdf:LocQualityIssue ;
+		itsrdf:locQualityIssueEnabled "yes" ;
+		itsrdf:locQualityIssueProfileRef <http://example.org/qaMovel/v1> ;
+		itsrdf:locQualityIssueSeverity "75" ;
+		itsrdf:locQualityIssueType "misspelling" ;
+	];
+	nif:referenceContext <http://example.com/exampledoc.html#char=0,178>.
+
+

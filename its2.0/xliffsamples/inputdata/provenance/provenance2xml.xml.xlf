@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/provenance/xml/provenance2xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
@@ -8,10 +8,10 @@
 <trans-unit id="2">
 <source xml:lang="en">Translation Revision Provenance Agent: Global Test in XML</source>
 </trans-unit>
-<trans-unit id="3" resname="#pr1">
+<trans-unit id="3" resname="#pr1" its:toolRef="http://www.provdata.com/tool/#onlinemtex" its:revOrg="acme-CAT-v2.3" its:revPerson="James Joyce" its:revToolRef="http://www.provdata.com/RevTool/#mycat-v1" its:provRef="http://www.examplelsp.com/excontent987/production/prov/e6354">
 <source xml:lang="en"> This paragraph was translated from the machine.</source>
 </trans-unit>
-<trans-unit id="4" resname="#pr2">
+<trans-unit id="4" resname="#pr2" its:orgRef="http://www.provdata.com/org/#legaltrans-ex" its:personRef="http://www.provdata.com/person/#John_Doe" its:revOrgRef="http://www.provdata.com/RevOrg/#vistatec" its:revPersonRef="http://www.provdata.com/RevPerson/#Tommy_Atkins" its:provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469">
 <source xml:lang="en">This text was translated directly by a person.</source>
 </trans-unit>
 </body>

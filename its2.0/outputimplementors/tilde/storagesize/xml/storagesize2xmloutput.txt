@@ -1,0 +1,17 @@
+/fields
+/fields/its:rules[1]
+/fields/its:rules[1]/@version
+/fields/its:rules[1]/its:storageSizeRule[1]
+/fields/its:rules[1]/its:storageSizeRule[1]/@selector
+/fields/its:rules[1]/its:storageSizeRule[1]/@storageEncodingPointer
+/fields/its:rules[1]/its:storageSizeRule[1]/@storageSizePointer
+/fields/field[1]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
+/fields/field[1]/@encoding
+/fields/field[1]/@id
+/fields/field[1]/@max
+/fields/field[1]/@type
+/fields/field[2]	lineBreakType="lf"	storageEncoding="ISO-8859-1"	storageSize="25"
+/fields/field[2]/@encoding
+/fields/field[2]/@id
+/fields/field[2]/@max
+/fields/field[2]/@type

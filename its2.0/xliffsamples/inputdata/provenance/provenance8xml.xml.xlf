@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/provenance/xml/provenance8xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Translation Revision Provenance Agent: Local Test in XML</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:org="acme-CAT-v2.3" its:personRef="http://www.provdata.com/person/#John_Doe" its:toolRef="http://www.onlinemtex.com/2012/7/25/wsdl/" its:revOrg="acme-CAT-v2.3" its:revToolRef="http://www.mycat.com/v1.0/download" its:provRef="http://www.examplelsp.com/excontent987/production/prov/e6354">
 <source xml:lang="en">This paragraph was translated from the machine.</source>
 </trans-unit>
-<trans-unit id="3">
+<trans-unit id="3" its:orgRef="http://www.legaltrans-ex.com/" its:person="John Doe" its:tool="onlinemtex" its:revOrgRef="http://www.vistatec.com/" its:revPerson="Tommy Atkins" its:provRef="http://www.examplelsp.com/excontent987/legal/prov/e6354 http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469">
 <source xml:lang="en">This text was translated directly by a person.</source>
 </trans-unit>
 </body>

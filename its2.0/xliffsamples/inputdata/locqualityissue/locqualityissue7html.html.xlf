@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/locqualityissue/html/locqualityissue7html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
 <source xml:lang="en">Test</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
+<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueSeverity="50" its:locQualityIssueType="misspelling" okp:lqiPos="9 13 0 -1"> <g id="1">c'es</g> pourquoi il n'était pas coupable</source>
 </trans-unit>
 </body>
 </file>

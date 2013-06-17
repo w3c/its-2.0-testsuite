@@ -1,57 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="mostofits20.xml" source-language="en-us" target-language="fr-fr" datatype="xml">
 <body>
-<trans-unit id="1" resname="p1" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">Text <g id="1">in <g id="2"><mrk mtype="term">bold face</mrk></g></g>.</source>
+<trans-unit id="1" resname="p1" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Text <g id="1">in <g id="2"><mrk mtype="term">bold face</mrk></g></g>.</source>
 <seg-source><mrk mid="0" mtype="seg">Text <g id="1">in <g id="2"><mrk mtype="term">bold face</mrk></g></g>.</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Text <g id="1">in <g id="2"><mrk mtype="term">bold face</mrk></g></g>.</mrk></target>
+<target xml:lang="fr-fr" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"><mrk mid="0" mtype="seg">Text <g id="1">in <g id="2"><mrk mtype="term">bold face</mrk></g></g>.</mrk></target>
 <note annotates="source">Terms:
 bold face;
 </note>
 </trans-unit>
-<trans-unit id="2" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">Caption text</source>
+<trans-unit id="2" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Caption text</source>
 <seg-source><mrk mid="0" mtype="seg">Caption text</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Caption text</mrk></target>
 </trans-unit>
-<trans-unit id="3" resname="p2" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">An image: <x id="1"/></source>
-<seg-source><mrk mid="0" mtype="seg">An image:</mrk> <mrk mid="1" mtype="seg"><x id="1"/></mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">An image:</mrk> <mrk mid="1" mtype="seg"><x id="1"/></mrk></target>
+<trans-unit id="3" resname="p2" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">An image: <x id="1" itsxlf:externalResourceRef="image.png"/></source>
+<seg-source><mrk mid="0" mtype="seg">An image:</mrk> <mrk mid="1" mtype="seg"><x id="1" itsxlf:externalResourceRef="image.png"/></mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">An image:</mrk> <mrk mid="1" mtype="seg"><x id="1" itsxlf:externalResourceRef="image.png"/></mrk></target>
 </trans-unit>
-<trans-unit id="4" resname="p3" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">Text with <g id="1"><mrk comment="Note on 'a note'" itsx:locNoteType="description" mtype="x-its">a note</mrk></g>.</source>
-<seg-source><mrk mid="0" mtype="seg">Text with <g id="1"><mrk comment="Note on 'a note'" itsx:locNoteType="description" mtype="x-its">a note</mrk></g>.</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Text with <g id="1"><mrk comment="Note on 'a note'" itsx:locNoteType="description" mtype="x-its">a note</mrk></g>.</mrk></target>
+<trans-unit id="4" resname="p3" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Text with <g id="1"><mrk comment="Note on 'a note'" itsxlf:locNoteType="description" mtype="x-its">a note</mrk></g>.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with <g id="1"><mrk comment="Note on 'a note'" itsxlf:locNoteType="description" mtype="x-its">a note</mrk></g>.</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Text with <g id="1"><mrk comment="Note on 'a note'" itsxlf:locNoteType="description" mtype="x-its">a note</mrk></g>.</mrk></target>
 </trans-unit>
-<trans-unit id="5" xml:space="preserve" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">line 1
+<trans-unit id="5" xml:space="preserve" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssuesRef="#NC44C1C59">line 1
 line 2 [  ]=2 spaces</source>
 <seg-source><mrk mid="0" mtype="seg">line 1</mrk>
 <mrk mid="1" mtype="seg">line 2 [  ]=2 spaces</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">line 1</mrk>
 <mrk mid="1" mtype="seg">line 2 [  ]=2 spaces</mrk></target>
+<its:locQualityIssues xml:id="NC44C1C59">
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1"/>
+</its:locQualityIssues>
 </trans-unit>
-<trans-unit id="6" itsx:domain="domain1, domain2">
-<source xml:lang="en-us">Text in English</source>
+<trans-unit id="6" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Text in English</source>
 <seg-source><mrk mid="0" mtype="seg">Text in English</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Text in English</mrk></target>
 </trans-unit>
-<trans-unit id="7" resname="m1" itsx:domain="domain1, domain2" its:storageSize="15" its:allowedCharacters="[a-z]">
-<source xml:lang="en-us" its:locQualityIssuesRef="#lqi2">Text of the mesage</source>
+<trans-unit id="7" resname="m1" itsxlf:domains="domain1, domain2">
+<source xml:lang="en-us" its:storageSize="15" its:allowedCharacters="[a-z]" its:locQualityIssuesRef="#NB2A45193">Text of the mesage</source>
 <seg-source><mrk mid="0" mtype="seg">Text of the mesage</mrk></seg-source>
-<target xml:lang="fr-fr" its:locQualityIssuesRef="#lqi2"><mrk mid="0" mtype="seg">Text of the mesage</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="15" its:allowedCharacters="[a-z]" its:locQualityIssuesRef="#NB2A45193"><mrk mid="0" mtype="seg">Text of the mesage</mrk></target>
 <note>Note for the string m1</note>
-<its:locQualityIssues xml:id="lqi2">
+<its:locQualityIssues xml:id="NB2A45193">
 <its:locQualityIssue locQualityIssueComment="'mesage' is probably 'message'." locQualityIssueSeverity="50" locQualityIssueType="misspelling"/>
 <its:locQualityIssue locQualityIssueComment="Text too long" locQualityIssueType="length"/>
 <its:locQualityIssue locQualityIssueComment="Character not allowed: 'T'"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 -1 0 1"/>
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
 </its:locQualityIssues>
-<its:locQualityIssues xml:id="lqi2">
+<its:locQualityIssues xml:id="NB2A45193">
 <its:locQualityIssue locQualityIssueComment="'mesage' is probably 'message'." locQualityIssueSeverity="50" locQualityIssueType="misspelling"/>
 <its:locQualityIssue locQualityIssueComment="Text too long" locQualityIssueType="length"/>
 <its:locQualityIssue locQualityIssueComment="Character not allowed: 'T'"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 -1 0 1"/>
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
 </its:locQualityIssues>
 </trans-unit>
 </body>

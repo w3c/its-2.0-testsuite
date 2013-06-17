@@ -1,129 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" its:version="2.0">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="Example1_HTML5.html" source-language="en-us" target-language="fr-fr" datatype="html">
 <body>
 <trans-unit id="1">
-<source xml:lang="en-us">Example</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Example</source>
 <seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Example</mrk></target>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en-us">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip? Our <g id="1">Around the World in 80 Days</g> travel package is specifically designed for this.</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip? Our <g id="1">Around the World in 80 Days</g> travel package is specifically designed for this.</source>
 <seg-source><mrk mid="0" mtype="seg">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip?</mrk> <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel package is specifically designed for this.</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip?</mrk> <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel package is specifically designed for this.</mrk></target>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">N’avez-vous jamais rêvé de marcher sur les six continents, en un seul voyage magnifique autour de la planète ?</mrk> <mrk mid="1" mtype="seg">Our <g id="1">Around the World in 80 Days</g> travel package is specifically designed for this.</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Have you ever dreamed of stepping on each of the six continents around the planet during a single, amazing trip?</source>
+<target xml:lang="fr-fr">N’avez-vous jamais rêvé de marcher sur les six continents, en un seul voyage magnifique autour de la planète ?</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet. In 80 days, you will see more of the world than most see through their entire lifetime! You will come back with the rich experience that nothing but a true journey can provide.</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="2">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet. In 80 days, you will see more of the world than most see through their entire lifetime! You will come back with the rich experience that nothing but a true journey can provide.</source>
 <seg-source><mrk mid="0" mtype="seg">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet.</mrk> <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most see through their entire lifetime!</mrk> <mrk mid="2" mtype="seg">You will come back with the rich experience that nothing but a true journey can provide.</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet.</mrk> <mrk mid="1" mtype="seg">In 80 days, you will see more of the world than most see through their entire lifetime!</mrk> <mrk mid="2" mtype="seg">You will come back with the rich experience that nothing but a true journey can provide.</mrk></target>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Des canyons de l’Arizona, aux temples Khmers enfouis dans la jungle; des plages tropicales du Queensland aux glaciers d’Antarctique; ou de la savane africaine aux mystérieux château au cœur des forets de Bohême, notre offre vous amène aux endroits les plus incroyables de notre planète.</mrk> <mrk mid="1" mtype="seg">En 80 jours, vous verrez plus du monde que la plupart voient dans l’espace de leur vie!</mrk> <mrk mid="2" mtype="seg">You will come back with the rich experience that nothing but a true journey can provide.</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">From the canyons of Arizona, to the Khmer temples deep in the jungle; from the tropical beaches of Queensland to the glaciers of Antarctica; or from the wild savanna of Africa to mysterious castles in the forests of Bohemia, our offer takes you in some of the most amazing places on our planet.</source>
+<target xml:lang="fr-fr">Des canyons de l’Arizona, aux temples Khmers enfouis dans la jungle; des plages tropicales du Queensland aux glaciers d’Antarctique; ou de la savane africaine aux mystérieux château au cœur des forets de Bohême, notre offre vous amène aux endroits les plus incroyables de notre planète.</target>
+</alt-trans>
+<alt-trans mid="1" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">In 80 days, you will see more of the world than most see through their entire lifetime!</source>
+<target xml:lang="fr-fr">En 80 jours, vous verrez plus du monde que la plupart voient dans l’espace de leur vie!</target>
+</alt-trans>
 </trans-unit>
-<trans-unit id="4" its:storageSize="30">
-<source xml:lang="en-us">The Lost Temples of the Khmer</source>
+<trans-unit id="4">
+<source xml:lang="en-us" its:storageSize="30">The Lost Temples of the Khmer</source>
 <seg-source><mrk mid="0" mtype="seg">The Lost Temples of the Khmer</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Lost Temples of the Khmer</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Les temples perdus des Khmers</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The Lost Temples of the Khmer</source>
+<target xml:lang="fr-fr">Les temples perdus des Khmers</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="5">
-<source xml:lang="en-us">Reservation with Pnomphen Treks Inc.</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Reservation with Pnomphen Treks Inc.</source>
 <seg-source><mrk mid="0" mtype="seg">Reservation with Pnomphen Treks Inc.</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Reservation with Pnomphen Treks Inc.</mrk></target>
 </trans-unit>
-<trans-unit id="6" its:storageSize="30">
-<source xml:lang="en-us">The Bridge on the Kwai River</source>
+<trans-unit id="6">
+<source xml:lang="en-us" its:storageSize="30">The Bridge on the Kwai River</source>
 <seg-source><mrk mid="0" mtype="seg">The Bridge on the Kwai River</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Bridge on the Kwai River</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Le pont sur la rivière Kwaï</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The Bridge on the Kwai River</source>
+<target xml:lang="fr-fr">Le pont sur la rivière Kwaï</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="7">
-<source xml:lang="en-us">Add 300 for an extra day</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Add 300 for an extra day</source>
 <seg-source><mrk mid="0" mtype="seg">Add 300 for an extra day</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Add 300 for an extra day</mrk></target>
 </trans-unit>
-<trans-unit id="8" its:storageSize="30">
-<source xml:lang="en-us">Canyon X and the Land of the Navajo</source>
+<trans-unit id="8">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssuesRef="#PD21E864">Canyon X and the Land of the Navajo</source>
 <seg-source><mrk mid="0" mtype="seg">Canyon X and the Land of the Navajo</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Canyon X and the Land of the Navajo</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssuesRef="#PD21E864"><mrk mid="0" mtype="seg">Canyon X et la terre des Navajos</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Canyon X and the Land of the Navajo</source>
+<target xml:lang="fr-fr">Canyon X et la terre des Navajos</target>
+</alt-trans>
+<its:locQualityIssues xml:id="PD21E864">
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 35. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 32. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+</its:locQualityIssues>
+<its:locQualityIssues xml:id="PD21E864">
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 35. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 32. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+</its:locQualityIssues>
 </trans-unit>
 <trans-unit id="9">
-<source xml:lang="en-us">Only the breakfast is included</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Only the breakfast is included</source>
 <seg-source><mrk mid="0" mtype="seg">Only the breakfast is included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Only the breakfast is included</mrk></target>
 </trans-unit>
-<trans-unit id="10" its:storageSize="30">
-<source xml:lang="en-us">Machu Picchu and the Inca Trail</source>
+<trans-unit id="10">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 31. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1">Machu Picchu and the Inca Trail</source>
 <seg-source><mrk mid="0" mtype="seg">Machu Picchu and the Inca Trail</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Machu Picchu and the Inca Trail</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 31. Number allowed: 30." its:locQualityIssueSeverity="2" its:locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"><mrk mid="0" mtype="seg">Machu Picchu et le Chemin Inca</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Machu Picchu and the Inca Trail</source>
+<target xml:lang="fr-fr">Machu Picchu et le Chemin Inca</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="11">
-<source xml:lang="en-us">Only for fit customers</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Only for fit customers</source>
 <seg-source><mrk mid="0" mtype="seg">Only for fit customers</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Only for fit customers</mrk></target>
 </trans-unit>
-<trans-unit id="12" its:storageSize="30">
-<source xml:lang="en-us">Castles of Bohemia</source>
+<trans-unit id="12">
+<source xml:lang="en-us" its:storageSize="30">Castles of Bohemia</source>
 <seg-source><mrk mid="0" mtype="seg">Castles of Bohemia</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Castles of Bohemia</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Châteaux en Bohême</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Castles of Bohemia</source>
+<target xml:lang="fr-fr">Châteaux en Bohême</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="13">
-<source xml:lang="en-us">Wine is not included</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Wine is not included</source>
 <seg-source><mrk mid="0" mtype="seg">Wine is not included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Wine is not included</mrk></target>
 </trans-unit>
-<trans-unit id="14" its:storageSize="30">
-<source xml:lang="en-us">Paris (The City of Lights)</source>
+<trans-unit id="14">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Paris (The City of Lights)</source>
 <seg-source><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"><mrk mid="0" mtype="seg">Paris (The City of Lights)</mrk></target>
 </trans-unit>
 <trans-unit id="15">
-<source xml:lang="en-us">Eiffel Tower tour included</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Eiffel Tower tour included</source>
 <seg-source><mrk mid="0" mtype="seg">Eiffel Tower tour included</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Eiffel Tower tour included</mrk></target>
 </trans-unit>
-<trans-unit id="16" its:storageSize="30">
-<source xml:lang="en-us">Lemaire Channel</source>
+<trans-unit id="16">
+<source xml:lang="en-us" its:storageSize="30">Lemaire Channel</source>
 <seg-source><mrk mid="0" mtype="seg">Lemaire Channel</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Lemaire Channel</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Le détroit de Lemaire</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Lemaire Channel</source>
+<target xml:lang="fr-fr">Le détroit de Lemaire</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="17">
-<source xml:lang="en-us">Flight to Ushuaia is not included, but can be added</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Flight to Ushuaia is not included, but can be added</source>
 <seg-source><mrk mid="0" mtype="seg">Flight to Ushuaia is not included, but can be added</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Flight to Ushuaia is not included, but can be added</mrk></target>
 </trans-unit>
-<trans-unit id="18" its:storageSize="30">
-<source xml:lang="en-us">Queensland - Emerald and Gold</source>
+<trans-unit id="18">
+<source xml:lang="en-us" its:storageSize="30">Queensland - Emerald and Gold</source>
 <seg-source><mrk mid="0" mtype="seg">Queensland - Emerald and Gold</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Queensland - Emerald and Gold</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30"><mrk mid="0" mtype="seg">Queensland – Émeraude et or</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">Queensland - Emerald and Gold</source>
+<target xml:lang="fr-fr">Queensland – Émeraude et or</target>
+</alt-trans>
 </trans-unit>
 <trans-unit id="19">
-<source xml:lang="en-us">Keep the rainy season in mind</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Keep the rainy season in mind</source>
 <seg-source><mrk mid="0" mtype="seg">Keep the rainy season in mind</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Keep the rainy season in mind</mrk></target>
 </trans-unit>
-<trans-unit id="20" its:storageSize="30">
-<source xml:lang="en-us">The River that Never Reaches the Sea</source>
+<trans-unit id="20">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssuesRef="#P36C485AB">The River that Never Reaches the Sea</source>
 <seg-source><mrk mid="0" mtype="seg">The River that Never Reaches the Sea</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The River that Never Reaches the Sea</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssuesRef="#P36C485AB"><mrk mid="0" mtype="seg">La rivière qui n’arrive jamais</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="mytm.pentm" okp:matchType="EXACT"><source xml:lang="en-us">The River that Never Reaches the Sea</source>
+<target xml:lang="fr-fr">La rivière qui n’arrive jamais</target>
+</alt-trans>
+<its:locQualityIssues xml:id="P36C485AB">
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 36. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 33. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+</its:locQualityIssues>
+<its:locQualityIssues xml:id="P36C485AB">
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 36. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 33. Number allowed: 30." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
+</its:locQualityIssues>
 </trans-unit>
 <trans-unit id="21">
-<source xml:lang="en-us">Recommend strongly to take all-inclusive insurance</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Recommend strongly to take all-inclusive insurance</source>
 <seg-source><mrk mid="0" mtype="seg">Recommend strongly to take all-inclusive insurance</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Recommend strongly to take all-inclusive insurance</mrk></target>
 </trans-unit>
-<trans-unit id="22" its:storageSize="30">
-<source xml:lang="en-us">The Land of the Sun Bird</source>
+<trans-unit id="22">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">The Land of the Sun Bird</source>
 <seg-source><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"><mrk mid="0" mtype="seg">The Land of the Sun Bird</mrk></target>
 </trans-unit>
 <trans-unit id="23">
-<source xml:lang="en-us">Need special visa for the Zimbabwe part</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Need special visa for the Zimbabwe part</source>
 <seg-source><mrk mid="0" mtype="seg">Need special visa for the Zimbabwe part</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Need special visa for the Zimbabwe part</mrk></target>
 </trans-unit>
-<trans-unit id="24" its:storageSize="30">
-<source xml:lang="en-us">Tigers in the Mist</source>
+<trans-unit id="24">
+<source xml:lang="en-us" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Tigers in the Mist</source>
 <seg-source><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></seg-source>
-<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></target>
+<target xml:lang="fr-fr" its:storageSize="30" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"><mrk mid="0" mtype="seg">Tigers in the Mist</mrk></target>
 </trans-unit>
 <trans-unit id="25">
-<source xml:lang="en-us">Count one full day for the transfer to Katmandu</source>
+<source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Count one full day for the transfer to Katmandu</source>
 <seg-source><mrk mid="0" mtype="seg">Count one full day for the transfer to Katmandu</mrk></seg-source>
 <target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Count one full day for the transfer to Katmandu</mrk></target>
 </trans-unit>
