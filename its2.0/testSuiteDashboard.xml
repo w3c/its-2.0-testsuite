@@ -11,16 +11,12 @@
                              location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>-->
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate1xmloutput.txt"/>
       </inputfile>
@@ -57,10 +53,7 @@ Line 14: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/code[1]/@id	translate="no"]
 * Implementers file line:[]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate7htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate7htmloutput.txt">
             <error>
@@ -130,18 +123,12 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate9xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate9xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>-->
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate9xmloutput.txt"/>
       </inputfile>
@@ -153,16 +140,12 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>-->
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate2xmloutput.txt"/>
       </inputfile>
@@ -174,18 +157,12 @@ Line 14: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate10xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate10xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate10xmloutput.txt"/>
       </inputfile>
@@ -238,10 +215,7 @@ Line 18: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
 * Implementers file line:[]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate1htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate1htmloutput.txt">
             <error>
@@ -343,10 +317,7 @@ Line 18: Comparison failed.
                              location="outputimplementors/enlaso/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/html/translate6htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate6htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -364,16 +335,12 @@ Line 18: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate3xmloutput.txt"/>
       </inputfile>
@@ -426,49 +393,7 @@ Line 15: Comparison failed.
 * Reference line: [/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"]
 * Implementers file line:[]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt">
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/book/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@alt	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[1]	translate="no"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[1]/@its:translate	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[2]	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/body[1]/p[1]	translate="yes"]
-* Implementers file line:[]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[1]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[1]/@its:translate	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[2]	translate="no"]
-* Implementers file line:[]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/book/body[1]/p[1]/fexp[2]/@its:translate	translate="no"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt">
             <error>
@@ -631,10 +556,7 @@ Line 17: Comparison failed.
 * Reference line: [/html/body[1]/p[1]/span[2]/@translate	translate="no"]
 * Implementers file line:[]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate2htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate2htmloutput.txt">
             <error>
@@ -784,16 +706,12 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate5xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate5xmloutput.txt"/>
       </inputfile>
@@ -805,8 +723,7 @@ Line 17: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate6xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -839,10 +756,7 @@ Line 16: Comparison failed.
 * Reference line: [/html/body[1]/section[1]/p[1]/span[2]	translate="no"]
 * Implementers file line:[]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate3htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate3htmloutput.txt">
             <error>
@@ -896,8 +810,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate7xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -913,10 +826,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/html/translate4htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate4htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -936,16 +846,12 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate8xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate8xmloutput.txt"/>
       </inputfile>
@@ -957,10 +863,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/html/translate5htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/translate/html/translate5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate5htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -984,13 +887,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt">
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/myRes/head[1]/its:rules[1]/@translate]
-* Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt">
             <error>
@@ -998,10 +895,7 @@ Line 4: Comparison failed.
 * Reference line: [/myRes/head[1]/its:rules[1]/@translate]
 * Implementers file line:[/myRes/head[1]/its:rules[1]/@its:translate]</error>
          </outputImplementors>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
@@ -1013,10 +907,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1032,14 +923,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
@@ -1051,10 +938,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1070,14 +954,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote3xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
@@ -1089,10 +969,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1108,14 +985,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote4xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
@@ -1127,10 +1000,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1146,14 +1016,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote5xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
@@ -1165,10 +1031,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote5htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote5htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1184,8 +1047,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote6xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1199,10 +1061,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote6htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote6htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote6htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1218,8 +1077,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote7xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1233,10 +1091,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote7htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote7htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote7htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1252,8 +1107,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote8xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1267,8 +1121,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote9xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -1282,16 +1135,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote10xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote10xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote10xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
@@ -1303,10 +1150,7 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -1322,16 +1166,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/xml/locnote11xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/xml/locnote11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote11xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote11xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
@@ -1343,16 +1181,10 @@ Line 4: Comparison failed.
                              location="outputimplementors/enlaso/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localizationnote/html/locnote8htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote8htmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2065,8 +1897,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2080,8 +1911,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2097,10 +1927,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/elementswithintext/html/withintext1htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/html/withintext1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext1htmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2114,8 +1941,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2129,8 +1955,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext4xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2144,10 +1969,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/html/withintext2htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2161,10 +1983,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext5xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext5xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2178,10 +1997,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/enlaso/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/elementswithintext/xml/withintext6xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/xml/withintext6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext6xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/xml/withintext6xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
@@ -2197,10 +2013,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2216,10 +2029,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2750,53 +2560,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2810,33 +2574,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt">
             <error>
@@ -2877,33 +2615,7 @@ Line 6: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt">
             <error>
@@ -2944,45 +2656,7 @@ Line 6: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3009,77 +2683,7 @@ Line 17: Comparison failed.
 * Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
 * Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="*"	localeFilterType="include"]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@xlink:href	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[2]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[2]	localeFilterList="*"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[2]/@version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[2]/@version	localeFilterList="*"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]	localeFilterList="*"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[2]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>-->
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3142,10 +2746,7 @@ Line 12: Comparison failed.
 * Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
 * Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt">
             <error>
@@ -3212,10 +2813,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt">
             <error>
@@ -3274,69 +2872,7 @@ Line 10: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale6xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/@version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/@version	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:param[1]/@name	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]	localeFilterList="*"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@localeFilterList	localeFilterList="*"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:rules[1]/its:localeFilterRule[1]/@selector	localeFilterList="*"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="*"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@role	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@role	localeFilterList="*"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="*"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]	localeFilterList="de-DE"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]/@role	localeFilterList="de-DE"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[2]/para[1]	localeFilterList="de-DE"]</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3350,10 +2886,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/enlaso/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale7xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale7xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale7xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3369,10 +2902,7 @@ Line 15: Comparison failed.
                              location="outputimplementors/ul/localefilter/xml/locale8xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/xml/locale8xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale8xmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3435,10 +2965,7 @@ Line 12: Comparison failed.
 * Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
 * Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -3499,10 +3026,7 @@ Line 11: Comparison failed.
 * Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
 * Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -3520,10 +3044,7 @@ Line 11: Comparison failed.
                              location="outputimplementors/ul/localefilter/html/locale5htmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/localefilter/html/locale5htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale5htmloutput.txt"/>-->
 	        <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -3814,8 +3335,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/xml/externalresource1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/xml/externalresource1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/xml/externalresource1xmloutput.txt"/>
       </inputfile>
@@ -3827,8 +3347,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/xml/externalresource2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/xml/externalresource2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/xml/externalresource2xmloutput.txt"/>
       </inputfile>
@@ -3840,8 +3359,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/xml/externalresource3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/xml/externalresource3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/xml/externalresource3xmloutput.txt"/>
       </inputfile>
@@ -3853,10 +3371,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/html/externalresource1htmloutput.txt"/>
       </inputfile>
@@ -3868,10 +3383,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/xml/externalresource4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/xml/externalresource4xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/xml/externalresource4xmloutput.txt"/>
       </inputfile>
@@ -3883,10 +3395,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/xml/externalresource5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/xml/externalresource5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/xml/externalresource5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/xml/externalresource5xmloutput.txt"/>
       </inputfile>
@@ -3898,10 +3407,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/html/externalresource2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/html/externalresource2htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/html/externalresource2htmloutput.txt"/>
       </inputfile>
@@ -3913,10 +3419,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/externalresource/html/externalresource3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/externalresource/html/externalresource3htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt"/>
       </inputfile>
@@ -3932,10 +3435,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/xml/targetpointer1xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer1xmloutput.txt"/>
       </inputfile>
@@ -3949,10 +3449,7 @@ Line 28: Comparison failed.
                              location="outputimplementors/ul/targetpointer/xml/targetpointer2xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer2xmloutput.txt"/>
       </inputfile>
@@ -4047,12 +3544,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/idvalue/xml/idvalue1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/xml/idvalue1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>-->
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue1xmloutput.txt"/>
       </inputfile>
@@ -4064,8 +3557,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/idvalue/xml/idvalue2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/xml/idvalue2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue2xmloutput.txt"/>
       </inputfile>
@@ -4079,12 +3571,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/ul/idvalue/xml/idvalue3xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>
-         <outputImplementors implementer="adobe"
-                             location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>-->
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue3xmloutput.txt"/>
       </inputfile>
@@ -4096,10 +3584,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt"/>
       </inputfile>
@@ -4113,10 +3598,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/ul/idvalue/xml/idvalue5xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue5xmloutput.txt"/>
       </inputfile>
@@ -4130,10 +3612,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/ul/idvalue/xml/idvalue4xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/xml/idvalue4xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue4xmloutput.txt"/>
       </inputfile>
@@ -4145,10 +3624,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt"/>
       </inputfile>
@@ -4160,10 +3636,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
@@ -4179,8 +3652,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace1xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace1xmloutput.txt"/>
       </inputfile>
@@ -4192,8 +3664,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace3xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace3xmloutput.txt"/>
       </inputfile>
@@ -4205,8 +3676,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace2xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace2xmloutput.txt"/>
       </inputfile>
@@ -4218,8 +3688,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace4xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace4xmloutput.txt"/>
       </inputfile>
@@ -4231,10 +3700,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace5xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace5xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace5xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace5xmloutput.txt"/>
       </inputfile>
@@ -4246,10 +3712,7 @@ Line 12: Comparison failed.
                              location="outputimplementors/enlaso/preservespace/xml/preservespace6xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/preservespace/xml/preservespace6xmloutput.txt"/>
-         <outputImplementors implementer="shaun"
-                             location="outputimplementors/shaun/preservespace/xml/preservespace6xmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace6xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/preservespace/xml/preservespace6xmloutput.txt"/>
       </inputfile>

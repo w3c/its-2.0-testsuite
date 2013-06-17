@@ -24,10 +24,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>-->
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate7html.html" conformance-class="xml-global">
@@ -35,7 +35,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate7htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate7htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate7htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate7htmloutput.txt"/>
@@ -47,10 +47,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate9xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate9xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate9xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>-->
 	<outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate2xml.xml" conformance-class="xml-global">
@@ -58,10 +58,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate2xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>-->
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate10xml.xml" conformance-class="xml-global">
@@ -69,10 +69,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate10xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate10xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate10xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>-->
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate1html.html" conformance-class="xml-global">
@@ -80,7 +80,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate1htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate1htmloutput.txt"/>
@@ -92,7 +92,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate6htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate6htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate6htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
@@ -103,10 +103,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate3xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>-->
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate4xml.xml" conformance-class="xml-local">
@@ -114,7 +114,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate4xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt"/>
@@ -124,7 +124,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate2htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate2htmloutput.txt"/>
@@ -136,10 +136,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate5xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate5xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>-->
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate6xml.xml" conformance-class="xml-global">
@@ -147,7 +147,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate6xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate6xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate6xmloutput.txt"/>
@@ -157,7 +157,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate3htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate3htmloutput.txt"/>
@@ -169,7 +169,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate7xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate7xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate7xmloutput.txt"/>
@@ -179,7 +179,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate4htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate4htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate4htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate4htmloutput.txt"/>
@@ -191,10 +191,10 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/xml/translate8xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate8xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>-->
 <outputImplementors implementer="tcd" location="outputimplementors/tcd/translate/xml/translate8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate5html.html" conformance-class="html-local">
@@ -202,7 +202,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/translate/html/translate5htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate5htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate5htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/translate/html/translate5htmloutput.txt"/>
@@ -218,9 +218,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote1html.html" conformance-class="html-global">
@@ -228,7 +228,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote1htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote1htmloutput.txt"/>
@@ -238,9 +238,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote2html.html" conformance-class="html-global">
@@ -248,7 +248,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote2htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote2htmloutput.txt"/>
@@ -258,9 +258,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote3xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote3html.html" conformance-class="html-global">
@@ -268,7 +268,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote3htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote3htmloutput.txt"/>
@@ -278,9 +278,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote4html.html" conformance-class="html-global">
@@ -288,7 +288,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote4htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote4htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote4htmloutput.txt"/>
@@ -298,9 +298,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote5xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote5xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html" conformance-class="html-global">
@@ -308,7 +308,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote5htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote5htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote5htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote5htmloutput.txt"/>
@@ -318,7 +318,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote6xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote6xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
@@ -327,7 +327,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote6htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote6htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote6htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote6htmloutput.txt"/>
@@ -337,7 +337,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote7xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote7xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote7xmloutput.txt"/>
       </inputfile>
@@ -346,7 +346,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote7htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote7htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote7htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote7htmloutput.txt"/>
@@ -356,7 +356,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote8xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote8xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote8xmloutput.txt"/>
       </inputfile>
@@ -365,7 +365,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote9xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote9xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote9xmloutput.txt"/>
       </inputfile>
@@ -374,9 +374,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote10xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote10xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote10xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote10xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote9html.html" conformance-class="html-global">
@@ -384,7 +384,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote9htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote9htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote9htmloutput.txt"/>
@@ -394,9 +394,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/xml/locnote11xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote11xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote11xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/xml/locnote11xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote8html.html" conformance-class="html-global">
@@ -404,9 +404,9 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localizationnote/html/locnote8htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/localizationnote/html/locnote8htmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>-->
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localizationnote/html/locnote8htmloutput.txt"/>
       </inputfile>
@@ -703,7 +703,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext1xmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext1xmloutput.txt"/>
 	<outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext1xmloutput.txt"/>
       </inputfile>
@@ -712,7 +712,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext2xmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext2xmloutput.txt"/>
       </inputfile>
@@ -721,7 +721,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext1htmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
@@ -730,7 +730,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext3xmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext3xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext3xmloutput.txt"/>
       </inputfile>
@@ -739,7 +739,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext4xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext4xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext4xmloutput.txt"/>
       </inputfile>
@@ -748,7 +748,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
@@ -757,7 +757,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext5xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext5xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext5xmloutput.txt"/>
       </inputfile>
@@ -766,7 +766,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/xml/withintext6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/xml/withintext6xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/xml/withintext6xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext6xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext6xmloutput.txt"/>
       </inputfile>
@@ -775,7 +775,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
@@ -784,7 +784,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/elementswithintext/html/withintext4htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
@@ -1049,7 +1049,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale1xmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale1xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale1xmloutput.txt"/>
       </inputfile>
@@ -1058,7 +1058,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale2xmloutput.txt"/>
@@ -1068,7 +1068,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale5xmloutput.txt"/>
@@ -1078,7 +1078,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale3xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale3xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale3xmloutput.txt"/>
       </inputfile>
@@ -1087,7 +1087,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale4xmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale4xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale4xmloutput.txt"/>
       </inputfile>
@@ -1096,7 +1096,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localefilter/html/locale1htmloutput.txt"/>
@@ -1107,7 +1107,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt"/>-->
          <outputImplementors implementer="dcu" location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localefilter/html/locale2htmloutput.txt"/>
@@ -1118,7 +1118,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale6xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale6xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale6xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale6xmloutput.txt"/>
       </inputfile>
@@ -1127,7 +1127,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale7xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale7xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale7xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale7xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale7xmloutput.txt"/>
       </inputfile>
@@ -1136,7 +1136,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/xml/locale8xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/xml/locale8xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/xml/locale8xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale8xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale8xmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/xml/locale8xmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/xml/locale8xmloutput.txt"/>
       </inputfile>
@@ -1145,7 +1145,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale3htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localefilter/html/locale3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/html/locale3htmloutput.txt"/>
@@ -1155,7 +1155,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale4htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale4htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localefilter/html/locale4htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/html/locale4htmloutput.txt"/>
@@ -1165,7 +1165,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/localefilter/html/locale5htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale5htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale5htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/localefilter/html/locale5htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/localefilter/html/locale5htmloutput.txt"/>
@@ -1304,7 +1304,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/xml/externalresource1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/xml/externalresource1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/xml/externalresource1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/xml/externalresource1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource2xml.xml" conformance-class="xml-global">
@@ -1312,7 +1312,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/xml/externalresource2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/xml/externalresource2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/xml/externalresource2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/xml/externalresource2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource3xml.xml" conformance-class="xml-global">
@@ -1320,7 +1320,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/xml/externalresource3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/xml/externalresource3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/xml/externalresource3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/xml/externalresource3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource1html.html" conformance-class="html-global">
@@ -1328,7 +1328,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/html/externalresource1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource4xml.xml" conformance-class="xml-global">
@@ -1336,7 +1336,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/xml/externalresource4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/xml/externalresource4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/xml/externalresource4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/xml/externalresource4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource5xml.xml" conformance-class="xml-global">
@@ -1344,7 +1344,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/xml/externalresource5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/xml/externalresource5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/xml/externalresource5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/xml/externalresource5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/xml/externalresource5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource2html.html" conformance-class="html-global">
@@ -1352,7 +1352,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/html/externalresource2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/html/externalresource2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource3html.html" conformance-class="html-global">
@@ -1360,7 +1360,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/externalresource/html/externalresource3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/externalresource/html/externalresource3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
@@ -1372,7 +1372,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/targetpointer/xml/targetpointer1xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/targetpointer/xml/targetpointer1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer2xml.xml" conformance-class="xml-global">
@@ -1380,7 +1380,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/targetpointer/xml/targetpointer2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/targetpointer/xml/targetpointer2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/targetpointer/xml/targetpointer2xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt"/>
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/targetpointer/xml/targetpointer2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer1html.html" conformance-class="html-global">
@@ -1427,8 +1427,8 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/xml/idvalue1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/xml/idvalue1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/xml/idvalue1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>-->
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/xml/idvalue1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue2xml.xml" conformance-class="xml-global">
@@ -1436,7 +1436,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/xml/idvalue2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/xml/idvalue2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/xml/idvalue2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/xml/idvalue2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue3xml.xml" conformance-class="xml-global">
@@ -1444,8 +1444,8 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/xml/idvalue3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/xml/idvalue3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/xml/idvalue3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>
-         <outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>-->
+         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/xml/idvalue3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue1html.html" conformance-class="html-global">
@@ -1453,7 +1453,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue5xml.xml" conformance-class="xml-global">
@@ -1461,7 +1461,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/xml/idvalue5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/xml/idvalue5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/xml/idvalue5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/xml/idvalue5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue4xml.xml" conformance-class="xml-global">
@@ -1469,7 +1469,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/xml/idvalue4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/xml/idvalue4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/xml/idvalue4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/xml/idvalue4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue2html.html" conformance-class="html-global">
@@ -1477,7 +1477,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue3html.html" conformance-class="html-global">
@@ -1485,7 +1485,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
@@ -1497,7 +1497,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace1xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace1xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace1xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace1xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace3xml.xml" conformance-class="xml-global">
@@ -1505,7 +1505,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace3xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace3xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace3xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace2xml.xml" conformance-class="xml-local">
@@ -1513,7 +1513,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace2xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace2xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace4xml.xml" conformance-class="xml-local">
@@ -1521,7 +1521,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace4xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace4xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace5xml.xml" conformance-class="xml-global">
@@ -1529,7 +1529,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace5xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace5xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace5xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace5xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/preservespace/xml/preservespace6xml.xml" conformance-class="xml-global">
@@ -1537,7 +1537,7 @@ location CDATA #REQUIRED>
          <expectedOutput location="expected/preservespace/xml/preservespace6xmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/preservespace/xml/preservespace6xmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/preservespace/xml/preservespace6xmloutput.txt"/>
-         <outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace6xmloutput.txt"/>
+         <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/preservespace/xml/preservespace6xmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/preservespace/xml/preservespace6xmloutput.txt"/>
       </inputfile>
    </dataCategory>
