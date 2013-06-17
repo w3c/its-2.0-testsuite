@@ -1,0 +1,23 @@
+/text
+/text/its:rules[1]
+/text/its:rules[1]/@version
+/text/its:rules[1]/its:textAnalysisRule[1]
+/text/its:rules[1]/its:textAnalysisRule[1]/@selector
+/text/its:rules[1]/its:textAnalysisRule[1]/@taClassRefPointer
+/text/its:rules[1]/its:textAnalysisRule[1]/@taIdentRefPointer
+/text/its:rules[1]/its:textAnalysisRule[2]
+/text/its:rules[1]/its:textAnalysisRule[2]/@selector
+/text/its:rules[1]/its:textAnalysisRule[2]/@taClassRefPointer
+/text/its:rules[1]/its:textAnalysisRule[2]/@taIdentPointer
+/text/its:rules[1]/its:textAnalysisRule[2]/@taSourcePointer
+/text/body[1]
+/text/body[1]/p[1]
+/text/body[1]/p[1]/span[1]	taClassRef="http://nerd.eurecom.fr/ontology#Location"	taIdentRef="http://dbpedia.org/resource/Dublin"
+/text/body[1]/p[1]/span[1]/@classref
+/text/body[1]/p[1]/span[1]/@id
+/text/body[1]/p[1]/span[1]/@identref
+/text/body[1]/p[1]/span[2]	taClassRef="http://nerd.eurecom.fr/ontology#City"	taIdent="301467919"	taSource="Wordnet3.0"
+/text/body[1]/p[1]/span[2]/@classref
+/text/body[1]/p[1]/span[2]/@id
+/text/body[1]/p[1]/span[2]/@ident
+/text/body[1]/p[1]/span[2]/@source
