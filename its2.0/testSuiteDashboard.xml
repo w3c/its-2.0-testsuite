@@ -11,6 +11,10 @@
                              location="outputimplementors/enlaso/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/translate/xml/translate1xmloutput.txt"/>
+         <outputImplementors implementer="moravia"
+                             location="outputimplementors/moravia/translate/xml/translate1xmloutput.txt">
+            <error>outputFileNotFound</error>
+         </outputImplementors>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/xml/translate1xmloutput.txt"/>-->
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
