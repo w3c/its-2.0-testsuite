@@ -917,11 +917,122 @@ Line 16: Comparison failed.
          <description assertions="locnote-global">Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
-                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@version]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@translate]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@version]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/myRes/body[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/myRes/body[1]]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]/@id]
+* Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: []
+* Implementers file line:[/myRes/body[1]/msg[1]/@id]</error>
+         </outputImplementors>
          <outputImplementors implementer="ul"
-                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/ul/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@version]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@translate]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@version]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/myRes/body[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/myRes/body[1]]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]/@id]
+* Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: []
+* Implementers file line:[/myRes/body[1]/msg[1]/@id]</error>
+         </outputImplementors>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>--><outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt">
+            <error>
+Line 4: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/@version]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@translate]</error>
+            <error>
+Line 5: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/@version]</error>
+            <error>
+Line 6: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]]</error>
+            <error>
+Line 7: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@locNoteType]</error>
+            <error>
+Line 8: Comparison failed.
+* Reference line: [/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/@selector]</error>
+            <error>
+Line 9: Comparison failed.
+* Reference line: [/myRes/body[1]]
+* Implementers file line:[/myRes/head[1]/its:rules[1]/its:locNoteRule[1]/its:locNote[1]]</error>
+            <error>
+Line 10: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]
+* Implementers file line:[/myRes/body[1]]</error>
+            <error>
+Line 11: Comparison failed.
+* Reference line: [/myRes/body[1]/msg[1]/@id]
+* Implementers file line:[/myRes/body[1]/msg[1]	locNote="The variable {0} has three possible values: 'printer', 'stacker' and 'stapler options'."	locNoteType="alert"]</error>
+            <error>
+Line 12: Comparison failed.
+* Reference line: []
+* Implementers file line:[/myRes/body[1]/msg[1]/@id]</error>
+         </outputImplementors>
          <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>--><outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
