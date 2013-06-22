@@ -9,3 +9,4 @@ Select * {
 		LET (?b := xsd:nonNegativeInteger(?length) ) .
 		FILTER ( ?a != ?b  )
 }
+

@@ -10,3 +10,4 @@ echo "Folder with the produced .ttl files: $1"
 echo "File with SPARQL query: $2" 
 echo "JENAROOT: $JENAROOT"
 for i in `ls $1` ; do echo $i; $JENAROOT/bin/arq --file=$2  --data=$1/$i ; done
+

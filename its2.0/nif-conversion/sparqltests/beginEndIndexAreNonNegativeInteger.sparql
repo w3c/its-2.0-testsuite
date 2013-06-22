@@ -9,3 +9,4 @@ Select * {
 		LET (?test := DATATYPE(xsd:nonNegativeInteger(?o)))
 		FILTER ( ! bound (?test)  ) 
 }
+

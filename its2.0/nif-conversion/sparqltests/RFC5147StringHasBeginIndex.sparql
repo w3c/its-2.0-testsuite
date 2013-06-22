@@ -5,3 +5,4 @@ Select * {
 		?s a nif:RFC5147String . 
 		FILTER ( NOT EXISTS {?s nif:beginIndex ?o  }  ) 
 }
+

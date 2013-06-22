@@ -10,3 +10,4 @@ Select * {
 		LET (?test := SUBSTR(?referenceContext, ?beginIndex , (?endIndex - ?beginIndex) ) ) .
 		FILTER (str(?test) != str(?anchorOf )) .
 }
+

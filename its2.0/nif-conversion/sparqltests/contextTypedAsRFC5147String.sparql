@@ -5,3 +5,4 @@ Select * {
 		?s a nif:Context
 		FILTER ( NOT EXISTS {?s a nif:RFC5147String } )
 }
+

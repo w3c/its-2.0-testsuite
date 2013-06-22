@@ -6,3 +6,4 @@ Select * {
 		FILTER (NOT EXISTS {?s a nif:Context } ) .
 		FILTER (NOT EXISTS {?s nif:referenceContext [ a nif:Context ] . } ) .
 }
+

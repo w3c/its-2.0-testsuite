@@ -9,3 +9,4 @@ JENAROOT=apache-jena-2.10.1
 echo "Folder with the produced .ttl files (parameter 1): $1" 
 echo "JENAROOT: $JENAROOT"
 for i in `ls $1` ; do echo "Checking "$i":" ; $JENAROOT/bin/riot --validate $1/$i ; done
+

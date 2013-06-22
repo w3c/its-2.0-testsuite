@@ -6,3 +6,4 @@ Select * {
 		?s nif:beginIndex ?begin .
 		FILTER (xsd:nonNegativeInteger(?begin) != xsd:nonNegativeInteger(0)) .
 }
+

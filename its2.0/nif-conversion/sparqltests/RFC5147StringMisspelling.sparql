@@ -12,3 +12,4 @@ Select * {
 			CONTAINS (str(?class), "RFC") &&  CONTAINS (str(?class), "5147") && ! CONTAINS (str(?class), "String") 
 			) 
 }
+

@@ -5,3 +5,4 @@ Select * {
 		?s a nif:Context .
 		FILTER (NOT EXISTS {?s nif:isString ?o } )
 }
+
