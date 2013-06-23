@@ -186,10 +186,10 @@
    </head>
    <body>
       <h1>ITS 2.0 Implementation Report</h1>
-      <p>Version generated: 2013-06-23T17:12:39.642+02:00</p>
-      <p>This document is the Implementation Report for the <a href="http://www.w3.org/International/multilingualweb/lt/">MultilingualWeb-LT</a> Working Group's <a href="http://www.w3.org/TR/2013/WD-its20-20130521/">Internationalization
-                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. It contains the
-                        following sections:</p>
+      <p>Version generated: 2013-06-23T17:32:47.124+02:00</p>
+      <p>This document is the implementation report for the <a href="http://www.w3.org/International/multilingualweb/lt/">MultilingualWeb-LT</a> Working Group's <a href="http://www.w3.org/TR/2013/WD-its20-20130521/">Internationalization
+                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. The report contains
+                        the following sections:</p>
       <ul>
          <li>
             <a href="#test-suite-overview">1. Test suite overview</a>
@@ -197,17 +197,22 @@
          <li>
             <a href="#conformance-classes-overview">2. Conformance clauses for
                                 implementing ITS 2.0</a>: <ul>
-               <li>2.1 Conformance testing related to <a href="#conformance-markup">ITS 2.0 markup</a>
-               </li>
-               <li>2.2 Conformance testing related to <a href="#conformance-processing-expectations">processing ITS
-                                        2.0 information</a>
-               </li>
-               <li>2.3 <a href="#conformance-processing-expectations-details">Details
-                                        about conformance testing related to processing ITS 2.0
-                                        information</a>
+               <li>
+                  <a href="#conformance-markup">2.1 Conformance testing related to
+                                        ITS 2.0 markup</a>
                </li>
                <li>
-                  <a href="#tests-output-per-implementer">2.4 Test output per data category and implementer</a>
+                  <a href="#conformance-processing-expectations">2.2 Conformance
+                                        testing related to processing ITS 2.0 information</a>
+               </li>
+               <li>
+                  <a href="#conformance-processing-expectations-details">2.3
+                                        Details about conformance testing related to processing ITS
+                                        2.0 information</a>
+               </li>
+               <li>
+                  <a href="#tests-output-per-implementer">2.4 Test output per data
+                                        category and implementer</a>
                </li>
             </ul>
          </li>
@@ -220,10 +225,8 @@
          <li>Total number of tests successfully run from all implementers:
                                 835.</li>
       </ul>
-      <p>For ease of debugging, <a href="testSuiteDashboard.xml">testSuiteDashboard.xml</a> is an XML dump of the current state of the
-                        test suite.</p>
-      <h2 id="conformance-classes-overview">2. Conformance clauses for implementing ITS
-                        2.0</h2>
+      <h2 id="conformance-classes-overview">2. Conformance clauses for implementing
+                        ITS 2.0</h2>
       <p>ITS 2.0 provides conformance clauses for four different types of
                         implementers.</p>
       <ol>
@@ -273,26 +276,8 @@
                         category implements both local and local processing. See the <a href="http://www.w3.org/TR/its20/#datacategories-overview">data category
                             overview table</a> for details.</p>
       <p>Test details about the <a href="http://www.w3.org/TR/its20/#datacategories-overview">data
-                            categories defined by ITS 2.0</a> are available in the table as follows:
-                            <a href="#Translateconformance-overview">Translate</a>,
-                        <a href="#LocalizationNoteconformance-overview">Localization Note</a>,
-                        <a href="#Terminologyconformance-overview">Terminology</a>,
-                        <a href="#Directionalityconformance-overview">Directionality</a>,
-                        <a href="#LanguageInformationconformance-overview">Language Information</a>,
-                        <a href="#ElementsWithinTextconformance-overview">Elements Within Text</a>,
-                        <a href="#Domainconformance-overview">Domain</a>,
-                        <a href="#TextAnalysisconformance-overview">Text Analysis</a>,
-                        <a href="#LocaleFilterconformance-overview">Locale Filter</a>,
-                        <a href="#Provenanceconformance-overview">Provenance</a>,
-                        <a href="#ExternalResourceconformance-overview">External Resource</a>,
-                        <a href="#TargetPointerconformance-overview">Target Pointer</a>,
-                        <a href="#IdValueconformance-overview">Id Value</a>,
-                        <a href="#PreserveSpaceconformance-overview">Preserve Space</a>,
-                        <a href="#LocalizationQualityIssueconformance-overview">Localization Quality Issue</a>,
-                        <a href="#LocalizationQualityRatingconformance-overview">Localization Quality Rating</a>,
-                        <a href="#MTConfidenceconformance-overview">MT Confidence</a>,
-                        <a href="#AllowedCharactersconformance-overview">Allowed Characters</a>,
-                        <a href="#StorageSizeconformance-overview">Storage Size</a>.</p>
+                            categories defined by ITS 2.0</a> are available in <a href="#conformance-processing-expectations-details">section 2.3</a> of
+                        this report.</p>
       <p>
          <strong>NOTE:</strong> ITS 2.0 processing expectations only define which
                         information needs to be made available. They do not define how that
@@ -304,7 +289,67 @@
             shape="rect">[MLW US IMPL]</a> for more information).</p>
       <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
             related to processing ITS 2.0 information</h3>
-      <h4 id="Translateconformance-overview">Translate</h4>
+      <p>The following subsections contain details about all data categories:</p>
+      <ul>
+         <li>
+            <a href="#Translateconformance-overview">2.3.1 Translate</a>
+         </li>
+         <li>
+            <a href="#LocalizationNoteconformance-overview">2.3.2 Localization Note</a>
+         </li>
+         <li>
+            <a href="#Terminologyconformance-overview">2.3.3 Terminology</a>
+         </li>
+         <li>
+            <a href="#Directionalityconformance-overview">2.3.4 Directionality</a>
+         </li>
+         <li>
+            <a href="#LanguageInformationconformance-overview">2.3.5 Language Information</a>
+         </li>
+         <li>
+            <a href="#ElementsWithinTextconformance-overview">2.3.6 Elements Within Text</a>
+         </li>
+         <li>
+            <a href="#Domainconformance-overview">2.3.7 Domain</a>
+         </li>
+         <li>
+            <a href="#TextAnalysisconformance-overview">2.3.8 Text Analysis</a>
+         </li>
+         <li>
+            <a href="#LocaleFilterconformance-overview">2.3.9 Locale Filter</a>
+         </li>
+         <li>
+            <a href="#Provenanceconformance-overview">2.3.10 Provenance</a>
+         </li>
+         <li>
+            <a href="#ExternalResourceconformance-overview">2.3.11 External Resource</a>
+         </li>
+         <li>
+            <a href="#TargetPointerconformance-overview">2.3.12 Target Pointer</a>
+         </li>
+         <li>
+            <a href="#IdValueconformance-overview">2.3.13 Id Value</a>
+         </li>
+         <li>
+            <a href="#PreserveSpaceconformance-overview">2.3.14 Preserve Space</a>
+         </li>
+         <li>
+            <a href="#LocalizationQualityIssueconformance-overview">2.3.15 Localization Quality Issue</a>
+         </li>
+         <li>
+            <a href="#LocalizationQualityRatingconformance-overview">2.3.16 Localization Quality Rating</a>
+         </li>
+         <li>
+            <a href="#MTConfidenceconformance-overview">2.3.17 MT Confidence</a>
+         </li>
+         <li>
+            <a href="#AllowedCharactersconformance-overview">2.3.18 Allowed Characters</a>
+         </li>
+         <li>
+            <a href="#StorageSizeconformance-overview">2.3.19 Storage Size</a>
+         </li>
+      </ul>
+      <h4 id="Translateconformance-overview">2.3.1 Translate</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -359,7 +404,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationNoteconformance-overview">Localization Note</h4>
+      <h4 id="LocalizationNoteconformance-overview">2.3.2 Localization Note</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -417,7 +462,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Terminologyconformance-overview">Terminology</h4>
+      <h4 id="Terminologyconformance-overview">2.3.3 Terminology</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -470,7 +515,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Directionalityconformance-overview">Directionality</h4>
+      <h4 id="Directionalityconformance-overview">2.3.4 Directionality</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -518,7 +563,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LanguageInformationconformance-overview">Language Information</h4>
+      <h4 id="LanguageInformationconformance-overview">2.3.5 Language Information</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -551,7 +596,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="ElementsWithinTextconformance-overview">Elements Within Text</h4>
+      <h4 id="ElementsWithinTextconformance-overview">2.3.6 Elements Within Text</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -599,7 +644,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Domainconformance-overview">Domain</h4>
+      <h4 id="Domainconformance-overview">2.3.7 Domain</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -635,7 +680,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="TextAnalysisconformance-overview">Text Analysis</h4>
+      <h4 id="TextAnalysisconformance-overview">2.3.8 Text Analysis</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -686,7 +731,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocaleFilterconformance-overview">Locale Filter</h4>
+      <h4 id="LocaleFilterconformance-overview">2.3.9 Locale Filter</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -737,7 +782,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Provenanceconformance-overview">Provenance</h4>
+      <h4 id="Provenanceconformance-overview">2.3.10 Provenance</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -791,7 +836,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="ExternalResourceconformance-overview">External Resource</h4>
+      <h4 id="ExternalResourceconformance-overview">2.3.11 External Resource</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -825,7 +870,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="TargetPointerconformance-overview">Target Pointer</h4>
+      <h4 id="TargetPointerconformance-overview">2.3.12 Target Pointer</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -858,7 +903,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="IdValueconformance-overview">Id Value</h4>
+      <h4 id="IdValueconformance-overview">2.3.13 Id Value</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -892,7 +937,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="PreserveSpaceconformance-overview">Preserve Space</h4>
+      <h4 id="PreserveSpaceconformance-overview">2.3.14 Preserve Space</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -924,7 +969,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationQualityIssueconformance-overview">Localization Quality Issue</h4>
+      <h4 id="LocalizationQualityIssueconformance-overview">2.3.15 Localization Quality Issue</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -985,7 +1030,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationQualityRatingconformance-overview">Localization Quality Rating</h4>
+      <h4 id="LocalizationQualityRatingconformance-overview">2.3.16 Localization Quality Rating</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -1017,7 +1062,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="MTConfidenceconformance-overview">MT Confidence</h4>
+      <h4 id="MTConfidenceconformance-overview">2.3.17 MT Confidence</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -1066,7 +1111,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="AllowedCharactersconformance-overview">Allowed Characters</h4>
+      <h4 id="AllowedCharactersconformance-overview">2.3.18 Allowed Characters</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -1116,7 +1161,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="StorageSizeconformance-overview">Storage Size</h4>
+      <h4 id="StorageSizeconformance-overview">2.3.19 Storage Size</h4>
       <table width="100%" border="1" class="conformanceclasses">
          <tr>
             <td>
@@ -1169,15 +1214,83 @@
       </table>
       <hr/>
       <h3 id="tests-output-per-implementer">2.4 Test output per data category and implementer</h3>
-      <p>Explanation:</p>
+      <p>Each data category provides tests with the following information:</p>
+      <ul>
+         <li>Information about the input files <ul>
+               <li>Type of tests (global or local) and additional description</li>
+               <li>Links to related assertions made in the ITS 2.0 specification</li>
+            </ul>
+         </li>
+         <li> Information about the output from implementers<ul>
+               <li>
+                  <q class="na">N/A</q> = the implementer did not run the test.</li>
+               <li>
+                  <q class="ok">OK</q> = the output file is identical to the reference output
+                        file.</li>
+            </ul>
+         </li>
+      </ul>
+      <p>The following subsections contain details about all data categories per implementer:</p>
       <ul>
          <li>
-            <q class="na">N/A</q> = the implementer did not run the test.</li>
+            <a href="#Translate">2.4.1 Translate</a>
+         </li>
          <li>
-            <q class="ok">OK</q> = the output file is identical to the reference output
-                file.</li>
+            <a href="#LocalizationNote">2.4.2 Localization Note</a>
+         </li>
+         <li>
+            <a href="#Terminology">2.4.3 Terminology</a>
+         </li>
+         <li>
+            <a href="#Directionality">2.4.4 Directionality</a>
+         </li>
+         <li>
+            <a href="#LanguageInformation">2.4.5 Language Information</a>
+         </li>
+         <li>
+            <a href="#ElementsWithinText">2.4.6 Elements Within Text</a>
+         </li>
+         <li>
+            <a href="#Domain">2.4.7 Domain</a>
+         </li>
+         <li>
+            <a href="#TextAnalysis">2.4.8 Text Analysis</a>
+         </li>
+         <li>
+            <a href="#LocaleFilter">2.4.9 Locale Filter</a>
+         </li>
+         <li>
+            <a href="#Provenance">2.4.10 Provenance</a>
+         </li>
+         <li>
+            <a href="#ExternalResource">2.4.11 External Resource</a>
+         </li>
+         <li>
+            <a href="#TargetPointer">2.4.12 Target Pointer</a>
+         </li>
+         <li>
+            <a href="#IdValue">2.4.13 Id Value</a>
+         </li>
+         <li>
+            <a href="#PreserveSpace">2.4.14 Preserve Space</a>
+         </li>
+         <li>
+            <a href="#LocalizationQualityIssue">2.4.15 Localization Quality Issue</a>
+         </li>
+         <li>
+            <a href="#LocalizationQualityRating">2.4.16 Localization Quality Rating</a>
+         </li>
+         <li>
+            <a href="#MTConfidence">2.4.17 MT Confidence</a>
+         </li>
+         <li>
+            <a href="#AllowedCharacters">2.4.18 Allowed Characters</a>
+         </li>
+         <li>
+            <a href="#StorageSize">2.4.19 Storage Size</a>
+         </li>
       </ul>
-      <h4 id="Translate">Translate</h4>
+      <h4 id="Translate">2.4.1 Translate</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -2081,7 +2194,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationNote">Localization Note</h4>
+      <h4 id="LocalizationNote">2.4.2 Localization Note</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -3156,7 +3269,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Terminology">Terminology</h4>
+      <h4 id="Terminology">2.4.3 Terminology</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -3969,7 +4082,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Directionality">Directionality</h4>
+      <h4 id="Directionality">2.4.4 Directionality</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -4496,7 +4609,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LanguageInformation">Language Information</h4>
+      <h4 id="LanguageInformation">2.4.5 Language Information</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -4905,7 +5018,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="ElementsWithinText">Elements Within Text</h4>
+      <h4 id="ElementsWithinText">2.4.6 Elements Within Text</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -5443,7 +5556,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Domain">Domain</h4>
+      <h4 id="Domain">2.4.7 Domain</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -6044,7 +6157,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="TextAnalysis">Text Analysis</h4>
+      <h4 id="TextAnalysis">2.4.8 Text Analysis</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -6774,7 +6887,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocaleFilter">Locale Filter</h4>
+      <h4 id="LocaleFilter">2.4.9 Locale Filter</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -7464,7 +7577,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="Provenance">Provenance</h4>
+      <h4 id="Provenance">2.4.10 Provenance</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -8281,7 +8394,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="ExternalResource">External Resource</h4>
+      <h4 id="ExternalResource">2.4.11 External Resource</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -8709,7 +8822,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="TargetPointer">Target Pointer</h4>
+      <h4 id="TargetPointer">2.4.12 Target Pointer</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -9072,7 +9185,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="IdValue">Id Value</h4>
+      <h4 id="IdValue">2.4.13 Id Value</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -9489,7 +9602,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="PreserveSpace">Preserve Space</h4>
+      <h4 id="PreserveSpace">2.4.14 Preserve Space</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -9811,7 +9924,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationQualityIssue">Localization Quality Issue</h4>
+      <h4 id="LocalizationQualityIssue">2.4.15 Localization Quality Issue</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -11046,7 +11159,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="LocalizationQualityRating">Localization Quality Rating</h4>
+      <h4 id="LocalizationQualityRating">2.4.16 Localization Quality Rating</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -11374,7 +11487,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="MTConfidence">MT Confidence</h4>
+      <h4 id="MTConfidence">2.4.17 MT Confidence</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -11977,7 +12090,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="AllowedCharacters">Allowed Characters</h4>
+      <h4 id="AllowedCharacters">2.4.18 Allowed Characters</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>
@@ -12606,7 +12719,7 @@
             </td>
          </tr>
       </table>
-      <h4 id="StorageSize">Storage Size</h4>
+      <h4 id="StorageSize">2.4.19 Storage Size</h4>
       <table border="1" width="100%">
          <tr>
             <td>-</td>

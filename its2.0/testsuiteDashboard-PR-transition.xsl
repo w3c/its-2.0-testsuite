@@ -14,7 +14,8 @@
         <xsl:apply-templates select="/" mode="annotateTestSuiteMaster"/>
     </xsl:variable>
     <xsl:variable name="annotatedTestSuiteMaster">
-        <xsl:apply-templates select="$annotatedTestSuiteMasterWithAllTests" mode="stripNotConformanceClassRelevantTest"/>
+        <xsl:apply-templates select="$annotatedTestSuiteMasterWithAllTests"
+            mode="stripNotConformanceClassRelevantTest"/>
     </xsl:variable>
     <xsl:template mode="stripNotConformanceClassRelevantTest" match="node() |@*">
         <xsl:copy>
@@ -44,9 +45,13 @@
             <xsl:copy-of select="@*"/>
             <xsl:copy-of
                 select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'xml-global')])"/>
-            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'xml-local')])"/>
-            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-global')])"/>
-            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-local')])"/>
+            <xsl:copy-of
+                select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'xml-local')])"/>
+            <xsl:copy-of
+                select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-global')])"/>
+            <xsl:copy-of
+                select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-local')])"
+            />
         </xsl:copy>
     </xsl:template>
     <xsl:variable name="implemeters" as="item()*">
@@ -306,27 +311,28 @@
                 <body>
                     <h1>ITS 2.0 Implementation Report</h1>
                     <p>Version generated: <xsl:value-of select="current-dateTime()"/></p>
-                    <p>This document is the Implementation Report for the <a
+                    <p>This document is the implementation report for the <a
                             href="http://www.w3.org/International/multilingualweb/lt/"
                             >MultilingualWeb-LT</a> Working Group's <a
                             href="http://www.w3.org/TR/2013/WD-its20-20130521/">Internationalization
-                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. It contains the
-                        following sections:</p>
+                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. The report contains
+                        the following sections:</p>
                     <ul>
                         <li>
                             <a href="#test-suite-overview">1. Test suite overview</a>
                         </li>
                         <li><a href="#conformance-classes-overview">2. Conformance clauses for
                                 implementing ITS 2.0</a>: <ul>
-                                    <li>2.1 Conformance testing related to <a
-                                        href="#conformance-markup">ITS 2.0 markup</a></li>
-                                <li>2.2 Conformance testing related to <a
-                                        href="#conformance-processing-expectations">processing ITS
+                                <li><a href="#conformance-markup">2.1 Conformance testing related to
+                                        ITS 2.0 markup</a>
+                                </li>
+                                <li><a href="#conformance-processing-expectations">2.2 Conformance
+                                        testing related to processing ITS 2.0 information</a></li>
+                                <li><a href="#conformance-processing-expectations-details">2.3
+                                        Details about conformance testing related to processing ITS
                                         2.0 information</a></li>
-                                <li>2.3 <a href="#conformance-processing-expectations-details">Details
-                                        about conformance testing related to processing ITS 2.0
-                                        information</a></li>
-                                    <li><a href="#tests-output-per-implementer">2.4 Test output per data category and implementer</a></li></ul></li>
+                                <li><a href="#tests-output-per-implementer">2.4 Test output per data
+                                        category and implementer</a></li></ul></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
                     <p>The test suite is located at <a href="{$testSuiteFilesLinksPrefix}"
@@ -344,14 +350,14 @@
                                 <xsl:value-of select="$implementersTestsTotal - $testsWithErrors"
                             />.</li>
                     </ul>
-                    <p>For ease of debugging, <a href="testSuiteDashboard.xml"
+                    <!--                     <p>For ease of debugging, <a href="testSuiteDashboard.xml"
                         >testSuiteDashboard.xml</a> is an XML dump of the current state of the
                         test suite.</p>
                     <xsl:result-document href="testSuiteDashboard-PR-transition.xml">
                         <xsl:copy-of select="$annotatedTestSuiteMaster"/>
-                    </xsl:result-document>
-                    <h2 id="conformance-classes-overview">2. Conformance clauses for implementing ITS
-                        2.0</h2>
+                    </xsl:result-document> -->
+                    <h2 id="conformance-classes-overview">2. Conformance clauses for implementing
+                        ITS 2.0</h2>
                     <p>ITS 2.0 provides conformance clauses for four different types of
                         implementers.</p>
                     <ol>
@@ -419,13 +425,9 @@
                             overview table</a> for details.</p>
                     <p>Test details about the <a
                             href="http://www.w3.org/TR/its20/#datacategories-overview">data
-                            categories defined by ITS 2.0</a> are available in the table as follows:
-                            <xsl:for-each select="$datacategories">
-                            <xsl:variable name="currentDatacat" select="."/>
-                            <a href="{concat('#',replace(.,'[\s+,+]',''),'conformance-overview')}">
-                                <xsl:value-of select="."/>
-                            </a><xsl:if test="not(position()=last())">,
-                        </xsl:if></xsl:for-each>.</p>
+                            categories defined by ITS 2.0</a> are available in <a
+                            href="#conformance-processing-expectations-details">section 2.3</a> of
+                        this report.</p>
                     <p><strong>NOTE:</strong> ITS 2.0 processing expectations only define which
                         information needs to be made available. They do not define how that
                         information actually is to be used. This is due to the fact that there is a
@@ -472,10 +474,23 @@
     <xsl:template name="conformance-classes-overview">
         <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
             related to processing ITS 2.0 information</h3>
+        <p>The following subsections contain details about all data categories:</p>
+        <ul>
+            <xsl:for-each select="$datacategories">
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:variable name="currentDatacat" select="."/>
+                <li>
+                    <a href="{concat('#',replace(.,'[\s+,+]',''),'conformance-overview')}">
+                        <xsl:value-of select="concat('2.3.',$pos,' ',.)"/>
+                    </a>
+                </li>
+            </xsl:for-each>
+        </ul>
         <xsl:for-each select="$datacategories">
+            <xsl:variable name="pos" select="position()"/>
             <xsl:variable name="currentDatacat" select="."/>
             <h4 id="{concat(replace(.,'[\s+,+]',''),'conformance-overview')}">
-                <xsl:value-of select="."/>
+                <xsl:value-of select="concat('2.3.',$pos,' ',.)"/>
             </h4>
             <xsl:variable name="xml-global"
                 select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'xml-global')]"/>
@@ -554,22 +569,35 @@
     </xsl:template>
     <xsl:template name="current-state-details">
         <h3 id="tests-output-per-implementer">2.4 Test output per data category and implementer</h3>
-        <p>Explanation:</p>
+        <p>Each data category provides tests with the following information:</p>
         <ul>
-            <li><q class="na">N/A</q> = the implementer did not run the test.</li>
-            <li><q class="ok">OK</q> = the output file is identical to the reference output
-                file.</li>
-            <!-- 
-            <li><q class="error">error</q> = an error occurred, e.g. the output file is not
-                available or it is not identical to the reference output file. Move the mouse over
-                    <q>error</q> to see details.</li>
-            <li><q class="fnf">fnf</q>: the output file from the implementer has not been
-                found.</li> -->
+            <li>Information about the input files <ul>
+                    <li>Type of tests (global or local) and additional description</li>
+                    <li>Links to related assertions made in the ITS 2.0 specification</li>
+                </ul></li>
+            <li> Information about the output from implementers<ul>
+                    <li><q class="na">N/A</q> = the implementer did not run the test.</li>
+                    <li><q class="ok">OK</q> = the output file is identical to the reference output
+                        file.</li>
+                </ul></li>
+        </ul>
+        <p>The following subsections contain details about all data categories per implementer:</p>
+        <ul>
+            <xsl:for-each select="$datacategories">
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:variable name="currentDatacat" select="."/>
+                <li>
+                    <a href="{concat('#',replace(.,'[\s+,+]',''))}">
+                        <xsl:value-of select="concat('2.4.',$pos,' ',.)"/>
+                    </a>
+                </li>
+            </xsl:for-each>
         </ul>
         <xsl:for-each select="$datacategories">
+            <xsl:variable name="pos" select="position()"/>
             <xsl:variable name="currentDatacat" select="."/>
             <h4 id="{replace(.,'[\s+,+]','')}">
-                <xsl:value-of select="."/>
+                <xsl:value-of select="concat('2.4.',$pos,' ',.)"/>
             </h4>
             <table border="1" width="100%">
                 <tr>
