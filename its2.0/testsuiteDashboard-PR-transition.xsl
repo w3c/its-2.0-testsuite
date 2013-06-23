@@ -444,7 +444,7 @@
                     <xsl:call-template name="current-state-details"/>
                   <h3 id="conformance-nif-conversion">2.5 Conformance testing related to NIF conversion</h3>
                   <p>The ITS 2.0 specification has a feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
-                  <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementers')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
+                  <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementors')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>
                 </body>
             </html>
