@@ -5,13 +5,50 @@
 
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
     <xsl:param name="output">html</xsl:param>
+    <xsl:param name="testSuiteMainPage">https://github.com/finnle/ITS-2.0-Testsuite/</xsl:param>
     <xsl:param name="testSuiteFilesLinksPrefix"
         >https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/</xsl:param>
     <xsl:variable name="testsuiteLocation"/>
     <xsl:variable name="its2spec">http://www.w3.org/TR/its20/</xsl:variable>
-    <xsl:variable name="annotatedTestSuiteMaster">
+    <xsl:variable name="annotatedTestSuiteMasterWithAllTests">
         <xsl:apply-templates select="/" mode="annotateTestSuiteMaster"/>
     </xsl:variable>
+    <xsl:variable name="annotatedTestSuiteMaster">
+        <xsl:apply-templates select="$annotatedTestSuiteMasterWithAllTests" mode="stripNotConformanceClassRelevantTest"/>
+    </xsl:variable>
+    <xsl:template mode="stripNotConformanceClassRelevantTest" match="node() |@*">
+        <xsl:copy>
+            <xsl:apply-templates select="node() |@*" mode="stripNotConformanceClassRelevantTest"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:function name="my:stripTestsPerDataCategory" as="item()*">
+        <xsl:param name="currentSetOftTests"/>
+        <xsl:for-each select="$currentSetOftTests">
+            <xsl:copy>
+                <xsl:copy-of select="@*"/>
+                <xsl:copy-of select="my:description | my:expectedOutput"/>
+                <xsl:for-each select="my:outputImplementors">
+                    <xsl:variable name="currentImplementer" select="@implementer"/>
+                    <xsl:variable name="relatedTests"
+                        select="$currentSetOftTests/my:outputImplementors[@implementer=$currentImplementer]"/>
+                    <xsl:if
+                        test="not($relatedTests/my:error) and count($relatedTests) = count($currentSetOftTests)">
+                        <xsl:copy-of select="self::*"/>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:copy>
+        </xsl:for-each>
+    </xsl:function>
+    <xsl:template mode="stripNotConformanceClassRelevantTest" match="my:dataCategory">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:copy-of
+                select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'xml-global')])"/>
+            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'xml-local')])"/>
+            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-global')])"/>
+            <xsl:copy-of select="my:stripTestsPerDataCategory(my:inputfile[contains(@conformance-class,'html-local')])"/>
+        </xsl:copy>
+    </xsl:template>
     <xsl:variable name="implemeters" as="item()*">
         <xsl:for-each
             select="distinct-values(//my:outputImplementors/@implementer)[string-length()&gt;0]">
@@ -87,6 +124,8 @@
                 <head>
                     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
                     <title>ITS 2.0 Implementation Report</title>
+                    <link rel="stylesheet" type="text/css"
+                        href="http://www.w3.org/StyleSheets/base.css"/>
                     <style type="text/css">
                         table{
                             text-align:center;
@@ -110,6 +149,158 @@
                         table.conformanceclasses{
                             text-align:left;
                             empty-cells:show;
+                            body { 
+                            background: #FBFBFF;
+                            color: black;
+                            margin: 1em 5% 1em 10%
+                            }   
+                        }</style>
+                    <!-- Below is mostly copied from xxx -->
+                    <style type="text/css">
+                        /* Style for a public "Working Draft" */
+                        /*
+                        Copyright 1997-2003 W3C (MIT, ERCIM, Keio). All Rights Reserved.
+                        The following software licensing rules apply:
+                        http://www.w3.org/Consortium/Legal/copyright-software */
+                        /* $Id: base.css,v 1.27 2013-01-14 15:02:50 denis Exp $ */
+                        body{
+                            padding:2em 1em 2em 70px;
+                            margin:0;
+                            font-family:sans-serif;
+                            color:black;
+                            background:white;
+                            background-position:top left;
+                            background-attachment:fixed;
+                            background-repeat:no-repeat;
+                        }
+                        :link{
+                            color:#00C;
+                            background:transparent
+                        }
+                        :visited{
+                            color:#609;
+                            background:transparent
+                        }
+                        a:active{
+                            color:#C00;
+                            background:transparent
+                        }
+                        a:link img,
+                        a:visited img{
+                            border-style:none
+                        } /* no border on img links */
+                        a img{
+                            color:white;
+                        } /* trick to hide the border in Netscape 4 */
+                        @media all{ /* hide the next rule from Netscape 4 */
+                            a img{
+                                color:inherit;
+                            } /* undo the color change above */
+                        }
+                        th,
+                        td{ /* ns 4 */
+                            font-family:sans-serif;
+                        }
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6{
+                            text-align:left
+                        }
+                        /* background should be transparent, but WebTV has a bug */
+                        h1,
+                        h2,
+                        h3{
+                            color:#005A9C;
+                            background:white
+                        }
+                        h1{
+                            font:170% sans-serif
+                        }
+                        h2{
+                            font:140% sans-serif
+                        }
+                        h3{
+                            font:120% sans-serif
+                        }
+                        h4{
+                            font:bold 100% sans-serif
+                        }
+                        h5{
+                            font:italic 100% sans-serif
+                        }
+                        h6{
+                            font:small-caps 100% sans-serif
+                        }
+                        .hide{
+                            display:none
+                        }
+                        div.head{
+                            margin-bottom:1em
+                        }
+                        div.head h1{
+                            margin-top:2em;
+                            clear:both
+                        }
+                        div.head table{
+                            margin-left:2em;
+                            margin-top:2em
+                        }
+                        p.copyright{
+                            font-size:small
+                        }
+                        p.copyright small{
+                            font-size:small
+                        }
+                        @media screen{ /* hide from IE3 */
+                            a[href]:hover{
+                                background:#ffa
+                            }
+                        }
+                        pre{
+                            margin-left:2em
+                        }
+                        /*
+                        p {
+                        margin-top: 0.6em;
+                        margin-bottom: 0.6em;
+                        }
+                        */
+                        dt,
+                        dd{
+                            margin-top:0;
+                            margin-bottom:0
+                        } /* opera 3.50 */
+                        dt{
+                            font-weight:bold
+                        }
+                        ul.toc,
+                        ol.toc{
+                            list-style:disc; /* Mac NS has problem with 'none' */
+                            list-style:none;
+                        }
+                        @media aural{
+                            h1,
+                            h2,
+                            h3{
+                                stress:20;
+                                richness:90
+                            }
+                            .hide{
+                                speak:none
+                            }
+                            p.copyright{
+                                volume:x-soft;
+                                speech-rate:x-fast
+                            }
+                            dt{
+                                pause-before:63ms
+                            }
+                            pre{
+                                speak-punctuation:code
+                            }
                         }</style>
                 </head>
                 <body>
@@ -119,8 +310,25 @@
                             href="http://www.w3.org/International/multilingualweb/lt/"
                             >MultilingualWeb-LT</a> Working Group's <a
                             href="http://www.w3.org/TR/2013/WD-its20-20130521/">Internationalization
-                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>.</p>
-                    <h2>Test suite overview</h2>
+                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. It contains the
+                        following sections:</p>
+                    <ul>
+                        <li>
+                            <a href="#test-suite-overview">1. Test suite overview</a>
+                        </li>
+                        <li><a href="#conformance-classes-overview">2. Conformance clauses for
+                                implementing ITS 2.0</a>: <ul>
+                                    <li>2.1 Conformance testing related to <a
+                                        href="#conformance-markup">ITS 2.0 markup</a></li>
+                                <li>2.2 Conformance testing related to <a
+                                        href="#conformance-processing-expectations">processing ITS
+                                        2.0 information</a></li>
+                                <li>2.3 <a href="#conformance-processing-expectations-details">Details
+                                        about conformance testing related to processing ITS 2.0
+                                        information</a></li>
+                                    <li><a href="#tests-output-per-implementer">2.4 Test output per data category and implementer</a></li></ul></li>
+                    </ul>
+                    <h2 id="test-suite-overview">1. Test suite overview</h2>
                     <p>The test suite is located at <a href="{$testSuiteFilesLinksPrefix}"
                                 ><xsl:value-of select="$testSuiteFilesLinksPrefix"/></a></p>
                     <xsl:variable name="referenceOutput"
@@ -136,7 +344,13 @@
                                 <xsl:value-of select="$implementersTestsTotal - $testsWithErrors"
                             />.</li>
                     </ul>
-                    <h2 id="conformance-classes-overview">Conformance clauses for implementing ITS
+                    <p>For ease of debugging, <a href="testSuiteDashboard.xml"
+                        >testSuiteDashboard.xml</a> is an XML dump of the current state of the
+                        test suite.</p>
+                    <xsl:result-document href="testSuiteDashboard-PR-transition.xml">
+                        <xsl:copy-of select="$annotatedTestSuiteMaster"/>
+                    </xsl:result-document>
+                    <h2 id="conformance-classes-overview">2. Conformance clauses for implementing ITS
                         2.0</h2>
                     <p>ITS 2.0 provides conformance clauses for four different types of
                         implementers.</p>
@@ -171,8 +385,8 @@
                                 into <a title="HTML5" href="#html5" shape="rect">[HTML5]</a>.</p>
                         </li>
                     </ol>
-                    <h2 id="conformance-markup">Conformance testing related to ITS 2.0 markup
-                        (clauses in section 4.1 and section 4.4)</h2>
+                    <h3 id="conformance-markup">2.1 Conformance testing related to ITS 2.0 markup
+                        (clauses in section 4.1 and section 4.4)</h3>
                     <p>As part of the <a href="{$testSuiteFilesLinksPrefix}">ITS 2.0 test suite</a>,
                             <xsl:value-of
                             select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory/my:inputfile)"
@@ -182,19 +396,36 @@
                             select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory/my:inputfile[contains(@location,'/html/')])"
                         /> HTML input files. All of these files have been validated successfully
                         against the <a href="http://www.w3.org/TR/its20/#its-schemas">schemas for
-                            ITS 2.0</a>.</p>
-                    <h2 id="conformance-processing-expectations">Conformance testing related to
-                        processing ITS 2.0 information (clauses in section 4.2 and section 4.3)</h2>
-                    <p>The ITS 2.0 specification provides four types of processor conformance: in
-                        section 4.2 about processing XML <a
+                            ITS 2.0</a>. The <a href="{$testSuiteFilesLinksPrefix}">test suite main
+                            page</a> provides information on how to <a
+                            href="{concat($testSuiteMainPage,'#validating-xml-test-files')}"
+                            >validate XML files</a> and <a
+                            href="{concat($testSuiteMainPage,'#validating-html-test-files')}"
+                            >validate HTML files</a>.</p>
+                    <h3 id="conformance-processing-expectations">2.2 Conformance testing related to
+                        processing ITS 2.0 information (clauses in section 4.2 and section 4.3)</h3>
+                    <p>The ITS 2.0 specification provides four types of processor conformance: in <a
+                            href="http://www.w3.org/TR/its20/#conformance-product-processing-expectations"
+                            >section 4.2</a> about processing XML <a
                             href="http://www.w3.org/TR/its20/#its-conformance-2-1-1">global or
-                            local</a>, and in section 4.3 about processing HTML <a
+                            local</a>, and in <a
+                            href="http://www.w3.org/TR/its20/#conformance-product-html-processing-expectations"
+                            >section 4.3</a> about processing HTML <a
                             href="http://www.w3.org/TR/its20/#its-conformance-3-1-1">global or
                             local</a>. The tables below summarize the implementation status with
                         regards to these conformance classes. <strong>Note:</strong> not each data
                         category implements both local and local processing. See the <a
                             href="http://www.w3.org/TR/its20/#datacategories-overview">data category
                             overview table</a> for details.</p>
+                    <p>Test details about the <a
+                            href="http://www.w3.org/TR/its20/#datacategories-overview">data
+                            categories defined by ITS 2.0</a> are available in the table as follows:
+                            <xsl:for-each select="$datacategories">
+                            <xsl:variable name="currentDatacat" select="."/>
+                            <a href="{concat('#',replace(.,'[\s+,+]',''),'conformance-overview')}">
+                                <xsl:value-of select="."/>
+                            </a><xsl:if test="not(position()=last())">,
+                        </xsl:if></xsl:for-each>.</p>
                     <p><strong>NOTE:</strong> ITS 2.0 processing expectations only define which
                         information needs to be made available. They do not define how that
                         information actually is to be used. This is due to the fact that there is a
@@ -208,93 +439,10 @@
                     <hr/>
                     <xsl:call-template name="current-state-details"/>
                     <hr/>
-                    <h2 id="tests-current-state-xml-dump">XML dump of current state</h2>
-                    <p>For ease of debugging, <a href="testSuiteDashboard.xml"
-                            >testSuiteDashboard.xml</a> is an XML dump of the current state of the
-                        test suite.</p>
-                    <xsl:result-document href="testSuiteDashboard.xml">
-                        <xsl:copy-of select="$annotatedTestSuiteMaster"/>
-                    </xsl:result-document>
-                    <hr/>
                 </body>
             </html>
         </xsl:result-document>
     </xsl:template>
-    <!-- 
-    <xsl:template name="implementersVersusDatacategories">
-        <p>The following table compares actual tests run, versus number of tests to be run per
-            implementer. Explanation:</p>
-        <ul>
-            <li><q class="na">N/A</q> = the implementer did not commit to run the tests for a given
-                data category.</li>
-            <li><q class="ok">OK</q> = for a given data category, all output files are identical to
-                the reference output files.</li>
-            <li><q class="error">error</q> = for a given data category an error occurred in one or
-                several output files, or one or more output files are missing.</li>
-        </ul>
-        <table border="1" width="100%">
-            <tr>
-                <td>-</td>
-                <xsl:for-each select="$implemeters">
-                    <td>
-                        <xsl:value-of select="."/>
-                    </td>
-                </xsl:for-each>
-            </tr>
-            <xsl:for-each select="$datacategories">
-                <xsl:variable name="currentDatacat" select="."/>
-                <tr>
-                    <td class="firstcolumn">
-                        <a href="{concat('#',replace(.,'[\s+,+]',''))}">
-                            <xsl:value-of select="."/>
-                        </a>
-                    </td>
-                    <xsl:for-each select="$implemeters">
-                        <xsl:variable name="currentImplementer" select="."/>
-                        <xsl:variable name="numberOfFiles"
-                            select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile/my:outputImplementors[@implementer=$currentImplementer])"/>
-                        <xsl:variable name="numberOfFilesSuccessfullyRun"
-                            select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile/my:outputImplementors[@implementer=$currentImplementer][not(my:error)])"/>
-                        <td>
-                            <xsl:choose>
-                                <xsl:when test="$numberOfFiles = 0">
-                                    <span class="na">n/a</span>
-                                </xsl:when>
-                                <xsl:when test="$numberOfFilesSuccessfullyRun &lt; $numberOfFiles">
-                                    <span class="error">
-                                        <xsl:value-of
-                                            select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"
-                                        />
-                                    </span>
-                                </xsl:when>
-                                <xsl:when test="$numberOfFilesSuccessfullyRun = $numberOfFiles">
-                                    <span class="ok">
-                                        <xsl:value-of
-                                            select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"
-                                        />
-                                    </span>
-                                </xsl:when>
-                            </xsl:choose>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-            </xsl:for-each>
-            <tr>
-                <td class="firstcolumn">Total number of files</td>
-                <xsl:for-each select="$implemeters">
-                    <xsl:variable name="currentImplementer" select="."/>
-                    <xsl:variable name="numberOfFiles"
-                        select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory/my:inputfile/my:outputImplementors[@implementer=$currentImplementer])"/>
-                    <xsl:variable name="numberOfFilesSuccessfullyRun"
-                        select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory/my:inputfile/my:outputImplementors[@implementer=$currentImplementer][not(my:error)])"/>
-                    <td>
-                        <xsl:value-of
-                            select="concat($numberOfFilesSuccessfullyRun, '/',$numberOfFiles)"/>
-                    </td>
-                </xsl:for-each>
-            </tr>
-        </table>
-    </xsl:template> -->
     <xsl:function name="my:countConformingImplementations" as="item()*">
         <xsl:param name="conformanceClassTests"/>
         <xsl:variable name="implementationsPerConformanceClass">
@@ -322,13 +470,13 @@
         </a>
     </xsl:template>
     <xsl:template name="conformance-classes-overview">
+        <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
+            related to processing ITS 2.0 information</h3>
         <xsl:for-each select="$datacategories">
             <xsl:variable name="currentDatacat" select="."/>
-            <p>
-                <strong>
-                    <xsl:value-of select="."/>
-                </strong>
-            </p>
+            <h4 id="{concat(replace(.,'[\s+,+]',''),'conformance-overview')}">
+                <xsl:value-of select="."/>
+            </h4>
             <xsl:variable name="xml-global"
                 select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'xml-global')]"/>
             <xsl:variable name="xml-local"
@@ -405,7 +553,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template name="current-state-details">
-        <h2 id="tests-details">Test details</h2>
+        <h3 id="tests-output-per-implementer">2.4 Test output per data category and implementer</h3>
         <p>Explanation:</p>
         <ul>
             <li><q class="na">N/A</q> = the implementer did not run the test.</li>
@@ -420,10 +568,9 @@
         </ul>
         <xsl:for-each select="$datacategories">
             <xsl:variable name="currentDatacat" select="."/>
-            <h3 id="{replace(.,'[\s+,+]','')}">
+            <h4 id="{replace(.,'[\s+,+]','')}">
                 <xsl:value-of select="."/>
-            </h3>
-            <p>Detailed overview:</p>
+            </h4>
             <table border="1" width="100%">
                 <tr>
                     <td>-</td>
