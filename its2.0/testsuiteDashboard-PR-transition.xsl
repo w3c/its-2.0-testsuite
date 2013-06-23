@@ -362,30 +362,30 @@
                         implementers.</p>
                     <ol>
                         <li>
-                            <p>Conformance clauses in <a class="section-ref"
-                                    href="#conformance-product-schema" shape="rect">Section
+                            <p>Conformance clauses in <a 
+                                href="http://www.w3.org/TR/its20/#conformance-product-schema" shape="rect">Section
                                     4.1: Conformance Type 1: ITS Markup Declarations</a> tell markup
                                 vocabulary developers how to add ITS 2.0 markup declarations to
                                 their schemas.</p>
                         </li>
                         <li>
-                            <p>Conformance clauses in <a class="section-ref"
-                                    href="#conformance-product-processing-expectations" shape="rect"
+                            <p>Conformance clauses in <a 
+                                href="http://www.w3.org/TR/its20/#conformance-product-processing-expectations" shape="rect"
                                     >Section 4.2: Conformance Type 2: The Processing Expectations
                                     for ITS Markup</a> tell implementers how to process XML content
                                 according to ITS 2.0 data categories.</p>
                         </li>
                         <li>
-                            <p>Conformance clauses in <a class="section-ref"
-                                    href="#conformance-product-html-processing-expectations"
+                            <p>Conformance clauses in <a 
+                                href="http://www.w3.org/TR/its20/#conformance-product-html-processing-expectations"
                                     shape="rect">Section 4.3: Conformance Type 3: Processing
                                     Expectations for ITS Markup in HTML</a> tell implementers how to
-                                process <a title="HTML5" href="#html5" shape="rect">[HTML5]</a>
+                                process <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" shape="rect">[HTML5]</a>
                                 content.</p>
                         </li>
                         <li>
-                            <p>Conformance clauses in <a class="section-ref"
-                                    href="#conformance-product-html5-its" shape="rect">Section
+                            <p>Conformance clauses in <a 
+                                href="http://www.w3.org/TR/its20/#conformance-product-html5-its" shape="rect">Section
                                     4.4: Conformance Type 4: Markup conformance for HTML5+ITS
                                     documents</a> tell implementers how ITS 2.0 markup is integrated
                                 into <a title="HTML5" href="#html5" shape="rect">[HTML5]</a>.</p>

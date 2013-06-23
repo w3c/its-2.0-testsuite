@@ -943,7 +943,7 @@ Line 16: Comparison failed.
    <dataCategory identifier="localization-note" name="Localization Note">
       <inputfile location="inputdata/localizationnote/xml/locnote1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global">Global - Embedded rules with locNote</description>
+         <description assertions="localizationnote-global">Global - Embedded rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
@@ -995,7 +995,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote1html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
+         <description assertions="localizationnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote1htmloutput.txt"/>
@@ -1011,7 +1011,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global">Global - Embedded rules with locNotePointer</description>
+         <description assertions="localizationnote-global">Global - Embedded rules with locNotePointer</description>
          <expectedOutput location="expected/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
@@ -1026,7 +1026,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote2html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNotePointer</description>
+         <description assertions="localizationnote-global html5-external-global-rules">Global - Linked rules with locNotePointer</description>
          <expectedOutput location="expected/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote2htmloutput.txt"/>
@@ -1042,7 +1042,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote3xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global">Global - Embedded rules with locNoteRef</description>
+         <description assertions="localizationnote-global">Global - Embedded rules with locNoteRef</description>
          <expectedOutput location="expected/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
@@ -1057,7 +1057,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote3html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNoteRef</description>
+         <description assertions="localizationnote-global html5-external-global-rules">Global - Linked rules with locNoteRef</description>
          <expectedOutput location="expected/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote3htmloutput.txt"/>
@@ -1073,7 +1073,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote4xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global">Global - Embedded rules with locNoteRefPointer</description>
+         <description assertions="localizationnote-global">Global - Embedded rules with locNoteRefPointer</description>
          <expectedOutput location="expected/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
@@ -1088,7 +1088,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote4html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNoteRefPointer</description>
+         <description assertions="localizationnote-global html5-external-global-rules">Global - Linked rules with locNoteRefPointer</description>
          <expectedOutput location="expected/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote4htmloutput.txt"/>
@@ -1104,7 +1104,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote5xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global link-external-rules">Global - Linked rules with locNote</description>
+         <description assertions="localizationnote-global link-external-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
@@ -1119,7 +1119,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
+         <description assertions="localizationnote-global html5-external-global-rules">Global - Linked rules with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote5htmloutput.txt"/>
@@ -1135,7 +1135,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote6xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global">Global - Embedded rules with mixed notes</description>
+         <description assertions="localizationnote-global">Global - Embedded rules with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
@@ -1149,7 +1149,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote6html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global link-external-rules">Global - Linked rules with mixed notes</description>
+         <description assertions="localizationnote-global link-external-rules">Global - Linked rules with mixed notes</description>
          <expectedOutput location="expected/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote6htmloutput.txt"/>
@@ -1165,7 +1165,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote7xml.xml"
                  conformance-class="xml-local">
-         <description assertions="locnote-local">Local - In host element with locNote</description>
+         <description assertions="localizationnote-local">Local - In host element with locNote</description>
          <expectedOutput location="expected/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote7xmloutput.txt"/>
@@ -1179,7 +1179,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote7html.html"
                  conformance-class="html-local">
-         <description assertions="locnote-local html5-markup">Local - In host element with locNote</description>
+         <description assertions="localizationnote-local html5-markup">Local - In host element with locNote</description>
          <expectedOutput location="expected/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote7htmloutput.txt"/>
@@ -1195,7 +1195,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote8xml.xml"
                  conformance-class="xml-local">
-         <description assertions="locnote-local">Local - In host element with mixed notes</description>
+         <description assertions="localizationnote-local">Local - In host element with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote8xmloutput.txt"/>
@@ -1209,7 +1209,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote9xml.xml"
                  conformance-class="xml-local">
-         <description assertions="locnote-local">Local - In &lt;its:span&gt; with mixed notes</description>
+         <description assertions="localizationnote-local">Local - In &lt;its:span&gt; with mixed notes</description>
          <expectedOutput location="expected/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote9xmloutput.txt"/>
@@ -1223,7 +1223,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote10xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="localizationnote-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote10xmloutput.txt"/>
@@ -1238,7 +1238,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote9html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="localizationnote-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote9htmloutput.txt"/>
@@ -1254,7 +1254,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml"
                  conformance-class="xml-global">
-         <description assertions="locnote-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="localizationnote-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote11xmloutput.txt"/>
@@ -1269,7 +1269,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote8html.html"
                  conformance-class="html-global">
-         <description assertions="locnote-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="localizationnote-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/html/locnote8htmloutput.txt"/>
@@ -1290,7 +1290,7 @@ Line 12: Comparison failed.
    <dataCategory identifier="terminology" name="Terminology">
       <inputfile location="inputdata/terminology/xml/terminology1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global">Global - Embedded rules with termInfoPointer</description>
+         <description assertions="terminology-global">Global - Embedded rules with termInfoPointer</description>
          <expectedOutput location="expected/terminology/xml/terminology1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology1xmloutput.txt"/>
@@ -1303,7 +1303,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global">Global - Embedded rules with termInfoRef</description>
+         <description assertions="terminology-global">Global - Embedded rules with termInfoRef</description>
          <expectedOutput location="expected/terminology/xml/terminology2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology2xmloutput.txt"/>
@@ -1316,7 +1316,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology1html.html"
                  conformance-class="html-global">
-         <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoRef</description>
+         <description assertions="terminology-global html5-external-global-rules">Global - Linked rules with termInfoRef</description>
          <expectedOutput location="expected/terminology/html/terminology1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology1htmloutput.txt"/>
@@ -1331,7 +1331,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology3xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global">Global - Embedded rules with termInfoRefPointer</description>
+         <description assertions="terminology-global">Global - Embedded rules with termInfoRefPointer</description>
          <expectedOutput location="expected/terminology/xml/terminology3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology3xmloutput.txt"/>
@@ -1344,7 +1344,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology4xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global link-external-rules">Global - Linked rules with termInfoPointer</description>
+         <description assertions="terminology-global link-external-rules">Global - Linked rules with termInfoPointer</description>
          <expectedOutput location="expected/terminology/xml/terminology4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology4xmloutput.txt"/>
@@ -1357,7 +1357,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology2html.html"
                  conformance-class="html-global">
-         <description assertions="term-global html5-external-global-rules">Global - Linked rules with termInfoPointer</description>
+         <description assertions="terminology-global html5-external-global-rules">Global - Linked rules with termInfoPointer</description>
          <expectedOutput location="expected/terminology/html/terminology2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology2htmloutput.txt"/>
@@ -1372,7 +1372,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology5xml.xml"
                  conformance-class="xml-local">
-         <description assertions="term-local html5-markup">Local - In host element</description>
+         <description assertions="terminology-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/terminology/xml/terminology5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology5xmloutput.txt"/>
@@ -1385,7 +1385,7 @@ Line 12: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology9xml.xml"
                  conformance-class="html-local">
-         <description assertions="term-local">Local - In host element with its:annotatorsRef</description>
+         <description assertions="terminology-local">Local - In host element with its:annotatorsRef</description>
          <expectedOutput location="expected/terminology/xml/terminology9xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology9xmloutput.txt"/>
@@ -1431,7 +1431,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology3html.html"
                  conformance-class="html-local">
-         <description assertions="term-local html5-markup">Local - In host element</description>
+         <description assertions="terminology-local html5-markup">Local - In host element</description>
          <expectedOutput location="expected/terminology/html/terminology3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology3htmloutput.txt"/>
@@ -1446,7 +1446,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology5html.html"
                  conformance-class="html-local">
-         <description assertions="term-local html5-markup">Local - In host element with its:annotatorsRef</description>
+         <description assertions="terminology-local html5-markup">Local - In host element with its:annotatorsRef</description>
          <expectedOutput location="expected/terminology/html/terminology5htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology5htmloutput.txt"/>
@@ -1463,7 +1463,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology6xml.xml"
                  conformance-class="xml-local">
-         <description assertions="term-local">Local - In &lt;its:span&gt;</description>
+         <description assertions="terminology-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/terminology/xml/terminology6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology6xmloutput.txt"/>
@@ -1476,7 +1476,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology7xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="terminology-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/terminology/xml/terminology7xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology7xmloutput.txt"/>
@@ -1489,7 +1489,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology6html.html"
                  conformance-class="html-global">
-         <description assertions="term-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="terminology-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/terminology/html/terminology6htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology6htmloutput.txt"/>
@@ -1504,7 +1504,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/xml/terminology8xml.xml"
                  conformance-class="xml-global">
-         <description assertions="term-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="terminology-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/terminology/xml/terminology8xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/xml/terminology8xmloutput.txt"/>
@@ -1517,7 +1517,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/terminology/html/terminology4html.html"
                  conformance-class="html-global">
-         <description assertions="term-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="terminology-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/terminology/html/terminology4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/terminology/html/terminology4htmloutput.txt"/>
@@ -1536,7 +1536,7 @@ Line 11: Comparison failed.
    <dataCategory identifier="directionality" name="Directionality">
       <inputfile location="inputdata/directionality/xml/dir1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="dir-global">Global - Embedded rules</description>
+         <description assertions="directionality-global">Global - Embedded rules</description>
          <expectedOutput location="expected/directionality/xml/dir1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir1xmloutput.txt"/>
@@ -1547,7 +1547,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="dir-global link-external-rules">Global - Linked rules</description>
+         <description assertions="directionality-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/directionality/xml/dir2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir2xmloutput.txt"/>
@@ -1558,7 +1558,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir3xml.xml"
                  conformance-class="xml-local">
-         <description assertions="dir-local">Local - In host element</description>
+         <description assertions="directionality-local">Local - In host element</description>
          <expectedOutput location="expected/directionality/xml/dir3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir3xmloutput.txt"/>
@@ -1569,7 +1569,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir4xml.xml"
                  conformance-class="xml-local">
-         <description assertions="dir-local">Local - In &lt;its:span&gt;</description>
+         <description assertions="directionality-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/directionality/xml/dir4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir4xmloutput.txt"/>
@@ -1580,7 +1580,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir5xml.xml"
                  conformance-class="xml-global">
-         <description assertions="dir-local its-param">Global - In host element &lt;its:param&gt;</description>
+         <description assertions="directionality-local its-param">Global - In host element &lt;its:param&gt;</description>
          <expectedOutput location="expected/directionality/xml/dir5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir5xmloutput.txt"/>
@@ -1591,7 +1591,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/xml/dir6xml.xml"
                  conformance-class="xml-global">
-         <description assertions="dir-local its-param">Global - In &lt;its:span&gt; &lt;its:param&gt;</description>
+         <description assertions="directionality-local its-param">Global - In &lt;its:span&gt; &lt;its:param&gt;</description>
          <expectedOutput location="expected/directionality/xml/dir6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/xml/dir6xmloutput.txt"/>
@@ -1602,7 +1602,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir1html.html"
                  conformance-class="html-local">
-         <description assertions="dir-local">Local</description>
+         <description assertions="directionality-local">Local</description>
          <expectedOutput location="expected/directionality/html/dir1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir1htmloutput.txt"/>
@@ -1615,7 +1615,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir2html.html"
                  conformance-class="html-global">
-         <description assertions="dir-global html5-global-rules">Global - Embedded rules</description>
+         <description assertions="directionality-global html5-global-rules">Global - Embedded rules</description>
          <expectedOutput location="expected/directionality/html/dir2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir2htmloutput.txt"/>
@@ -1628,7 +1628,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir3html.html"
                  conformance-class="html-global">
-         <description assertions="dir-global link-external-rules">Global - Linked rules</description>
+         <description assertions="directionality-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/directionality/html/dir3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir3htmloutput.txt"/>
@@ -1643,7 +1643,7 @@ Line 11: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/directionality/html/dir4html.html"
                  conformance-class="html-global">
-         <description assertions="dir-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="directionality-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/directionality/html/dir4htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/directionality/html/dir4htmloutput.txt"/>
@@ -1662,7 +1662,7 @@ Line 11: Comparison failed.
    <dataCategory identifier="language-information" name="Language Information">
       <inputfile location="inputdata/languageinformation/xml/languageinfo1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="lang-global">Global - Embedded rules</description>
+         <description assertions="languageinformation-global">Global - Embedded rules</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/xml/languageinfo1xmloutput.txt"/>
@@ -1724,7 +1724,7 @@ Line 18: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="lang-global link-external-rules">Global - Embedded and linked rules</description>
+         <description assertions="languageinformation-global link-external-rules">Global - Embedded and linked rules</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/xml/languageinfo2xmloutput.txt"/>
@@ -1741,7 +1741,7 @@ Line 18: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo1html.html"
                  conformance-class="xml-global">
-         <description assertions="lang-global html5-external-global-rules">Global - Linked rules</description>
+         <description assertions="languageinformation-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/languageinformation/html/languageinfo1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo1htmloutput.txt"/>
@@ -1823,7 +1823,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo3xml.xml"
                  conformance-class="xml-global">
-         <description assertions="lang-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="languageinformation-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/xml/languageinfo3xmloutput.txt"/>
@@ -1840,7 +1840,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo3html.html"
                  conformance-class="html-global">
-         <description assertions="lang-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="languageinformation-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/html/languageinfo3htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo3htmloutput.txt"/>
@@ -1857,7 +1857,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo4xml.xml"
                  conformance-class="xml-global">
-         <description assertions="lang-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="languageinformation-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/xml/languageinfo4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/xml/languageinfo4xmloutput.txt"/>
@@ -1874,7 +1874,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/languageinformation/html/languageinfo2html.html"
                  conformance-class="html-global">
-         <description assertions="lang-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="languageinformation-global html5-external-global-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/languageinformation/html/languageinfo2htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/languageinformation/html/languageinfo2htmloutput.txt"/>
@@ -2152,7 +2152,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/domain/xml/domain5xml.xml"
                  conformance-class="xml-global">
-         <description assertions="domain-glassertionsobal link-external-rules">Global - Embedded and linked rules</description>
+         <description assertions="domain-global link-external-rules">Global - Embedded and linked rules</description>
          <expectedOutput location="expected/domain/xml/domain5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/domain/xml/domain5xmloutput.txt"/>
@@ -2271,7 +2271,7 @@ Line 16: Comparison failed.
    <dataCategory identifier="text-analysis" name="Text Analysis">
       <inputfile location="inputdata/textanalysis/xml/textanalysis1xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global">Global - Embedded rules</description>
+         <description assertions="text-analysis-global">Global - Embedded rules</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis1xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis1xmloutput.txt"/>
@@ -2286,7 +2286,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis7xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global">Global - Embedded rules with class pointer</description>
+         <description assertions="text-analysis-global">Global - Embedded rules with class pointer</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis7xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis7xmloutput.txt"/>
@@ -2301,7 +2301,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis5xml.xml"
                  conformance-class="xml-local">
-         <description assertions="textanalysis-local">Local - In host element</description>
+         <description assertions="text-analysis-local">Local - In host element</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis5xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis5xmloutput.txt"/>
@@ -2320,7 +2320,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis2xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global link-external-rules">Global - Linked rules</description>
+         <description assertions="text-analysis-global link-external-rules">Global - Linked rules</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis2xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis2xmloutput.txt"/>
@@ -2335,7 +2335,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis8xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global link-external-rules">Global - Linked rules with class pointer</description>
+         <description assertions="text-analysis-global link-external-rules">Global - Linked rules with class pointer</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis8xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis8xmloutput.txt"/>
@@ -2350,7 +2350,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis6xml.xml"
                  conformance-class="xml-local">
-         <description assertions="textanalysis-local">Local - In &lt;its:span&gt;</description>
+         <description assertions="text-analysis-local">Local - In &lt;its:span&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis6xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis6xmloutput.txt"/>
@@ -2369,7 +2369,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis4html.html"
                  conformance-class="html-local">
-         <description assertions="textanalysis-local html5-markup">Local - In host</description>
+         <description assertions="text-analysis-local html5-markup">Local - In host</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis4htmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/html/textanalysis4htmloutput.txt"/>
@@ -2390,7 +2390,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis1html.html"
                  conformance-class="html-global">
-         <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules</description>
+         <description assertions="text-analysis-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis1htmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/html/textanalysis1htmloutput.txt"/>
@@ -2407,7 +2407,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis3html.html"
                  conformance-class="html-global">
-         <description assertions="textanalysis-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
+         <description assertions="text-analysis-global html5-external-global-rules">Global - Linked rules with class ref pointer</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis3htmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/html/textanalysis3htmloutput.txt"/>
@@ -2424,7 +2424,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis3xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="text-analysis-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis3xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis3xmloutput.txt"/>
@@ -2439,7 +2439,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/xml/textanalysis4xml.xml"
                  conformance-class="xml-global">
-         <description assertions="textanalysis-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="text-analysis-global its-param link-external-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/xml/textanalysis4xmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/xml/textanalysis4xmloutput.txt"/>
@@ -2454,7 +2454,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis2html.html"
                  conformance-class="html-global">
-         <description assertions="textanalysis-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
+         <description assertions="text-analysis-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis2htmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/html/textanalysis2htmloutput.txt"/>
@@ -2471,7 +2471,7 @@ Line 16: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/textanalysis/html/textanalysis5html.html"
                  conformance-class="html-global">
-         <description assertions="textanalysis-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="text-analysis-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/textanalysis/html/textanalysis5htmloutput.txt"/>
          <outputImplementors implementer="jsi"
                              location="outputimplementors/jsi/textanalysis/html/textanalysis5htmloutput.txt"/>
@@ -3248,7 +3248,7 @@ Line 28: Comparison failed.
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance8html.html"
                  conformance-class="html-global">
-         <description assertions="provenance-global it-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
+         <description assertions="provenance-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
          <expectedOutput location="expected/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/provenance/html/provenance8htmloutput.txt"/>
