@@ -220,6 +220,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote1xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
@@ -229,6 +231,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote2xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
@@ -238,6 +242,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote3xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
@@ -247,6 +253,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote4xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
@@ -256,6 +264,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote5xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
@@ -265,6 +275,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote6xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
@@ -274,6 +286,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote10xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
@@ -283,6 +297,8 @@
          <expectedOutput location="expected/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="enlaso"
                              location="outputimplementors/enlaso/localizationnote/xml/locnote11xmloutput.txt"/>
+         <outputImplementors implementer="linguaserve"
+                             location="outputimplementors/linguaserve/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
