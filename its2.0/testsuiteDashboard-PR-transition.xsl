@@ -474,7 +474,7 @@
     <xsl:template name="conformance-classes-overview">
         <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
             related to processing ITS 2.0 information</h3>
-        <p>The following subsections contain details about all data categories:</p>
+        <p>The following subsections contain conformance testing details about all data categories:</p>
         <ul>
             <xsl:for-each select="$datacategories">
                 <xsl:variable name="pos" select="position()"/>
@@ -581,7 +581,7 @@
                         file.</li>
                 </ul></li>
         </ul>
-        <p>The following subsections contain details about all data categories per implementer:</p>
+        <p>The following subsections contain details about input files for all data categories and related output files per implementer:</p>
         <ul>
             <xsl:for-each select="$datacategories">
                 <xsl:variable name="pos" select="position()"/>
