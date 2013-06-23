@@ -332,7 +332,9 @@
                                         Details about conformance testing related to processing ITS
                                         2.0 information</a></li>
                                 <li><a href="#tests-output-per-implementer">2.4 Test output per data
-                                        category and implementer</a></li></ul></li>
+                                        category and implementer</a></li>
+                                  <li><a href="#conformance-nif-conversion">2.5 Conformance testing related to NIF conversion</a></li>
+                                </ul></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
                     <p>The test suite is located at <a href="{$testSuiteFilesLinksPrefix}"
@@ -440,6 +442,9 @@
                     <xsl:call-template name="conformance-classes-overview"/>
                     <hr/>
                     <xsl:call-template name="current-state-details"/>
+                  <h3 id="conformance-nif-conversion">2.5 Conformance testing related to NIF conversion</h3>
+                  <p>The ITS 2.0 specification has a feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
+                  <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementers')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>
                 </body>
             </html>
