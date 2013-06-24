@@ -331,9 +331,7 @@
                                 <li><a href="#conformance-processing-expectations-details">2.3
                                         Details about conformance testing related to processing ITS
                                         2.0 information</a></li>
-                                <li><a href="#tests-output-per-implementer">2.4 Test output per data
-                                        category and implementer</a></li>
-                                  <li><a href="#conformance-nif-conversion">2.5 Conformance testing related to NIF conversion</a></li>
+                                  <li><a href="#conformance-nif-conversion">2.4 Conformance testing related to NIF conversion</a></li>
                                 </ul></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
@@ -441,8 +439,7 @@
                             >[MLW US IMPL]</a> for more information).</p>
                     <xsl:call-template name="conformance-classes-overview"/>
                     <hr/>
-                    <xsl:call-template name="current-state-details"/>
-                  <h3 id="conformance-nif-conversion">2.5 Conformance testing related to NIF conversion</h3>
+                  <h3 id="conformance-nif-conversion">2.4 Conformance testing related to NIF conversion</h3>
                   <p>The ITS 2.0 specification has a feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
                   <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementors')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>
@@ -479,6 +476,18 @@
     <xsl:template name="conformance-classes-overview">
         <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
             related to processing ITS 2.0 information</h3>
+      <p>Each data category provides tests with the following information:</p>
+      <ul>
+        <li>Information about the input files <ul>
+          <li>Type of tests (global or local) and additional description</li>
+          <li>Links to related assertions made in the ITS 2.0 specification</li>
+        </ul></li>
+        <li> Information about the output from implementers<ul>
+          <li><q class="na">N/A</q> = the implementer did not run the test.</li>
+          <li><q class="ok">OK</q> = the output file is identical to the reference output
+            file.</li>
+        </ul></li>
+      </ul>
         <p>The following subsections contain conformance testing details about all data categories:</p>
         <ul>
             <xsl:for-each select="$datacategories">
@@ -570,123 +579,90 @@
                     </tr>
                 </xsl:if>
             </table>
-        </xsl:for-each>
-    </xsl:template>
-    <xsl:template name="current-state-details">
-        <h3 id="tests-output-per-implementer">2.4 Test output per data category and implementer</h3>
-        <p>Each data category provides tests with the following information:</p>
-        <ul>
-            <li>Information about the input files <ul>
-                    <li>Type of tests (global or local) and additional description</li>
-                    <li>Links to related assertions made in the ITS 2.0 specification</li>
-                </ul></li>
-            <li> Information about the output from implementers<ul>
-                    <li><q class="na">N/A</q> = the implementer did not run the test.</li>
-                    <li><q class="ok">OK</q> = the output file is identical to the reference output
-                        file.</li>
-                </ul></li>
-        </ul>
-        <p>The following subsections contain details about input files for all data categories and related output files per implementer:</p>
-        <ul>
-            <xsl:for-each select="$datacategories">
-                <xsl:variable name="pos" select="position()"/>
-                <xsl:variable name="currentDatacat" select="."/>
-                <li>
-                    <a href="{concat('#',replace(.,'[\s+,+]',''))}">
-                        <xsl:value-of select="concat('2.4.',$pos,' ',.)"/>
-                    </a>
-                </li>
-            </xsl:for-each>
-        </ul>
-        <xsl:for-each select="$datacategories">
-            <xsl:variable name="pos" select="position()"/>
-            <xsl:variable name="currentDatacat" select="."/>
-            <h4 id="{replace(.,'[\s+,+]','')}">
-                <xsl:value-of select="concat('2.4.',$pos,' ',.)"/>
-            </h4>
-            <table border="1" width="100%">
-                <tr>
-                    <td>-</td>
-                    <xsl:for-each select="$implemeters">
-                        <td>
-                            <xsl:value-of select="."/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                <xsl:for-each
-                    select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile">
-                    <xsl:variable name="currentInputFile" select="."/>
-                    <xsl:variable name="currentInputFileName"
-                        select="tokenize($currentInputFile/@location,'/')[last()]"/>
-                    <tr>
-                        <td>
-                            <a
-                                href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/@location)}"
-                                id="{concat('t-',substring-before($currentInputFileName,'.'))}">
-                                <xsl:value-of select="$currentInputFileName"/>
-                            </a>
-                            <br/>
-                            <xsl:value-of select="$currentInputFile/my:description"/>
-                            <br/>
-                            <xsl:if test="$currentInputFile/my:description/@assertions">
-                                (assertions: <xsl:for-each
-                                    select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
-                                    <xsl:variable name="no" select="position()"/>
-                                    <a href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"
-                                        />]</a>
-                                </xsl:for-each>) </xsl:if>
-                            <a
-                                href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/my:expectedOutput/@location)}"
-                                >(expected)</a>
-                        </td>
-                        <xsl:for-each select="$implemeters">
-                            <xsl:variable name="currentImplementer" select="."/>
-                            <td>
-                                <xsl:choose>
-                                    <xsl:when
-                                        test="not($currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)">
-                                        <span class="na">N/A</span>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/my:error">
-                                                <xsl:variable name="errorList">
-                                                  <xsl:for-each
-                                                  select="$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/my:error">
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:for-each>
-                                                </xsl:variable>
-                                                <xsl:choose>
-                                                  <xsl:when
-                                                  test="contains($errorList,'outputFileNotFound')">
-                                                  <span class="na">N/A</span>
-                                                  <!-- 
+          <p id="{concat(replace(.,'[\s+,+]',''),'test-details')}">Details about tests per implementer:</p>
+          <table border="1" width="100%">
+            <tr>
+              <td>-</td>
+              <xsl:for-each select="$implemeters">
+                <td>
+                  <xsl:value-of select="."/>
+                </td>
+              </xsl:for-each>
+            </tr>
+            <xsl:for-each
+              select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile">
+              <xsl:variable name="currentInputFile" select="."/>
+              <xsl:variable name="currentInputFileName"
+                select="tokenize($currentInputFile/@location,'/')[last()]"/>
+              <tr>
+                <td>
+                  <a
+                    href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/@location)}"
+                    id="{concat('t-',substring-before($currentInputFileName,'.'))}">
+                    <xsl:value-of select="$currentInputFileName"/>
+                  </a>
+                  <br/>
+                  <xsl:value-of select="$currentInputFile/my:description"/>
+                  <br/>
+                  <xsl:if test="$currentInputFile/my:description/@assertions">
+                    (assertions: <xsl:for-each
+                      select="tokenize($currentInputFile/my:description/@assertions,'\s+')">
+                      <xsl:variable name="no" select="position()"/>
+                      <a href="{concat($its2spec,'#',.)}">[<xsl:value-of select="$no"
+                      />]</a>
+                    </xsl:for-each>) </xsl:if>
+                  <a
+                    href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/my:expectedOutput/@location)}"
+                    >(expected)</a>
+                </td>
+                <xsl:for-each select="$implemeters">
+                  <xsl:variable name="currentImplementer" select="."/>
+                  <td>
+                    <xsl:choose>
+                      <xsl:when
+                        test="not($currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)">
+                        <span class="na">N/A</span>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:choose>
+                          <xsl:when
+                            test="$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/my:error">
+                            <xsl:variable name="errorList">
+                              <xsl:for-each
+                                select="$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/my:error">
+                                <xsl:value-of select="."/>
+                              </xsl:for-each>
+                            </xsl:variable>
+                            <xsl:choose>
+                              <xsl:when
+                                test="contains($errorList,'outputFileNotFound')">
+                                <span class="na">N/A</span>
+                                <!-- 
                                                   <span class="fnf" title="file not found"
                                                   >fnf</span> -->
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <span class="na">N/A</span>
-                                                  <!-- 
+                              </xsl:when>
+                              <xsl:otherwise>
+                                <span class="na">N/A</span>
+                                <!-- 
                                                   <span title="{$errorList}" class="error"
                                                   >error</span> -->
-                                                  </xsl:otherwise>
-                                                </xsl:choose>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <a
-                                                  href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)}">
-                                                  <span class="ok">OK</span>
-                                                </a>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </td>
-                        </xsl:for-each>
-                    </tr>
+                              </xsl:otherwise>
+                            </xsl:choose>
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <a
+                              href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/my:outputImplementors[@implementer=$currentImplementer]/@location)}">
+                              <span class="ok">OK</span>
+                            </a>
+                          </xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </td>
                 </xsl:for-each>
-            </table>
+              </tr>
+            </xsl:for-each>
+          </table>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
