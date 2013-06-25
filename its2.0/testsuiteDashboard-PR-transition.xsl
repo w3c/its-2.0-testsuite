@@ -380,7 +380,7 @@
                                 href="http://www.w3.org/TR/its20/#conformance-product-html5-its" shape="rect">Section
                                     4.4: Conformance Type 4: Markup conformance for HTML5+ITS
                                     documents</a> tell implementers how ITS 2.0 markup is integrated
-                                into <a title="HTML5" href="#html5" shape="rect">[HTML5]</a>.</p>
+                              into <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" shape="rect">[HTML5]</a>.</p>
                         </li>
                     </ol>
                     <h3 id="conformance-markup">2.1 Conformance testing related to ITS 2.0 markup
