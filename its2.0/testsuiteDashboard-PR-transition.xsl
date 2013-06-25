@@ -132,6 +132,7 @@
                     <link rel="stylesheet" type="text/css"
                         href="http://www.w3.org/StyleSheets/base.css"/>
                     <style type="text/css">
+                        *.toc { list-style: none;}
                         table{
                             text-align:center;
                             empty-cells:show;
@@ -162,12 +163,6 @@
                         }</style>
                     <!-- Below is mostly copied from xxx -->
                     <style type="text/css">
-                        /* Style for a public "Working Draft" */
-                        /*
-                        Copyright 1997-2003 W3C (MIT, ERCIM, Keio). All Rights Reserved.
-                        The following software licensing rules apply:
-                        http://www.w3.org/Consortium/Legal/copyright-software */
-                        /* $Id: base.css,v 1.27 2013-01-14 15:02:50 denis Exp $ */
                         body{
                             padding:2em 1em 2em 70px;
                             margin:0;
@@ -318,20 +313,17 @@
                             Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. The report contains
                         the following sections:</p>
                     <ul>
-                        <li>
+                        <li class="toc">
                             <a href="#test-suite-overview">1. Test suite overview</a>
                         </li>
-                        <li><a href="#conformance-classes-overview">2. Conformance clauses for
-                                implementing ITS 2.0</a>: <ul>
-                                <li><a href="#conformance-markup">2.1 Conformance testing related to
+                        <li class="toc"><a href="#conformance-classes-overview">2. Conformance clauses for
+                                implementing ITS 2.0</a><ul>
+                                <li class="toc"><a href="#conformance-markup">2.1 Conformance testing related to
                                         ITS 2.0 markup</a>
                                 </li>
-                                <li><a href="#conformance-processing-expectations">2.2 Conformance
+                                <li class="toc"><a href="#conformance-processing-expectations">2.2 Conformance
                                         testing related to processing ITS 2.0 information</a></li>
-                                <li><a href="#conformance-processing-expectations-details">2.3
-                                        Details about conformance testing related to processing ITS
-                                        2.0 information</a></li>
-                                  <li><a href="#conformance-nif-conversion">2.4 Conformance testing related to NIF conversion</a></li>
+                                  <li class="toc"><a href="#conformance-nif-conversion">2.3 Conformance testing related to NIF conversion</a></li>
                                 </ul></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
@@ -408,8 +400,7 @@
                             >validate XML files</a> and <a
                             href="{concat($testSuiteMainPage,'#validating-html-test-files')}"
                             >validate HTML files</a>.</p>
-                    <h3 id="conformance-processing-expectations">2.2 Conformance testing related to
-                        processing ITS 2.0 information (clauses in section 4.2 and section 4.3)</h3>
+                  <h3 id="conformance-processing-expectations">2.2 Conformance testing related to processing ITS 2.0 information (clauses in section 4.2 and section 4.3)</h3>
                     <p>The ITS 2.0 specification provides four types of processor conformance: in <a
                             href="http://www.w3.org/TR/its20/#conformance-product-processing-expectations"
                             >section 4.2</a> about processing XML <a
@@ -423,11 +414,6 @@
                         category implements both local and local processing. See the <a
                             href="http://www.w3.org/TR/its20/#datacategories-overview">data category
                             overview table</a> for details.</p>
-                    <p>Test details about the <a
-                            href="http://www.w3.org/TR/its20/#datacategories-overview">data
-                            categories defined by ITS 2.0</a> are available in <a
-                            href="#conformance-processing-expectations-details">section 2.3</a> of
-                        this report.</p>
                     <p><strong>NOTE:</strong> ITS 2.0 processing expectations only define which
                         information needs to be made available. They do not define how that
                         information actually is to be used. This is due to the fact that there is a
@@ -439,7 +425,7 @@
                             >[MLW US IMPL]</a> for more information).</p>
                     <xsl:call-template name="conformance-classes-overview"/>
                     <hr/>
-                  <h3 id="conformance-nif-conversion">2.4 Conformance testing related to NIF conversion</h3>
+                  <h3 id="conformance-nif-conversion">2.3 Conformance testing related to NIF conversion</h3>
                   <p>The ITS 2.0 specification has a feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
                   <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementors')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>
@@ -474,8 +460,6 @@
         </a>
     </xsl:template>
     <xsl:template name="conformance-classes-overview">
-        <h3 id="conformance-processing-expectations-details">2.3 Details about conformance testing
-            related to processing ITS 2.0 information</h3>
       <p>Each data category provides tests with the following information:</p>
       <ul>
         <li>Information about the input files <ul>
@@ -495,7 +479,7 @@
                 <xsl:variable name="currentDatacat" select="."/>
                 <li>
                     <a href="{concat('#',replace(.,'[\s+,+]',''),'conformance-overview')}">
-                        <xsl:value-of select="concat('2.3.',$pos,' ',.)"/>
+                        <xsl:value-of select="concat('2.2.',$pos,' ',.)"/>
                     </a>
                 </li>
             </xsl:for-each>
@@ -504,7 +488,7 @@
             <xsl:variable name="pos" select="position()"/>
             <xsl:variable name="currentDatacat" select="."/>
             <h4 id="{concat(replace(.,'[\s+,+]',''),'conformance-overview')}">
-                <xsl:value-of select="concat('2.3.',$pos,' ',.)"/>
+                <xsl:value-of select="concat('2.2.',$pos,' ',.)"/>
             </h4>
             <xsl:variable name="xml-global"
                 select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'xml-global')]"/>
