@@ -1,3 +1,4 @@
 # Disable LF normalization for all files
 *.jar binary
 * text eol=crlf
+*.pdf binary
