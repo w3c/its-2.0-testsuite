@@ -16,7 +16,7 @@ Validating a complete directory
 
 * 'directorypath' is the path to the file
 
-* Example: '/executeTests.sh ../expected/'
+* Example: './executeTests.sh ../expected/'
 
 More information
 -------------------------
