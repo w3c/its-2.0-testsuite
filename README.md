@@ -54,7 +54,7 @@ Prerequisites: Java and Unix Shell
 * go to directory 
   cd its2.0/nif-conversion/sparqltest
 * run :
-  ./executeAllTests.sh ../relative/pathTo/$datafolder
+  ./executeTests.sh ../relative/pathTo/$datafolder
   
 Explanations of output:
 * If no message appears between "Running: test1.sparql" and "Done: test1.sparql" the test was successfull. 

@@ -3,3 +3,4 @@
 * text eol=crlf
 *.pdf binary
 *.sh text eol=lf
+*.png binary
