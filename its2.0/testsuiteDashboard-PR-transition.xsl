@@ -3,7 +3,7 @@
     xmlns:my="http://example.com/myns" xmlns="http://www.w3.org/1999/xhtml"
     exclude-result-prefixes="my">
 
-    <xsl:output method="xml" encoding="utf-8" indent="yes"/>
+    <xsl:output method="xml" encoding="utf-8" indent="yes" omit-xml-declaration="yes"/>
     <xsl:param name="output">html</xsl:param>
     <xsl:param name="testSuiteMainPage">https://github.com/finnle/ITS-2.0-Testsuite/</xsl:param>
     <xsl:param name="testSuiteFilesLinksPrefix"
@@ -123,8 +123,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template name="htmlOutput">
-        <xsl:result-document doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-            doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <xsl:result-document>
+          <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
             <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
                 <head>
                     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
