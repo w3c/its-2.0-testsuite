@@ -733,7 +733,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/xml/withintext2xmloutput.txt"/>
 	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/xml/withintext2xmloutput.txt"/>
       </inputfile>
-      <inputfile location="inputdata/elementswithintext/html/withintext1html.html" conformance-class="xml-global">
+      <inputfile location="inputdata/elementswithintext/html/withintext1html.html" conformance-class="html-global">
          <description assertions="withintext-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/elementswithintext/html/withintext1htmloutput.txt"/>

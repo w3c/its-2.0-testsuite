@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <testSuite xmlns="http://example.com/myns">
 
    <!--Translate-->
@@ -1922,7 +1921,7 @@ Line 16: Comparison failed.
                              location="outputimplementors/tcd/elementswithintext/xml/withintext2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext1html.html"
-                 conformance-class="xml-global">
+                 conformance-class="html-global">
          <description assertions="withintext-global html5-external-global-rules">Global - Linked rules</description>
          <expectedOutput location="expected/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="enlaso"
