@@ -5,6 +5,15 @@ This is the Internationalization Tag Set (ITS) 2.0 http://www.w3.org/TR/its20/ t
 
 Further information about the test suite is available in [test-suite-howto.html](its2.0/test-suite-howto.html) (also avail. as [PDF](its2.0/test-suite-howto.pdf)) in this directory and in the [nif-conversion](its2.0/nif-conversion) subdirectory.
 
+Licensing Information
+=================
+
+The following files are available under the W3C Test Suite License http://www.w3.org/Consortium/Legal/2008/04-testsuite-license.html
+
+* Input files, expected output files and implementers output files in the directories inputdata, expected and outputimplementers under https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/
+
+* Input files, expected output files and implementers output files in the directories input, expected and outputimplementers under https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/nif-conversion
+
 Validating Input Test Files
 =================
 Validating XML test files
