@@ -29,7 +29,7 @@
    </head>
    <body>
       <h1>ITS 2.0 Test Suite Dashboard</h1>
-      <p>Version generated: 2013-07-26T13:07:27.727+01:00</p>
+      <p>Version generated: 2013-07-26T13:18:54.007+01:00</p>
       <h2 id="purpose">Purpose</h2>
       <p>This document provides a summary of the ITS 2.0 Test Suite:</p>
       <ul>
@@ -50,9 +50,9 @@
       </ul>
       <h2 id="tests-current-state-summary">Current state of tests</h2>
       <ul>
-         <li>Total number of input and reference output files: 224</li>
-         <li>Total number of tests from all implementers: 1011</li>
-         <li>Current coverage: 932 tests successfully run (92%).</li>
+         <li>Total number of input and reference output files: 225</li>
+         <li>Total number of tests from all implementers: 1020</li>
+         <li>Current coverage: 933 tests successfully run (91%).</li>
       </ul>
       <p>The following table compares actual tests run, versus number of tests to be run per
             implementer. Explanation:</p>
@@ -334,19 +334,19 @@
                <a href="#Domain">Domain</a>
             </td>
             <td>
-               <span class="ok">3/3</span>
+               <span class="error">3/4</span>
             </td>
             <td>
-               <span class="ok">9/9</span>
+               <span class="error">9/10</span>
             </td>
             <td>
-               <span class="ok">9/9</span>
+               <span class="error">9/10</span>
             </td>
             <td>
-               <span class="ok">5/5</span>
+               <span class="error">5/6</span>
             </td>
             <td>
-               <span class="ok">9/9</span>
+               <span class="error">9/10</span>
             </td>
             <td>
                <span class="na">n/a</span>
@@ -355,16 +355,16 @@
                <span class="ok">2/2</span>
             </td>
             <td>
-               <span class="error">8/9</span>
+               <span class="error">8/10</span>
             </td>
             <td>
-               <span class="ok">9/9</span>
+               <span class="ok">10/10</span>
             </td>
             <td>
-               <span class="ok">9/9</span>
+               <span class="error">9/10</span>
             </td>
             <td>
-               <span class="error">8/9</span>
+               <span class="error">8/10</span>
             </td>
             <td>
                <span class="na">n/a</span>
@@ -864,17 +864,17 @@
          </tr>
          <tr>
             <td class="firstcolumn">Total number of files</td>
-            <td>63/63</td>
-            <td>43/48</td>
-            <td>224/224</td>
-            <td>18/18</td>
-            <td>71/71</td>
+            <td>63/64</td>
+            <td>43/49</td>
+            <td>224/225</td>
+            <td>18/19</td>
+            <td>71/72</td>
             <td>23/23</td>
             <td>4/8</td>
-            <td>30/39</td>
-            <td>224/224</td>
-            <td>54/54</td>
-            <td>166/224</td>
+            <td>30/40</td>
+            <td>225/225</td>
+            <td>54/55</td>
+            <td>166/225</td>
             <td>12/15</td>
          </tr>
       </table>
@@ -1217,11 +1217,12 @@
          </tr>
          <tr>
             <td>HTML Global</td>
-            <td>6</td>
+            <td>1</td>
             <td>
                <a href="#t-domain1html">domain1html</a>
                <a href="#t-domain2html">domain2html</a>
                <a href="#t-domain3html">domain3html</a>
+               <a href="#t-domain4html">domain4html</a>
             </td>
          </tr>
       </table>
@@ -6199,6 +6200,59 @@
             </td>
             <td>
                <span class="ok">OK</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <a target="_blank"
+                  href="inputdata/domain/html/domain4html.html"
+                  id="t-domain4html">domain4html.html</a>
+               <br/>Global - Embedded rules &lt;its:param&gt;<br/>
+                                (assertions: <a target="_blank"
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#domain-global">[1]</a>
+               <a target="_blank"
+                  href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html#its-param">[2]</a>) <a target="_blank" href="expected/domain/html/domain4htmloutput.txt">(expected)</a>
+            </td>
+            <td>
+               <span title="&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/meta[3]/@property]&#xA;* Implementers file line:[/html/head[1]/meta[3]/@name]"
+                     class="error">error</span>
+            </td>
+            <td>
+               <span title="&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/meta[3]/@property]&#xA;* Implementers file line:[/html/head[1]/meta[3]/@name]"
+                     class="error">error</span>
+            </td>
+            <td>
+               <span title="&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/meta[3]/@property]&#xA;* Implementers file line:[/html/head[1]/meta[3]/@name]"
+                     class="error">error</span>
+            </td>
+            <td>
+               <span title="&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/meta[3]/@property]&#xA;* Implementers file line:[/html/head[1]/meta[3]/@name]"
+                     class="error">error</span>
+            </td>
+            <td>
+               <span title="&#xA;Line 10: Comparison failed.&#xA;* Reference line: [/html/head[1]/meta[3]/@property]&#xA;* Implementers file line:[/html/head[1]/meta[3]/@name]"
+                     class="error">error</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="na">N/A</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
+            </td>
+            <td>
+               <span class="ok">OK</span>
+            </td>
+            <td>
+               <span class="fnf" title="file not found">fnf</span>
             </td>
             <td>
                <span class="fnf" title="file not found">fnf</span>
