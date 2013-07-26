@@ -2199,9 +2199,7 @@ Line 10: Comparison failed.
 * Implementers file line:[/html/head[1]/meta[3]/@name]</error>
          </outputImplementors>
          <outputImplementors implementer="tilde"
-                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt">
-            <error>outputFileNotFound</error>
-         </outputImplementors>
+                             location="outputimplementors/tilde/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/domain/html/domain4htmloutput.txt">
             <error>
