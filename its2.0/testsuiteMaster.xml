@@ -918,19 +918,6 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/domain/html/domain3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/domain/html/domain3htmloutput.txt"/>
       </inputfile>
-      <inputfile location="inputdata/domain/html/domain4html.html" conformance-class="html-global">
-         <description assertions="domain-global its-param html5-global-rules">Global - Embedded with its:param and case-sensitive values</description>
-         <expectedOutput location="expected/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="ul" location="outputimplementors/ul/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="dcu" location="outputimplementors/dcu/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="moravia" location="outputimplementors/moravia/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="jsi" location="outputimplementors/jsi/domain/html/domain4htmloutput.txt"/>
-	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/domain/html/domain4htmloutput.txt"/>
-         <outputImplementors implementer="tcd" location="outputimplementors/tcd/domain/html/domain4htmloutput.txt"/>
-      </inputfile>
    </dataCategory>
 
    <!--Text Analysis -->
