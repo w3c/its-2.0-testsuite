@@ -3,7 +3,7 @@ Internationalization Tag Set (ITS) 2.0 Test Suite
 
 This is the Internationalization Tag Set (ITS) 2.0 http://www.w3.org/TR/its20/ test suite. ITS 2.0 and this test suite have been developed by participants of the W3C MultilingualWeb-LT Working Group http://www.w3.org/International/multilingualweb/lt/ . Please provide comments on ITS 2.0 and the test suite on the ITS Interest Group mailing list http://lists.w3.org/Archives/Public/public-i18n-its-ig/
 
-Further information about the test suite is available in [test-suite-howto.html](its2.0/test-suite-howto.html) (also avail. as [its2.0/test-suite-howto.pdf](PDF)) in this directory and in the [its2.0/nif-conversion](nif-conversion) subdirectory.
+Further information about the test suite is available in [test-suite-howto.html](its2.0/test-suite-howto.html) (also avail. as [PDF](its2.0/test-suite-howto.pdf)) in this directory and in the [nif-conversion](its2.0/nif-conversion) subdirectory.
 
 Validating Input Test Files
 =================
