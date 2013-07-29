@@ -670,6 +670,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo1htmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo1htmloutput.txt"/>
  	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/languageinformation/html/languageinfo1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/languageinformation/html/languageinfo1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo3xml.xml" conformance-class="xml-global">
          <description assertions="languageinformation-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -690,6 +691,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo3htmloutput.txt"/>
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo3htmloutput.txt"/>
  	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/languageinformation/html/languageinfo3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/languageinformation/html/languageinfo3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/languageinformation/xml/languageinfo4xml.xml" conformance-class="xml-global">
          <description assertions="languageinformation-global link-external-rules its-param">Global - Linked rules &lt;its:param&gt;</description>
@@ -710,6 +712,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/languageinformation/html/languageinfo2htmloutput.txt"/>
  	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/languageinformation/html/languageinfo2htmloutput.txt"/>
  	 <outputImplementors implementer="tcd" location="outputimplementors/tcd/languageinformation/html/languageinfo2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/languageinformation/html/languageinfo2htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -741,6 +744,7 @@ location CDATA #REQUIRED>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext1htmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext1htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/elementswithintext/html/withintext1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext3xml.xml" conformance-class="xml-local">
          <description assertions="withintext-local">Local - In host element</description>
@@ -768,6 +772,7 @@ location CDATA #REQUIRED>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext2htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext2htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/elementswithintext/html/withintext2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/xml/withintext5xml.xml" conformance-class="xml-local">
          <description assertions="withintext-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -795,6 +800,7 @@ location CDATA #REQUIRED>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext3htmloutput.txt"/>-->
 	 <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/elementswithintext/html/withintext3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/elementswithintext/html/withintext4html.html" conformance-class="html-global">
          <description assertions="withintext-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -804,6 +810,7 @@ location CDATA #REQUIRED>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/elementswithintext/html/withintext4htmloutput.txt"/>-->
          <outputImplementors implementer="tilde" location="outputimplementors/tilde/elementswithintext/html/withintext4htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/elementswithintext/html/withintext4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/elementswithintext/html/withintext4htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1255,6 +1262,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance2html.html" conformance-class="html-global">
          <description assertions="provenance-global html5-global-rules">Global - Embedded rules</description>
@@ -1263,6 +1271,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance3html.html" conformance-class="html-local">
          <description assertions="provenance-local html5-markup">Local - In host element</description>
@@ -1271,6 +1280,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance4html.html" conformance-class="html-local">
          <description assertions="provenance-local html5-markup">Local - In host element</description>
@@ -1279,6 +1289,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance4htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance4htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance5html.html" conformance-class="html-global">
          <description assertions="provenance-global its-param html5-external-global-rules">Global - Linked rules &lt;its:param&gt;</description>
@@ -1287,6 +1298,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance6html.html" conformance-class="html-local">
          <description assertions="provenance-local  html5-markup">Local - HTML standoff with XML </description>
@@ -1295,6 +1307,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance6htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance6htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance7html.html" conformance-class="html-local">
          <description assertions="provenance-local  html5-markup">Local - HTML standoff with HTML </description>
@@ -1303,6 +1316,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance7htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance7htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/provenance/html/provenance8html.html" conformance-class="html-global">
          <description assertions="provenance-global its-param html5-global-rules">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1311,6 +1325,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/provenance/html/provenance8htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1347,6 +1362,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource1htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/externalresource/html/externalresource1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/xml/externalresource4xml.xml" conformance-class="xml-global">
          <description assertions="externalresource-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1371,6 +1387,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource2htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/externalresource/html/externalresource2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/externalresource/html/externalresource3html.html" conformance-class="html-global">
          <description assertions="externalresource-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1379,6 +1396,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/externalresource/html/externalresource3htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/externalresource/html/externalresource3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/externalresource/html/externalresource3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/externalresource/html/externalresource3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1406,6 +1424,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/targetpointer/html/targetpointer1htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/targetpointer/html/targetpointer1htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/targetpointer/html/targetpointer1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/targetpointer/html/targetpointer1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer3xml.xml" conformance-class="xml-global">
          <description assertions="targetpointer-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1427,6 +1446,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/targetpointer/html/targetpointer2htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/targetpointer/html/targetpointer2htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/targetpointer/html/targetpointer2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer3html.html" conformance-class="html-global">
          <description assertions="targetpointer-global html5-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1434,6 +1454,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/targetpointer/html/targetpointer3htmloutput.txt"/>
          <outputImplementors implementer="ul" location="outputimplementors/ul/targetpointer/html/targetpointer3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/targetpointer/html/targetpointer3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1472,6 +1493,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue1htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue1htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/idvalue/html/idvalue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue5xml.xml" conformance-class="xml-global">
          <description assertions="idvalue-global its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1496,6 +1518,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue2htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue2htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/idvalue/html/idvalue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue3html.html" conformance-class="html-global">
          <description assertions="idvalue-global html5-external-global-rules its-param">Global - Embedded rules &lt;its:param&gt;</description>
@@ -1504,6 +1527,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="ul" location="outputimplementors/ul/idvalue/html/idvalue3htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/html/idvalue3htmloutput.txt"/>-->
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -1636,6 +1660,7 @@ location CDATA #REQUIRED>
          <outputImplementors implementer="logrus" location="outputimplementors/logrus/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="enlaso" location="outputimplementors/enlaso/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="linguaserve" location="outputimplementors/linguaserve/locqualityissue/html/locqualityissue3htmloutput.txt"/>
+         <outputImplementors implementer="cocomore" location="outputimplementors/cocomore/locqualityissue/html/locqualityissue3htmloutput.txt"/>
          <outputImplementors implementer="tcd" location="outputimplementors/tcd/locqualityissue/html/locqualityissue3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/locqualityissue/xml/locqualityissue6xml.xml" conformance-class="xml-local">
