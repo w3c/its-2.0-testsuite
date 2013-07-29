@@ -2183,12 +2183,7 @@ Line 16: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/head[1]/meta[3]/@property]
-* Implementers file line:[/html/head[1]/meta[3]/@name]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="dcu"
                              location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
             <error>
