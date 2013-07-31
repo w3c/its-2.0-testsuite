@@ -256,76 +256,7 @@ Line 18: Comparison failed.
 * Implementers file line:[]</error>
          </outputImplementors>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/translate/html/translate1htmloutput.txt"/>--><outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/translate/html/translate1htmloutput.txt">
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	translate="yes"]
-* Implementers file line:[/html	translate="yes"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	translate="no"]
-* Implementers file line:[/html/head[1]	translate="yes"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/meta[1]	translate="yes"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	translate="no"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	translate="no"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/link[1]/@href	translate="no"]
-* Implementers file line:[/html/head[1]/title[1]	translate="yes"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/head[1]/link[1]/@rel	translate="no"]
-* Implementers file line:[/html/head[1]/link[1]	translate="no"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/link[1]/@href	translate="no"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/img[1]	translate="yes"]
-* Implementers file line:[/html/head[1]/link[1]/@rel	translate="no"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@alt	translate="yes"]
-* Implementers file line:[/html/body[1]	translate="yes"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@height	translate="no"]
-* Implementers file line:[/html/body[1]/img[1]	translate="yes"]</error>
-            <error>
-Line 13: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@src	translate="no"]
-* Implementers file line:[/html/body[1]/img[1]/@alt	translate="yes"]</error>
-            <error>
-Line 14: Comparison failed.
-* Reference line: [/html/body[1]/img[1]/@width	translate="no"]
-* Implementers file line:[/html/body[1]/img[1]/@height	translate="no"]</error>
-            <error>
-Line 15: Comparison failed.
-* Reference line: [/html/body[1]/p[1]	translate="yes"]
-* Implementers file line:[/html/body[1]/img[1]/@src	translate="no"]</error>
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@id	translate="no"]
-* Implementers file line:[/html/body[1]/img[1]/@width	translate="no"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@title	translate="yes"]
-* Implementers file line:[/html/body[1]/p[1]	translate="yes"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/code[1]	translate="no"]
-* Implementers file line:[/html/body[1]/p[1]/@id	translate="no"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: []
-* Implementers file line:[/html/body[1]/p[1]/@title	translate="yes"]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/translate/html/translate1htmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
@@ -2185,12 +2116,7 @@ Line 16: Comparison failed.
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt">
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/head[1]/meta[3]/@property]
-* Implementers file line:[/html/head[1]/meta[3]/@name]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/domain/html/domain4htmloutput.txt"/>
          <outputImplementors implementer="moravia"
                              location="outputimplementors/moravia/domain/html/domain4htmloutput.txt">
             <error>outputFileNotFound</error>
@@ -2452,32 +2378,7 @@ Line 10: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale2xmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale2xmloutput.txt"/>--><outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/@its:localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/legalnotice[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2492,32 +2393,7 @@ Line 6: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/xml/locale5xmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/xml/locale5xmloutput.txt"/>--><outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/book	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/book/@its:version	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/@its:version	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/book/info[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]/@localeFilterList	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/book/info[1]/its:span[1]/para[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/xml/locale5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -2620,56 +2496,7 @@ Line 12: Comparison failed.
 * Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
          </outputImplementors>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale1htmloutput.txt"/>--><outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/head[1]/link[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/link[1]	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/head[1]/link[1]/@href	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/link[1]/@href	localeFilterList="*"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/head[1]/link[1]/@rel	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/link[1]/@rel	localeFilterList="*"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 11: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 12: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
@@ -2686,48 +2513,7 @@ Line 12: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/localefilter/html/locale2htmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localefilter/html/locale2htmloutput.txt"/>--><outputImplementors implementer="dcu"
-                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt">
-            <error>
-Line 1: Comparison failed.
-* Reference line: [/html	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html	localeFilterList="*"]</error>
-            <error>
-Line 2: Comparison failed.
-* Reference line: [/html/head[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]	localeFilterList="*"]</error>
-            <error>
-Line 3: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/meta[1]	localeFilterList="*"]</error>
-            <error>
-Line 4: Comparison failed.
-* Reference line: [/html/head[1]/meta[1]/@charset	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/meta[1]/@charset	localeFilterList="*"]</error>
-            <error>
-Line 5: Comparison failed.
-* Reference line: [/html/head[1]/title[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/head[1]/title[1]	localeFilterList="*"]</error>
-            <error>
-Line 6: Comparison failed.
-* Reference line: [/html/body[1]	localeFilterList="*"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]	localeFilterList="*"]</error>
-            <error>
-Line 7: Comparison failed.
-* Reference line: [/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 8: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]/@id	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 9: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]/@its-locale-filter-list	localeFilterList="en-CA, fr-CA"]</error>
-            <error>
-Line 10: Comparison failed.
-* Reference line: [/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"	localeFilterType="include"]
-* Implementers file line:[/html/body[1]/div[1]/p[1]	localeFilterList="en-CA, fr-CA"]</error>
-         </outputImplementors>
+                             location="outputimplementors/dcu/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="tilde"
                              location="outputimplementors/tilde/localefilter/html/locale2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"

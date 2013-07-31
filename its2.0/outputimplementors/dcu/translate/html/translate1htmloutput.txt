@@ -1,7 +1,5 @@
 /html	translate="yes"
 /html/head[1]	translate="yes"
-/html	translate="yes"
-/html/head[1]	translate="yes"
 /html/head[1]/meta[1]	translate="yes"
 /html/head[1]/meta[1]/@charset	translate="no"
 /html/head[1]/title[1]	translate="yes"
