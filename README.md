@@ -12,8 +12,6 @@ The following files are available under the W3C Test Suite License http://www.w3
 
 * Input files, expected output files and implementers output files in the directories inputdata, expected and outputimplementers under https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/
 
-* Input files, expected output files and implementers output files in the directories input, expected and outputimplementers under https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/nif-conversion
-
 Validating Input Test Files
 =================
 Validating XML test files
@@ -64,6 +62,7 @@ Explanations of states :
 
 Validating NIF output files
 ---------------------------
+Note: The conversion to NIF is not a normative part of the ITS 2.0 specification.
 Prerequisites: Java and Unix Shell
 * create a temporary folder for output files (hence called $datafolder)
 * read ITS files from "its2.0/nif-conversion/input/" one by one, convert to NIF and write output files in turtle to $datafolder
@@ -74,4 +73,4 @@ Prerequisites: Java and Unix Shell
   
 Explanations of output:
 * If no message appears between "Running: test1.sparql" and "Done: test1.sparql" the test was successfull. 
-* Otherwise the output filename and additional debug output is shown.  
+* Otherwise the output filename and additional debug output is shown.
