@@ -2928,36 +2928,7 @@ Line 28: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@class	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]/@href	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]/@href	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/provenance/html/provenance1htmloutput.txt"/>
       </inputfile>
@@ -2974,36 +2945,7 @@ Line 23: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@class	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]/@href	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]/@href	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/provenance/html/provenance2htmloutput.txt"/>
       </inputfile>
@@ -3054,36 +2996,7 @@ Line 22: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt">
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@class	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]/@href	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revToolRef[1]="http://www.provdata.com/RevTool/#mycat-v1"	toolRef[1]="http://www.provdata.com/tool/#onlinemtex"	revOrg[2]="Linguaserve I.S. S.A."	revPerson[2]="John Smith"]
-* Implementers file line:[/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	orgRef[1]="http://www.provdata.com/org/#legaltrans-ex"	personRef[1]="http://www.provdata.com/person/#John_Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrgRef[1]="http://www.provdata.com/RevOrg/#vistatec"	revPersonRef[1]="http://www.provdata.com/RevPerson/#Tommy_Atkins"]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]]
-* Implementers file line:[]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class]
-* Implementers file line:[]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]]
-* Implementers file line:[]</error>
-            <error>
-Line 23: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]/@href]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance5htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/provenance/html/provenance5htmloutput.txt"/>
       </inputfile>
@@ -3134,36 +3047,7 @@ Line 23: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <outputImplementors implementer="linguaserve"
-                             location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt">
-            <error>
-Line 16: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/@class	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[1]/@id	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]</error>
-            <error>
-Line 17: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]</error>
-            <error>
-Line 18: Comparison failed.
-* Reference line: [/html/body[1]/p[1]/a[1]/@href	provenanceRecordsRef="#pr1"	provRef[1]="http://www.examplelsp.com/excontent987/production/prov/e6354"	revOrg[1]="acme-CAT-v2.3"	revPerson[1]="James Joyce"	revTool[1]="mycat-v1.0"	tool[1]="onlinemtex"]
-* Implementers file line:[/html/body[1]/p[2]/@id	provenanceRecordsRef="#pr2"	org[1]="legaltrans-ex"	person[1]="John Doe"	provRef[1]="http://www.vistatec.com/job-12-7-15-X31/reviewed/prov/re8573469"	revOrg[1]="vistatec"	revPerson[1]="Tommy Atkins"]</error>
-            <error>
-Line 19: Comparison failed.
-* Reference line: [/html/body[1]/p[2]]
-* Implementers file line:[]</error>
-            <error>
-Line 20: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/@class]
-* Implementers file line:[]</error>
-            <error>
-Line 21: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]]
-* Implementers file line:[]</error>
-            <error>
-Line 22: Comparison failed.
-* Reference line: [/html/body[1]/p[2]/a[1]/@href]
-* Implementers file line:[]</error>
-         </outputImplementors>
+                             location="outputimplementors/linguaserve/provenance/html/provenance8htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/provenance/html/provenance8htmloutput.txt"/>
       </inputfile>
