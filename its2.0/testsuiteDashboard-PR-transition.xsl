@@ -136,6 +136,7 @@
                         table{
                             text-align:center;
                             empty-cells:show;
+                            width:100%;
                         }
                         td.firstcolumn{
                             text-align:right;
@@ -323,7 +324,7 @@
                                 </li>
                                 <li class="toc"><a href="#conformance-processing-expectations">2.2 Conformance
                                         testing related to processing ITS 2.0 information</a></li>
-                                  <li class="toc"><a href="#conformance-nif-conversion">2.3 Conformance testing related to NIF conversion</a></li>
+                                  <li class="toc"><a href="#conformance-nif-conversion">2.3 Testing related to NIF conversion (non-normative)</a></li>
                                 </ul></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
@@ -355,14 +356,14 @@
                     <ol>
                         <li>
                             <p>Conformance clauses in <a 
-                                href="http://www.w3.org/TR/its20/#conformance-product-schema" shape="rect">Section
+                                href="http://www.w3.org/TR/its20/#conformance-product-schema" >Section
                                     4.1: Conformance Type 1: ITS Markup Declarations</a> tell markup
                                 vocabulary developers how to add ITS 2.0 markup declarations to
                                 their schemas.</p>
                         </li>
                         <li>
                             <p>Conformance clauses in <a 
-                                href="http://www.w3.org/TR/its20/#conformance-product-processing-expectations" shape="rect"
+                                href="http://www.w3.org/TR/its20/#conformance-product-processing-expectations" 
                                     >Section 4.2: Conformance Type 2: The Processing Expectations
                                     for ITS Markup</a> tell implementers how to process XML content
                                 according to ITS 2.0 data categories.</p>
@@ -370,17 +371,17 @@
                         <li>
                             <p>Conformance clauses in <a 
                                 href="http://www.w3.org/TR/its20/#conformance-product-html-processing-expectations"
-                                    shape="rect">Section 4.3: Conformance Type 3: Processing
+                                    >Section 4.3: Conformance Type 3: Processing
                                     Expectations for ITS Markup in HTML</a> tell implementers how to
-                                process <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" shape="rect">[HTML5]</a>
+                                process <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" >[HTML5]</a>
                                 content.</p>
                         </li>
                         <li>
                             <p>Conformance clauses in <a 
-                                href="http://www.w3.org/TR/its20/#conformance-product-html5-its" shape="rect">Section
+                                href="http://www.w3.org/TR/its20/#conformance-product-html5-its" >Section
                                     4.4: Conformance Type 4: Markup conformance for HTML5+ITS
                                     documents</a> tell implementers how ITS 2.0 markup is integrated
-                              into <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" shape="rect">[HTML5]</a>.</p>
+                              into <a title="HTML5" href="http://www.w3.org/TR/its20/#html5" >[HTML5]</a>.</p>
                         </li>
                     </ol>
                     <h3 id="conformance-markup">2.1 Conformance testing related to ITS 2.0 markup
@@ -421,12 +422,12 @@
                         working with ITS 2.0 is possible. Each of these tools may have its own way
                         of using ITS 2.0 data categories (see <a
                             title="Metadata for the Multilingual Web - Usage Scenarios and Implementations "
-                            href="http://www.w3.org/TR/its20/#mlw-metadata-us-impl" shape="rect"
+                            href="http://www.w3.org/TR/its20/#mlw-metadata-us-impl" 
                             >[MLW US IMPL]</a> for more information).</p>
                     <xsl:call-template name="conformance-classes-overview"/>
                     <hr/>
-                  <h3 id="conformance-nif-conversion">2.3 Conformance testing related to NIF conversion</h3>
-                  <p>The ITS 2.0 specification has a feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
+                  <h3 id="conformance-nif-conversion">Testing related to NIF conversion (non-normative)</h3>
+                  <p>The ITS 2.0 specification has a <span style="text-decoration: underline;">non-normative</span> feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
                   <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementors')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>
                 </body>
@@ -498,7 +499,7 @@
                 select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'html-global')]"/>
             <xsl:variable name="html-local"
                 select="$annotatedTestSuiteMaster/my:testSuite/my:dataCategory[@name=$currentDatacat]/my:inputfile[contains(@conformance-class,'html-local')]"/>
-            <table width="100%" border="1" class="conformanceclasses">
+            <table border="1" class="conformanceclasses">
                 <tr>
                     <td>
                         <strong>Conformance class</strong>
@@ -564,7 +565,7 @@
                 </xsl:if>
             </table>
           <p id="{concat(replace(.,'[\s+,+]',''),'test-details')}">Details about tests per implementer:</p>
-          <table border="1" width="100%">
+          <table border="1">
             <tr>
               <td>-</td>
               <xsl:for-each select="$implemeters">
