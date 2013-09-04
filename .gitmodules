@@ -1,0 +1,4 @@
+[submodule "inputdata"]
+	path = its2.0/inputdata
+	url = https://github.com/w3c/web-platform-tests.git
+	branch = its-inputdata
