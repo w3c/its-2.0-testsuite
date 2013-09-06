@@ -6,6 +6,7 @@
     <xsl:output method="xml" encoding="utf-8" indent="yes" omit-xml-declaration="yes"/>
     <xsl:param name="output">html</xsl:param>
     <xsl:variable name="testsuiteLocation"/>
+  <xsl:param name="inputDataPrefix">https://github.com/w3c/web-platform-tests/tree/master/conformance-checkers/html-its/</xsl:param>
     <xsl:variable name="its2spec"
         >http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20.html</xsl:variable>
     <xsl:variable name="annotatedTestSuiteMaster">
@@ -382,7 +383,7 @@
                         select="tokenize($currentInputFile/@location,'/')[last()]"/>
                     <tr>
                         <td>
-                            <a target="_blank" href="{$currentInputFile/@location}"
+                          <a target="_blank" href="{concat($inputDataPrefix,substring-after($currentInputFile/@location,'inputdata/'))}"
                                 id="{concat('t-',substring-before($currentInputFileName,'.'))}">
                                 <xsl:value-of select="$currentInputFileName"/>
                             </a>

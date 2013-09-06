@@ -5,9 +5,10 @@
 
     <xsl:output method="xml" encoding="utf-8" indent="yes" omit-xml-declaration="yes"/>
     <xsl:param name="output">html</xsl:param>
-    <xsl:param name="testSuiteMainPage">https://github.com/finnle/ITS-2.0-Testsuite/</xsl:param>
+  <xsl:param name="testSuiteMainPage">https://github.com/w3c/its-2.0-testsuite/</xsl:param>
     <xsl:param name="testSuiteFilesLinksPrefix"
-        >https://github.com/finnle/ITS-2.0-Testsuite/tree/master/its2.0/</xsl:param>
+      >https://github.com/w3c/its-2.0-testsuite/tree/master/its2.0/</xsl:param>
+  <xsl:param name="inputDataPrefix">https://github.com/w3c/web-platform-tests/tree/master/conformance-checkers/html-its/</xsl:param>
     <xsl:variable name="testsuiteLocation"/>
     <xsl:variable name="its2spec">http://www.w3.org/TR/its20/</xsl:variable>
     <xsl:variable name="annotatedTestSuiteMasterWithAllTests">
@@ -582,7 +583,7 @@
               <tr>
                 <td>
                   <a
-                    href="{concat($testSuiteFilesLinksPrefix,$currentInputFile/@location)}"
+                    href="{concat($inputDataPrefix,substring-after($currentInputFile/@location,'inputdata/'))}"
                     id="{concat('t-',substring-before($currentInputFileName,'.'))}">
                     <xsl:value-of select="$currentInputFileName"/>
                   </a>
