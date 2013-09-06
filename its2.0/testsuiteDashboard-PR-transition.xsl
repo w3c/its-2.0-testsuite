@@ -311,8 +311,8 @@
                     <p>This document is the implementation report for the <a
                             href="http://www.w3.org/International/multilingualweb/lt/"
                             >MultilingualWeb-LT</a> Working Group's <a
-                            href="http://www.w3.org/TR/2013/WD-its20-20130521/">Internationalization
-                            Tag Set 2.0 21 May 2013 Last Call Working Draft</a>. The report contains
+                              href="http://www.w3.org/TR/2013/WD-its20-20130820/">Internationalization
+                              Tag Set 2.0 (20 August 2013 Last Call Working Draft)</a>. The report contains
                         the following sections:</p>
                     <ul>
                         <li class="toc">
