@@ -331,6 +331,7 @@
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
                     <p>The test suite is located at <a href="{$testSuiteFilesLinksPrefix}"
                                 ><xsl:value-of select="$testSuiteFilesLinksPrefix"/></a></p>
+                  <p>The test suite input files are referenced from the test suite and are part of the <a href="https://github.com/w3c/web-platform-tests/tree/master/conformance-checkers/html-its">W3C web platform conformance checkers</a>. Here there are both the HTML5 and XML tests stored.</p>
                     <xsl:variable name="referenceOutput"
                         select="count($annotatedTestSuiteMaster/my:testSuite/my:dataCategory/my:inputfile)"/>
                     <xsl:variable name="implementersTestsTotal"
