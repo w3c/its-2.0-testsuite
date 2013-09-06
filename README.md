@@ -52,7 +52,7 @@ To validate test suite output files simply compile the test suite dashboard (thi
   java -jar /path/of/file/saxon.jar  testsuiteMaster.xml  testsuiteDashboard.xsl -o:testSuiteDashboard.html
 * Upload newly compiled testsuiteDashboard.html to the git hub
 * Check the state of your files in the related data categories on this web page:
-  http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html
+  http://htmlpreview.github.io/?https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html
 
 Explanations of states :
 * N/A = the implementer did not commit to run the test.

@@ -9,11 +9,12 @@
 
         <h1><span>Test Suite How-To Guide</span></h1>
 
-        <p><span>There are three parts to the test suite:</span></p>
+        <p><span>The ITS 2.0 test suite is located at the following address <a href="https://github.com/w3c/its-2.0-testsuite">https://github.com/w3c/its-2.0-testsuite</a>. There are four main parts to the ITS 2.0 test suite which are:</span></p>
         <ol>
             <li><span><a href="#1">Conformance testing for HTML &amp; XML</a></span></li>
             <li><span><a href="#2">Testing for NIF</a></span></li>
             <li><span><a href="#3">Input file validation</a></span></li>
+            <li><span><a href="#4">XLIFF samples</a></span></li>
         </ol>
 
         <h2><span><a name="1"></a>1. Conformance testing for HTML &amp; XML</span></h2>
@@ -24,19 +25,31 @@
                 data category. There are a total of 225 test files spread across all 19 data categories for
                 both HTML and XML.</span></p>
 
+        <h3><span>1.1 What is Conformance testing? </span></h3>  
+         <p><span>Conformance testing is a type of testing where a system has to meet some specified standard.  
+         In the case of ITS 2.0 this standard is dictated by the W3C standards document http://www.w3.org/TR/its20/.
+         To test for compliance a series of tests have been developed externally by TCD. The specification states that 
+         there are 4 different types of conformance which have to be tested for and more details on this can be found 
+         at the following address <a href="http://www.w3.org/TR/its20">http://www.w3.org/TR/its20/#conformance</a>. </span></p>
+        
+	<h3><span>1.2 Details of the conformance tests </span></h3>  
+         <p><span>The test suite is used to test user implementations conformance to the ITS 2.0 standard. The test suite has a set of test documents for both XML and HTML which are then used to validate the different ITS 2.0 constructs available for each data category. The ITS 2.0 test suite has 225 input test files which have been created for the 19 data categories. There are 136 XML input files and 89 HTML input files. All of these files have been validated successfully against the schemas for ITS 2.0. Section 4 of this document provides more information on how to validate XML files and validate HTML files. 
+For the conformance testing, each test file in the test suite requires at least two implementations in order to be allowed into the ITS 2.0 standard. This is in line with the conformance clauses which can be found at the following address <a href="http://www.w3.org/TR/qaframe-spec/">http://www.w3.org/TR/qaframe-spec/</a>.  The requirement of two implementations per test suite file helps in catching errors in the standard along with making sure implementers are using the standard correctly. 
+ </span></p>
+ 
+ 	<h3><span>1.3 Outcome of conformance tests </span></h3>  
+ 	<p><span>
+ 	The detailed breakdown of the conformance testing results and of systems which are certified in complying with the ITS 2.0 standard can be found in the test suite implementation report. This report is located at the following address <a href="http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20-implementation-report.html">http://www.w3.org/International/multilingualweb/lt/drafts/its20/its20-implementation-report.html</a>. 
+        </span></p>
 
-        <h3><span>1.1 How to use the test suite?</span></h3>
+        <h3><span>1.4 How to use the test suite?</span></h3>
       <p><img height="301" src="testsuite-visualization.png" width="483" alt="test suite output format" />
             <br/>
             <span><b>Figure 1: Testsuite processing &#09;Input to Output</b></span></p>
 
-        <p><span>The validation of the input files is done through processing the input file so that it
-                outputs a file to match a corresponding gold standard output file. The gold standard was
-                develop to be easy to understand &#09;and implement for conformance testers. The gold
-                standard output format was developed by the ITS 2.0 working group. Figure 1 above describes
-                the test suite files process.</span></p>
+        <p><span>The validation of the input files is done through processing the input file so that it outputs a file to match a corresponding gold standard output file. The gold standard was developed to be easy to understand and implement for conformance testers. The gold standard output format was developed by the ITS 2.0 working group. Figure 1 above describes the test suite files process. The ITS 2.0 test suite input files are located at the following address <a href="https://github.com/w3c/web-platform-tests/tree/master/conformance-checkers/html-its">https://github.com/w3c/web-platform-tests/tree/master/conformance-checkers/html-its</a>.</span></p>
 
-        <h3><span>1.2 Gold Standard output specifications details:</span></h3>
+        <h3><span>1.4 Gold Standard output specifications details:</span></h3>
 
         <p><span>&#09;The gold standard output files have the following characteristics:</span></p>
 
@@ -60,13 +73,10 @@
                 <p><span class="c3"><i>/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@locQualityIssuesRef</i></span></p>
                 <p><span class="c3"><i>/doc/header[1]/its:rules[1]/its:locQualityIssueRule[2]/@selector</i></span></p></li>
 
-            <li><span>The rules output also have to be in alphabetical orders:</span>
+            <li><span>The rules output also have to be in alphabetical order:</span>
                 <p><span class="c3 c12 c8">/html/body[1]/p[1]/span[2]&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;annotatorsRef="text-analysis|http://enrycher.ijs.si"&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;taConfidence="0.5"&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;taIdent="301467919"&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;taSource="Wordnet3.0"</span></p></li>
 
-            <li><span>The rules output can't have Pointer in it but it has to have its equivalent
-                    (unless it is in the target pointer data category then it must display
-                    targetpointer="...." and the pointer
-                    details):&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;</span>
+            <li><span>The rules output does not contain Pointer style attribute values but it has to have its equivalent as results from ITS processing (unless it is in the target pointer data category then it must display targetpointer=”....” and the pointer details):	&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;</span>
 
                 <p><span><b>Incorrect:</b></span></p>
                 <p><span><i>/doc/para[1]/issue[2]
@@ -92,26 +102,25 @@
             </li>
         </ol>
 
-        <h3><span>1.3 How gold standard output is compared to implementors output?</span></h3>
-        <p><span>The output of the implementors is located in the folder</span>
-            <span>ITS-2.0-Testsuite/its2.0/</span><span class="c4 c8 c6">outputimplementors</span>
-            <span>which</span><span class="c4 c6">&#09;</span><span>can be tested against the gold
+        <h3><span>1.6 How gold standard output is compared to implementers output?</span></h3>
+        <p><span>The conformance test output of a proposed ITS2.0 implementation is located in the folder</span>
+            <span>its-2.0-testsuite/its2.0/</span><span class="c4 c8 c6">outputimplementors</span>.
+            <span>This</span><span class="c4 c6">&#09;</span><span>can be tested against the gold
                 standard output files located in the</span>
-            <span class="c4 c6">ITS-2.0-Testsuite/its2.0/expected</span>
-            <span>folder. This can be done simply through doing a diff of the implementors output files
-                and the corresponding gold standard output files. To automate this process for implementors
-                a test suite dashboard was created which did the following tasks :</span></p>
+            <span class="c4 c6">its-2.0-testsuite/its2.0/expected</span>
+            <span>folder. This can be done simply through performing a diff of the implementation’s output files and the corresponding gold standard output files. 
+            To automate this process for implementers a test suite dashboard was created which supports the following tasks :</span></p>
 
         <ol>
             <li><span>Help to track the process of implementers in relation to the tests in which they
                     were committed to complete</span><span class="c4 c22 c6">&#09;(indicated on the dashboard
                     via</span>
-                <span class="c4 c12 c22 c8 c6">N/A = the implementer did not commit to run the
+                <span class="c4 c12 c22 c8 c6">N/A which means the implementer did not commit to run the
                     test)</span><span>.</span></li>
 
-            <li><span>Help to track if the implementors output file matches the corresponding gold
+            <li><span>Help to track if the implementers output file matches the corresponding gold
                     standard output file</span><span class="c4 c12 c22 c8 c6">&#09;(indicated on the
-                    dashboard via fnf: the output file from the implementer has not been found OK = the output
+                    dashboard via fnf= the output file from the implementer has not been found or OK = the output
                     file is identical to the reference output file)</span><span>.</span></li>
 
             <li><span>Help to track if the output file that is in the output folder for a particular tests
@@ -120,39 +129,38 @@
                     the output file is not available or it is not identical to the reference output file. Move
                     the mouse over error to see details)</span><span>.</span></li>
 
-            <li><span>Help to track if the implementor has not committed an output file for a
-                    corresponding test</span>
-                <span class="c4 c12 c8 c6 c22">(indicated on the dashboard via fnf: the output file from the
+            <li><span>Help to track whether the implementer has committed an output file or not for a corresponding test </span>
+                <span class="c4 c12 c8 c6 c22">(indicated on the dashboard via fnf= the output file from the
                     implementer has not been found)</span><span>.</span></li>
 
-            <li><span>The dashboard can also track how many tests a particular implementor has left to
+            <li><span>The dashboard can also track how many tests a particular implementer has left to
                     run.</span></li>
         </ol>
 
 
-        <h3><span>1.4</span>
+        <h3><span>1.7</span>
             <span>Validating Output Test Files</span></h3>
 
-        <p><span>To validate the implementors output files the testsuite dashboard has to be compiled so
+        <p><span>To validate the implementers output files the test suite dashboard has to be compiled so
                 that a diff across all files in the</span>
-            <span>ITS-2.0-Testsuite/its2.0/outputimplementors</span>
-            <span class="c4 c8">&#09;folder can be done</span><span>&#09;</span><span class="c4 c8"
+            <span>its-2.0-testsuite/its2.0/outputimplementors</span>
+            <span class="c4 c8">&#09;folder can be performed </span><span>&#09;</span><span class="c4 c8"
                                                                                       >against the corresponding files in the &#09;gold standard output</span>
-            <span>ITS-2.0-Testsuite/ITS2.0/expected</span><span class="c4 c8">&#09; folder. The test
+            <span>its-2.0-testsuite/its2.0/expected</span><span class="c4 c8">&#09; folder. The test
                 suite dashboard can be compiled by doing the following:</span></p>
 
         <ol>
             <li><span>Download saxon.jar from here:</span>
-                <span><a href="https://dl.dropbox.com/u/65779171/saxon.jar"
-                         >https://dl.dropbox.com/u/65779171/saxon.jar</a></span></li>
+                <span><a href="http://saxon.sourceforge.net"
+                         >http://saxon.sourceforge.net</a></span></li>
             <li><span>Then use this command (Linux/Mac/Windows): java -jar /path/of/file/saxon.jar
                     testsuiteMaster.xml testsuiteDashboard.xsl -o:testSuiteDashboard.html</span></li>
             <li><span>Upload newly compiled testsuiteDashboard.html to the git hub</span></li>
             <li><span>Check the state of your files in the related data categories on this web
                     page:</span>
                 <span><a class="c15"
-                         href="http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html">
-                        http://htmlpreview.github.com/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html</a></span></li>
+                         href="https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html">
+                        http://htmlpreview.github.io/?https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html</a></span></li>
         </ol>
 
         <p><span>The files for the test suite dashboard are as follows:</span></p>
@@ -171,43 +179,28 @@
                     the gold standard output</span></li>
 
             <li><span>testSuiteDashboard.html -</span><span>&#09;the html test suite dashboard which is
-                    located live</span>
-                <span><a
-                        href="http://htmlpreview.github.io/?https://raw.github.com/finnle/ITS-2.0-Testsuite/master/its2.0/testSuiteDashboard.html"
-                        > here</a></span><span>&#09;</span></li>
+                    located live at the following address:</span>
+                <span><a class="c15"
+                         href="https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html">
+                        http://htmlpreview.github.io/?https://raw.github.com/w3c/its-2.0-testsuite/blob/master/its2.0/testSuiteDashboard.html</a></span><span>&#09;</span></li>
         </ol>
 
 
         <h2><span><a name="2"></a>2. Testing for</span>
             <span class="c2">NIF</span><span>&#09;</span><span>&#09;</span></h2>
-      <p>This part of the test suite is not normative. The aim is to support implementers in working with the 
-        non normative <a class="c15" href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a> algorithm.
-        &#09;</p>
-      
         
-        <p>The
-                NIF test suite has a set of test documents for HTML for the
-            <span>Localisation Quality Issue</span><span class="c4">&#09;data category which are then
-                used to validate the different aspects of ITS 2.0 and NIF against various constructs
-                available to the Localisation Quality Issue data category. There are a total of 11 files
-                only for HTML in the Localisation Quality Issue data category. The input files are located
-                in the</span><span class="c4">&#09;</span>
-		<span class="c4 c6">ITS-2.0-Testsuite/its2.0/nif-conversion/input</span>
+        <p>This part of the test suite is used to determine whether ITS 2.0 implementations of NIF 2.0 meet the ITS 2.0 specification standard for NIF usage. The mapping between an XML and HTML document annotated with ITS to and from NIF is not a normative part of the Its2.0 specification. The NIF test suite has a set of test documents for HTML for the 
+            <span>Localisation Quality Issue</span><span class="c4">&#09;data category which is then used to validate the different aspects of ITS 2.0 and NIF against various constructs available to the Localisation Quality Issue data category. There are a total of 11 files only for HTML in the Localisation Quality Issue data category. The input files are located in the </span><span class="c4">&#09;</span>
+		<span class="c4 c6">its-2.0-testsuite/its2.0/nif-conversion/input</span>
             <span class="c4">folder.</span></p>
 
-        <p><span>The validation of the input files is done through processing the input file so that it
-                outputs a file to match a gold standard output file. The gold standard for NIF is RDF output
-                using the ITS 2.0 ontology. The gold standard output for NIF can be reached by following the
-                NIF conversion algorithm discussed in the ITS 2.0 specification located</span>
-            <span><a class="c15" href="http://www.w3.org/TR/its20/#conversion-to-nif">here</a></span><span
+        <p><span>The validation of the input files is done through processing the input file so that it outputs a file to match a gold standard output file. The gold standard for NIF is RDF output using the ITS 2.0 ontology. The gold standard output for NIF can be reached by following the NIF conversion algorithm discussed in the ITS 2.0 specification located </span>
+            <span><a class="c15" href="http://www.w3.org/TR/its20">http://www.w3.org/TR/its20/#conversion-to-nif</a></span><span
                 class="c4">.</span></p>
 
-        <h3><span>2.1 How gold standard &#09;NIF output is compared to implementors output?</span></h3>
+        <h3><span>2.1 How gold standard &#09;NIF output is compared to implementers output?</span></h3>
 
-        <p><span>The NIF output files are compared via the use of SPARQL queries done over the
-                implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF
-                output files are correct and meet the gold standard. The implementer's NIF test output
-                files are located in the ITS-2.0-Testsuite/its2.0/nif-conversion/expected folder.</span></p>
+        <p><span>The NIF output files are compared via the use of SPARQL queries done over the implementers RDF/NIF output files (.ttl). If the SPARQL queries are successful then the NIF output files are correct and meet the gold standard. The implementer’s NIF test output files are located in the its-2.0-testsuite/its2.0/nif-conversion/expected folder.</span></p>
 
         <h3><span>2.2 Validating NIF output files</span></h3>
         <p><span>Prerequisites:</span><span>&#09;Java and Unix Shell</span></p>
@@ -227,17 +220,13 @@
             <li><span>Otherwise the output filename and additional debug output is shown</span></li>
         </ol>
 
-        <h2><span><a name="3"></a>3. Input file Validation</span></h2>
-        <p><span>This part of the test suite is vital and it is the testing of the HTML and XML input
-                files to see if they are &#09;valid in accordance to the ITS 2.0 schema specification for
-                XML and HTML. More information about this validator can be found</span>
-            <span><a href="http://validator.nu/?doc=http%3A%2F%2Fwww.w3.org%2FTR%2F2012%2FWD-its20-20121206%2Fexamples%2Fhtml5%2FEX-term-html5-local-1.html&amp;schema=http%3A%2F%2Fs.validator.nu%2Fhtml5-its.rnc+http%3A%2F%2Fs.validator.nu%2Fhtml5%2Fassertions.sch+http%3A%2F%2Fc.validator.nu%2Fall%2F"> here</a></span><span>&#09;and</span>
-            <span><a href="http://about.validator.nu/">also here</a></span><span>.</span></p>
+        <h2><span><a name="3"></a>3. Input file validation</span></h2>
+        <p><span>This part of the test suite is important to ensure that any test input files, including any used by implementers in addition to the test suite, represent valid use of ITS2.0 annotation in HTML and XML. More information about this validator can be found </span>
+            <span><a href="http://validator.nu"> http://validator.nu</a></span><span>&#09;and</span>
+            <span><a href="http://about.validator.nu/">http://about.validator.nu/</a></span><span>.</span></p>
 
-        <h3><span>3.1 Validating Input Test Files</span></h3>
-        <p><span>The following sections detail how to validate the test suite input files both HTML and
-                XML.</span></p>
-
+        <h3><span>3.1 Validating input test files</span></h3>
+        <p><span>The following sections detail how to validate the test suite input files both HTML and XML.</span></p>
 
         <h3><span>3.1.1 Validating XML test files</span></h3>
         <ol>
@@ -268,13 +257,9 @@
                     not detected</span></li>
         </ol>
 
-        <h2><span>4. Xliff Sample</span></h2>
-        <p><span>In addition to conformance testing and validation of XML and HTML files it
-                provides</span>
-            <span>XLIFF samples</span><span>. These are not used in conformance testing, but demonstrate
-                the representation of ITS 2.0. metadata in XLIFF. These XLIFF files are located
-                in</span><span>&#09;</span><span class="c6">ITS-2.0-Testsuite</span><span>/</span><span
+        <h2><span><a name="4"></a>4. Xliff samples</span></h2>
+        <p><span>The test suite also contains some sample XLIFF files. These are not used in conformance testing, but demonstrate the representation of ITS 2.0 metadata in XLIFF. These XLIFF files are located in </span><span>&#09;</span><span class="c6">its-2.0-testsuite</span><span>/</span><span
                 class="c6">its2.0/</span><span>xliffsamples</span>
-            <span>folder of the github.</span></p>
+            <span>folder.</span></p>
     </body>
 </html>
