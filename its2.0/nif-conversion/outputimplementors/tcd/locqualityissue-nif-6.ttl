@@ -9,7 +9,7 @@
  nif:endIndex "176"; 
  nif:isString "transport or transportation is the movement of people, animals and goods from one location to another.Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
 
-<http://example.com/exampledoc.html#char=0,9> 
+<http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,9> 
  nif:beginIndex "0" ;
  nif:endIndex "9"; 
  a nif:RFC5147String; 
@@ -17,9 +17,9 @@
  	 a itsrdf:LocQualityIssue ;
  	 itsrdf:locQualityIssueComment "Sentence without capitalization";
  ]; 
- nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
+ nif:referenceContext <http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,176>.
 
-<http://example.com/exampledoc.html#char=109,122> 
+<http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=109,122> 
  nif:beginIndex "109" ;
  nif:endIndex "122"; 
  a nif:RFC5147String; 
@@ -27,4 +27,4 @@
  	 a itsrdf:LocQualityIssue ;
  	 itsrdf:locQualityIssueComment "should be 'transport include'";
  ]; 
- nif:referenceContext <http://example.com/exampledoc.html#char=0,176>.
+ nif:referenceContext <http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,176>.

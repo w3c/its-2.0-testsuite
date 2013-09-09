@@ -9,7 +9,7 @@
  nif:endIndex "177"; 
  nif:isString "transport or transportation is the movement of people, animals and goods from one location to another. Modes of tranport inc. air, rail, road, water, cable, pipeline, and space." .
 
-<http://example.com/exampledoc.html#char=0,9> 
+<http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,9> 
  nif:beginIndex "0" ;
  nif:endIndex "9"; 
  a nif:RFC5147String; 
@@ -26,9 +26,9 @@
  	 itsrdf:locQualityIssueSeverity "30";
  	 itsrdf:locQualityIssueType "grammar";
  ]; 
- nif:referenceContext <http://example.com/exampledoc.html#char=0,177>.
+ nif:referenceContext <http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,177>.
 
-<http://example.com/exampledoc.html#char=113,126> 
+<http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=113,126> 
  nif:beginIndex "113" ;
  nif:endIndex "126"; 
  a nif:RFC5147String; 
@@ -39,5 +39,4 @@
  	 itsrdf:locQualityIssueSeverity "75";
  	 itsrdf:locQualityIssueType "misspelling";
  ]; 
- nif:referenceContext <http://example.com/exampledoc.html#char=0,177>.
-
+ nif:referenceContext <http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,177>.
