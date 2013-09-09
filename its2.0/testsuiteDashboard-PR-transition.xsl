@@ -323,10 +323,11 @@
                                 <li class="toc"><a href="#conformance-markup">2.1 Conformance testing related to
                                         ITS 2.0 markup</a>
                                 </li>
-                                <li class="toc"><a href="#conformance-processing-expectations">2.2 Conformance
-                                        testing related to processing ITS 2.0 information</a></li>
-                                  <li class="toc"><a href="#conformance-nif-conversion">2.3 Testing related to NIF conversion (non-normative)</a></li>
+                                  <li class="toc"><a href="#conformance-processing-expectations">2.2 Conformance
+                                    testing related to processing ITS 2.0 information</a></li>
                                 </ul></li>
+                      
+                      <li class="toc"><a href="#conformance-nif-conversion">3 Testing related to NIF conversion (non-normative)</a></li>
                     </ul>
                     <h2 id="test-suite-overview">1. Test suite overview</h2>
                     <p>The test suite is located at <a href="{$testSuiteFilesLinksPrefix}"
@@ -428,7 +429,7 @@
                             >[MLW US IMPL]</a> for more information).</p>
                     <xsl:call-template name="conformance-classes-overview"/>
                     <hr/>
-                  <h3 id="conformance-nif-conversion">Testing related to NIF conversion (non-normative)</h3>
+                  <h2 id="conformance-nif-conversion">3. Testing related to NIF conversion (non-normative)</h2>
                   <p>The ITS 2.0 specification has a <span style="text-decoration: underline;">non-normative</span> feature called <a href="http://www.w3.org/TR/its20/#conversion-to-nif">Conversion to NIF</a>: markup documents with ITS 2.0 information are converted to an RDF representation. The representation is based on the RDF vocabulary <q>NLP Interchange Format</q> (NIF). NIF leverages natural language processing workflows in RDF.</p>
                   <p>For testing the NIF conversion, a set of <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/sparqltests')}">SPARQL queries</a> has been developed. They are used to check RDF constraints that are relevant for the NIF representation. <a href="{concat($testSuiteFilesLinksPrefix,'nif-conversion/outputimplementors')}">Three implementers</a> have implemented the conversion to NIF and have successfully run the SPARQL queries.</p>
                     <hr/>

@@ -2,7 +2,7 @@
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> . 
 @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
 
-<http://example.com/exampledoc.html#char=0,35>
+<http://example.com/myitsservice?informat=html&intype=url&input=http://example.com/doc.html&char=0,35>
  a nif:Context; 
  a nif:RFC5147String; 
  nif:beginIndex "0" ;
