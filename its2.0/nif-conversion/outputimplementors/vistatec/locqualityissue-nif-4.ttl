@@ -2,14 +2,14 @@
 @prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
 @prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
 
-<http://example.com/exampledoc.html#char=0,179>
+<http://example.com/myitsservice?informat=html?intype=url&input=http://example.com/doc.html&char=0,179>
 	a nif:Context ;
 	a nif:RFC5147String ;
 	nif:beginIndex "0" ;
 	nif:endIndex "179" ;
 	nif:isString " transport or transportation is the movement of people, animals and goods from one location to another. Modes of tranport inc. air, rail, road, water, cable, pipeline, and space. " .
 
-<http://example.com/exampledoc.html#char=1,10>
+<http://example.com/myitsservice?informat=html?intype=url&input=http://example.com/doc.html&char=1,10>
 	nif:beginIndex "1" ;
 	nif:endIndex "10" ;
 	a nif:RFC5147String ;
@@ -26,9 +26,9 @@
 		itsrdf:locQualityIssueSeverity "30" ;
 		itsrdf:locQualityIssueType "grammar" ;
 	];
-	nif:referenceContext <http://example.com/exampledoc.html#char=0,179>.
+	nif:referenceContext <http://example.com/myitsservice?informat=html?intype=url&input=http://example.com/doc.html&char=0,179>.
 
-<http://example.com/exampledoc.html#char=113,126>
+<http://example.com/myitsservice?informat=html?intype=url&input=http://example.com/doc.html&char=113,126>
 	nif:beginIndex "113" ;
 	nif:endIndex "126" ;
 	a nif:RFC5147String ;
@@ -39,6 +39,6 @@
 		itsrdf:locQualityIssueSeverity "75" ;
 		itsrdf:locQualityIssueType "misspelling" ;
 	];
-	nif:referenceContext <http://example.com/exampledoc.html#char=0,179>.
+	nif:referenceContext <http://example.com/myitsservice?informat=html?intype=url&input=http://example.com/doc.html&char=0,179>.
 
 
