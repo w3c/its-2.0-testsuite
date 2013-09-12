@@ -17,7 +17,8 @@
                              location="outputimplementors/dcu/translate/xml/translate1xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate1xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate1xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate1xmloutput.txt"/>
       </inputfile>
@@ -117,6 +118,8 @@ Line 14: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate7htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate9xml.xml"
                  conformance-class="xml-global">
@@ -133,7 +136,8 @@ Line 14: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate9xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate9xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate9xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate9xmloutput.txt"/>
       </inputfile>
@@ -152,7 +156,8 @@ Line 14: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate2xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate2xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate2xmloutput.txt"/>
 	        <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate2xmloutput.txt"/>
       </inputfile>
@@ -171,7 +176,8 @@ Line 14: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate10xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate10xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate10xmloutput.txt"/>
       </inputfile>
@@ -319,6 +325,8 @@ Line 18: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate1htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate6html.html"
                  conformance-class="xml-global">
@@ -339,6 +347,8 @@ Line 18: Comparison failed.
                              location="outputimplementors/linguaserve/translate/html/translate6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate6htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate3xml.xml"
                  conformance-class="xml-global">
@@ -355,7 +365,8 @@ Line 18: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate3xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate3xmloutput.txt"/>
       </inputfile>
@@ -458,6 +469,8 @@ Line 15: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate4xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate2html.html"
                  conformance-class="html-local">
@@ -675,6 +688,8 @@ Line 17: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate2htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate5xml.xml"
                  conformance-class="xml-local">
@@ -691,7 +706,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate5xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate5xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate5xmloutput.txt"/>
       </inputfile>
@@ -712,6 +728,8 @@ Line 17: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate6xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate3html.html"
                  conformance-class="html-global">
@@ -785,6 +803,8 @@ Line 16: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate3htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate7xml.xml"
                  conformance-class="xml-global">
@@ -803,6 +823,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/linguaserve/translate/xml/translate7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate7xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/html/translate4html.html"
                  conformance-class="html-global">
@@ -825,6 +847,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/lucysoftware/translate/html/translate4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate4htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/translate/xml/translate8xml.xml"
                  conformance-class="xml-global">
@@ -841,7 +865,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/dcu/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/translate/xml/translate8xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/xml/translate8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/xml/translate8xmloutput.txt"/>
       </inputfile>
@@ -866,6 +891,8 @@ Line 16: Comparison failed.
                              location="outputimplementors/lucysoftware/translate/html/translate5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/translate/html/translate5htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/translate/html/translate5htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -919,7 +946,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote1xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote1xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote1xmloutput.txt"/>
       </inputfile>
@@ -938,6 +966,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote1htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote1htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote2xml.xml"
                  conformance-class="xml-global">
@@ -950,7 +980,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote2xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote2xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote2xmloutput.txt"/>
       </inputfile>
@@ -969,6 +1000,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote2htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote2htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote3xml.xml"
                  conformance-class="xml-global">
@@ -981,7 +1014,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote3xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote3xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote3xmloutput.txt"/>
       </inputfile>
@@ -1000,6 +1034,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote3htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote3htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote3htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote4xml.xml"
                  conformance-class="xml-global">
@@ -1012,7 +1048,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote4xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote4xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote4xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote4xmloutput.txt"/>
       </inputfile>
@@ -1031,6 +1068,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote4htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote4htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote4htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote5xml.xml"
                  conformance-class="xml-global">
@@ -1046,6 +1085,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote5xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote5html.html"
                  conformance-class="html-global">
@@ -1062,6 +1103,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote5htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote5htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote5htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote6xml.xml"
                  conformance-class="xml-global">
@@ -1076,6 +1119,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote6xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote6xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote6xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote6html.html"
                  conformance-class="html-global">
@@ -1092,6 +1137,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote6htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote6htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote6htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote7xml.xml"
                  conformance-class="xml-local">
@@ -1106,6 +1153,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote7xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote7xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote7xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/html/locnote7html.html"
                  conformance-class="html-local">
@@ -1122,6 +1171,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote7htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote7htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote7htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote8xml.xml"
                  conformance-class="xml-local">
@@ -1136,6 +1187,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote8xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote8xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote8xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote9xml.xml"
                  conformance-class="xml-local">
@@ -1150,6 +1203,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote9xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote9xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote9xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote10xml.xml"
                  conformance-class="xml-global">
@@ -1162,7 +1217,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote10xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote10xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote10xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote10xmloutput.txt"/>
       </inputfile>
@@ -1181,6 +1237,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/linguaserve/localizationnote/html/locnote9htmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/html/locnote9htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote9htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/localizationnote/xml/locnote11xml.xml"
                  conformance-class="xml-global">
@@ -1193,7 +1251,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/xml/locnote11xmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/xml/locnote11xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/xml/locnote11xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/localizationnote/xml/locnote11xmloutput.txt"/>
       </inputfile>
@@ -1208,7 +1267,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/localizationnote/html/locnote8htmloutput.txt"/>-->
          <outputImplementors implementer="linguaserve"
                              location="outputimplementors/linguaserve/localizationnote/html/locnote8htmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/localizationnote/html/locnote8htmloutput.txt"/>
          <outputImplementors implementer="tcd"
@@ -3268,7 +3328,8 @@ Line 28: Comparison failed.
                              location="outputimplementors/enlaso/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/targetpointer/xml/targetpointer1xmloutput.txt"/>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/xml/targetpointer1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer1xmloutput.txt"/>
       </inputfile>
@@ -3282,7 +3343,8 @@ Line 28: Comparison failed.
                              location="outputimplementors/ul/targetpointer/xml/targetpointer2xmloutput.txt">
             <error>outputFileNotFound</error>
          </outputImplementors>
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/xml/targetpointer2xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer2xmloutput.txt"/>
       </inputfile>
@@ -3300,6 +3362,8 @@ Line 28: Comparison failed.
                              location="outputimplementors/tcd/targetpointer/html/targetpointer1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/targetpointer/html/targetpointer1htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/html/targetpointer1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer3xml.xml"
                  conformance-class="xml-global">
@@ -3320,6 +3384,8 @@ Line 21: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer3xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/xml/targetpointer3xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/xml/targetpointer4xml.xml"
                  conformance-class="xml-global">
@@ -3340,6 +3406,8 @@ Line 12: Comparison failed.
          </outputImplementors>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/targetpointer/xml/targetpointer4xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/xml/targetpointer4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer2html.html"
                  conformance-class="html-global">
@@ -3355,6 +3423,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/targetpointer/html/targetpointer2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/targetpointer/html/targetpointer2htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/html/targetpointer2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/targetpointer/html/targetpointer3html.html"
                  conformance-class="html-global">
@@ -3370,6 +3440,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/targetpointer/html/targetpointer3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/targetpointer/html/targetpointer3htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/targetpointer/html/targetpointer3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
@@ -3384,7 +3456,8 @@ Line 12: Comparison failed.
          <outputImplementors implementer="ul"
                              location="outputimplementors/ul/idvalue/xml/idvalue1xmloutput.txt"/>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue1xmloutput.txt"/>-->
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/xml/idvalue1xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue1xmloutput.txt"/>
       </inputfile>
@@ -3399,6 +3472,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue2xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue2xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/xml/idvalue2xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue3xml.xml"
                  conformance-class="xml-global">
@@ -3411,7 +3486,8 @@ Line 12: Comparison failed.
             <error>outputFileNotFound</error>
          </outputImplementors>
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue3xmloutput.txt"/>-->
-         <!--<outputImplementors implementer="adobe" location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt"/>-->
+         <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/xml/idvalue3xmloutput.txt"/>
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue3xmloutput.txt"/>
       </inputfile>
@@ -3428,6 +3504,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/idvalue/html/idvalue1htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/idvalue/html/idvalue1htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/html/idvalue1htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue5xml.xml"
                  conformance-class="xml-global">
@@ -3442,6 +3520,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue5xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue5xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/xml/idvalue5xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/xml/idvalue4xml.xml"
                  conformance-class="xml-global">
@@ -3456,6 +3536,8 @@ Line 12: Comparison failed.
          <!--<outputImplementors implementer="shaun" location="outputimplementors/shaun/idvalue/xml/idvalue4xmloutput.txt"/>-->
          <outputImplementors implementer="tcd"
                              location="outputimplementors/tcd/idvalue/xml/idvalue4xmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/xml/idvalue4xmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue2html.html"
                  conformance-class="html-global">
@@ -3470,6 +3552,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/idvalue/html/idvalue2htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/idvalue/html/idvalue2htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/html/idvalue2htmloutput.txt"/>
       </inputfile>
       <inputfile location="inputdata/idvalue/html/idvalue3html.html"
                  conformance-class="html-global">
@@ -3484,6 +3568,8 @@ Line 12: Comparison failed.
                              location="outputimplementors/tcd/idvalue/html/idvalue3htmloutput.txt"/>
          <outputImplementors implementer="cocomore"
                              location="outputimplementors/cocomore/idvalue/html/idvalue3htmloutput.txt"/>
+        <outputImplementors implementer="adobe"
+                             location="outputimplementors/adobe/idvalue/html/idvalue3htmloutput.txt"/>
       </inputfile>
    </dataCategory>
 
