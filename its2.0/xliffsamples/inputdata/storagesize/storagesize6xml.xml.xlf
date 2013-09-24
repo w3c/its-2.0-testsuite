@@ -3,13 +3,13 @@
 <file original="inputdata/storagesize/xml/storagesize6xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
-<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">CONTINUE</source>
+<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="lf">CONTINUE</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="nel">STOP</source>
+<source xml:lang="en" its:storageSize="8" its:storageEncoding="UTF-16" its:storageLinebreak="lf">STOP</source>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en" its:storageSize="12" its:storageEncoding="UTF-16" its:storageLinebreak="nel">CANCEL</source>
+<source xml:lang="en" its:storageSize="12" its:storageEncoding="UTF-16" its:storageLinebreak="lf">CANCEL</source>
 </trans-unit>
 </body>
 </file>
