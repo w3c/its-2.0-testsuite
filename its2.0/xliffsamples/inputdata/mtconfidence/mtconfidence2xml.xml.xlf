@@ -2,16 +2,16 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/mtconfidence/xml/mtconfidence2xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1">
+<trans-unit id="1" its:annotatorsRef="mt-confidence|file:///tools.xml#T1" its:mtConfidence="0.6982">
 <source xml:lang="en">Dublin is the capital city of Ireland and has the 50th biggest population density in Europe.</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:annotatorsRef="mt-confidence|file:///tools.xml#T2" its:mtConfidence="0.8982">
 <source xml:lang="en">Madrid is the capital of Spain.</source>
 </trans-unit>
-<trans-unit id="3">
+<trans-unit id="3" its:annotatorsRef="mt-confidence|file:///tools.xml#T3" its:mtConfidence="0.5982">
 <source xml:lang="en">Berlin is the capital of Germany.</source>
 </trans-unit>
-<trans-unit id="4">
+<trans-unit id="4" its:annotatorsRef="mt-confidence|file:///tools.xml#T4" its:mtConfidence="0.7982">
 <source xml:lang="en">London is the capital of England</source>
 </trans-unit>
 </body>

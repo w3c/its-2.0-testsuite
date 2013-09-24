@@ -3,13 +3,13 @@
 <file original="inputdata/locqualityissue/xml/locqualityissue4xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
-<source xml:lang="en" its:locQualityIssueEnabled="no" its:locQualityIssueProfileRef="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</source>
+<source xml:lang="en" its:locQualityIssueEnabled="no" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50" its:locQualityIssueType="typographical">transport</source>
 </trans-unit>
 <trans-unit id="2">
 <source xml:lang="en"> or transportation is the movement of people, animals and goods from one location to another. Modes of </source>
 </trans-unit>
 <trans-unit id="3">
-<source xml:lang="en" its:locQualityIssueProfileRef="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</source>
+<source xml:lang="en" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75" its:locQualityIssueType="misspelling">tranport inc.</source>
 </trans-unit>
 <trans-unit id="4">
 <source xml:lang="en"> air, rail, road, water, cable, pipeline, and space. </source>

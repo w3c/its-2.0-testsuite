@@ -6,7 +6,7 @@
 <source xml:lang="en">The Adventures of Tom Sawyer</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</source>
+<source xml:lang="en" its:locQualityRatingScore="100" its:locQualityRatingScoreThreshold="95" its:locQualityRatingProfileRef="http://example.org/qaModel/v13">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</source>
 </trans-unit>
 </body>
 </file>

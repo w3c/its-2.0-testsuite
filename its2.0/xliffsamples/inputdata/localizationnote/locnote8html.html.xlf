@@ -5,11 +5,11 @@
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:locNote="Do not translate the word &quot;Chobe&quot;" its:locNoteType="alert">
 <source xml:lang="en">Hippo in the Chobe River</source>
 <note>Do not translate the word "Chobe"</note>
 </trans-unit>
-<trans-unit id="3">
+<trans-unit id="3" its:locNote="This text will be displayed over the image." its:locNoteType="description">
 <source xml:lang="en">Elephants taking a mud bath</source>
 <note>This text will be displayed over the image.</note>
 </trans-unit>

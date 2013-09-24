@@ -5,7 +5,7 @@
 <trans-unit id="1">
 <source xml:lang="en">Terminology test: default</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:annotatorsRef="text-analysis|file:///tools.xml#T1">
 <source xml:lang="en">We need a new <g id="1"><mrk itsxlf:termConfidence="0.5" itsxlf:termInfoRef="#TDPV" mtype="term">motherboard</mrk></g> </source>
 <note annotates="source">Terms:
 motherboard [REF:#TDPV];
