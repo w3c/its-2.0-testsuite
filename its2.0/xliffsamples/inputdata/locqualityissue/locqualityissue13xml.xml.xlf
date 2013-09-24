@@ -6,7 +6,7 @@
 <source xml:lang="en">This is the content</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">c'es</source>
+<source xml:lang="en" its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'" its:locQualityIssueProfileRef="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">c'es</source>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> le contenu</source>
