@@ -9,10 +9,10 @@
 <source xml:lang="en">String to translate:</source>
 </trans-unit>
 <trans-unit id="3" resname="123">
-<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">Papua New-Guinea</source>
+<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="lf">Papua New-Guinea</source>
 </trans-unit>
 <trans-unit id="4" resname="139">
-<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="nel">Dominican Replubic</source>
+<source xml:lang="en" its:storageSize="25" its:storageEncoding="ISO-8859-1" its:storageLinebreak="lf">Dominican Replubic</source>
 </trans-unit>
 </body>
 </file>
