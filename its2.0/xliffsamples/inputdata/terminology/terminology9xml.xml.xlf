@@ -5,10 +5,10 @@
 <trans-unit id="1">
 <source xml:lang="en">Sample file</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1">
 <source xml:lang="en">And he said: you need a new </source>
 </trans-unit>
-<trans-unit id="3">
+<trans-unit id="3" its:annotatorsRef="terminology|http://example.com/term-tool#T2 text-analysis|file:///tools.xml#T1">
 <source xml:lang="en" its:term="yes" itsxlf:termConfidence="0.5" itsxlf:termInfoRef="http://www.directron.com/motherboards1.html">motherboard</source>
 <note annotates="source">Terms:
 motherboard [REF:http://www.directron.com/motherboards1.html];

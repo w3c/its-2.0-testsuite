@@ -5,7 +5,10 @@
 <trans-unit id="1" itsxlf:domains="SPORTS LAW, Judicial Matters">
 <source xml:lang="en">SPORTS LAW, Judicial Matters</source>
 </trans-unit>
-<trans-unit id="2" itsxlf:domains="SPORTS LAW, Judicial Matters, Sport, Law">
+<trans-unit id="2" itsxlf:domains="SPORTS LAW, Judicial Matters">
+<source xml:lang="en">Sports law</source>
+</trans-unit>
+<trans-unit id="3" itsxlf:domains="SPORTS LAW, Judicial Matters, Sport, Law">
 <source xml:lang="en">Some text about sport and law.</source>
 </trans-unit>
 </body>
