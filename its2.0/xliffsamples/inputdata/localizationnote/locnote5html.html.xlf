@@ -5,21 +5,25 @@
 <trans-unit id="1">
 <source xml:lang="en">EXAMPLE</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:locNote="Do not translate the word &quot;Chobe&quot;" its:locNoteType="alert">
 <source xml:lang="en">Hippo in the Chobe River</source>
 <note>Do not translate the word "Chobe"</note>
 </trans-unit>
 <trans-unit id="3" resname="1">
 <source xml:lang="en"> This is a hippoptamus: <x id="1"/> . </source>
 </trans-unit>
-<trans-unit id="4">
+<trans-unit id="4" its:locNote="This text will be displayed over the image." its:locNoteType="description">
 <source xml:lang="en">Elephants taking a mud bath</source>
 <note>This text will be displayed over the image.</note>
 </trans-unit>
 <trans-unit id="5" resname="2">
 <source xml:lang="en"> This is an elephant: <x id="1"/> . </source>
 </trans-unit>
-<trans-unit id="6" resname="DisableInfo">
+<trans-unit id="6" resname="DisableInfo" its:locNote="
+The variable
+{0}
+has three possible values: 'printer', 'stacker' and 'stapler options'.
+" its:locNoteType="alert">
 <source xml:lang="en">The {0} has been disabled.</source>
 <note>
 The variable

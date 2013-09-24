@@ -3,10 +3,10 @@
 <file original="inputdata/locqualityrating/xml/locqualityrating2xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
 <trans-unit id="1">
-<source xml:lang="en">The Adventures of Tom Sawyer</source>
+<source xml:lang="en" its:locQualityRatingVote="-1" its:locQualityRatingVoteThreshold="10" its:locQualityRatingProfileRef="http://example.org/qaModel/v13">The Adventures of Tom Sawyer</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</source>
+<source xml:lang="en" its:locQualityRatingVote="-1" its:locQualityRatingVoteThreshold="10" its:locQualityRatingProfileRef="http://example.org/qaModel/v13">He got home pretty late that night, and when he climbed cautiously in at the window, he uncovered an ambuscade, in the person of his aunt; and when she saw the state his clothes were in her resolution to turn his Saturday holiday into captivity at hard labor became adamantine in its firmness.</source>
 </trans-unit>
 </body>
 </file>

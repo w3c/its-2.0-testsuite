@@ -2,10 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/textanalysis/html/textanalysis4html.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1">
+<trans-unit id="1" its:annotatorsRef="text-analysis|http://enrycher.ijs.si">
 <source xml:lang="en">Text Analysis: Local Test</source>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:annotatorsRef="text-analysis|http://enrycher.ijs.si">
 <source xml:lang="en"><g id="1"><mrk its:taClassRef="http://nerd.eurecom.fr/ontology#Location" its:taConfidence="0.7" its:taIdentRef="http://dbpedia.org/resource/Dublin" mtype="phrase">Dublin</mrk></g> is the <g id="2"><mrk its:taConfidence="0.5" its:taIdent="301467919" its:taSource="Wordnet3.0" mtype="phrase">capital</mrk></g> of Ireland.</source>
 </trans-unit>
 </body>

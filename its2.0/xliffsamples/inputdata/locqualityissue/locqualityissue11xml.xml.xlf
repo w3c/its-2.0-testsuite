@@ -6,13 +6,13 @@
 <source xml:lang="en">q1</source>
 </trans-unit>
 <trans-unit id="2">
-<source xml:lang="en" its:locQualityIssueComment="Sentence without capitalization" its:its:locQualityIssueProfileRef="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50">transport</source>
+<source xml:lang="en" its:locQualityIssueComment="Sentence without capitalization" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="50">transport</source>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en"> or transportation is the movement of people, animals and goods from one location to another. Modes of </source>
 </trans-unit>
 <trans-unit id="4">
-<source xml:lang="en" its:locQualityIssueComment="should be 'transport include'" its:its:locQualityIssueProfileRef="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">tranport inc.</source>
+<source xml:lang="en" its:locQualityIssueComment="should be 'transport include'" its:locQualityIssueProfile="http://example.org/qaMovel/v1" its:locQualityIssueSeverity="75">tranport inc.</source>
 </trans-unit>
 <trans-unit id="5">
 <source xml:lang="en"> air, rail, road, water, cable, pipeline, and space. </source>

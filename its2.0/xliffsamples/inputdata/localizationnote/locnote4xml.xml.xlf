@@ -2,11 +2,11 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
 <file original="inputdata/localizationnote/xml/locnote4xml.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
 <body>
-<trans-unit id="1">
+<trans-unit id="1" its:locNoteRef="Comments.html#FileNotFound" its:locNoteType="description">
 <source xml:lang="en">Cannot find the file {0}.</source>
 <note>REF:Comments.html#FileNotFound</note>
 </trans-unit>
-<trans-unit id="2">
+<trans-unit id="2" its:locNoteRef="Comments.html#DivByZero" its:locNoteType="description">
 <source xml:lang="en">Invalid parameter.</source>
 <note>REF:Comments.html#DivByZero</note>
 </trans-unit>

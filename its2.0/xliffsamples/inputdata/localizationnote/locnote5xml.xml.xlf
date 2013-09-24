@@ -17,7 +17,8 @@
 <trans-unit id="5">
 <source xml:lang="en">.</source>
 </trans-unit>
-<trans-unit id="6">
+<trans-unit id="6" its:locNote="The variable {0} has three possible values: 'printer', 
+  'stacker' and 'stapler options'." its:locNoteType="alert">
 <source xml:lang="en">The {0} has been disabled.</source>
 <note>The variable {0} has three possible values: 'printer', 
   'stacker' and 'stapler options'.</note>
