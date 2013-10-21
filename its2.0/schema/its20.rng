@@ -518,6 +518,72 @@
       <ref name="its-absolute-selector.type"/>
     </attribute>
   </define>
+  <define name="its-foreign-attribute">
+    <attribute>
+      <anyName>
+        <except>
+          <nsName ns=""/>
+        </except>
+      </anyName>
+    </attribute>
+  </define>
+  <define name="its-foreign-no-xml-id-attribute">
+    <attribute>
+      <anyName>
+        <except>
+          <nsName ns=""/>
+          <name>xml:id</name>
+        </except>
+      </anyName>
+    </attribute>
+  </define>
+  <define name="its-foreign-no-xlink-attribute">
+    <attribute>
+      <anyName>
+        <except>
+          <nsName ns=""/>
+          <nsName ns="http://www.w3.org/1999/xlink"/>
+        </except>
+      </anyName>
+    </attribute>
+  </define>
+  <define name="its-any-attribute">
+    <attribute>
+      <anyName/>
+    </attribute>
+  </define>
+  <define name="its-any-element">
+    <element>
+      <anyName/>
+      <zeroOrMore>
+        <choice>
+          <zeroOrMore>
+            <ref name="its-any-attribute"/>
+          </zeroOrMore>
+          <text/>
+          <ref name="its-any-element"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="its-foreign-element">
+    <element>
+      <anyName>
+        <except>
+          <nsName/>
+        </except>
+      </anyName>
+      <zeroOrMore>
+        <choice>
+          <zeroOrMore>
+            <ref name="its-any-attribute"/>
+          </zeroOrMore>
+          <text/>
+          <ref name="its-foreign-element"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
   <define name="its-rules">
     <element name="rules">
       <a:documentation>Container for global rules</a:documentation>
@@ -535,7 +601,6 @@
         <ref name="its-locNoteRule"/>
         <ref name="its-termRule"/>
         <ref name="its-dirRule"/>
-        <ref name="its-rubyRule"/>
         <ref name="its-langRule"/>
         <ref name="its-withinTextRule"/>
         <ref name="its-domainRule"/>
@@ -550,6 +615,7 @@
         <ref name="its-preserveSpaceRule"/>
         <ref name="its-allowedCharactersRule"/>
         <ref name="its-storageSizeRule"/>
+        <ref name="its-foreign-element"/>
       </choice>
     </zeroOrMore>
   </define>
@@ -564,6 +630,9 @@
     <optional>
       <ref name="its-attribute.queryLanguage.nons"/>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-no-xlink-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-param">
     <element name="param">
@@ -579,6 +648,9 @@
     <attribute name="name">
       <data type="string"/>
     </attribute>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-local.attributes">
     <interleave>
@@ -610,19 +682,25 @@
         <ref name="its-attribute.withinText"/>
       </optional>
       <optional>
-        <ref name="its-attribute.taConfidence"/>
-      </optional>
-      <optional>
-        <ref name="its-attribute.taClassRef"/>
-      </optional>
-      <optional>
-        <choice>
-          <group>
-            <ref name="its-attribute.taSource"/>
-            <ref name="its-attribute.taIdent"/>
-          </group>
-          <ref name="its-attribute.taIdentRef"/>
-        </choice>
+        <interleave>
+          <optional>
+            <ref name="its-attribute.taConfidence"/>
+          </optional>
+          <interleave>
+            <optional>
+              <ref name="its-attribute.taClassRef"/>
+            </optional>
+            <optional>
+              <choice>
+                <group>
+                  <ref name="its-attribute.taSource"/>
+                  <ref name="its-attribute.taIdent"/>
+                </group>
+                <ref name="its-attribute.taIdentRef"/>
+              </choice>
+            </optional>
+          </interleave>
+        </interleave>
       </optional>
       <optional>
         <ref name="its-attribute.localeFilterList"/>
@@ -680,12 +758,14 @@
         <choice>
           <ref name="its-attribute.locQualityIssuesRef"/>
           <interleave>
-            <optional>
-              <ref name="its-attribute.locQualityIssueType"/>
-            </optional>
-            <optional>
-              <ref name="its-attribute.locQualityIssueComment"/>
-            </optional>
+            <interleave>
+              <optional>
+                <ref name="its-attribute.locQualityIssueType"/>
+              </optional>
+              <optional>
+                <ref name="its-attribute.locQualityIssueComment"/>
+              </optional>
+            </interleave>
             <optional>
               <ref name="its-attribute.locQualityIssueSeverity"/>
             </optional>
@@ -767,19 +847,25 @@
         <ref name="its-attribute.withinText.nons"/>
       </optional>
       <optional>
-        <ref name="its-attribute.taConfidence.nons"/>
-      </optional>
-      <optional>
-        <ref name="its-attribute.taClassRef.nons"/>
-      </optional>
-      <optional>
-        <choice>
-          <group>
-            <ref name="its-attribute.taSource.nons"/>
-            <ref name="its-attribute.taIdent.nons"/>
-          </group>
-          <ref name="its-attribute.taIdentRef.nons"/>
-        </choice>
+        <interleave>
+          <optional>
+            <ref name="its-attribute.taConfidence.nons"/>
+          </optional>
+          <interleave>
+            <optional>
+              <ref name="its-attribute.taClassRef.nons"/>
+            </optional>
+            <optional>
+              <choice>
+                <group>
+                  <ref name="its-attribute.taSource.nons"/>
+                  <ref name="its-attribute.taIdent.nons"/>
+                </group>
+                <ref name="its-attribute.taIdentRef.nons"/>
+              </choice>
+            </optional>
+          </interleave>
+        </interleave>
       </optional>
       <optional>
         <ref name="its-attribute.localeFilterList.nons"/>
@@ -830,19 +916,21 @@
               <ref name="its-attribute.provRef.nons"/>
             </optional>
           </interleave>
-          <ref name="its-attribute.provenanceRecordsRef"/>
+          <ref name="its-attribute.provenanceRecordsRef.nons"/>
         </choice>
       </optional>
       <optional>
         <choice>
           <ref name="its-attribute.locQualityIssuesRef.nons"/>
           <interleave>
-            <optional>
-              <ref name="its-attribute.locQualityIssueType.nons"/>
-            </optional>
-            <optional>
-              <ref name="its-attribute.locQualityIssueComment.nons"/>
-            </optional>
+            <interleave>
+              <optional>
+                <ref name="its-attribute.locQualityIssueType.nons"/>
+              </optional>
+              <optional>
+                <ref name="its-attribute.locQualityIssueComment.nons"/>
+              </optional>
+            </interleave>
             <optional>
               <ref name="its-attribute.locQualityIssueSeverity.nons"/>
             </optional>
@@ -905,13 +993,17 @@
     <zeroOrMore>
       <choice>
         <text/>
-        <ref name="its-ruby"/>
         <ref name="its-span"/>
       </choice>
     </zeroOrMore>
   </define>
   <define name="its-span.attributes">
-    <ref name="its-local.nons.attributes"/>
+    <interleave>
+      <ref name="its-local.nons.attributes"/>
+      <zeroOrMore>
+        <ref name="its-foreign-attribute"/>
+      </zeroOrMore>
+    </interleave>
   </define>
   <define name="its-translateRule">
     <element name="translateRule">
@@ -926,6 +1018,9 @@
   <define name="its-translateRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.translate.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-locNoteRule">
     <element name="locNoteRule">
@@ -938,6 +1033,9 @@
         <ref name="its-attribute.locNoteRef.nons"/>
         <ref name="its-attribute.locNoteRefPointer.nons"/>
       </choice>
+      <zeroOrMore>
+        <ref name="its-foreign-attribute"/>
+      </zeroOrMore>
     </element>
   </define>
   <define name="its-attribute.locNotePointer.nons">
@@ -961,13 +1059,15 @@
     <zeroOrMore>
       <choice>
         <text/>
-        <ref name="its-ruby"/>
         <ref name="its-span"/>
       </choice>
     </zeroOrMore>
   </define>
   <define name="its-locNote.attributes">
-    <ref name="its-local.attributes"/>
+    <ref name="its-local.nons.attributes"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-termRule">
     <element name="termRule">
@@ -989,6 +1089,9 @@
         <ref name="its-attribute.termInfoRefPointer.nons"/>
       </choice>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.termInfoPointer.nons">
     <attribute name="termInfoPointer">
@@ -1013,121 +1116,9 @@
   <define name="its-dirRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.dir.nons"/>
-  </define>
-  <define name="its-rubyRule">
-    <element name="rubyRule">
-      <a:documentation>Rule about the Ruby data category</a:documentation>
-      <ref name="its-rubyRule.content"/>
-      <ref name="its-rubyRule.attributes"/>
-    </element>
-  </define>
-  <define name="its-rubyRule.content">
-    <optional>
-      <ref name="its-rubyText"/>
-    </optional>
-  </define>
-  <define name="its-rubyRule.attributes">
-    <ref name="its-attribute.selector"/>
-    <optional>
-      <ref name="its-attribute.rubyPointer.nons"/>
-    </optional>
-    <optional>
-      <ref name="its-attribute.rpPointer.nons"/>
-    </optional>
-    <optional>
-      <ref name="its-attribute.rtPointer.nons"/>
-    </optional>
-  </define>
-  <define name="its-attribute.rubyPointer.nons">
-    <attribute name="rubyPointer">
-      <ref name="its-relative-selector.type"/>
-    </attribute>
-  </define>
-  <define name="its-attribute.rpPointer.nons">
-    <attribute name="rpPointer">
-      <ref name="its-relative-selector.type"/>
-    </attribute>
-  </define>
-  <define name="its-attribute.rtPointer.nons">
-    <attribute name="rtPointer">
-      <ref name="its-relative-selector.type"/>
-    </attribute>
-  </define>
-  <define name="its-rubyText">
-    <element name="rubyText">
-      <a:documentation>Ruby text</a:documentation>
-      <ref name="its-rubyText.content"/>
-      <ref name="its-rubyText.attributes"/>
-    </element>
-  </define>
-  <define name="its-rubyText.content">
-    <text/>
-  </define>
-  <define name="its-rubyText.attributes">
-    <ref name="its-local.attributes"/>
-  </define>
-  <define name="its-ruby">
-    <element name="ruby">
-      <a:documentation>Ruby markup</a:documentation>
-      <ref name="its-ruby.content"/>
-      <ref name="its-ruby.attributes"/>
-    </element>
-  </define>
-  <!-- FIXME: Allow nested ruby as in HTML5 -->
-  <define name="its-ruby.content">
-    <oneOrMore>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="its-span"/>
-        </choice>
-      </oneOrMore>
-      <choice>
-        <ref name="its-rt"/>
-        <group>
-          <ref name="its-rp"/>
-          <ref name="its-rt"/>
-          <ref name="its-rp"/>
-        </group>
-      </choice>
-    </oneOrMore>
-  </define>
-  <define name="its-ruby.attributes">
-    <ref name="its-local.attributes"/>
-  </define>
-  <define name="its-rt">
-    <element name="rt">
-      <a:documentation>Ruby text</a:documentation>
-      <ref name="its-rt.content"/>
-      <ref name="its-rt.attributes"/>
-    </element>
-  </define>
-  <define name="its-rt.content">
     <zeroOrMore>
-      <choice>
-        <text/>
-        <ref name="its-span"/>
-      </choice>
+      <ref name="its-foreign-attribute"/>
     </zeroOrMore>
-  </define>
-  <define name="its-rt.attributes">
-    <ref name="its-local.attributes"/>
-  </define>
-  <define name="its-rp">
-    <element name="rp">
-      <a:documentation>Used in the case of simple ruby markup to specify characters 
-that can denote the beginning and end of ruby text when user
-agents do not have other ways to present ruby text distinctively
-from the base text. Typically contains parenthesis.</a:documentation>
-      <ref name="its-rp.content"/>
-      <ref name="its-rp.attributes"/>
-    </element>
-  </define>
-  <define name="its-rp.content">
-    <text/>
-  </define>
-  <define name="its-rp.attributes">
-    <ref name="its-local.attributes"/>
   </define>
   <define name="its-langRule">
     <element name="langRule">
@@ -1142,6 +1133,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-langRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.langPointer.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.langPointer.nons">
     <attribute name="langPointer">
@@ -1161,6 +1155,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-withinTextRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.withinText.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-domainRule">
     <element name="domainRule">
@@ -1178,6 +1175,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
     <optional>
       <ref name="its-attribute.domainMapping.nons"/>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.domainPointer.nons">
     <attribute name="domainPointer">
@@ -1208,6 +1208,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
         <ref name="its-attribute.taIdentRefPointer.nons"/>
       </choice>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.taClassRefPointer.nons">
     <attribute name="taClassRefPointer">
@@ -1245,6 +1248,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
     <optional>
       <ref name="its-attribute.localeFilterType.nons"/>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-provRule">
     <element name="provRule">
@@ -1259,6 +1265,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-provRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.provenanceRecordsRefPointer.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.provenanceRecordsRefPointer.nons">
     <attribute name="provenanceRecordsRefPointer">
@@ -1278,6 +1287,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-externalResourceRefRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.externalResourceRefPointer.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.externalResourceRefPointer.nons">
     <attribute name="externalResourceRefPointer">
@@ -1297,6 +1309,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-targetPointerRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.targetPointer.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.targetPointer.nons">
     <attribute name="targetPointer">
@@ -1316,6 +1331,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-idValueRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.idValue.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.idValue.nons">
     <attribute name="idValue">
@@ -1335,6 +1353,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-preserveSpaceRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.space.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.space.nons">
     <attribute name="space">
@@ -1362,14 +1383,12 @@ from the base text. Typically contains parenthesis.</a:documentation>
         <ref name="its-attribute.locQualityIssuesRefPointer.nons"/>
       </choice>
       <group>
-        <interleave>
-          <optional>
+        <oneOrMore>
+          <choice>
             <ref name="its-attribute.locQualityIssueType.nons"/>
-          </optional>
-          <optional>
             <ref name="its-attribute.locQualityIssueComment.nons"/>
-          </optional>
-        </interleave>
+          </choice>
+        </oneOrMore>
         <optional>
           <ref name="its-attribute.locQualityIssueSeverity.nons"/>
         </optional>
@@ -1381,6 +1400,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
         </optional>
       </group>
     </choice>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.locQualityIssuesRefPointer.nons">
     <attribute name="locQualityIssuesRefPointer">
@@ -1400,6 +1422,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
   <define name="its-mtConfidenceRule.attributes">
     <ref name="its-attribute.selector"/>
     <ref name="its-attribute.mtConfidence.nons"/>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-allowedCharactersRule">
     <element name="allowedCharactersRule">
@@ -1417,6 +1442,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <ref name="its-attribute.allowedCharacters.nons"/>
       <ref name="its-attribute.allowedCharactersPointer.nons"/>
     </choice>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.allowedCharactersPointer.nons">
     <attribute name="allowedCharactersPointer">
@@ -1448,6 +1476,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
     <optional>
       <ref name="its-attribute.lineBreakType.nons"/>
     </optional>
+    <zeroOrMore>
+      <ref name="its-foreign-attribute"/>
+    </zeroOrMore>
   </define>
   <define name="its-attribute.storageSizePointer.nons">
     <attribute name="storageSizePointer">
@@ -1477,6 +1508,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <optional>
         <ref name="its-attribute.version.nons"/>
       </optional>
+      <zeroOrMore>
+        <ref name="its-foreign-no-xml-id-attribute"/>
+      </zeroOrMore>
     </element>
   </define>
   <define name="its-provenanceRecord">
@@ -1526,6 +1560,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <optional>
         <ref name="its-attribute.provRef.nons"/>
       </optional>
+      <zeroOrMore>
+        <ref name="its-foreign-attribute"/>
+      </zeroOrMore>
     </interleave>
   </define>
   <define name="its-locQualityIssues">
@@ -1540,6 +1577,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <optional>
         <ref name="its-attribute.version.nons"/>
       </optional>
+      <zeroOrMore>
+        <ref name="its-foreign-no-xml-id-attribute"/>
+      </zeroOrMore>
     </element>
   </define>
   <define name="its-locQualityIssue">
@@ -1565,6 +1605,9 @@ from the base text. Typically contains parenthesis.</a:documentation>
       <optional>
         <ref name="its-attribute.locQualityIssueEnabled.nons"/>
       </optional>
+      <zeroOrMore>
+        <ref name="its-foreign-attribute"/>
+      </zeroOrMore>
     </interleave>
   </define>
 </grammar>

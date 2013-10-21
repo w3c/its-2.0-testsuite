@@ -314,9 +314,8 @@ that case they MUST be delimited by quotation marks.</a:documentation>
   <define name="its-lineBreakType.type">
     <choice>
       <value>cr</value>
-      <value>lr</value>
+      <value>lf</value>
       <value>crlf</value>
-      <value>nel</value>
     </choice>
   </define>
   <define name="its-annotatorsRef.type">

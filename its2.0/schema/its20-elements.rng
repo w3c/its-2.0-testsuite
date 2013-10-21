@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
   <include href="its20.rng"/>
-  <define name="its-local.attributes" combine="interleave">
-    <a:documentation>enable all xml:* attributes</a:documentation>
-    <zeroOrMore>
-      <attribute>
-        <nsName ns="http://www.w3.org/XML/1998/namespace"/>
-      </attribute>
-    </zeroOrMore>
-  </define>
-  <define name="its-local.nons.attributes" combine="interleave">
-    <zeroOrMore>
-      <attribute>
-        <nsName ns="http://www.w3.org/XML/1998/namespace"/>
-      </attribute>
-    </zeroOrMore>
-  </define>
   <start>
     <choice>
       <ref name="its-rules"/>
       <ref name="its-span"/>
-      <ref name="its-ruby"/>
       <ref name="its-standoff"/>
     </choice>
   </start>
