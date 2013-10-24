@@ -57,16 +57,6 @@ line 2 [  ]=2 spaces</source>
 <its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 -1 0 1"/>
 <its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
 </its:locQualityIssues>
-<its:locQualityIssues xml:id="NB2A45193">
-<its:locQualityIssue locQualityIssueComment="'mesage' is probably 'message'." locQualityIssueSeverity="50" locQualityIssueType="misspelling"/>
-<its:locQualityIssue locQualityIssueComment="Text too long" locQualityIssueType="length"/>
-<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T'"/>
-<its:locQualityIssue locQualityIssueComment="Number of bytes in the source (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="SOURCE_LENGTH" okp:lqiPos="0 -1 0 -1"/>
-<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 1 0 -1"/>
-<its:locQualityIssue locQualityIssueComment="Number of bytes in the target (using UTF-8) is: 18. Number allowed: 15." locQualityIssueSeverity="2" locQualityIssueType="length" okp:lqiType="TARGET_LENGTH" okp:lqiPos="0 -1 0 -1"/>
-<its:locQualityIssue locQualityIssueComment="Character not allowed: 'T' (pattern: '[a-z]'" locQualityIssueSeverity="2" locQualityIssueType="terminology" okp:lqiType="ALLOWED_CHARACTERS" okp:lqiPos="0 -1 0 1"/>
-<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
-</its:locQualityIssues>
 </trans-unit>
 </body>
 </file>
