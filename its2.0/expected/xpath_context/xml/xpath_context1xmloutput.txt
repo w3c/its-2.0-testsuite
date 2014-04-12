@@ -1,0 +1,12 @@
+/resource
+/resource/its:rules[1]
+/resource/its:rules[1]/@version
+/resource/its:rules[1]/its:idValueRule[1]
+/resource/its:rules[1]/its:idValueRule[1]/@idValue
+/resource/its:rules[1]/its:idValueRule[1]/@selector
+/resource/par[1]	idValue="par_1_of_3"
+/resource/par[1]/@title
+/resource/par[2]	idValue="par_2_of_3"
+/resource/par[2]/@title
+/resource/par[3]	idValue="par_3_of_3"
+/resource/par[3]/@title
