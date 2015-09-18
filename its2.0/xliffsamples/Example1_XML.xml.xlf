@@ -11,17 +11,17 @@
 <source xml:lang="en-us" its:locQualityIssuesRef="#P1BFEEE8">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk comment="This should probably not be translated" itsxlf:locNoteType="alert" mtype="term">Lazio</mrk></g> region of Italy.</source>
 <seg-source><mrk mid="0" mtype="seg">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</mrk> <mrk mid="1" mtype="seg">The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk comment="This should probably not be translated" itsxlf:locNoteType="alert" mtype="term">Lazio</mrk></g> region of Italy.</mrk></seg-source>
 <target xml:lang="fr-fr" its:locQualityIssuesRef="#P1BFEEE8"><mrk mid="0" mtype="seg">It is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits.</mrk> <mrk mid="1" mtype="seg">The city is located in the central-western portion of the Italian Peninsula, on the Tiber River within the <g id="1"><mrk comment="This should probably not be translated" itsxlf:locNoteType="alert" mtype="term">Lazio</mrk></g> region of Italy.</mrk></target>
-<its:locQualityIssues xml:id="P1BFEEE8">
-<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
-<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1"/>
-</its:locQualityIssues>
-<its:locQualityIssues xml:id="P1BFEEE8">
-<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
-<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1"/>
-</its:locQualityIssues>
 <note annotates="source">Terms:
 Lazio;
 </note>
+<its:locQualityIssues xml:id="P1BFEEE8">
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1"/>
+</its:locQualityIssues>
+<its:locQualityIssues xml:id="P1BFEEE8">
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0"/>
+<its:locQualityIssue locQualityIssueComment="Translation is the same as the source." locQualityIssueSeverity="1" locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="1"/>
+</its:locQualityIssues>
 </trans-unit>
 <trans-unit id="3">
 <source xml:lang="en-us" its:locQualityIssueComment="Translation is the same as the source." its:locQualityIssueSeverity="1" its:locQualityIssueType="untranslated" okp:lqiType="TARGET_SAME_AS_SOURCE" okp:lqiPos="0 -1 0 -1" okp:lqiSegId="0">Rome enjoys a Mediterranean climate (Csa in <g id="1">Köppen climate classification</g>) with mild, humid winters and warm, dry summers.</source>
